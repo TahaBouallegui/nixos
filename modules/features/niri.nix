@@ -14,12 +14,27 @@
       type = lib.types.str;
       default = "kitty";
     };
+
     config = {
       settings = let
-        # startNoctaliaExe = lib.getExe self.packages.${config.pkgs.stdenv.hostPlatform.system}.start-noctalia-shell;
+        startNoctaliaExe = lib.getExe self.packages.${config.pkgs.stdenv.hostPlatform.system}.start-noctalia-shell;
         noctaliaExe = lib.getExe self.packages.${config.pkgs.stdenv.hostPlatform.system}.noctalia-shell;
       in {
         
+        window-rules = [
+            {
+                geometry-corner-radius = 20;
+                clip-to-geometry = true;
+            }
+        ];
+
+        layer-rules = [
+            {
+                matches = [{namespace = "^noctalia-overview";}];
+                place-within-backdrop = true;
+            }
+        ];
+
         outputs = {
           "eDP-1" = {
             mode = "1920x1080@60";
@@ -114,12 +129,14 @@
           "Mod+Shift+0".move-column-to-workspace = "w9";
 
           "Mod+S".spawn-sh = "${noctaliaExe} ipc call launcher toggle";
-          "Mod+V".spawn-sh = ''${config.pkgs.alsa-utils}/bin/amixer sset Capture toggle'';
+          "XF86AudioMute".spawn-sh = ''${config.pkgs.alsa-utils}/bin/amixer sset Capture toggle'';
 
-          "XF86AudioRaiseVolume".spawn-sh = "wpctl set-volume -l 1.4 @DEFAULT_AUDIO_SINK@ 5%+";
-          "XF86AudioLowerVolume".spawn-sh = "wpctl set-volume -l 1.4 @DEFAULT_AUDIO_SINK@ 5%-";
-          "XF86MonBrightnessDown".spawn-sh = "-c ${lib.getExe config.pkgs.brightnessctl} set 5%-";
-          "XF86MonBrightnessUp".spawn-sh = "-c ${lib.getExe config.pkgs.brightnessctl} set 5%+";
+          "XF86AudioRaiseVolume".spawn-sh = "${noctaliaExe} ipc call volume increase";
+          "XF86AudioLowerVolume".spawn-sh = "${noctaliaExe} ipc call volume decrease";
+          "XF86MonBrightnessDown".spawn-sh = "${noctaliaExe} ipc call brightness decrease";
+          "XF86MonBrightnessUp".spawn-sh = "${noctaliaExe} ipc call brightness increase";
+
+          "Ctrl+Alt+Delete".spawn-sh = "${noctaliaExe} ipc call sessionMenu toggle";
 
           "Mod+Ctrl+H".set-column-width = "-5%";
           "Mod+Ctrl+L".set-column-width = "+5%";

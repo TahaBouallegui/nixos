@@ -125,6 +125,7 @@
     environment.systemPackages = with pkgs; [
     neovim
     librewolf
+    element-desktop
     proton-vpn
     git
     tree

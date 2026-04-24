@@ -21,6 +21,8 @@
       cm_unicode
       corefonts
       unifont
+
+      
     ];
 
     fonts.fontconfig.defaultFonts = {
