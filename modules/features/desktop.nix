@@ -4,7 +4,7 @@
   in {
 
     programs.niri.enable = true;
-    programs.niri.package = selfpkgs.niri;
+    programs.niri.package = selfpkgs.desktop;
 
     # preferences.autostart = [selfpkgs.quickshellWrapped];
     preferences.autostart = [selfpkgs.noctalia-shell];

@@ -14,13 +14,19 @@
     };
     config = {
       args = lib.mkAfter (lib.optionals (config.shell != "") [config.shell]);
+
       settings = {
+
         enable_audio_bell = "no";
 
         font_size = 15;
         font_family = "JetBrainsMono Nerd Font";
 
         cursor_text_color = "background";
+
+        background_opacity = 0.85;
+        background_blur = 1;
+        background_blur_strength = 20;
 
         allow_remote_control = "yes";
         shell_integration = "enabled";
