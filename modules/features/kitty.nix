@@ -26,7 +26,6 @@
 
         background_opacity = 0.85;
         background_blur = 1;
-        background_blur_strength = 20;
 
         allow_remote_control = "yes";
         shell_integration = "enabled";

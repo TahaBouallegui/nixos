@@ -1,8 +1,5 @@
+{ inputs, self, ... }: 
 {
-  inputs,
-  self,
-  ...
-}: {
   flake.wrappersModules.niri = {
     config,
     lib,
@@ -20,7 +17,6 @@
         startNoctaliaExe = lib.getExe self.packages.${config.pkgs.stdenv.hostPlatform.system}.start-noctalia-shell;
         noctaliaExe = lib.getExe self.packages.${config.pkgs.stdenv.hostPlatform.system}.noctalia-shell;
       in {
-        
         window-rules = [
             {
                 geometry-corner-radius = 20;
@@ -129,8 +125,8 @@
           "Mod+Shift+0".move-column-to-workspace = "w9";
 
           "Mod+S".spawn-sh = "${noctaliaExe} ipc call launcher toggle";
-          "XF86AudioMute".spawn-sh = ''${config.pkgs.alsa-utils}/bin/amixer sset Capture toggle'';
-
+          "XF86AudioMicMute".spawn-sh = "${config.pkgs.alsa-utils}/bin/amixer sset Capture toggle";
+          "XF86AudioMute".spawn-sh = "${noctaliaExe} ipc call volume muteOutput";
           "XF86AudioRaiseVolume".spawn-sh = "${noctaliaExe} ipc call volume increase";
           "XF86AudioLowerVolume".spawn-sh = "${noctaliaExe} ipc call volume decrease";
           "XF86MonBrightnessDown".spawn-sh = "${noctaliaExe} ipc call brightness decrease";
