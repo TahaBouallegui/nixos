@@ -1,8 +1,12 @@
 {self, config, ...}: {
-  flake.nixosModules.desktop = {pkgs, config, ...}: let
+  flake.nixosModules.desktop = {pkgs, pkgs-stable, config, ...}: let
     selfpkgs = self.packages."${pkgs.system}";
   in {
 
+    imports = [
+        self.nixosModules.kicad
+    ];
+    
     programs.niri.enable = true;
     programs.niri.package = selfpkgs.desktop;
 
@@ -13,6 +17,7 @@
       selfpkgs.terminal
       pkgs.pcmanfm
       selfpkgs.noctalia-shell
+      pkgs.libreoffice
     ];
 
     fonts.packages = with pkgs; [
@@ -21,8 +26,6 @@
       cm_unicode
       corefonts
       unifont
-
-      
     ];
 
     fonts.fontconfig.defaultFonts = {

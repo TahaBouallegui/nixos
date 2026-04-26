@@ -64,6 +64,17 @@
         pkgs.yt-dlp
         pkgs.lazygit
 
+        pkgs.gnumake
+        pkgs.dfu-programmer
+        pkgs.usbutils
+    
+        #avr
+        pkgs.avra
+        pkgs.avrdude
+        pkgs.pkgsCross.avr.buildPackages.gcc
+        pkgs.pkgsCross.avr.buildPackages.binutils
+
+
         # wrapped
         self'.packages.neovim
         self'.packages.qalc
