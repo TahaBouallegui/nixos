@@ -67,6 +67,7 @@
         pkgs.gnumake
         pkgs.dfu-programmer
         pkgs.usbutils
+        pkgs.gcc
     
         #avr
         pkgs.avra

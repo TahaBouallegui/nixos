@@ -22,6 +22,14 @@
                 geometry-corner-radius = 20;
                 clip-to-geometry = true;
             }
+          #  {
+          #      matches = [{app-id = "^Kitty$";}];
+          #      background-effect = {
+          #          blur = true;
+          #          xray = false;
+          #      };
+          #  }
+
         ];
 
         layer-rules = [
@@ -37,7 +45,7 @@
             position = _: {
               props = {
                 x = 0;
-                y = 864;
+                y = 0;
               };
             };
           };
@@ -46,7 +54,7 @@
             position = _: {
               props = {
                 x = 0;
-                y = 0;
+                y = -864;
               };
             };
             scale = 1.25;

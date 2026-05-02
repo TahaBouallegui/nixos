@@ -18,6 +18,7 @@
       pkgs.pcmanfm
       selfpkgs.noctalia-shell
       pkgs.libreoffice
+      pkgs.heroic
     ];
 
     fonts.packages = with pkgs; [
@@ -26,6 +27,7 @@
       cm_unicode
       corefonts
       unifont
+      dejavu_fonts
     ];
 
     fonts.fontconfig.defaultFonts = {

@@ -18,6 +18,7 @@
 
         self.nixosModules.base
 
+        self.nixosModules.sddm
         self.nixosModules.desktop
 
       ];
@@ -78,8 +79,8 @@
     # services.xserver.enable = true;
   
     # Enable the KDE Plasma Desktop Environment.
-    services.displayManager.sddm.enable = true;
-    services.displayManager.sddm.wayland.enable = true;
+    
+    #services.displayManager.gdm.enable = true;
     services.desktopManager.gnome.enable = true;
   
     # Configure keymap in X11
@@ -116,7 +117,6 @@
       description = "atb";
       extraGroups = [ "networkmanager" "wheel" ];
       packages = with pkgs; [
-        kdePackages.kate
         thunderbird
       ];
     };
@@ -189,7 +189,7 @@
     # networking.firewall.allowedTCPPorts = [ ... ];
     # networking.firewall.allowedUDPPorts = [ ... ];
     # Or disable the firewall altogether.
-    # networking.firewall.enable = false;
+    networking.firewall.enable = false;
   
     # This value determines the NixOS release from which the default
     # settings for stateful data, like file locations and database versions

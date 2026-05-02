@@ -29,6 +29,10 @@
         if type -q direnv
             direnv hook fish | source
         end
+
+        alias l="eza -G --icons"
+        alias ls="eza -G --icons"
+
       '';
   in {
     packages.fish = inputs.wrappers.lib.wrapPackage {
