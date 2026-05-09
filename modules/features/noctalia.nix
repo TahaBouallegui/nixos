@@ -27,40 +27,6 @@
           mTertiary = "#83a598";
         };
 
-        outOfStoreConfig = "/tmp/noctalia-shell";
-        autoCopyConfig = true;
-
-        plugins = let
-          officialNoctaliaPlugins = "https://github.com/noctalia-dev/noctalia-plugins";
-        in {
-          # @todo Make a helper to which you simply pass
-          # [ {
-          #   name = "Source name";
-          #   url = "Source url";
-          #   plugins = [ "plugin-1" "plugin-2" ... ];
-          # } ]
-          sources = [ {
-            enabled = true;
-            name = "Noctalia Plugins";
-            url = officialNoctaliaPlugins;
-          } ];
-
-          states = lib.listToAttrs ( map ( plugin: {
-            name = plugin;
-            value = { enabled = true; sourceUrl = officialNoctaliaPlugins; };
-          } ) [
-            "screen-recorder"
-            "parallax-wallpaper"
-            "tailscale"
-            "todo"
-            "mawaqit"
-            "activate-linux"
-          ] );
-
-          version = 2;
-       };
-
-
         settings = {
           appLauncher = {
             customLaunchPrefix = "";
