@@ -78,10 +78,7 @@
     # You can disable this if you're only using the Wayland session.
     # services.xserver.enable = true;
   
-    # Enable the KDE Plasma Desktop Environment.
     
-    #services.displayManager.gdm.enable = true;
-    services.desktopManager.gnome.enable = true;
   
     # Configure keymap in X11
     services.xserver.xkb = {
@@ -115,7 +112,7 @@
     users.users.atb = {
       isNormalUser = true;
       description = "atb";
-      extraGroups = [ "networkmanager" "wheel" ];
+      extraGroups = [ "networkmanager" "wheel" "dialout" ];
       packages = with pkgs; [
         thunderbird
       ];
@@ -134,7 +131,7 @@
     git
     tree
     btop
-    pciutils
+    kdePackages.dolphin
     ];
     
     services.xserver.videoDrivers = [

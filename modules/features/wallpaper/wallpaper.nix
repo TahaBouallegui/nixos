@@ -1,3 +1,3 @@
 {
-  flake.wallpaper = ./totoro.png;
+  flake.wallpaper = ./village.jpg;
 }

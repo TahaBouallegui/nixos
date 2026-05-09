@@ -63,11 +63,16 @@
         pkgs.ffmpeg-full
         pkgs.yt-dlp
         pkgs.lazygit
+        pkgs.texliveFull
+
+        pkgs.python3
+        pkgs.python313Packages.dbus-python
 
         pkgs.gnumake
         pkgs.dfu-programmer
         pkgs.usbutils
         pkgs.gcc
+        pkgs.minicom
     
         #avr
         pkgs.avra

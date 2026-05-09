@@ -11,7 +11,8 @@
     environment.systemPackages = [
       customized_sddm_astronaut
     ];
-  
+
+    services.displayManager.defaultSession = "niri"; #FUCK gnome
     services.displayManager.sddm = {
       enable = true;
       wayland.enable = true;

@@ -202,7 +202,7 @@
           gaps = 5;
 
           focus-ring = {
-            width = 2;
+            width = 1;
             active-color = "#${self.themeNoHash.base09}";
           };
         };
@@ -227,10 +227,8 @@
 
         spawn-at-startup = [
           noctaliaExe
-          (lib.getExe (
-            pkgs.writeShellScriptBin "wallpaper"
-            "${lib.getExe pkgs.swaybg} -i ${self.wallpaper} -m fill"
-          ))
+          pkgs.writeShellScriptBin "wallpaper"
+          "${lib.getExe pkgs.swaybg} -i ${self.wallpaper} -m fill"
         ];
       };
     };

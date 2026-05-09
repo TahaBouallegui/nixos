@@ -1,10 +1,12 @@
-{self, config, ...}: {
+{ self, config, ...}: {
   flake.nixosModules.desktop = {pkgs, pkgs-stable, config, ...}: let
     selfpkgs = self.packages."${pkgs.system}";
   in {
 
     imports = [
         self.nixosModules.kicad
+        self.nixosModules.flatpak
+        self.nixosModules.dolphin
     ];
     
     programs.niri.enable = true;
@@ -19,6 +21,7 @@
       selfpkgs.noctalia-shell
       pkgs.libreoffice
       pkgs.heroic
+      pkgs.kdePackages.okular
     ];
 
     fonts.packages = with pkgs; [
