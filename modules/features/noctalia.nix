@@ -65,7 +65,29 @@
             showOutline = false;
             transparent = false;
             widgets = {
-              center = [];
+              center = [
+                {
+                  characterCount = 2;
+                  colorizeIcons = false;
+                  emptyColor = "secondary";
+                  enableScrollWheel = true;
+                  focusedColor = "primary";
+                  followFocusedScreen = false;
+                  fontWeight = "bold";
+                  groupedBorderOpacity = 1;
+                  hideUnoccupied = true;
+                  iconScale = 0.8;
+                  id = "Workspace";
+                  labelMode = "none";
+                  occupiedColor = "secondary";
+                  pillSize = 0.6;
+                  showApplications = false;
+                  showApplicationsHover = false;
+                  showBadge = true;
+                  showLabelsOnlyWhenOccupied = true;
+                  unfocusedIconsOpacity = 1;
+                }
+              ];
               left = [
                 {
                   colorizeDistroLogo = true;
@@ -76,15 +98,32 @@
                   useDistroLogo = true;
                 }
                 {
-                  characterCount = 2;
-                  colorizeIcons = false;
-                  enableScrollWheel = true;
-                  followFocusedScreen = false;
-                  hideUnoccupied = true;
-                  id = "Workspace";
-                  labelMode = "none";
-                  showApplications = false;
-                  showLabelsOnlyWhenOccupied = true;
+                  compactMode = true;
+                  diskPath = "/";
+                  iconColor = "none";
+                  id = "SystemMonitor";
+                  showCpuCores = false;
+                  showCpuFreq = false;
+                  showCpuTemp = true;
+                  showCpuUsage = true;
+                  showDiskAvailable = false;
+                  showDiskUsage = false;
+                  showDiskUsageAsPercent = false;
+                  showGpuTemp = false;
+                  showLoadAverage = false;
+                  showMemoryAsPercent = false;
+                  showMemoryUsage = true;
+                  showNetworkStats = false;
+                  showSwapUsage = false;
+                  textColor = "none";
+                  useMonospaceFont = true;
+                  usePadding = false;
+                }
+                {
+                  displayMode = "onhover";
+                  iconColor = "none";
+                  id = "VPN";
+                  textColor = "none";
                 }
               ];
               right = [
@@ -108,14 +147,6 @@
                   showNoctaliaPerformance = false;
                   showPowerProfiles = false;
                   warningThreshold = 20;
-                }
-                {
-                  displayMode = "alwaysHide";
-                  id = "Microphone";
-                }
-                {
-                  displayMode = "forceOpen";
-                  id = "KeyboardLayout";
                 }
                 {
                   customFont = "";
@@ -454,9 +485,10 @@
             wifiDetailsViewMode = "grid";
           };
           wallpaper = {
-            enable = false;
+            enabled = false;
           };
         };
       };
     };
 }
+
