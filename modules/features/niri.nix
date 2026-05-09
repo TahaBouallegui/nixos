@@ -227,8 +227,10 @@
 
         spawn-at-startup = [
           noctaliaExe
-          pkgs.writeShellScriptBin "wallpaper"
-          "${lib.getExe pkgs.swaybg} -i ${self.wallpaper} -m fill"
+          (lib.getExe (
+            pkgs.writeShellScriptBin "wallpaper"
+            "${lib.getExe pkgs.swaybg} -i ${self.wallpaper} -m fill"
+          ))
         ];
       };
     };
