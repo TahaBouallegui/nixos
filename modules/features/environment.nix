@@ -39,6 +39,7 @@
         pkgs.alejandra
         pkgs.manix
         pkgs.nix-inspect
+        pkgs.nixfmt
 
         # other
         pkgs.file
