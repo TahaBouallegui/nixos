@@ -117,6 +117,11 @@
         thunderbird
       ];
     };
+
+
+    services = {
+      desktopManager.plasma6.enable = true;
+    };
   
     # Allow unfree packages
     nixpkgs.config.allowUnfree = true;

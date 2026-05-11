@@ -6,7 +6,7 @@
     imports = [
         self.nixosModules.kicad
         self.nixosModules.flatpak
-        self.nixosModules.dolphin
+        self.nixosModules.librewolf
     ];
     
     programs.niri.enable = true;

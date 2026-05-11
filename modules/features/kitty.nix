@@ -24,7 +24,7 @@
 
         cursor_text_color = "background";
 
-        background_opacity = 0.85;
+        background_opacity = 0.50;
         background_blur = 1;
 
         allow_remote_control = "yes";
