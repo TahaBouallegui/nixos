@@ -21,7 +21,8 @@
       selfpkgs.noctalia-shell
       pkgs.libreoffice
       pkgs.heroic
-      pkgs.kdePackages.okular
+      pkgs.element-desktop
+      pkgs.proton-vpn
     ];
 
     fonts.packages = with pkgs; [

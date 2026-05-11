@@ -125,20 +125,7 @@
   
     # Allow unfree packages
     nixpkgs.config.allowUnfree = true;
-  
-    # List packages installed in system profile. To search, run:
-    # $ nix search wget
-    environment.systemPackages = with pkgs; [
-    neovim
-    librewolf
-    element-desktop
-    proton-vpn
-    git
-    tree
-    btop
-    kdePackages.dolphin
-    ];
-    
+      
     services.xserver.videoDrivers = [
       "nvidia"
       "intel"
