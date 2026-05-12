@@ -74,17 +74,28 @@
       LC_TIME = "fr_FR.UTF-8";
     };
   
-    # Enable the X11 windowing system.
-    # You can disable this if you're only using the Wayland session.
-    # services.xserver.enable = true;
-  
-    
-  
-    # Configure keymap in X11
-    services.xserver.xkb = {
-      layout = "us";
-      variant = "";
+    # 1. Enable the service and the firewall
+    services.tailscale.enable = true;
+    networking.nftables.enable = true;
+    networking.firewall = {
+      enable = true;
+      # Always allow traffic from your Tailscale network
+      trustedInterfaces = [ "tailscale0" ];
+      # Allow the Tailscale UDP port through the firewall
+      allowedUDPPorts = [ config.services.tailscale.port ];
     };
+  
+    # 2. Force tailscaled to use nftables (Critical for clean nftables-only systems)
+    # This avoids the "iptables-compat" translation layer issues.
+    systemd.services.tailscaled.serviceConfig.Environment = [ 
+      "TS_DEBUG_FIREWALL_MODE=nftables" 
+    ];
+  
+    # 3. Optimization: Prevent systemd from waiting for network online 
+    # (Optional but recommended for faster boot with VPNs)
+    systemd.network.wait-online.enable = false; 
+    boot.initrd.systemd.network.wait-online.enable = false;
+    
   
     # Enable CUPS to print documents.
     services.printing.enable = true;
@@ -105,17 +116,11 @@
       #media-session.enable = true;
     };
   
-    # Enable touchpad support (enabled default in most desktopManager).
-    # services.xserver.libinput.enable = true;
-  
     # Define a user account. Don't forget to set a password with ‘paf.
     users.users.atb = {
       isNormalUser = true;
       description = "atb";
       extraGroups = [ "networkmanager" "wheel" "dialout" ];
-      packages = with pkgs; [
-        thunderbird
-      ];
     };
 
 
@@ -126,10 +131,6 @@
     # Allow unfree packages
     nixpkgs.config.allowUnfree = true;
       
-    services.xserver.videoDrivers = [
-      "nvidia"
-      "intel"
-    ];
 
     hardware = {
       graphics = {
@@ -139,23 +140,23 @@
 
 
       nvidia = {
-	    package = config.boot.kernelPackages.nvidiaPackages.legacy_580;
-	    modesetting.enable = true;
-	    powerManagement.enable = true;
-	    powerManagement.finegrained = false;
-	
-	    open = false;
+        package = config.boot.kernelPackages.nvidiaPackages.stable;
+        modesetting.enable = true;
+        powerManagement.enable = true;
+        powerManagement.finegrained = true;
+    
+        open = false;
 
-	    nvidiaSettings = true;
+        nvidiaSettings = true;
 
-	    prime = {
-	      offload = {
-	        enable = true;
-	        enableOffloadCmd = true;
-	      };
-	    intelBusId = "PCI:0@0:2:0";
-	    nvidiaBusId = "PCI:2@0:0:0";
-	    };
+        prime = {
+          offload = {
+            enable = true;
+            enableOffloadCmd = true;
+          };
+        intelBusId = "PCI:0@0:2:0";
+        nvidiaBusId = "PCI:2@0:0:0";
+        };
       };
     };
 
@@ -178,7 +179,6 @@
     # networking.firewall.allowedTCPPorts = [ ... ];
     # networking.firewall.allowedUDPPorts = [ ... ];
     # Or disable the firewall altogether.
-    networking.firewall.enable = false;
   
     # This value determines the NixOS release from which the default
     # settings for stateful data, like file locations and database versions

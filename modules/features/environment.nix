@@ -39,7 +39,6 @@
         pkgs.alejandra
         pkgs.manix
         pkgs.nix-inspect
-        pkgs.nixfmt
 
         # other
         pkgs.file
@@ -65,6 +64,8 @@
         pkgs.yt-dlp
         pkgs.lazygit
         pkgs.texliveFull
+        pkgs.tree
+        pkgs.btop
 
         pkgs.python3
         pkgs.python313Packages.dbus-python
