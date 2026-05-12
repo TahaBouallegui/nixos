@@ -132,18 +132,20 @@
     nixpkgs.config.allowUnfree = true;
       
 
+    services.xserver.videoDrivers = [ "nvidia" "intel" ];
+
     hardware = {
       graphics = {
         enable = true;
         enable32Bit = true;
-        };
-
-
+      };
+      
+      
       nvidia = {
-        package = config.boot.kernelPackages.nvidiaPackages.stable;
+        package = config.boot.kernelPackages.nvidiaPackages.legacy_580;
         modesetting.enable = true;
         powerManagement.enable = true;
-        powerManagement.finegrained = true;
+        powerManagement.finegrained = false;
     
         open = false;
 
