@@ -9,7 +9,10 @@
     ...
   }: {
     
-    boot.kernelParams = [ "video=DP-1:1920x1080R@60D" ];
+    services.xserver.virtualScreen = {
+      x = 1920;
+      y = 1080;
+    };
     
     hardware.uinput.enable = true;
     
