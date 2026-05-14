@@ -76,7 +76,10 @@
     };
 
     # 1. Enable the service and the firewall
-    services.tailscale.enable = true;
+    services.tailscale = {
+      enable = true;
+      extraUpFlags = [ "--accept-risk=lite" ];
+    };
     networking.nftables.enable = true;
     networking.firewall = {
       enable = true;
