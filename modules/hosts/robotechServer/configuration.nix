@@ -69,7 +69,7 @@
       users.za3ter = {
         isNormalUser = true;
         description = "za3ter";
-        extraGroups = ["networkmanager" "wheel" "nixos-config" "video" "audio"];
+        extraGroups = ["networkmanager" "wheel" "nixos-config" "uinput"];
         packages = with pkgs; [];
         shell = self.packages.${pkgs.system}.environment;
       };
