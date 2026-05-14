@@ -18,6 +18,8 @@
       self.nixosModules.pkgs-stable
 
       self.nixosModules.base
+      
+      self.nixosModules.moonlight
 
       self.nixosModules.sddm
       self.nixosModules.desktop
