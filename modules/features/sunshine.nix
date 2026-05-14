@@ -9,7 +9,7 @@
     ...
   }: {
     
-    boot.kernelParams = [ "video=DP-1:1920x1080@60" ];
+    boot.kernelParams = [ "video=DP-1:1920x1080R@60D" ];
     
     hardware.uinput.enable = true;
     
