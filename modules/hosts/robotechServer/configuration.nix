@@ -32,15 +32,7 @@
     networking.networkmanager.enable = true;
 
     services.tailscale.enable = true;
-    networking.nftables.enable = true;
-    networking.firewall = {
-      enable = true;
-      trustedInterfaces = ["tailscale0"];
-      allowedUDPPorts = [config.services.tailscale.port];
-    };
-    systemd.services.tailscaled.serviceConfig.Environment = [
-      "TS_DEBUG_FIREWALL_MODE=nftables"
-    ];
+    
 
     time.timeZone = "Europe/Paris";
     time.hardwareClockInLocalTime = false;
@@ -157,11 +149,6 @@
       enable32Bit = true;
     };
 
-    # Nvidia DRM modesetting (required for Sunshine / NVFBC)
-    boot.kernelParams = [
-      "nvidia_drm.modeset=1"
-      "nvidia.NVreg_PreserveVideoMemoryAllocations=1"
-    ];
     # List services that you want to enable:
 
     # Enable the OpenSSH daemon.
