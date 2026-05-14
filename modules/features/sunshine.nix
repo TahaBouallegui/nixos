@@ -19,7 +19,7 @@
       openFirewall = true;
     };
     environment.systemPackages = with pkgs; [
-    xorg.xrandr
+    xrandr
     x11vnc
     ];
   };
