@@ -75,13 +75,12 @@
         pkgs.usbutils
         pkgs.gcc
         pkgs.minicom
-    
+
         #avr
         pkgs.avra
         pkgs.avrdude
         pkgs.pkgsCross.avr.buildPackages.gcc
         pkgs.pkgsCross.avr.buildPackages.binutils
-
 
         # wrapped
         self'.packages.neovim

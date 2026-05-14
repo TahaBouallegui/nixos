@@ -16,7 +16,6 @@
       args = lib.mkAfter (lib.optionals (config.shell != "") [config.shell]);
 
       settings = {
-
         enable_audio_bell = "no";
 
         font_size = 13;

@@ -1,5 +1,8 @@
-{ inputs, self, ... }: 
 {
+  inputs,
+  self,
+  ...
+}: {
   flake.wrappersModules.niri = {
     config,
     lib,
@@ -18,10 +21,10 @@
         noctaliaExe = lib.getExe self.packages.${config.pkgs.stdenv.hostPlatform.system}.noctalia-shell;
       in {
         window-rules = [
-            {
-                geometry-corner-radius = 20;
-                clip-to-geometry = true;
-            }
+          {
+            geometry-corner-radius = 20;
+            clip-to-geometry = true;
+          }
           #  {
           #      matches = [{app-id = "^Kitty$";}];
           #      background-effect = {
@@ -29,14 +32,13 @@
           #          xray = false;
           #      };
           #  }
-
         ];
 
         layer-rules = [
-            {
-                matches = [{namespace = "^noctalia-overview";}];
-                place-within-backdrop = true;
-            }
+          {
+            matches = [{namespace = "^noctalia-overview";}];
+            place-within-backdrop = true;
+          }
         ];
 
         outputs = {
@@ -61,10 +63,10 @@
           };
         };
 
-        prefer-no-csd = _:{};
+        prefer-no-csd = _: {};
 
         input = {
-          focus-follows-mouse = _:{};
+          focus-follows-mouse = _: {};
 
           keyboard = {
             xkb = {
@@ -76,8 +78,8 @@
           };
 
           touchpad = {
-            natural-scroll = _:{};
-            tap = _:{};
+            natural-scroll = _: {};
+            tap = _: {};
           };
 
           mouse = {
@@ -89,26 +91,26 @@
           "Mod+Return".spawn = config.terminal;
           "Mod+T".spawn = config.terminal;
 
-          "Mod+Q".close-window = _:{};
-          "Mod+D".maximize-column = _:{};
-          "Mod+F".fullscreen-window = _:{};
-          "Mod+Shift+F".toggle-window-floating = _:{};
-          "Mod+C".center-column = _:{};
+          "Mod+Q".close-window = _: {};
+          "Mod+D".maximize-column = _: {};
+          "Mod+F".fullscreen-window = _: {};
+          "Mod+Shift+F".toggle-window-floating = _: {};
+          "Mod+C".center-column = _: {};
 
-          "Mod+H".focus-column-left = _:{};
-          "Mod+L".focus-column-right = _:{};
-          "Mod+K".focus-window-up = _:{};
-          "Mod+J".focus-window-down = _:{};
+          "Mod+H".focus-column-left = _: {};
+          "Mod+L".focus-column-right = _: {};
+          "Mod+K".focus-window-up = _: {};
+          "Mod+J".focus-window-down = _: {};
 
-          "Mod+Left".focus-column-left = _:{};
-          "Mod+Right".focus-column-right = _:{};
-          "Mod+Up".focus-window-up = _:{};
-          "Mod+Down".focus-window-down = _:{};
+          "Mod+Left".focus-column-left = _: {};
+          "Mod+Right".focus-column-right = _: {};
+          "Mod+Up".focus-window-up = _: {};
+          "Mod+Down".focus-window-down = _: {};
 
-          "Mod+Shift+H".move-column-left = _:{};
-          "Mod+Shift+L".move-column-right = _:{};
-          "Mod+Shift+K".move-window-up = _:{};
-          "Mod+Shift+J".move-window-down = _:{};
+          "Mod+Shift+H".move-column-left = _: {};
+          "Mod+Shift+L".move-column-right = _: {};
+          "Mod+Shift+K".move-window-up = _: {};
+          "Mod+Shift+J".move-window-down = _: {};
 
           "Mod+1".focus-workspace = "w0";
           "Mod+2".focus-workspace = "w1";
@@ -147,10 +149,10 @@
           "Mod+Ctrl+J".set-window-height = "-5%";
           "Mod+Ctrl+K".set-window-height = "+5%";
 
-          "Mod+WheelScrollDown".focus-column-left = _:{};
-          "Mod+WheelScrollUp".focus-column-right = _:{};
-          "Mod+Ctrl+WheelScrollDown".focus-workspace-down = _:{};
-          "Mod+Ctrl+WheelScrollUp".focus-workspace-up = _:{};
+          "Mod+WheelScrollDown".focus-column-left = _: {};
+          "Mod+WheelScrollUp".focus-column-right = _: {};
+          "Mod+Ctrl+WheelScrollDown".focus-workspace-down = _: {};
+          "Mod+Ctrl+WheelScrollUp".focus-workspace-up = _: {};
 
           "Mod+Ctrl+S".spawn-sh = ''${lib.getExe config.pkgs.grim} -l 0 - | ${config.pkgs.wl-clipboard}/bin/wl-copy'';
 
@@ -164,11 +166,10 @@
             '';
           });
 
-          "Mod+Ctrl+Slash".show-hotkey-overlay = _:{};
+          "Mod+Ctrl+Slash".show-hotkey-overlay = _: {};
 
+          "Mod+Ctrl+R".spawn = ''niri msg action reload-config '';
 
-          "Mod+Ctrl+R".spawn = '' niri msg action reload-config '';
-          
           "Mod+G".spawn-sh = self.mkWhichKeyExe config.pkgs [
             {
               key = "b";

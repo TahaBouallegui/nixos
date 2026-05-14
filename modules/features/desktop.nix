@@ -1,14 +1,22 @@
-{ self, config, ...}: {
-  flake.nixosModules.desktop = {pkgs, pkgs-stable, config, ...}: let
+{
+  self,
+  config,
+  ...
+}: {
+  flake.nixosModules.desktop = {
+    pkgs,
+    pkgs-stable,
+    config,
+    ...
+  }: let
     selfpkgs = self.packages."${pkgs.system}";
   in {
-
     imports = [
-        self.nixosModules.kicad
-        self.nixosModules.flatpak
-        self.nixosModules.librewolf
+      self.nixosModules.kicad
+      self.nixosModules.flatpak
+      self.nixosModules.librewolf
     ];
-    
+
     programs.niri.enable = true;
     programs.niri.package = selfpkgs.desktop;
 
@@ -41,7 +49,7 @@
     };
 
     time.timeZone = "Europe/Paris";
-    i18n.defaultLocale = "en_US.UTF-8";  
+    i18n.defaultLocale = "en_US.UTF-8";
     i18n.extraLocaleSettings = {
       LC_ADDRESS = "fr_FR.UTF-8";
       LC_IDENTIFICATION = "fr_FR.UTF-8";
@@ -57,7 +65,7 @@
     services.upower.enable = true;
 
     security.polkit.enable = true;
-    
+
     hardware = {
       bluetooth.enable = true;
       bluetooth.powerOnBoot = true;
