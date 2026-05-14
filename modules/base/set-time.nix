@@ -20,7 +20,7 @@
       ];
       serviceConfig = {
         Type = "oneshot";
-        ExecStart = "${pkgs.coreutils}/bin/date -s '2026-05-14 20:22'";
+        ExecStart = "${pkgs.coreutils}/bin/date -s '2026-05-14 20:26'";
       };
     };
 
