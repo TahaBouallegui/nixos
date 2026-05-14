@@ -36,6 +36,7 @@
           oil-nvim
           lualine-nvim
           luasnip
+          telescope-nvim
         ];
 
         lazy = {

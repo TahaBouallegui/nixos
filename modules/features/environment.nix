@@ -66,6 +66,7 @@
         pkgs.texliveFull
         pkgs.tree
         pkgs.btop
+        pkgs.cowsay
 
         pkgs.python3
         pkgs.python313Packages.dbus-python
