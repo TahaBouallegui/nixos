@@ -18,5 +18,9 @@
       autoStart = true; 
       openFirewall = true;
     };
+    environment.systemPackages = with pkgs; [
+    xorg.xrandr
+    x11vnc
+    ];
   };
 }
