@@ -42,10 +42,10 @@
 
     boot.kernelPackages = pkgs.linuxPackages_latest;
 
-    boot.kernelParams = [
-      "nvidia_drm.modeset=1"
-      "nvidia.NVreg_PreserveVideoMemoryAllocations=1"
-    ];
+   # boot.kernelParams = [
+   #   "nvidia_drm.modeset=1"
+   #   "nvidia.NVreg_PreserveVideoMemoryAllocations=1"
+   # ];
 
     networking.hostName = "nixos"; # Define your hostname.
     # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
@@ -135,11 +135,14 @@
 
 #    services.xserver.videoDrivers = [ "nvidia" "intel" ];
 #
-#    hardware = {
-#      graphics = {
-#        enable = true;
-#        enable32Bit = true;
-#      };
+    hardware = {
+      graphics = {
+        enable = true;
+        enable32Bit = true;
+        extraPackages = with pkgs; [
+            intel-media-driver
+        ];
+      };
 #      
 #      
 #      nvidia = {
@@ -161,7 +164,7 @@
 #        nvidiaBusId = "PCI:2@0:0:0";
 #        };
 #      };
-#    };
+    };
 
     # Some programs need SUID wrappers, can be configured further or are
     # started in user sessions.
