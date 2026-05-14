@@ -87,6 +87,7 @@
         self'.packages.neovim
         self'.packages.qalc
         self'.packages.git
+        self'.packages.lf
       ];
     };
   };
