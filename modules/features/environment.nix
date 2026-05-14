@@ -67,6 +67,7 @@
         pkgs.tree
         pkgs.btop
         pkgs.cowsay
+        pkgs.yazi
 
         pkgs.python3
         pkgs.python313Packages.dbus-python
@@ -87,7 +88,6 @@
         self'.packages.neovim
         self'.packages.qalc
         self'.packages.git
-        self'.packages.lf
       ];
     };
   };
