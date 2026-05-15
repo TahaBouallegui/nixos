@@ -23,7 +23,7 @@
 
     home-manager.users.za3ter = {pkgs, ... }: {
         config = {
-            modifier = alt;
+            modifier = "alt";
             "&{mod}+w" = "exec librewolf";
         };
     };
