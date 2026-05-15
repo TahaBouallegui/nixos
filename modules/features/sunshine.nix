@@ -17,7 +17,9 @@
         enable = true;
         user = "za3ter";
       };
-      windowManager.i3.enable = true;
+      windowManager.i3 = {
+        enable = true;
+      };
       displayManager.defaultSession = "none+i3";
     };
 
@@ -36,7 +38,7 @@
     environment.systemPackages = with pkgs; [
     xrandr
     x11vnc
-    i3-sensible-terminal
+    xfce4-terminal
     ];
   };
 }
