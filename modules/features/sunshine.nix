@@ -36,6 +36,7 @@
     environment.systemPackages = with pkgs; [
     xrandr
     x11vnc
+    i3-sensible-terminal
     ];
   };
 }
