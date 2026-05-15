@@ -22,10 +22,12 @@
     };
 
     home-manager.users.za3ter = {pkgs, ... }: {
+    xsession.windowManager.i3 = {
         config = {
             modifier = "alt";
             "&{mod}+w" = "exec librewolf";
         };
+    };
     };
 
     imports = [
