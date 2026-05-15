@@ -116,16 +116,6 @@
     };
 
     # X11 display with i3 and auto‑login
-    services.xserver = {
-      enable = true;
-      desktopManager.xfce.enable = false;
-      windowManager.i3.enable = true;
-      displayManager.autoLogin = {
-        enable = true;
-        user = "za3ter";
-      };
-      displayManager.defaultSession = "none+i3";
-    };
 
     services.pulseaudio.enable = false;
     security.rtkit.enable = true;
