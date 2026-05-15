@@ -77,6 +77,9 @@
         pkgs.usbutils
         pkgs.gcc
         pkgs.minicom
+        pkgs.SDL2
+        pkgs.SDL2_ttf
+
 
         #avr
         pkgs.avra
