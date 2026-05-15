@@ -13,22 +13,14 @@
     services.xserver = {
       enable = true;
       desktopManager.xfce.enable = false;
-      windowManager.i3.enable = true;
       displayManager.autoLogin = {
         enable = true;
         user = "za3ter";
       };
+      windowManager.i3.enable = true;
       displayManager.defaultSession = "none+i3";
     };
 
-    home-manager.users.za3ter = {pkgs, ... }: {
-    xsession.windowManager.i3 = {
-        config = {
-            modifier = "alt";
-            "&{mod}+w" = "exec librewolf";
-        };
-    };
-    };
 
     imports = [
         self.nixosModules.librewolf
