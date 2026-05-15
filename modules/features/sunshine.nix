@@ -8,11 +8,29 @@
     pkgs,
     ...
   }: {
-    
-    services.xserver.virtualScreen = {
-      x = 1920;
-      y = 1080;
+
+    # X11 display with i3 and auto‑login
+    services.xserver = {
+      enable = true;
+      desktopManager.xfce.enable = false;
+      windowManager.i3.enable = true;
+      displayManager.autoLogin = {
+        enable = true;
+        user = "za3ter";
+      };
+      displayManager.defaultSession = "none+i3";
     };
+
+    home-manager.users.za3ter = {pkgs, ... }: {
+        config = {
+            modifier = alt;
+            "&{mod}+w" = "exec librewolf";
+        };
+    };
+
+    imports = [
+        self.nixosModules.librewolf
+    ];
     
     hardware.uinput.enable = true;
     
