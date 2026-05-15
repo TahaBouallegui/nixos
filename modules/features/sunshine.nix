@@ -37,7 +37,6 @@
     environment.systemPackages = with pkgs; [
     xrandr
     x11vnc
-    xfce4-terminal
     ];
   };
 }
