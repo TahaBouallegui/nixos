@@ -15,7 +15,11 @@
       self.nixosModules.fixed-boot-date
     ];
 
-    nix.settings.experimental-features = ["nix-command" "flakes"];
+    nix.settings = {
+      experimental-features = ["nix-command" "flakes"];
+      max-jobs = 4;
+      cores = 4;
+    };
 
     # Bootloader.
     boot.loader.systemd-boot.enable = true;

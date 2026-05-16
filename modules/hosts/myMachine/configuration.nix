@@ -28,6 +28,10 @@
     nix.settings = {
       #Enabling flakes
       experimental-features = ["nix-command" "flakes"];
+      
+      # Nix Limit parallel build
+      max-jobs = 12;
+      cores = 12;
     };
 
     # Bootloader.
