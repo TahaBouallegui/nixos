@@ -131,8 +131,6 @@
     hardware.nvidia = {
       package = config.boot.kernelPackages.nvidiaPackages.legacy_580;
       modesetting.enable = true;
-      powerManagement.enable = true;
-      powerManagement.finegrained = true;
       open = false;
       nvidiaSettings = true;
     };
