@@ -1,0 +1,1474 @@
+﻿Log file open, [2026.05.16-16.14.34]
+[PakFileVerifyWorker]LogCore: Display: FThreadManager registering thread PakFileVerifyWorker (360)
+[GameThread]LogPakFile: Display: Found Pak file ../../../Client/Content/Paks/pakchunk9-WindowsNoEditor.pak attempting to mount.
+[GameThread]LogPakFile: Display: Mounting pak file ../../../Client/Content/Paks/pakchunk9-WindowsNoEditor.pak.
+[GameThread]LogPakFile: PakFile PrimaryIndexSize=587776
+[GameThread]LogPakFile: PakFile PathHashIndexSize=285824
+[GameThread]LogPakFile: PakFile FullDirectoryIndexSize=1052608
+[GameThread]LogPakFile: OnPakFileMounted2Time == 0.000011
+[GameThread]LogPakFile: Display: Found Pak file ../../../Client/Content/Paks/pakchunk8-WindowsNoEditor.pak attempting to mount.
+[GameThread]LogPakFile: Display: Mounting pak file ../../../Client/Content/Paks/pakchunk8-WindowsNoEditor.pak.
+[GameThread]LogPakFile: PakFile PrimaryIndexSize=492592
+[GameThread]LogPakFile: PakFile PathHashIndexSize=59920
+[GameThread]LogPakFile: PakFile FullDirectoryIndexSize=225040
+[GameThread]LogPakFile: OnPakFileMounted2Time == 0.000013
+[GameThread]LogPakFile: Display: Found Pak file ../../../Client/Content/Paks/pakchunk73-WindowsNoEditor.pak attempting to mount.
+[GameThread]LogPakFile: Display: Mounting pak file ../../../Client/Content/Paks/pakchunk73-WindowsNoEditor.pak.
+[GameThread]LogPakFile: PakFile PrimaryIndexSize=2305168
+[GameThread]LogPakFile: PakFile PathHashIndexSize=1317152
+[GameThread]LogPakFile: PakFile FullDirectoryIndexSize=2934912
+[GameThread]LogPakFile: OnPakFileMounted2Time == 0.000015
+[GameThread]LogPakFile: Display: Found Pak file ../../../Client/Content/Paks/pakchunk70-WindowsNoEditor.pak attempting to mount.
+[GameThread]LogPakFile: Display: Mounting pak file ../../../Client/Content/Paks/pakchunk70-WindowsNoEditor.pak.
+[GameThread]LogPakFile: PakFile PrimaryIndexSize=6403952
+[GameThread]LogPakFile: PakFile PathHashIndexSize=1535344
+[GameThread]LogPakFile: PakFile FullDirectoryIndexSize=4407584
+[GameThread]LogPakFile: OnPakFileMounted2Time == 0.000017
+[GameThread]LogPakFile: Display: Found Pak file ../../../Client/Content/Paks/pakchunk7-WindowsNoEditor.pak attempting to mount.
+[GameThread]LogPakFile: Display: Mounting pak file ../../../Client/Content/Paks/pakchunk7-WindowsNoEditor.pak.
+[GameThread]LogPakFile: PakFile PrimaryIndexSize=3130288
+[GameThread]LogPakFile: PakFile PathHashIndexSize=1118720
+[GameThread]LogPakFile: PakFile FullDirectoryIndexSize=3691168
+[GameThread]LogPakFile: OnPakFileMounted2Time == 0.000019
+[GameThread]LogPakFile: Display: Found Pak file ../../../Client/Content/Paks/pakchunk6-WindowsNoEditor.pak attempting to mount.
+[GameThread]LogPakFile: Display: Mounting pak file ../../../Client/Content/Paks/pakchunk6-WindowsNoEditor.pak.
+[GameThread]LogPakFile: PakFile PrimaryIndexSize=2269440
+[GameThread]LogPakFile: PakFile PathHashIndexSize=1457984
+[GameThread]LogPakFile: PakFile FullDirectoryIndexSize=4866400
+[GameThread]LogPakFile: OnPakFileMounted2Time == 0.000021
+[GameThread]LogPakFile: Display: Found Pak file ../../../Client/Content/Paks/pakchunk55-WindowsNoEditor.pak attempting to mount.
+[GameThread]LogPakFile: Display: Mounting pak file ../../../Client/Content/Paks/pakchunk55-WindowsNoEditor.pak.
+[GameThread]LogPakFile: PakFile PrimaryIndexSize=893792
+[GameThread]LogPakFile: PakFile PathHashIndexSize=345680
+[GameThread]LogPakFile: PakFile FullDirectoryIndexSize=1544800
+[GameThread]LogPakFile: OnPakFileMounted2Time == 0.000022
+[GameThread]LogPakFile: Display: Found Pak file ../../../Client/Content/Paks/pakchunk54-WindowsNoEditor.pak attempting to mount.
+[GameThread]LogPakFile: Display: Mounting pak file ../../../Client/Content/Paks/pakchunk54-WindowsNoEditor.pak.
+[GameThread]LogPakFile: PakFile PrimaryIndexSize=2434320
+[GameThread]LogPakFile: PakFile PathHashIndexSize=1009328
+[GameThread]LogPakFile: PakFile FullDirectoryIndexSize=4588384
+[GameThread]LogPakFile: OnPakFileMounted2Time == 0.000024
+[GameThread]LogPakFile: Display: Found Pak file ../../../Client/Content/Paks/pakchunk53-WindowsNoEditor.pak attempting to mount.
+[GameThread]LogPakFile: Display: Mounting pak file ../../../Client/Content/Paks/pakchunk53-WindowsNoEditor.pak.
+[GameThread]LogPakFile: PakFile PrimaryIndexSize=4247472
+[GameThread]LogPakFile: PakFile PathHashIndexSize=1480160
+[GameThread]LogPakFile: PakFile FullDirectoryIndexSize=6904000
+[GameThread]LogPakFile: OnPakFileMounted2Time == 0.000026
+[GameThread]LogPakFile: Display: Found Pak file ../../../Client/Content/Paks/pakchunk52-WindowsNoEditor.pak attempting to mount.
+[GameThread]LogPakFile: Display: Mounting pak file ../../../Client/Content/Paks/pakchunk52-WindowsNoEditor.pak.
+[GameThread]LogPakFile: PakFile PrimaryIndexSize=418944
+[GameThread]LogPakFile: PakFile PathHashIndexSize=181536
+[GameThread]LogPakFile: PakFile FullDirectoryIndexSize=845824
+[GameThread]LogPakFile: OnPakFileMounted2Time == 0.000028
+[GameThread]LogPakFile: Display: Found Pak file ../../../Client/Content/Paks/pakchunk51-WindowsNoEditor.pak attempting to mount.
+[GameThread]LogPakFile: Display: Mounting pak file ../../../Client/Content/Paks/pakchunk51-WindowsNoEditor.pak.
+[GameThread]LogPakFile: PakFile PrimaryIndexSize=365120
+[GameThread]LogPakFile: PakFile PathHashIndexSize=184512
+[GameThread]LogPakFile: PakFile FullDirectoryIndexSize=851600
+[GameThread]LogPakFile: OnPakFileMounted2Time == 0.000029
+[GameThread]LogPakFile: Display: Found Pak file ../../../Client/Content/Paks/pakchunk50-WindowsNoEditor.pak attempting to mount.
+[GameThread]LogPakFile: Display: Mounting pak file ../../../Client/Content/Paks/pakchunk50-WindowsNoEditor.pak.
+[GameThread]LogPakFile: PakFile PrimaryIndexSize=538640
+[GameThread]LogPakFile: PakFile PathHashIndexSize=272208
+[GameThread]LogPakFile: PakFile FullDirectoryIndexSize=1280096
+[GameThread]LogPakFile: OnPakFileMounted2Time == 0.000031
+[GameThread]LogPakFile: Display: Found Pak file ../../../Client/Content/Paks/pakchunk5-WindowsNoEditor.pak attempting to mount.
+[GameThread]LogPakFile: Display: Mounting pak file ../../../Client/Content/Paks/pakchunk5-WindowsNoEditor.pak.
+[GameThread]LogPakFile: PakFile PrimaryIndexSize=3230480
+[GameThread]LogPakFile: PakFile PathHashIndexSize=967136
+[GameThread]LogPakFile: PakFile FullDirectoryIndexSize=3126752
+[GameThread]LogPakFile: OnPakFileMounted2Time == 0.000033
+[GameThread]LogPakFile: Display: Found Pak file ../../../Client/Content/Paks/pakchunk49-WindowsNoEditor.pak attempting to mount.
+[GameThread]LogPakFile: Display: Mounting pak file ../../../Client/Content/Paks/pakchunk49-WindowsNoEditor.pak.
+[GameThread]LogPakFile: PakFile PrimaryIndexSize=2009872
+[GameThread]LogPakFile: PakFile PathHashIndexSize=976256
+[GameThread]LogPakFile: PakFile FullDirectoryIndexSize=4455296
+[GameThread]LogPakFile: OnPakFileMounted2Time == 0.000035
+[GameThread]LogPakFile: Display: Found Pak file ../../../Client/Content/Paks/pakchunk48-WindowsNoEditor.pak attempting to mount.
+[GameThread]LogPakFile: Display: Mounting pak file ../../../Client/Content/Paks/pakchunk48-WindowsNoEditor.pak.
+[GameThread]LogPakFile: PakFile PrimaryIndexSize=2047760
+[GameThread]LogPakFile: PakFile PathHashIndexSize=970176
+[GameThread]LogPakFile: PakFile FullDirectoryIndexSize=4550832
+[GameThread]LogPakFile: OnPakFileMounted2Time == 0.000038
+[GameThread]LogPakFile: Display: Found Pak file ../../../Client/Content/Paks/pakchunk47-WindowsNoEditor.pak attempting to mount.
+[GameThread]LogPakFile: Display: Mounting pak file ../../../Client/Content/Paks/pakchunk47-WindowsNoEditor.pak.
+[GameThread]LogPakFile: PakFile PrimaryIndexSize=2789920
+[GameThread]LogPakFile: PakFile PathHashIndexSize=1373824
+[GameThread]LogPakFile: PakFile FullDirectoryIndexSize=6208048
+[GameThread]LogPakFile: OnPakFileMounted2Time == 0.000040
+[GameThread]LogPakFile: Display: Found Pak file ../../../Client/Content/Paks/pakchunk46-WindowsNoEditor.pak attempting to mount.
+[GameThread]LogPakFile: Display: Mounting pak file ../../../Client/Content/Paks/pakchunk46-WindowsNoEditor.pak.
+[GameThread]LogPakFile: PakFile PrimaryIndexSize=255616
+[GameThread]LogPakFile: PakFile PathHashIndexSize=127568
+[GameThread]LogPakFile: PakFile FullDirectoryIndexSize=606752
+[GameThread]LogPakFile: OnPakFileMounted2Time == 0.000041
+[GameThread]LogPakFile: Display: Found Pak file ../../../Client/Content/Paks/pakchunk45-WindowsNoEditor.pak attempting to mount.
+[GameThread]LogPakFile: Display: Mounting pak file ../../../Client/Content/Paks/pakchunk45-WindowsNoEditor.pak.
+[GameThread]LogPakFile: PakFile PrimaryIndexSize=254352
+[GameThread]LogPakFile: PakFile PathHashIndexSize=131696
+[GameThread]LogPakFile: PakFile FullDirectoryIndexSize=600816
+[GameThread]LogPakFile: OnPakFileMounted2Time == 0.000042
+[GameThread]LogPakFile: Display: Found Pak file ../../../Client/Content/Paks/pakchunk43-WindowsNoEditor.pak attempting to mount.
+[GameThread]LogPakFile: Display: Mounting pak file ../../../Client/Content/Paks/pakchunk43-WindowsNoEditor.pak.
+[GameThread]LogPakFile: PakFile PrimaryIndexSize=912
+[GameThread]LogPakFile: PakFile PathHashIndexSize=48
+[GameThread]LogPakFile: PakFile FullDirectoryIndexSize=144
+[GameThread]LogPakFile: OnPakFileMounted2Time == 0.000043
+[GameThread]LogPakFile: Display: Found Pak file ../../../Client/Content/Paks/pakchunk42-WindowsNoEditor.pak attempting to mount.
+[GameThread]LogPakFile: Display: Mounting pak file ../../../Client/Content/Paks/pakchunk42-WindowsNoEditor.pak.
+[GameThread]LogPakFile: PakFile PrimaryIndexSize=305680
+[GameThread]LogPakFile: PakFile PathHashIndexSize=142688
+[GameThread]LogPakFile: PakFile FullDirectoryIndexSize=431200
+[GameThread]LogPakFile: OnPakFileMounted2Time == 0.000044
+[GameThread]LogPakFile: Display: Found Pak file ../../../Client/Content/Paks/pakchunk41-WindowsNoEditor.pak attempting to mount.
+[GameThread]LogPakFile: Display: Mounting pak file ../../../Client/Content/Paks/pakchunk41-WindowsNoEditor.pak.
+[GameThread]LogPakFile: PakFile PrimaryIndexSize=781344
+[GameThread]LogPakFile: PakFile PathHashIndexSize=313824
+[GameThread]LogPakFile: PakFile FullDirectoryIndexSize=966592
+[GameThread]LogPakFile: OnPakFileMounted2Time == 0.000046
+[GameThread]LogPakFile: Display: Found Pak file ../../../Client/Content/Paks/pakchunk40-WindowsNoEditor.pak attempting to mount.
+[GameThread]LogPakFile: Display: Mounting pak file ../../../Client/Content/Paks/pakchunk40-WindowsNoEditor.pak.
+[GameThread]LogPakFile: PakFile PrimaryIndexSize=1909200
+[GameThread]LogPakFile: PakFile PathHashIndexSize=1125008
+[GameThread]LogPakFile: PakFile FullDirectoryIndexSize=3977072
+[GameThread]LogPakFile: OnPakFileMounted2Time == 0.000048
+[GameThread]LogPakFile: Display: Found Pak file ../../../Client/Content/Paks/pakchunk4-WindowsNoEditor.pak attempting to mount.
+[GameThread]LogPakFile: Display: Mounting pak file ../../../Client/Content/Paks/pakchunk4-WindowsNoEditor.pak.
+[GameThread]LogPakFile: PakFile PrimaryIndexSize=3668560
+[GameThread]LogPakFile: PakFile PathHashIndexSize=1774464
+[GameThread]LogPakFile: PakFile FullDirectoryIndexSize=5857376
+[GameThread]LogPakFile: OnPakFileMounted2Time == 0.000050
+[GameThread]LogPakFile: Display: Found Pak file ../../../Client/Content/Paks/pakchunk39-WindowsNoEditor.pak attempting to mount.
+[GameThread]LogPakFile: Display: Mounting pak file ../../../Client/Content/Paks/pakchunk39-WindowsNoEditor.pak.
+[GameThread]LogPakFile: PakFile PrimaryIndexSize=1009008
+[GameThread]LogPakFile: PakFile PathHashIndexSize=503648
+[GameThread]LogPakFile: PakFile FullDirectoryIndexSize=1429248
+[GameThread]LogPakFile: OnPakFileMounted2Time == 0.000053
+[GameThread]LogPakFile: Display: Found Pak file ../../../Client/Content/Paks/pakchunk36-WindowsNoEditor.pak attempting to mount.
+[GameThread]LogPakFile: Display: Mounting pak file ../../../Client/Content/Paks/pakchunk36-WindowsNoEditor.pak.
+[GameThread]LogPakFile: PakFile PrimaryIndexSize=115536
+[GameThread]LogPakFile: PakFile PathHashIndexSize=47184
+[GameThread]LogPakFile: PakFile FullDirectoryIndexSize=128192
+[GameThread]LogPakFile: OnPakFileMounted2Time == 0.000054
+[GameThread]LogPakFile: Display: Found Pak file ../../../Client/Content/Paks/pakchunk35-WindowsNoEditor.pak attempting to mount.
+[GameThread]LogPakFile: Display: Mounting pak file ../../../Client/Content/Paks/pakchunk35-WindowsNoEditor.pak.
+[GameThread]LogPakFile: PakFile PrimaryIndexSize=72320
+[GameThread]LogPakFile: PakFile PathHashIndexSize=21120
+[GameThread]LogPakFile: PakFile FullDirectoryIndexSize=62560
+[GameThread]LogPakFile: OnPakFileMounted2Time == 0.000054
+[GameThread]LogPakFile: Display: Found Pak file ../../../Client/Content/Paks/pakchunk34-WindowsNoEditor.pak attempting to mount.
+[GameThread]LogPakFile: Display: Mounting pak file ../../../Client/Content/Paks/pakchunk34-WindowsNoEditor.pak.
+[GameThread]LogPakFile: PakFile PrimaryIndexSize=439264
+[GameThread]LogPakFile: PakFile PathHashIndexSize=121552
+[GameThread]LogPakFile: PakFile FullDirectoryIndexSize=347344
+[GameThread]LogPakFile: OnPakFileMounted2Time == 0.000056
+[GameThread]LogPakFile: Display: Found Pak file ../../../Client/Content/Paks/pakchunk33-WindowsNoEditor.pak attempting to mount.
+[GameThread]LogPakFile: Display: Mounting pak file ../../../Client/Content/Paks/pakchunk33-WindowsNoEditor.pak.
+[GameThread]LogPakFile: PakFile PrimaryIndexSize=201920
+[GameThread]LogPakFile: PakFile PathHashIndexSize=79104
+[GameThread]LogPakFile: PakFile FullDirectoryIndexSize=219104
+[GameThread]LogPakFile: OnPakFileMounted2Time == 0.000056
+[GameThread]LogPakFile: Display: Found Pak file ../../../Client/Content/Paks/pakchunk32-WindowsNoEditor.pak attempting to mount.
+[GameThread]LogPakFile: Display: Mounting pak file ../../../Client/Content/Paks/pakchunk32-WindowsNoEditor.pak.
+[GameThread]LogPakFile: PakFile PrimaryIndexSize=17504
+[GameThread]LogPakFile: PakFile PathHashIndexSize=6320
+[GameThread]LogPakFile: PakFile FullDirectoryIndexSize=19056
+[GameThread]LogPakFile: OnPakFileMounted2Time == 0.000057
+[GameThread]LogPakFile: Display: Found Pak file ../../../Client/Content/Paks/pakchunk31-WindowsNoEditor.pak attempting to mount.
+[GameThread]LogPakFile: Display: Mounting pak file ../../../Client/Content/Paks/pakchunk31-WindowsNoEditor.pak.
+[GameThread]LogPakFile: PakFile PrimaryIndexSize=986944
+[GameThread]LogPakFile: PakFile PathHashIndexSize=392672
+[GameThread]LogPakFile: PakFile FullDirectoryIndexSize=1305632
+[GameThread]LogPakFile: OnPakFileMounted2Time == 0.000058
+[GameThread]LogPakFile: Display: Found Pak file ../../../Client/Content/Paks/pakchunk3-WindowsNoEditor.pak attempting to mount.
+[GameThread]LogPakFile: Display: Mounting pak file ../../../Client/Content/Paks/pakchunk3-WindowsNoEditor.pak.
+[GameThread]LogPakFile: PakFile PrimaryIndexSize=371808
+[GameThread]LogPakFile: PakFile PathHashIndexSize=212288
+[GameThread]LogPakFile: PakFile FullDirectoryIndexSize=686384
+[GameThread]LogPakFile: OnPakFileMounted2Time == 0.000060
+[GameThread]LogPakFile: Display: Found Pak file ../../../Client/Content/Paks/pakchunk28-WindowsNoEditor.pak attempting to mount.
+[GameThread]LogPakFile: Display: Mounting pak file ../../../Client/Content/Paks/pakchunk28-WindowsNoEditor.pak.
+[GameThread]LogPakFile: PakFile PrimaryIndexSize=192
+[GameThread]LogPakFile: PakFile PathHashIndexSize=32
+[GameThread]LogPakFile: PakFile FullDirectoryIndexSize=64
+[GameThread]LogPakFile: OnPakFileMounted2Time == 0.000060
+[GameThread]LogPakFile: Display: Found Pak file ../../../Client/Content/Paks/pakchunk27-WindowsNoEditor.pak attempting to mount.
+[GameThread]LogPakFile: Display: Mounting pak file ../../../Client/Content/Paks/pakchunk27-WindowsNoEditor.pak.
+[GameThread]LogPakFile: PakFile PrimaryIndexSize=176
+[GameThread]LogPakFile: PakFile PathHashIndexSize=32
+[GameThread]LogPakFile: PakFile FullDirectoryIndexSize=32
+[GameThread]LogPakFile: OnPakFileMounted2Time == 0.000061
+[GameThread]LogPakFile: Display: Found Pak file ../../../Client/Content/Paks/pakchunk26-WindowsNoEditor.pak attempting to mount.
+[GameThread]LogPakFile: Display: Mounting pak file ../../../Client/Content/Paks/pakchunk26-WindowsNoEditor.pak.
+[GameThread]LogPakFile: PakFile PrimaryIndexSize=1264
+[GameThread]LogPakFile: PakFile PathHashIndexSize=1040
+[GameThread]LogPakFile: PakFile FullDirectoryIndexSize=2656
+[GameThread]LogPakFile: OnPakFileMounted2Time == 0.000061
+[GameThread]LogPakFile: Display: Found Pak file ../../../Client/Content/Paks/pakchunk23-WindowsNoEditor.pak attempting to mount.
+[GameThread]LogPakFile: Display: Mounting pak file ../../../Client/Content/Paks/pakchunk23-WindowsNoEditor.pak.
+[GameThread]LogPakFile: PakFile PrimaryIndexSize=1666880
+[GameThread]LogPakFile: PakFile PathHashIndexSize=706096
+[GameThread]LogPakFile: PakFile FullDirectoryIndexSize=1993344
+[GameThread]LogPakFile: OnPakFileMounted2Time == 0.000063
+[GameThread]LogPakFile: Display: Found Pak file ../../../Client/Content/Paks/pakchunk22-WindowsNoEditor.pak attempting to mount.
+[GameThread]LogPakFile: Display: Mounting pak file ../../../Client/Content/Paks/pakchunk22-WindowsNoEditor.pak.
+[GameThread]LogPakFile: PakFile PrimaryIndexSize=1601872
+[GameThread]LogPakFile: PakFile PathHashIndexSize=615536
+[GameThread]LogPakFile: PakFile FullDirectoryIndexSize=1754896
+[GameThread]LogPakFile: OnPakFileMounted2Time == 0.000065
+[GameThread]LogPakFile: Display: Found Pak file ../../../Client/Content/Paks/pakchunk21-WindowsNoEditor.pak attempting to mount.
+[GameThread]LogPakFile: Display: Mounting pak file ../../../Client/Content/Paks/pakchunk21-WindowsNoEditor.pak.
+[GameThread]LogPakFile: PakFile PrimaryIndexSize=1752352
+[GameThread]LogPakFile: PakFile PathHashIndexSize=489728
+[GameThread]LogPakFile: PakFile FullDirectoryIndexSize=1466320
+[GameThread]LogPakFile: OnPakFileMounted2Time == 0.000067
+[GameThread]LogPakFile: Display: Found Pak file ../../../Client/Content/Paks/pakchunk20-WindowsNoEditor.pak attempting to mount.
+[GameThread]LogPakFile: Display: Mounting pak file ../../../Client/Content/Paks/pakchunk20-WindowsNoEditor.pak.
+[GameThread]LogPakFile: PakFile PrimaryIndexSize=982576
+[GameThread]LogPakFile: PakFile PathHashIndexSize=293408
+[GameThread]LogPakFile: PakFile FullDirectoryIndexSize=1027440
+[GameThread]LogPakFile: OnPakFileMounted2Time == 0.000069
+[GameThread]LogPakFile: Display: Found Pak file ../../../Client/Content/Paks/pakchunk2-WindowsNoEditor.pak attempting to mount.
+[GameThread]LogPakFile: Display: Mounting pak file ../../../Client/Content/Paks/pakchunk2-WindowsNoEditor.pak.
+[GameThread]LogPakFile: PakFile PrimaryIndexSize=10880
+[GameThread]LogPakFile: PakFile PathHashIndexSize=9920
+[GameThread]LogPakFile: PakFile FullDirectoryIndexSize=22288
+[GameThread]LogPakFile: OnPakFileMounted2Time == 0.000069
+[GameThread]LogPakFile: Display: Found Pak file ../../../Client/Content/Paks/pakchunk18-WindowsNoEditor.pak attempting to mount.
+[GameThread]LogPakFile: Display: Mounting pak file ../../../Client/Content/Paks/pakchunk18-WindowsNoEditor.pak.
+[GameThread]LogPakFile: PakFile PrimaryIndexSize=928
+[GameThread]LogPakFile: PakFile PathHashIndexSize=720
+[GameThread]LogPakFile: PakFile FullDirectoryIndexSize=2096
+[GameThread]LogPakFile: OnPakFileMounted2Time == 0.000070
+[GameThread]LogPakFile: Display: Found Pak file ../../../Client/Content/Paks/pakchunk108-WindowsNoEditor.pak attempting to mount.
+[GameThread]LogPakFile: Display: Mounting pak file ../../../Client/Content/Paks/pakchunk108-WindowsNoEditor.pak.
+[GameThread]LogPakFile: Display: Deferring mount of pak "../../../Client/Content/Paks/pakchunk108-WindowsNoEditor.pak" until encryption key '8266233257AD4AEBA7FE660F5D6FB2EB' becomes available
+[GameThread]LogPakFile: Display: Found Pak file ../../../Client/Content/Paks/pakchunk107-WindowsNoEditor.pak attempting to mount.
+[GameThread]LogPakFile: Display: Mounting pak file ../../../Client/Content/Paks/pakchunk107-WindowsNoEditor.pak.
+[GameThread]LogPakFile: Display: Deferring mount of pak "../../../Client/Content/Paks/pakchunk107-WindowsNoEditor.pak" until encryption key '6FFCCE086AC940C6A5EE62A6F9FFB2B9' becomes available
+[GameThread]LogPakFile: Display: Found Pak file ../../../Client/Content/Paks/pakchunk106-WindowsNoEditor.pak attempting to mount.
+[GameThread]LogPakFile: Display: Mounting pak file ../../../Client/Content/Paks/pakchunk106-WindowsNoEditor.pak.
+[GameThread]LogPakFile: Display: Deferring mount of pak "../../../Client/Content/Paks/pakchunk106-WindowsNoEditor.pak" until encryption key '434FF6B9EB0C49499655CF4F96316411' becomes available
+[GameThread]LogPakFile: Display: Found Pak file ../../../Client/Content/Paks/pakchunk105-WindowsNoEditor.pak attempting to mount.
+[GameThread]LogPakFile: Display: Mounting pak file ../../../Client/Content/Paks/pakchunk105-WindowsNoEditor.pak.
+[GameThread]LogPakFile: Display: Deferring mount of pak "../../../Client/Content/Paks/pakchunk105-WindowsNoEditor.pak" until encryption key 'B8BBEF2CF08D46FAAD154EA2B0F2856F' becomes available
+[GameThread]LogPakFile: Display: Found Pak file ../../../Client/Content/Paks/pakchunk104-WindowsNoEditor.pak attempting to mount.
+[GameThread]LogPakFile: Display: Mounting pak file ../../../Client/Content/Paks/pakchunk104-WindowsNoEditor.pak.
+[GameThread]LogPakFile: Display: Deferring mount of pak "../../../Client/Content/Paks/pakchunk104-WindowsNoEditor.pak" until encryption key '12E77150AAEB47F484A12ED5FE9870C8' becomes available
+[GameThread]LogPakFile: Display: Found Pak file ../../../Client/Content/Paks/pakchunk103-WindowsNoEditor.pak attempting to mount.
+[GameThread]LogPakFile: Display: Mounting pak file ../../../Client/Content/Paks/pakchunk103-WindowsNoEditor.pak.
+[GameThread]LogPakFile: Display: Deferring mount of pak "../../../Client/Content/Paks/pakchunk103-WindowsNoEditor.pak" until encryption key 'E995E327743640A581DD29D7DD4B5E35' becomes available
+[GameThread]LogPakFile: Display: Found Pak file ../../../Client/Content/Paks/pakchunk102-WindowsNoEditor.pak attempting to mount.
+[GameThread]LogPakFile: Display: Mounting pak file ../../../Client/Content/Paks/pakchunk102-WindowsNoEditor.pak.
+[GameThread]LogPakFile: Display: Deferring mount of pak "../../../Client/Content/Paks/pakchunk102-WindowsNoEditor.pak" until encryption key '2E1A37E811734662B53E4CC082C91863' becomes available
+[GameThread]LogPakFile: Display: Found Pak file ../../../Client/Content/Paks/pakchunk101-WindowsNoEditor.pak attempting to mount.
+[GameThread]LogPakFile: Display: Mounting pak file ../../../Client/Content/Paks/pakchunk101-WindowsNoEditor.pak.
+[GameThread]LogPakFile: Display: Deferring mount of pak "../../../Client/Content/Paks/pakchunk101-WindowsNoEditor.pak" until encryption key 'D7F8900348704B2A9DF1D1D00A15DF69' becomes available
+[GameThread]LogPakFile: Display: Found Pak file ../../../Client/Content/Paks/pakchunk1-WindowsNoEditor.pak attempting to mount.
+[GameThread]LogPakFile: Display: Mounting pak file ../../../Client/Content/Paks/pakchunk1-WindowsNoEditor.pak.
+[GameThread]LogPakFile: PakFile PrimaryIndexSize=172656
+[GameThread]LogPakFile: PakFile PathHashIndexSize=37856
+[GameThread]LogPakFile: PakFile FullDirectoryIndexSize=115008
+[GameThread]LogPakFile: OnPakFileMounted2Time == 0.000071
+[GameThread]LogPakFile: Display: Found Pak file ../../../Client/Content/Paks/pakchunk0optional-WindowsNoEditor.pak attempting to mount.
+[GameThread]LogPakFile: Display: Mounting pak file ../../../Client/Content/Paks/pakchunk0optional-WindowsNoEditor.pak.
+[GameThread]LogPakFile: PakFile PrimaryIndexSize=208
+[GameThread]LogPakFile: PakFile PathHashIndexSize=32
+[GameThread]LogPakFile: PakFile FullDirectoryIndexSize=112
+[GameThread]LogPakFile: OnPakFileMounted2Time == 0.000071
+[GameThread]LogPakFile: Display: Found Pak file ../../../Client/Content/Paks/pakchunk0-WindowsNoEditor.pak attempting to mount.
+[GameThread]LogPakFile: Display: Mounting pak file ../../../Client/Content/Paks/pakchunk0-WindowsNoEditor.pak.
+[GameThread]LogPakFile: PakFile PrimaryIndexSize=172704
+[GameThread]LogPakFile: PakFile PathHashIndexSize=184928
+[GameThread]LogPakFile: PakFile FullDirectoryIndexSize=246512
+[GameThread]LogPakFile: OnPakFileMounted2Time == 0.000072
+[GameThread]LogPlatformFile: Not using cached read wrapper
+[GameThread]LogKuroPak: Display: InitExtPakPlatform() invoke FKuroPakPlatform::StartupMount().
+[GameThread]LogKuroPak: Display: Kuro App Version 3.3.0
+[GameThread]LogKuroPak: Display: kuro auto mount dir ../../../Client/Saved/Resources/3.3.0/Mount
+[GameThread]LogKuroPak: Display: InitExtPakPlatform() invoke FKuroPakPlatform::StartupMount() finished.
+[GameThread]LogTaskGraph: Display: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+[TaskGraphThreadNP 0]LogCore: Display: FThreadManager registering thread TaskGraphThreadNP 0 (364)
+[TaskGraphThreadNP 1]LogCore: Display: FThreadManager registering thread TaskGraphThreadNP 1 (368)
+[TaskGraphThreadNP 2]LogCore: Display: FThreadManager registering thread TaskGraphThreadNP 2 (372)
+[TaskGraphThreadHP 3]LogCore: Display: FThreadManager registering thread TaskGraphThreadHP 3 (376)
+[TaskGraphThreadHP 4]LogCore: Display: FThreadManager registering thread TaskGraphThreadHP 4 (380)
+[TaskGraphThreadHP 5]LogCore: Display: FThreadManager registering thread TaskGraphThreadHP 5 (384)
+[TaskGraphThreadBP 6]LogCore: Display: FThreadManager registering thread TaskGraphThreadBP 6 (388)
+[TaskGraphThreadBP 7]LogCore: Display: FThreadManager registering thread TaskGraphThreadBP 7 (392)
+[TaskGraphThreadBP 8]LogCore: Display: FThreadManager registering thread TaskGraphThreadBP 8 (396)
+[ThreadPool Thread-0]LogCore: Display: FThreadManager registering thread ThreadPool Thread-0 (400)
+[ThreadPool Thread-1]LogCore: Display: FThreadManager registering thread ThreadPool Thread-1 (404)
+[ThreadPool Thread-2]LogCore: Display: FThreadManager registering thread ThreadPool Thread-2 (408)
+[BackgroundThreadPool Thread-3]LogCore: Display: FThreadManager registering thread BackgroundThreadPool Thread-3 (412)
+[BackgroundThreadPool Thread-4]LogCore: Display: FThreadManager registering thread BackgroundThreadPool Thread-4 (416)
+[GameThread]LogNvidiaAftermath: Loaded GFSDK_Aftermath_Lib.x64.dll
+[GameThread]LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+[GameThread]LogInit: Session CrashGUID >====================================================
+         Session CrashGUID >   UE4CC-Windows-8522C948483CEA703B56A78BE423174C
+         Session CrashGUID >====================================================
+[LogMasterThread]LogCore: Display: FThreadManager registering thread LogMasterThread (420)
+[GameThread]LogTemp: Display: BlackTea going : true, 2026.05.16-16.14.34
+[GameThread]LogTemp: LoadModule:	KuroSDK.
+[PakFileVerifyWorker]LogPakFile: Pak File Start Check, Name: ../../../Client/Content/Paks/pakchunk9-WindowsNoEditor.pak
+[PakFileVerifyWorker]LogPakFile: Display: Checking pak file "../../../Client/Content/Paks/pakchunk9-WindowsNoEditor.pak". This may take a while...
+[PakFileVerifyWorker]LogPakFile: Pak Reader Sync: true
+[PakFileVerifyWorker]LogPakFile: ChunkCacheWorker Thead Priority 4
+[FChunkCacheWorker]LogCore: Display: FThreadManager registering thread FChunkCacheWorker (424)
+[PakFileVerifyWorker]LogPakFile: Display: Pak file "../../../Client/Content/Paks/pakchunk9-WindowsNoEditor.pak" checked in 24.15 ms
+[PakFileVerifyWorker]LogPakFile: Pak File Start Check, Name: ../../../Client/Content/Paks/pakchunk8-WindowsNoEditor.pak
+[PakFileVerifyWorker]LogPakFile: Display: Checking pak file "../../../Client/Content/Paks/pakchunk8-WindowsNoEditor.pak". This may take a while...
+[PakFileVerifyWorker]LogPakFile: Pak Reader Sync: true
+[PakFileVerifyWorker]LogPakFile: ChunkCacheWorker Thead Priority 4
+[FChunkCacheWorker]LogCore: Display: FThreadManager registering thread FChunkCacheWorker (428)
+[PakFileVerifyWorker]LogPakFile: Display: Pak file "../../../Client/Content/Paks/pakchunk8-WindowsNoEditor.pak" checked in 66.93 ms
+[PakFileVerifyWorker]LogPakFile: Pak File Start Check, Name: ../../../Client/Content/Paks/pakchunk73-WindowsNoEditor.pak
+[PakFileVerifyWorker]LogPakFile: Display: Checking pak file "../../../Client/Content/Paks/pakchunk73-WindowsNoEditor.pak". This may take a while...
+[PakFileVerifyWorker]LogPakFile: Pak Reader Sync: true
+[PakFileVerifyWorker]LogPakFile: ChunkCacheWorker Thead Priority 4
+[GameThread]KuroSDKWindowsGlobalLog: Display: ProcessProtocolAgreed, start.
+[FChunkCacheWorker]LogCore: Display: FThreadManager registering thread FChunkCacheWorker (448)
+[]KuroSDKWindowsGlobalLog: Display: FKRPreInitLogObserver onLog={"level":"1", "msg":"[KUROSDK][2026-05-16 15:14:34 909][I][312][krsdk.cpp:1252] [KR::KRSDK::setLogObserver] 
+"}
+[]KuroSDKWindowsGlobalLog: Display: FKRPreInitLogObserver onLog={"level":"1", "msg":"[KUROSDK][2026-05-16 15:14:34 909][I][312][krsdk.cpp:214] [KR::KRSDK::setObserverV2] 
+"}
+[]KuroSDKWindowsGlobalLog: Display: FKRPreInitLogObserver onLog={"level":"1", "msg":"[KUROSDK][2026-05-16 15:14:34 909][I][312][krsdk.cpp:1099] [KR::KRSDK::setExitGameObserver] 
+"}
+[GameThread]KuroSDKWindowsGlobalLog: kuro global sdk Setting process to per monitor DPI aware
+[GameThread]KuroSDKWindowsGlobalLog: Warning: kuro global sdk SetProcessDpiAwareness failed.  Error code 80070005
+[GameThread]KuroSDKWindowsGlobalLog: Display: kuro global sdk set protocol win size, 1920 x 1080
+[PakFileVerifyWorker]LogPakFile: Display: Pak file "../../../Client/Content/Paks/pakchunk73-WindowsNoEditor.pak" checked in 45.84 ms
+[PakFileVerifyWorker]LogPakFile: Pak File Start Check, Name: ../../../Client/Content/Paks/pakchunk70-WindowsNoEditor.pak
+[PakFileVerifyWorker]LogPakFile: Display: Checking pak file "../../../Client/Content/Paks/pakchunk70-WindowsNoEditor.pak". This may take a while...
+[PakFileVerifyWorker]LogPakFile: Pak Reader Sync: true
+[GameThread]KuroSDKWindowsGlobalLog: Display: create wndHandle 00000000000100B8
+[PakFileVerifyWorker]LogPakFile: ChunkCacheWorker Thead Priority 4
+[]KuroSDKWindowsGlobalLog: Display: FKRPreInitLogObserver onLog={"level":"1", "msg":"[KUROSDK][2026-05-16 15:14:34 922][I][312][krsdk.cpp:1106] [KR::KRSDK::setGameHwnd] 
+"}
+[FChunkCacheWorker]LogCore: Display: FThreadManager registering thread FChunkCacheWorker (460)
+[]KuroSDKWindowsGlobalLog: Display: FKRPreInitLogObserver onLog={"level":"1", "msg":"[KUROSDK][2026-05-16 15:14:34 969][I][312][krdialogmanager.cpp:74] [KR::KRDialogManager::setGameHwnd] hwnd is valid
+"}
+[]KuroSDKWindowsGlobalLog: Display: FKRPreInitLogObserver onLog={"level":"1", "msg":"[KUROSDK][2026-05-16 15:14:34 969][I][312][krsdk.cpp:1148] [KR::KRSDK::setGameHwnd] setGameHwnd:00000000000100B8
+"}
+[]KuroSDKWindowsGlobalLog: Display: FKRPreInitLogObserver onLog={"level":"1", "msg":"[KUROSDK][2026-05-16 15:14:34 969][I][312][krsdk.cpp:1170] [KR::KRSDK::setSDKWindowMode] false
+"}
+[GameThread]KuroSDKWindowsGlobalLog: 设置字体成功
+[GameThread]KuroSDKWindowsGlobalLog: InitBeforeInitialize SetFont= {"name":"文鼎方新书H7GBK_H", "path":"Z:/home/za3ter/.local/share/Steam/steamapps/common/Wuthering Waves/Client/Binaries/Win64/ThirdParty/KrPcSdk_Global/H7GBKHeavy.TTF"}
+[]KuroSDKWindowsGlobalLog: Display: FKRPreInitLogObserver onLog={"level":"1", "msg":"[KUROSDK][2026-05-16 15:14:34 972][I][312][krsdk.cpp:1092] [KR::KRSDK::setFont] 
+"}
+[]KuroSDKWindowsGlobalLog: Display: FKRPreInitLogObserver onLog={"level":"1", "msg":"[KUROSDK][2026-05-16 15:14:34 972][I][312][krfontmanager.cpp:64] [KR::KRFontManager::setFont] {"name":"文鼎方新书H7GBK_H", "path":"Z:/home/za3ter/.local/share/Steam/steamapps/common/Wuthering Waves/Client/Binaries/Win64/ThirdParty/KrPcSdk_Global/H7GBKHeavy.TTF"}
+"}
+[]KuroSDKWindowsGlobalLog: Display: FKRPreInitLogObserver onLog={"level":"1", "msg":"[KUROSDK][2026-05-16 15:14:34 972][I][312][krsdk.cpp:1184] [KR::KRSDK::isProtocolAgreed] KRSDK::isProtocolAgreed
+"}
+[]KuroSDKWindowsGlobalLog: Display: FKRPreInitLogObserver onLog={"level":"1", "msg":"[KUROSDK][2026-05-16 15:14:34 972][I][312][krloginmanager.cpp:82] [KR::KRLoginManager::showAgreementDialog] languageIsAgree:kr_sdk_true
+"}
+[]KuroSDKWindowsGlobalLog: Display: FKRPreInitLogObserver onLog={"level":"1", "msg":"[KUROSDK][2026-05-16 15:14:34 972][I][312][krsdk.cpp:1187] [KR::KRSDK::isProtocolAgreed] true
+"}
+[]KuroSDKWindowsGlobalLog: Display: FKRPreInitLogObserver onLog={"level":"3", "msg":"[KUROSDK][2026-05-16 15:14:35 191][E][312][krsteamhelper.cpp:81] [KR::KRSteamHelper::IsSteamDeckEnv::<lambda_5b9442009f7b1f926db079f6263b96ec>::operator ()] Failed to get environment variable SteamDeck, result: 0, error: 203
+"}
+[]KuroSDKWindowsGlobalLog: Display: FKRPreInitLogObserver onLog={"level":"1", "msg":"[KUROSDK][2026-05-16 15:14:35 191][I][312][krsteamhelper.cpp:87] [KR::KRSteamHelper::IsSteamDeckEnv] isSteamDeckEnv: 1
+"}
+[]KuroSDKWindowsGlobalLog: Display: FKRPreInitLogObserver onLog={"level":"1", "msg":"[KUROSDK][2026-05-16 15:14:35 191][I][312][krsteamhelper.cpp:21] [KR::KRSteamHelper::Init] init trace, is steam deck: 1
+"}
+[]KuroSDKWindowsGlobalLog: Display: FKRPreInitLogObserver onLog={"level":"1", "msg":"[KUROSDK][2026-05-16 15:14:35 225][I][312][krsdk.cpp:1184] [KR::KRSDK::isProtocolAgreed] KRSDK::isProtocolAgreed
+"}
+[]KuroSDKWindowsGlobalLog: Display: FKRPreInitLogObserver onLog={"level":"1", "msg":"[KUROSDK][2026-05-16 15:14:35 225][I][312][krloginmanager.cpp:82] [KR::KRLoginManager::showAgreementDialog] languageIsAgree:kr_sdk_true
+"}
+[]KuroSDKWindowsGlobalLog: Display: FKRPreInitLogObserver onLog={"level":"1", "msg":"[KUROSDK][2026-05-16 15:14:35 225][I][312][krsdk.cpp:1187] [KR::KRSDK::isProtocolAgreed] true
+"}
+[]KuroSDKWindowsGlobalLog: Display: FKRPreInitLogObserver onLog={"level":"1", "msg":"[KUROSDK][2026-05-16 15:14:35 400][I][312][krsteamhelper.cpp:21] [KR::KRSteamHelper::Init] init trace, is steam deck: 1
+"}
+[]KuroSDKWindowsGlobalLog: Display: FKRPreInitLogObserver onLog={"level":"1", "msg":"[KUROSDK][2026-05-16 15:14:35 400][I][312][krsteamhelper.cpp:24] [KR::KRSteamHelper::Init] initialized already
+"}
+[GameThread]KuroSDKWindowsGlobalLog: Display: destroy wndHandle 00000000000100B8
+[GameThread]KuroSDKWindowsGlobalLog: Display: ProcessProtocolAgreed, complete.
+[GameThread]LogPluginManager: Mounting plugin InstanceTool
+[GameThread]LogPluginManager: Mounting plugin ImpostorBaker
+[GameThread]LogPluginManager: Mounting plugin BlueprintMaterialTextureNodes
+[GameThread]LogPluginManager: Mounting plugin KawaiiPhysics
+[GameThread]LogPluginManager: Mounting plugin GameplayAbilities
+[GameThread]LogPluginManager: Mounting plugin GameplayTagsEditor
+[GameThread]LogPluginManager: Mounting plugin json2struct
+[GameThread]LogPluginManager: Mounting plugin FieldSystemPlugin
+[GameThread]LogPluginManager: Mounting plugin SQLiteCore
+[GameThread]LogPluginManager: Mounting plugin SQLiteSupport
+[GameThread]LogPluginManager: Mounting plugin DatabaseSupport
+[GameThread]LogPluginManager: Mounting plugin LGUI
+[GameThread]LogPluginManager: Mounting plugin PrefabSystem
+[GameThread]LogPluginManager: Mounting plugin Niagara
+[GameThread]LogPluginManager: Mounting plugin KuroGameplay
+[GameThread]LogPluginManager: Mounting plugin Puerts
+[GameThread]LogPluginManager: Mounting plugin EditorScriptingUtilities
+[GameThread]LogPluginManager: Mounting plugin PerfSight
+[GameThread]LogPluginManager: Mounting plugin Wwise
+[GameThread]LogPluginManager: Mounting plugin GeometryMode
+[GameThread]LogPluginManager: Mounting plugin ExcelTools
+[GameThread]LogPluginManager: Mounting plugin PropertyAccessEditor
+[GameThread]LogPluginManager: Mounting plugin PlatformCrypto
+[GameThread]LogPluginManager: Mounting plugin SequencerScripting
+[GameThread]LogPluginManager: Mounting plugin PythonScriptPlugin
+[GameThread]LogPluginManager: Mounting plugin ProceduralMeshComponent
+[GameThread]LogPluginManager: Mounting plugin ActorSequence
+[GameThread]LogPluginManager: Mounting plugin CrashSight
+[GameThread]LogPluginManager: Mounting plugin LevelSequenceEditor
+[GameThread]LogPluginManager: Mounting plugin QuickEditor
+[GameThread]LogPluginManager: Mounting plugin Sharphereal
+[GameThread]LogPluginManager: Mounting plugin GeometryProcessing
+[GameThread]LogPluginManager: Mounting plugin LGUI_TexturePackerImporter
+[GameThread]LogPluginManager: Mounting plugin AssetManagerEditor
+[GameThread]LogPluginManager: Mounting plugin TASdkPlugin
+[GameThread]LogPluginManager: Mounting plugin KRDataAnalyticsPlugin
+[GameThread]LogPluginManager: Mounting plugin LGUI_BMFGenImporter
+[GameThread]LogPluginManager: Mounting plugin rdLODtools
+[GameThread]LogPluginManager: Mounting plugin KuroCommandlet
+[GameThread]LogPluginManager: Mounting plugin AudioMaterialPlugin
+[GameThread]LogPluginManager: Mounting plugin DLSS
+[GameThread]LogPluginManager: Mounting plugin Streamline
+[GameThread]LogPluginManager: Mounting plugin StreamlineCore
+[GameThread]LogPluginManager: Mounting plugin StreamlineDLSSG
+[GameThread]LogPluginManager: Mounting plugin StreamlineReflex
+[GameThread]LogPluginManager: Mounting plugin StreamlineDeepDVC
+[GameThread]LogPluginManager: Mounting plugin HoudiniEngine
+[GameThread]LogPluginManager: Mounting plugin KuroPuertsWrapper
+[GameThread]LogPluginManager: Mounting plugin KuroHotPatch
+[GameThread]LogPluginManager: Mounting plugin KuroImposter
+[GameThread]LogPluginManager: Mounting plugin KuroAutomationTool
+[GameThread]LogPluginManager: Mounting plugin HoudiniNiagara
+[GameThread]LogPluginManager: Mounting plugin SMSystem
+[GameThread]LogPluginManager: Mounting plugin KuroPuertsGeneratedWrapper
+[GameThread]LogPluginManager: Mounting plugin AudioSynesthesia
+[GameThread]LogPluginManager: Mounting plugin ControlRig
+[GameThread]LogPluginManager: Mounting plugin ChaosCloth
+[GameThread]LogPluginManager: Mounting plugin GeometryCache
+[GameThread]LogPluginManager: Mounting plugin LightPropagationVolume
+[GameThread]LogPluginManager: Mounting plugin ImgMedia
+[GameThread]LogPluginManager: Mounting plugin MediaCompositing
+[GameThread]LogPluginManager: Mounting plugin TemplateSequence
+[GameThread]LogPluginManager: Mounting plugin Synthesis
+[GameThread]LogPluginManager: Mounting plugin SequenceDialogue
+[GameThread]LogPluginManager: Mounting plugin ReactUMG
+[GameThread]LogPluginManager: Mounting plugin T4M
+[GameThread]LogPluginManager: Mounting plugin ApexDestruction
+[GameThread]LogPluginManager: Mounting plugin GooglePAD
+[GameThread]LogPluginManager: Mounting plugin RenderExporter
+[GameThread]LogPluginManager: Mounting plugin RawInput
+[GameThread]LogPluginManager: Mounting plugin KuroiOSDelegate
+[GameThread]LogPluginManager: Mounting plugin KuroCloudGame
+[GameThread]LogPluginManager: Mounting plugin WinDualShock
+[GameThread]LogPluginManager: Mounting plugin FSR3
+[GameThread]LogPluginManager: Mounting plugin UEJoyShock
+[GameThread]LogPluginManager: Mounting plugin WeLingPipeSDK
+[GameThread]LogPluginManager: Mounting plugin TriggerEffect
+[GameThread]LogPluginManager: Mounting plugin VolcanoMsgChannel
+[GameThread]LogPluginManager: Mounting plugin BlenderCurvesImporter
+[GameThread]LogPluginManager: Mounting plugin KuroGameplayUI
+[GameThread]LogPluginManager: Mounting plugin OpacityMicroMap
+[GameThread]LogPluginManager: Mounting plugin ColorCorrectRegions
+[GameThread]LogPluginManager: Mounting plugin OpenCVLensDistortion
+[GameThread]LogPluginManager: Mounting plugin FastGeoStreaming
+[GameThread]LogPluginManager: Mounting plugin TPioneer
+[GameThread]LogPluginManager: Mounting plugin KuroWorldPartition
+[GameThread]LogPluginManager: Mounting plugin BlockoutToolsPlugin
+[GameThread]LogPluginManager: Mounting plugin ComfyTextures
+[GameThread]LogPluginManager: Mounting plugin GameplayMessageRouter
+[GameThread]LogPluginManager: Mounting plugin KuroComputeShader
+[GameThread]LogPluginManager: Mounting plugin KuroTDM
+[GameThread]LogPluginManager: Mounting plugin ImposterBaker
+[GameThread]LogPluginManager: Mounting plugin KuroDynamicMeshBatch
+[GameThread]LogPluginManager: Mounting plugin KuroGachaTools
+[GameThread]LogPluginManager: Mounting plugin KuroPerfCat
+[GameThread]LogPluginManager: Mounting plugin KuroPSOTools
+[GameThread]LogPluginManager: Mounting plugin KuroPushSdk
+[GameThread]LogPluginManager: Mounting plugin MTKCompensatedTimeStep
+[GameThread]LogPluginManager: Mounting plugin MagtModule
+[GameThread]LogPluginManager: Mounting plugin SdkParamExtend
+[GameThread]LogPluginManager: Mounting plugin SpinePlugin
+[GameThread]LogPluginManager: Mounting plugin TFlow
+[GameThread]LogPluginManager: Mounting plugin TpSafe
+[GameThread]LogPluginManager: Mounting plugin AFME
+[GameThread]LogPluginManager: Mounting plugin ACLPlugin
+[GameThread]LogPluginManager: Mounting plugin AssetChecker
+[GameThread]LogPluginManager: Mounting plugin AssetMemoryAnalyzer
+[GameThread]LogPluginManager: Mounting plugin DawnHive
+[GameThread]LogPluginManager: Mounting plugin PluginUtils
+[GameThread]LogPluginManager: Mounting plugin SpeedTreeImporter
+[GameThread]LogPluginManager: Mounting plugin AlembicImporter
+[GameThread]LogPluginManager: Mounting plugin ChaosClothEditor
+[GameThread]LogPluginManager: Mounting plugin ChaosNiagara
+[GameThread]LogPluginManager: Mounting plugin ChaosSolverPlugin
+[GameThread]LogPluginManager: Mounting plugin GSR
+[GameThread]LogPluginManager: Mounting plugin KuroFI
+[GameThread]LogPluginManager: Mounting plugin MagicDawn
+[GameThread]LogPluginManager: Mounting plugin AvfMedia
+[GameThread]LogPluginManager: Mounting plugin WmfMedia
+[GameThread]LogPluginManager: Mounting plugin MegascansPlugin
+[GameThread]LogPluginManager: Mounting plugin MeshPainting
+[GameThread]LogPluginManager: Mounting plugin MFRCModule
+[GameThread]LogPluginManager: Mounting plugin MatineeToLevelSequence
+[GameThread]LogPluginManager: Mounting plugin LauncherChunkInstaller
+[GameThread]LogPluginManager: Mounting plugin AndroidPermission
+[GameThread]LogPluginManager: Mounting plugin XeSS
+[GameThread]LogPluginManager: Mounting plugin MIDIDevice
+[GameThread]LogPluginManager: Mounting plugin MobilePatchingUtils
+[GameThread]LogPluginManager: Mounting plugin NRD
+[GameThread]LogPluginManager: Mounting plugin RuntimePhysXCooking
+[GameThread]LogPluginManager: Mounting plugin WebMMoviePlayer
+[GameThread]LogPluginManager: Mounting plugin WebMMedia
+[GameThread]LogPluginManager: Mounting plugin WindowsDeviceProfileSelector
+[GameThread]LogPluginManager: Mounting plugin WindowsMoviePlayer
+[GameThread]LogTemp: LoadModule:	PlatformCrypto.
+[GameThread]LogTemp: LoadModule:	PlatformCryptoTypes.
+[GameThread]LogTemp: LoadModule:	PlatformCryptoOpenSSL.
+[GameThread]LogTemp: LoadModule:	PythonScriptPluginPreload.
+[GameThread]LogTemp: LoadModule:	CrashSight.
+[GameThread]LogCsWindows: Display: CrashSight AppVersion: 3.3.0(7028621)
+[GameThread]LogCsWindows: Display: CrashSight SetCrashCallback
+[GameThread]LogCsWindows: Display: CrashSight SetLogPath : Z:/home/za3ter/.local/share/Steam/steamapps/common/Wuthering Waves/Client/Saved/Logs/Client.log
+[GameThread]LogCsWindows: Display: CrashSight SetCustomAttach : Z:/home/za3ter/.local/share/Steam/steamapps/common/Wuthering Waves/Client/Saved/Logs/AftermathDumpInfo.zip
+[GameThread]LogCsWindows: Display: CrashSight Unreal Critical Error Enable
+[GameThread]LogTemp: LoadModule:	KuroPak.
+[GameThread]LogTemp: LoadModule:	FFXFSR3Settings.
+[GameThread]LogConfig: Applying CVar settings from Section [/Script/FFXFSR3Settings.FFXFSR3Settings] File [../../../Client/Saved/Config/WindowsNoEditor/Engine.ini]
+[GameThread]LogConfig: Setting CVar [[r.FidelityFX.FSR3.EnabledInEditorViewport:1]]
+[GameThread]LogConfig: Setting CVar [[r.FidelityFX.FSR3.Enabled:0]]
+[GameThread]LogConfig: Setting CVar [[r.FidelityFX.FI.Enabled:0]]
+[GameThread]LogConfig: Setting CVar [[r.FidelityFX.FSR3.UseRHI:0]]
+[GameThread]LogConfig: Setting CVar [[r.FidelityFX.FSR3.UseNativeDX12:1]]
+[GameThread]LogConfig: Setting CVar [[r.FidelityFX.FI.OverrideSwapChainDX12:1]]
+[GameThread]LogConfig: Setting CVar [[r.FidelityFX.FI.RenderBeforeLGUI:1]]
+[GameThread]LogConfig: Setting CVar [[r.FidelityFX.FI.CaptureDebugUI:1]]
+[GameThread]LogTemp: Display: Dump Init FSR3 CVars
+[GameThread]LogTemp: Display: r.FidelityFX.FSR3.Enabled = 0
+[GameThread]LogTemp: Display: r.FidelityFX.FSR3.EnabledInEditorViewport = 1
+[GameThread]LogTemp: Display: r.FidelityFX.FSR3.AllowToRender = 1
+[GameThread]LogTemp: Display: r.FidelityFX.FSR3.QualityMode = 1
+[GameThread]LogTemp: Display: r.FidelityFX.FSR3.CreateReactiveMask = 1
+[GameThread]LogTemp: Display: r.FidelityFX.FSR3.AutoExposure = 0
+[GameThread]LogTemp: Display: r.FidelityFX.FSR3.DeDither = 2
+[GameThread]LogTemp: Display: r.FidelityFX.FI.Enabled = 0
+[GameThread]LogTemp: Display: r.FidelityFX.FI.UIMode = 0
+[GameThread]LogTemp: Display: r.FidelityFX.FI.RHIPacingMode = 0
+[GameThread]LogTemp: Display: r.FidelityFX.FI.OverrideSwapChainDX12 = 1
+[GameThread]LogTemp: Display: r.FidelityFX.FSR3.UseRHI = 0
+[GameThread]LogTemp: Display: r.FidelityFX.FSR3.UseNativeDX12 = 1
+[GameThread]LogTemp: LoadModule:	XeSSCommon.
+[GameThread]LogTemp: LoadModule:	XeSSSDK.
+[GameThread]LogTemp: LoadModule:	XeSSUnreal.
+[GameThread]LogTemp: LoadModule:	KawaiiPhysics.
+[GameThread]LogTemp: LoadModule:	LGUI.
+[GameThread]LogTemp: LoadModule:	NiagaraShader.
+[GameThread]LogTemp: LoadModule:	NiagaraVertexFactories.
+[GameThread]LogTemp: LoadModule:	KuroAI.
+[GameThread]LogTemp: LoadModule:	KuroMovement.
+[GameThread]LogTemp: LoadModule:	KuroResourceCheckToolRuntime.
+[GameThread]LogTemp: LoadModule:	KuroRhythmGame.
+[GameThread]LogTemp: LoadModule:	KuroAnim.
+[GameThread]LogTemp: LoadModule:	VolumeGIRender.
+[GameThread]LogTemp: VolumeGIRenderModule inited...
+[GameThread]LogTemp: LoadModule:	DLSSUtility.
+[GameThread]LogTemp: LoadModule:	DLSSBlueprint.
+[GameThread]LogDLSSBlueprint: Loaded DLSS-Blueprint plugin version 4.0.0a
+[GameThread]LogTemp: LoadModule:	NGXVulkanRHIPreInit.
+[GameThread]LogDLSSNGXVulkanRHIPreInit: FNGXVulkanRHIPreInitModule::StartupModule Enter
+[GameThread]LogTemp: LoadModule:	StreamlineShaders.
+[GameThread]LogStreamlineShaders: Loaded Streamline plugin version 4.0.0-SL2.7.3
+[GameThread]LogTemp: LoadModule:	KuroImposter.
+[GameThread]LogTemp: LoadModule:	ChaosCloth.
+[GameThread]LogTemp: LoadModule:	ExrReaderGpu.
+[GameThread]LogTemp: LoadModule:	T4MRuntime.
+[GameThread]LogTemp: LoadModule:	FFXShared.
+[GameThread]LogTemp: LoadModule:	FFXFSR3Api.
+[GameThread]LogTemp: LoadModule:	FFXOpticalFlowApi.
+[GameThread]LogTemp: LoadModule:	FFXFrameInterpolationApi.
+[GameThread]LogTemp: LoadModule:	FFXRHIBackend.
+[GameThread]LogTemp: LoadModule:	FFXD3D12.
+[GameThread]LogTemp: LoadModule:	FFXFSR3TemporalUpscaling.
+[GameThread]LogFSR3: FSR3 Temporal Upscaling Module Started
+[GameThread]LogTemp: LoadModule:	FFXFrameInterpolation.
+[GameThread]LogFFXFI: FFX Frame Interpolation Module Started
+[GameThread]LogTemp: LoadModule:	OpacityMicroMap.
+[GameThread]LogConfig: Applying CVar settings from Section [/Script/OpacityMicroMap.OpacityMicromapPluginSettings] File [../../../Client/Saved/Config/WindowsNoEditor/Engine.ini]
+[GameThread]LogConfig: Setting CVar [[r.RayTracing.Geometry.OpacityMicromaps.Enable:1]]
+[GameThread]LogConfig: Setting CVar [[r.RayTracing.Geometry.OpacityMicromaps.UseOMMSDKBaker:1]]
+[GameThread]LogConfig: Setting CVar [[r.RayTracing.Geometry.OpacityMicromaps.BuildOnUIChanges:1]]
+[GameThread]LogConfig: Setting CVar [[r.RayTracing.Geometry.OpacityMicromaps.BuildOnLevelSaved:0]]
+[GameThread]LogTemp: LoadModule:	ColorCorrectRegions.
+[GameThread]LogTemp: LoadModule:	OpenCVLensCalibration.
+[GameThread]LogTemp: LoadModule:	OpenCVLensDistortion.
+[GameThread]LogTemp: LoadModule:	OpenCVHelper.
+[GameThread]LogTemp: LoadModule:	KuroComputeShader.
+[GameThread]LogTemp: LoadModule:	TFlow.
+[GameThread]LogTemp: LoadModule:	ACLPlugin.
+[GameThread]LogTemp: LoadModule:	GSRTUModule.
+[GameThread]LogConfig: Applying CVar settings from Section [/Script/GSRTUModule.GSRSettings] File [../../../Client/Saved/Config/WindowsNoEditor/Engine.ini]
+[GameThread]logGSR: GSRTUModule Started
+[GameThread]LogTemp: LoadModule:	KuroFI.
+[GameThread]LogKuroFI: FKuroFIModule::StartupModule KuroFI Enter
+[GameThread]LogKuroFI: EngineVersion: 4.26.2
+[GameThread]LogKuroFI: KuroFI BaseDir ../../../Engine/Plugins/KuroFI
+[GameThread]LogTemp: LoadModule:	WmfMedia.
+[FMediaTicker]LogCore: Display: FThreadManager registering thread FMediaTicker (500)
+[GameThread]LogTemp: LoadModule:	MFRCInit.
+[GameThread]LogMFRCInit: FMFRCInit::StartupModule Enter
+[GameThread]LogMFRCInit: BaseDir ../../../Engine/Plugins/MFRCModule
+[GameThread]LogMFRCInit: EngineVersion: 4.26.2
+[GameThread]LogMFRCInit: MFRC Only available on Android platform
+[GameThread]LogTemp: LoadModule:	LauncherChunkInstaller.
+[GameThread]LogTemp: LoadModule:	XeSSPrePass.
+[GameThread]LogTemp: LoadModule:	XeSSVulkanRHISetup.
+[GameThread]LogTemp: LoadModule:	XeSSBlueprint.
+[GameThread]LogTemp: LoadModule:	XeLLBlueprint.
+[GameThread]LogTemp: LoadModule:	XeFGBlueprint.
+[GameThread]LogTemp: LoadModule:	NRD.
+[GameThread]LogNRD: FNRDModule::StartupModule Enter
+[GameThread]LogNRD: Wrapping ScreenSpaceDenoiser with FNRDDenoiser 
+[GameThread]LogNRD: FNRDModule::StartupModule Leave
+[GameThread]LogTemp: LoadModule:	WindowsDeviceProfileSelector.
+[GameThread]LogInit: ExecutableName: Client-Win64-Shipping.exe
+[GameThread]LogInit: Build: ++UE4+Release-4.26-CL-166672220
+[GameThread]LogInit: MachineId=e251485044ac5f54a904fdaaccf1a944
+[GameThread]LogInit: DeviceId=
+[GameThread]LogInit: Engine Version: 4.26.2-166672220+++UE4+Release-4.26
+[GameThread]LogInit: Compatible Engine Version: 4.26.0-14830424+++UE4+Release-4.26
+[GameThread]LogInit: Net CL: 14830424
+[GameThread]LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i5-4440 CPU @ 3.10GHz, GPU: NVIDIA GeForce GTX 960
+[GameThread]LogInit: Compiled (64-bit): Apr 14 2026 02:14:38
+[GameThread]LogInit: Compiled with Visual C++: 19.29.30157.00
+[GameThread]LogInit: Build Configuration: Shipping
+[GameThread]LogInit: Branch Name: ++UE4+Release-4.26
+[GameThread]LogInit: Command Line:  -d3d11
+[GameThread]LogInit: Base Directory: Z:/home/za3ter/.local/share/Steam/steamapps/common/Wuthering Waves/Client/Binaries/Win64/
+[GameThread]LogInit: Allocator: binned2
+[GameThread]LogInit: Installed Engine Build: 1
+[GameThread]LogInit: Presizing for max 2097152 objects, including 1 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+[GameThread]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [../../../Client/Saved/Config/WindowsNoEditor/Engine.ini]
+[GameThread]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[GameThread]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:1]]
+[GameThread]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[GameThread]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[GameThread]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[GameThread]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[GameThread]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[GameThread]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[GameThread]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[GameThread]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[GameThread]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[GameThread]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[GameThread]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[GameThread]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[GameThread]LogStreaming: Display: Async Loading initialized: Event Driven Loader: true, Async Loading Thread: true, Async Post Load: true
+[2026.05.16-16.14.36:091][  0][GameThread]LogInit: Object subsystem initialized
+[2026.05.16-16.14.36:091][  0][IOThreadPool Thread-5]LogCore: Display: FThreadManager registering thread IOThreadPool Thread-5 (504)
+[2026.05.16-16.14.36:091][  0][IOThreadPool Thread-6]LogCore: Display: FThreadManager registering thread IOThreadPool Thread-6 (508)
+[2026.05.16-16.14.36:091][  0][IOThreadPool Thread-7]LogCore: Display: FThreadManager registering thread IOThreadPool Thread-7 (512)
+[2026.05.16-16.14.36:091][  0][IOThreadPool Thread-8]LogCore: Display: FThreadManager registering thread IOThreadPool Thread-8 (516)
+[2026.05.16-16.14.36:091][  0][GameThread]LogConfig: Applying CVar settings from Section [PrecomputedVisibility/Runtime] File [../../../Client/Saved/Config/WindowsNoEditor/Engine.ini]
+[2026.05.16-16.14.36:091][  0][GameThread]LogConfig: Setting CVar [[r.AllowPrecomputedVisibility:1]]
+[2026.05.16-16.14.36:091][  0][GameThread]LogConfig: Setting CVar [[EnableNavPartition:1]]
+[2026.05.16-16.14.36:091][  0][GameThread]LogConfig: Setting CVar [[r.setres:1280x720]]
+[2026.05.16-16.14.36:091][  0][GameThread]LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
+[2026.05.16-16.14.36:091][  0][GameThread]LogConfig: Setting CVar [[EnableNavPartition:1]]
+[2026.05.16-16.14.36:091][  0][GameThread]LogConfig: Setting CVar [[r.setres:1280x720]]
+[2026.05.16-16.14.36:091][  0][GameThread]LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
+[2026.05.16-16.14.36:091][  0][GameThread]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [../../../Client/Saved/Config/WindowsNoEditor/Engine.ini]
+[2026.05.16-16.14.36:091][  0][GameThread]LogConfig: Setting CVar [[r.MeshDrawCommands.DynamicInstancing:0]]
+[2026.05.16-16.14.36:091][  0][GameThread]LogConfig: Setting CVar [[r.AllowHardwareOcclusion:1]]
+[2026.05.16-16.14.36:091][  0][GameThread]LogConfig: Setting CVar [[r.GPUCrashDebugging:1]]
+[2026.05.16-16.14.36:091][  0][GameThread]LogConfig: Setting CVar [[r.GPUCrashDebugging.Aftermath:1]]
+[2026.05.16-16.14.36:091][  0][GameThread]LogConfig: Setting CVar [[r.CacheComputePSO:1]]
+[2026.05.16-16.14.36:091][  0][GameThread]LogConfig: Setting CVar [[r.AsyncComputePSO:0]]
+[2026.05.16-16.14.36:091][  0][GameThread]LogConfig: Setting CVar [[r.AllowSoftwareOcclusion:0]]
+[2026.05.16-16.14.36:091][  0][GameThread]LogConfig: Setting CVar [[FX.AllowGPUParticles:0]]
+[2026.05.16-16.14.36:091][  0][GameThread]LogConfig: Setting CVar [[r.MaterialSaveAllShaderStableKeys:1]]
+[2026.05.16-16.14.36:091][  0][GameThread]LogConfig: Setting CVar [[r.Mobile.EnableKuroSpotlightsShadow:0]]
+[2026.05.16-16.14.36:091][  0][GameThread]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:0]]
+[2026.05.16-16.14.36:091][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:4]]
+[2026.05.16-16.14.36:091][  0][GameThread]LogConfig: Setting CVar [[r.imp.SSPcScaleLod0:0.35]]
+[2026.05.16-16.14.36:091][  0][GameThread]LogConfig: Setting CVar [[r.imp.SSPcScaleLod1:0.3]]
+[2026.05.16-16.14.36:091][  0][GameThread]LogConfig: Setting CVar [[r.imp.singlemesh:1]]
+[2026.05.16-16.14.36:091][  0][GameThread]LogConfig: Setting CVar [[r.MobileMSAA:1]]
+[2026.05.16-16.14.36:091][  0][GameThread]LogConfig: Setting CVar [[r.imp.enable:1]]
+[2026.05.16-16.14.36:091][  0][GameThread]LogConfig: Setting CVar [[r.KuroCSCloth.Enable:1]]
+[2026.05.16-16.14.36:091][  0][GameThread]LogConfig: Setting CVar [[r.ShaderCompiler.ShaderJobDDCCook:0]]
+[2026.05.16-16.14.36:091][  0][GameThread]LogConfig: Setting CVar [[r.ShaderCompiler.JobCache:1]]
+[2026.05.16-16.14.36:091][  0][GameThread]LogConfig: Setting CVar [[r.ShaderCompiler.JobCacheCook:1]]
+[2026.05.16-16.14.36:091][  0][GameThread]LogConfig: Setting CVar [[fx.FixNiagaraDDCNotChange:0]]
+[2026.05.16-16.14.36:091][  0][GameThread]LogConfig: Setting CVar [[r.imp.KuroImposterSkipIfLoadingTexTooMuch:0]]
+[2026.05.16-16.14.36:091][  0][GameThread]LogConfig: Setting CVar [[r.imp.wd:0]]
+[2026.05.16-16.14.36:091][  0][GameThread]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
+[2026.05.16-16.14.36:091][  0][GameThread]LogConfig: Setting CVar [[r.Mobile.VirtualTextures:0]]
+[2026.05.16-16.14.36:091][  0][GameThread]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
+[2026.05.16-16.14.36:091][  0][GameThread]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
+[2026.05.16-16.14.36:091][  0][GameThread]LogConfig: Setting CVar [[fx.Niagara.ComponentWarnAsleepCullReaction:0]]
+[2026.05.16-16.14.36:091][  0][GameThread]LogConfig: Setting CVar [[r.Kuro.MobileISMDecideDistance:10000.00000]]
+[2026.05.16-16.14.36:091][  0][GameThread]LogConfig: Setting CVar [[r.Kuro.MobileISMMeshRadius:400.00000]]
+[2026.05.16-16.14.36:091][  0][GameThread]LogConfig: Setting CVar [[r.Kuro.MobileISMMeshRadiusMax:12000.00000]]
+[2026.05.16-16.14.36:091][  0][GameThread]LogConfig: Setting CVar [[r.NGX.DLSS.Quality:1]]
+[2026.05.16-16.14.36:091][  0][GameThread]LogConfig: Setting CVar [[r.MeshDrawCommands.DesktopBasePassDrawcallLimit:40000]]
+[2026.05.16-16.14.36:091][  0][GameThread]LogConfig: Setting CVar [[r.MeshDrawCommands.MobileBasePassDrawcallLimit:20000]]
+[2026.05.16-16.14.36:091][  0][GameThread]LogConfig: Setting CVar [[r.vrs.enable:1]]
+[2026.05.16-16.14.36:091][  0][GameThread]LogConfig: Setting CVar [[r.VRS.Translucent:0]]
+[2026.05.16-16.14.36:091][  0][GameThread]LogConfig: Setting CVar [[r.VRS.MobileTranslucent:0]]
+[2026.05.16-16.14.36:091][  0][GameThread]LogConfig: Setting CVar [[r.VRS.SSR:0]]
+[2026.05.16-16.14.36:091][  0][GameThread]LogConfig: Setting CVar [[r.VRS.Sky:0]]
+[2026.05.16-16.14.36:091][  0][GameThread]LogConfig: Setting CVar [[r.VolumetricFog.ShadingRate:0]]
+[2026.05.16-16.14.36:091][  0][GameThread]LogConfig: Setting CVar [[r.MobileVolumetricFog.ShadingRate:0]]
+[2026.05.16-16.14.36:091][  0][GameThread]LogConfig: Setting CVar [[r.Desktop.DeferredShadingRate:0]]
+[2026.05.16-16.14.36:091][  0][GameThread]LogConfig: Setting CVar [[r.TemporalAA.AfterTonemapper:0]]
+[2026.05.16-16.14.36:091][  0][GameThread]LogConfig: Setting CVar [[r.ShadowProjectionScale:0]]
+[2026.05.16-16.14.36:091][  0][GameThread]LogConfig: Setting CVar [[r.TonemapperGamma:2.2]]
+[2026.05.16-16.14.36:091][  0][GameThread]LogConfig: Setting CVar [[r.Kuro.AutoExposure:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.LocalExposure.OnlyForRayTracing:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Mobile.OutlineScale:1.1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Streaming.KuroMinFOVFactorForStreaming:0.2]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[t.Streamline.Reflex.HandleMaxTickRate:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.AFME.Enable:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.MFRC.Enable:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.KuroFI.Enable:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.FEstimation.LowFrameCount:120]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.FEstimation.WorkingDeltaSec:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Kuro.LightFunction:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.TextureStreaming:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.VirtualTextures:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.VirtualTexturedLightmaps:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.VT.TileSize:128]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.VT.TileBorderSize:4]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.vt.FeedbackFactor:16]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.VT.EnableCompressZlib:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.VT.EnableCompressCrunch:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.VT.NumGatherTasks:12]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:64]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.ForwardShading:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.AllowStaticLighting:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.AOSpecularOcclusionMode:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.SeparateTranslucency:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.CustomDepth:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Bias:0.000000]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.UsePreExposure:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.EyeAdaptation.EditorOnly:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.TemporalAA.ClampTolerant:2]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.SSGI.Enable:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:2]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.EarlyZPass:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.OpenGL.EarlyZPassOnlyMaterialMasking:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Metal.EarlyZPassOnlyMaterialMasking:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.DBuffer:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.VertexDeformationOutputsVelocity:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.GBufferFormat:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[vr.InstancedStereo:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.MobileHDR:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.AllowHDR:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[vr.ODSCapture:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.MeshStreaming:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.RayTracing.LoadConfig:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.RayTracing:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.RayTracing.Enable:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.RayTracing.UseTextureLod:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.SupportStationarySkylight:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.SkinCache.Mode:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.SkinCache.DefaultBehavior:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlights:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.GPUSkin.Support16BitBoneIndex:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.LightPropagationVolume:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.UseClusteredDeferredShading:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Mobile.ShadingPath:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Mobile.UseClusteredDeferredShading:-1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Mobile.KuroPostprocess:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Android.DisableVulkanSupport:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.OpenHarmony.DisableVulkanSupport:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.KuroTonemapping:3]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.LGUI.UseOptimization:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.LGUI.BatchDestroyCount:100]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.VolumetricCloud.SkyAO:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.VolumetricCloud.ShadowMap:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.VolumetricCloud.EnableAerialPerspectiveSampling:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Kuro.PrefabVersion:3]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Kuro.LandscapeCaptureSize:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.KuroTrailSystem.WorldHeight:7]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.KuroTrailSystem.FadeStart:100]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.KuroMaxFOVForLOD:75]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Mobile.Kuro.LandscapeCaptureSize:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[Niagara.GPUCulling:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[fx.NiagaraAllowGPUParticles:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[fx.NiagaraAllowComputeShaders:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[Niagara.GPUSorting.UseMaxPrecision:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.PostProcessAAQuality:6]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.TemporalAASamples:4]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.TemporalAACurrentFrameWeight:0.25]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.TemporalAAFilterSize:0.1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Tonemapper.Sharpen:0.5]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Kuro.Foliage.EnableFoliageCulling:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Mobile.EnableWaterReflection:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Kuro.Movie.EnableCGMovieRendering:0.0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Mobile.HBAO.SmallAOFactor:2]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Mobile.HBAO.LargeAOFactor:2]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Mobile.HBAO.BlurType:2]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.RadiusThresholdFar:0.15]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.CSMSlopeScaleDepthBias:10.0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Kuro.Foliage.NearCullDistanceMin:6000.000000]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Kuro.Foliage.NearCullDistanceMax:6500.000000]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Kuro.Foliage.MiddleCullDistanceMin:10000.000000]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Kuro.Foliage.MiddleCullDistanceMax:10500.000000]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Kuro.Foliage.SuperFarCullDistanceMin:84000.000000]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Kuro.Foliage.SuperFarCullDistanceMax:85000.000000]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Kuro.Foliage.ImpostorFarCullDistanceMin:200000.000000]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Kuro.Foliage.ImpostorFarCullDistanceMax:205000.000000]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.ShaderPipelineCache.Enabled:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Kuro.LandscapeCaptureMoveRender:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Kuro.ToonOutlineDrawDistancePc:2000]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Kuro.ToonOutlineDrawDistanceMobile:500]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Kuro.ToonEyeTransparentDrawDistancePc:800]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Kuro.ToonEyeTransparentDrawDistanceMobile:200]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Kuro.ToonFaceShadowMeshDrawDistancePc:800]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Kuro.ToonFaceShadowMeshDrawDistanceMobile:200]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.UseKuroBasePassSortKeyToon:30]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Kuro.Foliage.PcgCullDistanceMin:500000.000000]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Kuro.Foliage.PcgCullDistanceMax:520000.000000]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Kuro.Foliage.MobilePcgCullDistanceMin:500000.000000]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Kuro.Foliage.MobilePcgCullDistanceMax:520000.000000]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Kuro.RadialBlur.MobileIntensityScalar:0.6]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.imp.ImpBelowHorizonZ:-0.5]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.DebugDisableUiSceneRendering:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Kuro.LightFadeTime:2.0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.TemporalAA.MobileStaticFrameWeight:0.05]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.TemporalAA.MobileFrameWeight:0.13]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.TemporalAA.Sharpness:1.0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Metal.IOSUseUB16bitStorage:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Desktop.SupportGPUScene:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Desktop.SupportGPUSceneShaders:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Mobile.SupportGPUScene:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.GPUScene2.SupportShaders:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.kuro.LGUIBlurTextureSizeScale:4]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.SupportSkyAtmosphere:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.SupportAtmosphericFog:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[fx.ForceExecVMPath:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[fx.NiagaraScript.StripByteCodeOnLoad:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[fx.Niagara.PerEmitterCull:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[UBInstancing.EnabledShaders:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.CacheSceneColor.LaterRelease:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[lod.TemporalLag:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Mobile.SkyLightPermutation:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Mobile.StripTranslucentVelocityShaders:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Mobile.StripDepthOnlyShaders:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Mobile.StripUBInstancingShadowShaders:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Mobile.StripNotFrameBufferFetchOnMetal:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Mobile.StripFrameBufferFetch:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.StripDepthOnlyToonShaders:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[a.SkinMeshSupportsRenderStatic:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Kuro.ShaderVersion:312]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Kuro.NiagaraShaderVersion:330]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.OpenGL.NumToUpdateProgramCache:50]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.OpenGL.FramesToUpdateProgramCache:6000]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Mobile.DoFPreDownsamplerFactor:2]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.CSMUpdatePreTranslationValue:200]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.FidelityFX.FSR.Debug.ForcePS:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.CSMUpdatePreTranslationScale:0.06]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Mobile.SceneObjMobileSSR:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Mobile.OrthoLandscapeCapture:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Mobile.DisableLocalLightSpecularDistance:25000000]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.CullDistanceVolume.Enable:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.EnableMeshPassProcessorsCache:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.RTRCUpdateMode:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.RTRCCycleFrameCount:60]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.RTRCMaxCullDistance:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.SceneInfosFraming.TimeLimit:-1.0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Kuro.LandscapeCaptureDistance:12800]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.EnableKuroTranslucentPrePassRendering:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.kuro.GrassInteractionFadingSpeed:100]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.kuro.BurstRenderMode:2]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.UseVisibilityOctree:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.SkipRenderWhenWorldPause:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[t.NavPartitionFramingProcessNum:100]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.imp.KuroImposterUse8X8Direction:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.MetalFxAndCopyPass:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[EnableSceneInfosFraming:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.imp.KuroImposterScreenSizeSort:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Landscape.KuroLOD0Distance:25000]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Landscape.LimitMaxKuroFOVFactorPreferScreenSizeLOD:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.PSO.CacheEvictScheme:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Streaming.UsingNewKuroStreaming:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.BBM.Enable:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.BBM.EnableBatcher:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.BBM.EnableTransitionBlend:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.BBM.EnableMorphBlend:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Client.Contrast:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Client.Saturation:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.LGUIStencilTestEnabled:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.VolumetricFog.HistoryWeight:0.96]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.VolumetricFog.DepthDistributionScale:22]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.kuro.AllowMaterialControllerGenerateExtraBody:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.kuro.kuroEnableScreenLeak:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Kuro.KuroRenderOpacityInTranslucent:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.SSFS.HighQuality:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.SSFS.FullPrecision:0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.MeshDrawCommands.SkipUpdateShadowSortKey:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.streaming.QualityExtraLODBiasSetting:975]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogKuroStreaming: Display: CurrentQualityExtraLODBiasSetting 975 0x3cf
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.VolumetricFog.UseDirectionalLightShadow:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.MorphTarget.EnableSplit:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.MorphTarget.SplitPrefix:Scda_]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.MorphTarget.UnloadDelayTime:1.0]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[sg.TextureQuality.NumLevels:6]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.LocalFogVolume.ApplyOnTranslucent:1]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Streaming.GroupBoost.HugeMonsterTextureFactor:0.3]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Streaming.GroupBoost.LargeMonsterTextureFactor:0.5]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Streaming.GroupBoost.MediumMonsterTextureFactor:0.8]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Streaming.GroupBoost.HugeNpcTextureFactor:0.3]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Streaming.GroupBoost.LargeNpcTextureFactor:0.5]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Streaming.GroupBoost.MediumNpcTextureFactor:0.8]]
+[2026.05.16-16.14.36:092][  0][GameThread]LogConfig: Setting CVar [[r.Streaming.GroupBoost.HugeRocTextureFactor:0.3]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Streaming.GroupBoost.LargeRocTextureFactor:0.5]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Streaming.GroupBoost.MediumRocTextureFactor:0.8]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Streaming.GroupBoost.HugeFoliageTextureFactor:0.3]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Streaming.GroupBoost.LargeFoliageTextureFactor:0.5]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Streaming.GroupBoost.MediumFoliageTextureFactor:0.8]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Streaming.GroupBoost.HugeBuildingTextureFactor:0.3]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Streaming.GroupBoost.LargeBuildingTextureFactor:0.5]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Streaming.GroupBoost.MediumBuildingTextureFactor:0.8]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Streaming.GroupBoost.HugePropTextureFactor:0.3]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Streaming.GroupBoost.LargePropTextureFactor:0.5]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Streaming.GroupBoost.MediumPropTextureFactor:0.8]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Streaming.GroupBoost.CommonHLODTextureFactor:0.3]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Streaming.GroupBoost.LandscapeHLODTextureFactor:0.3]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.OverrideSmallMipsAllowed:1]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.LandscapeSubSectionBoundsTolerance:100.0]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.SupportSkyAtmosphereAffectsHeightFog:1]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.kuro.ActorCullingVolumeEnable:0]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[Kuro.InteractiveLeavesTickAsync:0]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.EnableKuroTranslucentPrePassStencilFixed:0]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.kuro.LandscapeHLODZeroCheck:1]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Kuro.FloatingStaticMeshTickAsync:1]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Kuro.EnbaleUpdatePostProcessVolumesLog:0]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Mobile.SSAO:1]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[UBInstancing.Enabled:1]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[UBInstancing.EnabledShadow:1]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[UBInstancing.MaxPoolSize:4096]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[UBInstancing.LRUCleanupMinSize:4096]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.ParallelGatherShadowPrimitives:1]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.MeshDrawCommands.ParallelPassSetup:1]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.FilterMethod:0]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.PSO.CompilationTimeLimit:5]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.LGUI.DynamicVBOpt:0]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.DX11AsyncCompileShader:1]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.DX12PSOStreaming:1]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.SceneRenderTargets.FreeUnusedPoolWhenRelease:0]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.ShaderPipelineCache.PrecompileCheckCacheHash:1]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.KuroGlobalColorMap.TexNumPerSide:2]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.PSO.BackgroundPreompilingRTPSO:0]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.EnableForbidHISMShadowStartIndex:1]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.ForbidHISMShadowForSpotlightAndPointlight:1]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.ShaderPipelineCache.CleanupRTPSOAfterPrecompile:0]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[EnableParallalCacheMeshDrawCmds:1]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.SinglePass:1]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.XeFG.ClearSceneColorAlpha:0]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.NGX.DLSS.DilateMotionVectors:0]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.AllowSubPrimitiveQueries:0]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [../../../Client/Saved/Config/WindowsNoEditor/Engine.ini]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [../../../Client/Saved/Config/WindowsNoEditor/Engine.ini]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:1]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [../../../Client/Saved/Config/WindowsNoEditor/Engine.ini]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:2047483647]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:1]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[gc.LowMemory.TimeBetweenPurgingPendingLevels:20]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[gc.LowMemory.TimeBetweenPurgingPendingKillObjects:30]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[gc.LowMemory.MemoryThresholdMB:120]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[gc.LowMemory.OnceGCThresholdMB:30]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[gc.LowMemory.IncrementalGCTimePerFrame:0.004]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[gc.LowObjects.TimeBetweenPurgingPendingLevels:20]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[gc.LowObjects.TimeBetweenPurgingPendingKillObjects:30]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [../../../Client/Saved/Config/WindowsNoEditor/Engine.ini]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[n.VerifyPeer:1]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [../../../Client/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [../../../Client/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConsoleManager: Warning: Setting the console variable 'r.PostProcessAAQuality' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByProjectSetting'. Value remains '6'
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [../../../Client/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.CacheDirectLightShadow:3]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.DirectCSMStableMaxIndex:0]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.MobileDistributionOverride:2.0]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.ToonShadowCascadeIndex:1]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.EnableParallaxCorrection:1]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.EnableParallaxCorrectionCrossFade:1]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.CSMCacheModifyMeshPositionStartIndex:2]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.CacheMode3CacheUpdateIntervals:0,0,2,5,6,59,139]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.SkeletalMeshLODBias:0]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.PerObjectShadowMapResolution:2048]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.PerObjectResolutionMax:512]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.PerObjectResolutionMin:256]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.CSM0ShadowPCFQuality:5]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.CSM1ShadowPCFQuality:5]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.CSM2ShadowPCFQuality:5]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.CSM3ShadowPCFQuality:3]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.PerObjShadowPCFQuality:4]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.CSMEnableFixedDistance:1]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.CSM0Distance:800]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.CSM1Distance:2000]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.CSM2Distance:6500]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.CSM3Distance:15000]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.CSM4Distance:40000]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.CSM0FixedDepthBias:10]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.ShadowMask.Scale:1.0]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.AllShadowDrawcallMax:1500]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.MeshDrawCommands.ShadowPerBatchDrawcallMax:2000]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.AkiSoftShadowCascadeNum:1]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.SceneCaptureMaxCountPerFrame:2]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.RadiusThresholdFar:0.06]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConsoleManager: Warning: Setting the console variable 'r.Shadow.RadiusThresholdFar' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByProjectSetting'. Value remains '0.15'
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.DirectLightCacheNeedOriginChange:50,150,500,700,900,5000]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.RadiusThresholdCSM0:0.01]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.RadiusThresholdCSM1:0.01]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.RadiusThresholdCSM2:0.01]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.RadiusThresholdCSM3:0.01]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.RadiusThresholdCSM4:0.025]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.RadiusThresholdCSM5:0.07]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.ForbidHISMShadowStartIndex:4]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [../../../Client/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Applying CVar settings from Section [TextureQuality@4] File [../../../Client/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Streaming.PoolSize:2000]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Streaming.PoolSizeForMeshes:1000]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [../../../Client/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.KuroMaterialQualityLevel:1 ; High quality]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.AnisotropicMaterials:0]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConsoleManager: Warning: Setting the console variable 'r.AnisotropicMaterials' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByProjectSetting'. Value remains '1'
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:3]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [../../../Client/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[grass.CullDistanceScale:1]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[foliage.DensityType:2]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[foliage.DensityScaleLOD.DensityType:2]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[foliage.DensityScaleLOD.DistanceType:2]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [../../../Client/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2026.05.16-16.14.36:093][  0][GameThread]LogInit: [GetRuntimeDeviceProfileName] Trying to find matching Device Profile for GPU Brand [NVIDIA GeForce GTX 960].
+[2026.05.16-16.14.36:104][  0][GameThread]LogInit: [GetRuntimeDeviceProfileName] Found matching Device Profile [Windows_GTX_Low] for GPU Brand [NVIDIA GeForce GTX 960].
+[2026.05.16-16.14.36:104][  0][GameThread]LogInit: Warning: [GetRuntimeDeviceProfileName] Single GPU detected. Using Device Profile [Windows_GTX_Low].
+[2026.05.16-16.14.36:104][  0][GameThread]LogInit: Selected Device Profile: [Windows_GTX_Low]
+[2026.05.16-16.14.36:104][  0][GameThread]LogInit: Applying CVar settings loaded from the selected device profile: [Windows_GTX_Low]
+[2026.05.16-16.14.36:104][  0][GameThread]LogHAL: Display: Platform has ~ 8 GB [8245809152 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2026.05.16-16.14.36:104][  0][GameThread]LogInit: Going up to parent DeviceProfile [Windows_Lowest]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[sg.ViewDistanceQuality:0]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@0] File [../../../Client/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[sg.AntiAliasingQuality:1]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@1] File [../../../Client/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.PostProcessAAQuality:2]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConsoleManager: Warning: Setting the console variable 'r.PostProcessAAQuality' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByProjectSetting'. Value remains '6'
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[sg.PostProcessQuality:0]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Applying CVar settings from Section [PostProcessQuality@0] File [../../../Client/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:0]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.2]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.RenderTargetPoolMin:300]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.BloomQuality:4]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.Upscale.Quality:1]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.Filter.SizeScale:0.6]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.Tonemapper.Quality:0]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[sg.TextureQuality:2]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Applying CVar settings from Section [TextureQuality@2] File [../../../Client/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.Streaming.PoolSize:800]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.Streaming.PoolSizeForMeshes:800]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[sg.EffectsQuality:1]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Applying CVar settings from Section [EffectsQuality@1] File [../../../Client/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:32]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.RefractionQuality:0]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:1]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.DetailMode:1]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.MaterialQualityLevel:2 ; Medium quality]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.KuroMaterialQualityLevel:2 ; Medium quality]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.AnisotropicMaterials:0]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConsoleManager: Warning: Setting the console variable 'r.AnisotropicMaterials' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByProjectSetting'. Value remains '1'
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.SSS.Scale:0.75]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.SSS.Quality:0]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.SSGI.Quality:1]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.25]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:1]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.SkyLight.RealTimeReflectionCapture:0]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:1]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[sg.FoliageQuality:0]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Applying CVar settings from Section [FoliageQuality@0] File [../../../Client/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[grass.CullDistanceScale:0.8]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[foliage.DensityType:0]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[foliage.DensityScaleLOD.DensityType:0]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[foliage.DensityScaleLOD.DistanceType:0]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.LandscapeReverseLODScaleFactor:2]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogInit: Going up to parent DeviceProfile [Windows]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.FrustumCullNumWordsPerTask:16]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogInit: Warning: Creating unregistered Device Profile CVar: [[KuroLod.SetScreenSize:0]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogInit: Going up to parent DeviceProfile []
+[2026.05.16-16.14.36:104][  0][GameThread]LogConsoleManager: Warning: Setting the console variable 'sg.ViewDistanceQuality' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByDeviceProfile'. Value remains '0'
+[2026.05.16-16.14.36:104][  0][GameThread]LogConsoleManager: Warning: Setting the console variable 'sg.AntiAliasingQuality' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByDeviceProfile'. Value remains '1'
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [../../../Client/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.CacheDirectLightShadow:3]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.DirectCSMStableMaxIndex:0]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.MobileDistributionOverride:2.0]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.ToonShadowCascadeIndex:1]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.EnableParallaxCorrection:1]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.EnableParallaxCorrectionCrossFade:1]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.CSMCacheModifyMeshPositionStartIndex:2]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.CacheMode3CacheUpdateIntervals:0,0,2,5,6,59,139]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.SkeletalMeshLODBias:0]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.PerObjectShadowMapResolution:2048]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.PerObjectResolutionMax:512]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.PerObjectResolutionMin:256]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.CSM0ShadowPCFQuality:5]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.CSM1ShadowPCFQuality:5]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.CSM2ShadowPCFQuality:5]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.CSM3ShadowPCFQuality:3]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.PerObjShadowPCFQuality:4]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.CSMEnableFixedDistance:1]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.CSM0Distance:800]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.CSM1Distance:2000]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.CSM2Distance:6500]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.CSM3Distance:15000]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.CSM4Distance:40000]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.CSM0FixedDepthBias:10]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.ShadowMask.Scale:1.0]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.AllShadowDrawcallMax:1500]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.MeshDrawCommands.ShadowPerBatchDrawcallMax:2000]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.AkiSoftShadowCascadeNum:1]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.SceneCaptureMaxCountPerFrame:2]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.RadiusThresholdFar:0.06]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConsoleManager: Warning: Setting the console variable 'r.Shadow.RadiusThresholdFar' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByProjectSetting'. Value remains '0.15'
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.DirectLightCacheNeedOriginChange:50,150,500,700,900,5000]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.RadiusThresholdCSM0:0.01]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.RadiusThresholdCSM1:0.01]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.RadiusThresholdCSM2:0.01]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.RadiusThresholdCSM3:0.01]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.RadiusThresholdCSM4:0.025]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.RadiusThresholdCSM5:0.07]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.Shadow.ForbidHISMShadowStartIndex:4]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConsoleManager: Warning: Setting the console variable 'sg.PostProcessQuality' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByDeviceProfile'. Value remains '0'
+[2026.05.16-16.14.36:104][  0][GameThread]LogConsoleManager: Warning: Setting the console variable 'sg.TextureQuality' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByDeviceProfile'. Value remains '2'
+[2026.05.16-16.14.36:104][  0][GameThread]LogConsoleManager: Warning: Setting the console variable 'sg.EffectsQuality' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByDeviceProfile'. Value remains '1'
+[2026.05.16-16.14.36:104][  0][GameThread]LogConsoleManager: Warning: Setting the console variable 'sg.FoliageQuality' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByDeviceProfile'. Value remains '0'
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [../../../Client/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [../../../Client/Saved/Config/WindowsNoEditor/Engine.ini]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.StaticMesh.StripMinLodDataDuringCooking:1]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.SkeletalMesh.StripMinLodDataDuringCooking:1]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[Kuro.CompactMatrix.EnableCompactMatrixInCook:1]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[wp.Runtime.BlockOnSlowStreamingRatio:0.5]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[Kuro.Collision.UseSeparatedBody:1]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[wp.Runtime.UseNoTransformerPackages:0]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.EnableGetDynElemsCache:1]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[Kuro.Script.EnableCSharpEnv:0]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.Sharphereal.PureCSharpSwitch:0]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[Kuro.Sharphereal.JsBridgeStringIsPassbyPointer:1]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.FASTBuildShaderCompile:0]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[Sequencer.EnableOldLGUIBindings:0]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[s.KuroLoadingTrackEnable:0]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[cook.SkipLandscapeMaterialUpdateContext:1]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[tick.EnableSetGamePreTickFunction:1]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.Sharphereal.GreyHttpRequestTimeout:3]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.Sharphereal.GreySwitchTimeout:15]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[n.NavMeshTilePoolSize:5000]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[EnableWorldCameraTransformObjectUpdate:0]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogConfig: Setting CVar [[r.D3D12.UAVBarrierStrictly:1]]
+[2026.05.16-16.14.36:104][  0][GameThread]LogInit: Computer: LINGANGU
+[2026.05.16-16.14.36:104][  0][GameThread]LogInit: User: steamuser
+[2026.05.16-16.14.36:104][  0][GameThread]LogInit: CPU Page size=4096, Cores=4
+[2026.05.16-16.14.36:104][  0][GameThread]LogInit: High frequency timer resolution =10.000000 MHz
+[2026.05.16-16.14.36:104][  0][GameThread]LogMemory: Memory total: Physical=7.7GB (8GB approx)
+[2026.05.16-16.14.36:104][  0][GameThread]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2026.05.16-16.14.36:104][  0][GameThread]LogMemory: Process Physical Memory: 844.94 MB used, 863.83 MB peak
+[2026.05.16-16.14.36:104][  0][GameThread]LogMemory: Process Virtual Memory: 682.86 MB used, 682.86 MB peak
+[2026.05.16-16.14.36:104][  0][GameThread]LogMemory: Physical Memory: 3184.55 MB used,  4679.27 MB free, 7863.82 MB total
+[2026.05.16-16.14.36:104][  0][GameThread]LogMemory: Virtual Memory: 134204040.00 MB used,  13689.39 MB free, 134217728.00 MB total
+[2026.05.16-16.14.36:104][  0][GameThread]LogWindows: WindowsPlatformFeatures enabled
+[2026.05.16-16.14.36:125][  0][GameThread]LogInit: Physics initialised using underlying interface: PhysX
+[2026.05.16-16.14.36:135][  0][GameThread]LogInit: Using OS detected language (en-US).
+[2026.05.16-16.14.36:135][  0][GameThread]LogInit: Using OS detected locale (en-US).
+[2026.05.16-16.14.36:135][  0][GameThread]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used for the language.
+[2026.05.16-16.14.36:155][  0][GameThread]LogConfig: Applying CVar settings from Section [VertexCompress] File [../../../Client/Saved/Config/WindowsNoEditor/Engine.ini]
+[2026.05.16-16.14.36:155][  0][GameThread]LogConfig: Setting CVar [[r.StaticMesh.VertexCompressEnabled:0]]
+[2026.05.16-16.14.36:155][  0][GameThread]LogConfig: Setting CVar [[r.VertexCompressMeshVersion:1]]
+[2026.05.16-16.14.36:155][  0][GameThread]LogInit: Display: Current VCInfo: r.StaticMesh.VertexCompressEnabled=0
+[2026.05.16-16.14.36:155][  0][GameThread]LogInit: Setting process to per monitor DPI aware
+[2026.05.16-16.14.36:155][  0][GameThread]LogInit: Warning: SetProcessDpiAwareness failed.  Error code 80070005
+[2026.05.16-16.14.36:155][  0][GameThread]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2026.05.16-16.14.36:165][  0][GameThread]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2026.05.16-16.14.36:165][  0][GameThread]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2026.05.16-16.14.36:175][  0][GameThread]LogRHI: Using Forced RHI: D3D11
+[2026.05.16-16.14.36:175][  0][GameThread]LogRHI: Using Highest Feature Level of D3D11: SM5
+[2026.05.16-16.14.36:175][  0][GameThread]LogRHI: Loading RHI module D3D11RHI
+[2026.05.16-16.14.36:175][  0][GameThread]LogRHI: Checking if RHI D3D11 with Feature Level SM5 is supported by your system.
+[2026.05.16-16.14.36:175][  0][GameThread]LogDXGIBridge: calling DXGIBridge::CreateDXGIFactory1 through FDXGIDefaultFunctions
+[2026.05.16-16.14.36:175][  0][GameThread]LogDXGIBridge: DXGIBridge::FDXGIDefaultFunctions::CreateDXGIFactory1
+[2026.05.16-16.14.36:175][  0][GameThread]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2026.05.16-16.14.36:175][  0][GameThread]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2026.05.16-16.14.36:175][  0][GameThread]LogD3D11RHI: D3D11 adapters:
+[2026.05.16-16.14.36:175][  0][GameThread]LogD3D11Bridge: calling D3D11Bridge::D3D11CreateDevice via FD3D11DefaultFunctions
+[2026.05.16-16.14.36:175][  0][GameThread]LogD3D11Bridge: D3D11Bridge::FD3D11DefaultFunctions::D3D11CreateDevice
+[2026.05.16-16.14.36:227][  0][GameThread]LogCsWindows: Error: 
+JsStackTrace not available
+
+[2026.05.16-16.14.39:088][  0][PakFileVerifyWorker]LogPakFile: Display: Pak file "../../../Client/Content/Paks/pakchunk70-WindowsNoEditor.pak" checked in 4169.18 ms
+[2026.05.16-16.14.39:088][  0][PakFileVerifyWorker]LogPakFile: Pak File Start Check, Name: ../../../Client/Content/Paks/pakchunk7-WindowsNoEditor.pak
+[2026.05.16-16.14.39:088][  0][PakFileVerifyWorker]LogPakFile: Display: Checking pak file "../../../Client/Content/Paks/pakchunk7-WindowsNoEditor.pak". This may take a while...
+[2026.05.16-16.14.39:088][  0][PakFileVerifyWorker]LogPakFile: Pak Reader Sync: true
+[2026.05.16-16.14.39:098][  0][PakFileVerifyWorker]LogPakFile: ChunkCacheWorker Thead Priority 4
+[2026.05.16-16.14.39:098][  0][FChunkCacheWorker]LogCore: Display: FThreadManager registering thread FChunkCacheWorker (536)
+[2026.05.16-16.14.41:525][  0][PakFileVerifyWorker]LogPakFile: Display: Pak file "../../../Client/Content/Paks/pakchunk7-WindowsNoEditor.pak" checked in 2433.72 ms
+[2026.05.16-16.14.41:525][  0][PakFileVerifyWorker]LogPakFile: Pak File Start Check, Name: ../../../Client/Content/Paks/pakchunk6-WindowsNoEditor.pak
+[2026.05.16-16.14.41:525][  0][PakFileVerifyWorker]LogPakFile: Display: Checking pak file "../../../Client/Content/Paks/pakchunk6-WindowsNoEditor.pak". This may take a while...
+[2026.05.16-16.14.41:525][  0][PakFileVerifyWorker]LogPakFile: Pak Reader Sync: true
+[2026.05.16-16.14.41:525][  0][PakFileVerifyWorker]LogPakFile: ChunkCacheWorker Thead Priority 4
+[2026.05.16-16.14.41:525][  0][FChunkCacheWorker]LogCore: Display: FThreadManager registering thread FChunkCacheWorker (548)
+[2026.05.16-16.14.42:439][  0][PakFileVerifyWorker]LogPakFile: Display: Pak file "../../../Client/Content/Paks/pakchunk6-WindowsNoEditor.pak" checked in 911.19 ms
+[2026.05.16-16.14.42:439][  0][PakFileVerifyWorker]LogPakFile: Pak File Start Check, Name: ../../../Client/Content/Paks/pakchunk55-WindowsNoEditor.pak
+[2026.05.16-16.14.42:439][  0][PakFileVerifyWorker]LogPakFile: Display: Checking pak file "../../../Client/Content/Paks/pakchunk55-WindowsNoEditor.pak". This may take a while...
+[2026.05.16-16.14.42:439][  0][PakFileVerifyWorker]LogPakFile: Pak Reader Sync: true
+[2026.05.16-16.14.42:439][  0][PakFileVerifyWorker]LogPakFile: ChunkCacheWorker Thead Priority 4
+[2026.05.16-16.14.42:439][  0][FChunkCacheWorker]LogCore: Display: FThreadManager registering thread FChunkCacheWorker (556)
+[2026.05.16-16.14.43:018][  0][PakFileVerifyWorker]LogPakFile: Display: Pak file "../../../Client/Content/Paks/pakchunk55-WindowsNoEditor.pak" checked in 587.58 ms
+[2026.05.16-16.14.43:018][  0][PakFileVerifyWorker]LogPakFile: Pak File Start Check, Name: ../../../Client/Content/Paks/pakchunk54-WindowsNoEditor.pak
+[2026.05.16-16.14.43:018][  0][PakFileVerifyWorker]LogPakFile: Display: Checking pak file "../../../Client/Content/Paks/pakchunk54-WindowsNoEditor.pak". This may take a while...
+[2026.05.16-16.14.43:018][  0][PakFileVerifyWorker]LogPakFile: Pak Reader Sync: true
+[2026.05.16-16.14.43:028][  0][PakFileVerifyWorker]LogPakFile: ChunkCacheWorker Thead Priority 4
+[2026.05.16-16.14.43:028][  0][FChunkCacheWorker]LogCore: Display: FThreadManager registering thread FChunkCacheWorker (560)
+[2026.05.16-16.14.43:537][  0][]LogWindows: Could not start crash report client using ../../../Engine/Binaries/Win64/CrashReportClient.exe
+[2026.05.16-16.14.43:537][  0][]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2026.05.16-16.14.43:537][  0][]LogMemory: Process Physical Memory: 897.41 MB used, 919.75 MB peak
+[2026.05.16-16.14.43:537][  0][]LogMemory: Process Virtual Memory: 722.81 MB used, 722.81 MB peak
+[2026.05.16-16.14.43:537][  0][]LogMemory: Physical Memory: 3235.07 MB used,  4628.75 MB free, 7863.82 MB total
+[2026.05.16-16.14.43:537][  0][]LogMemory: Virtual Memory: 134204088.00 MB used,  13638.87 MB free, 134217728.00 MB total
+[2026.05.16-16.14.44:019][  0][PakFileVerifyWorker]LogPakFile: Display: Pak file "../../../Client/Content/Paks/pakchunk54-WindowsNoEditor.pak" checked in 1000.56 ms
+[2026.05.16-16.14.44:019][  0][PakFileVerifyWorker]LogPakFile: Pak File Start Check, Name: ../../../Client/Content/Paks/pakchunk53-WindowsNoEditor.pak
+[2026.05.16-16.14.44:019][  0][PakFileVerifyWorker]LogPakFile: Display: Checking pak file "../../../Client/Content/Paks/pakchunk53-WindowsNoEditor.pak". This may take a while...
+[2026.05.16-16.14.44:019][  0][PakFileVerifyWorker]LogPakFile: Pak Reader Sync: true
+[2026.05.16-16.14.44:029][  0][PakFileVerifyWorker]LogPakFile: ChunkCacheWorker Thead Priority 4
+[2026.05.16-16.14.44:029][  0][FChunkCacheWorker]LogCore: Display: FThreadManager registering thread FChunkCacheWorker (564)
+[2026.05.16-16.14.45:042][  0][]Message dialog closed, result: Ok, title: The UE4-Client Game has crashed and will close, text: Fatal error!
+
+
+[2026.05.16-16.14.45:046][  0][GameThread]LogWindows: Error: === Critical error: ===
+[2026.05.16-16.14.45:046][  0][GameThread]LogWindows: Error: 
+[2026.05.16-16.14.45:046][  0][GameThread]LogWindows: Error: Fatal error!
+[2026.05.16-16.14.45:046][  0][GameThread]LogWindows: Error: 
+[2026.05.16-16.14.45:046][  0][GameThread]LogWindows: Error: Unhandled Exception: EXCEPTION_INT_DIVIDE_BY_ZERO
+[2026.05.16-16.14.45:046][  0][GameThread]LogWindows: Error: 
+[2026.05.16-16.14.45:046][  0][GameThread]LogWindows: Error: [Callstack] 0x00006ffffa6666cc dxgi.dll!UnknownFunction []
+[2026.05.16-16.14.45:046][  0][GameThread]LogWindows: Error: [Callstack] 0x00006ffffa66880f dxgi.dll!UnknownFunction []
+[2026.05.16-16.14.45:046][  0][GameThread]LogWindows: Error: [Callstack] 0x00006ffffa66f222 dxgi.dll!UnknownFunction []
+[2026.05.16-16.14.45:046][  0][GameThread]LogWindows: Error: [Callstack] 0x000000014302a436 Client-Win64-Shipping.exe!UnknownFunction []
+[2026.05.16-16.14.45:046][  0][GameThread]LogWindows: Error: [Callstack] 0x000000014300f8be Client-Win64-Shipping.exe!UnknownFunction []
+[2026.05.16-16.14.45:046][  0][GameThread]LogWindows: Error: [Callstack] 0x0000000143fdb9d2 Client-Win64-Shipping.exe!UnknownFunction []
+[2026.05.16-16.14.45:046][  0][GameThread]LogWindows: Error: [Callstack] 0x0000000143fdc7c3 Client-Win64-Shipping.exe!UnknownFunction []
+[2026.05.16-16.14.45:046][  0][GameThread]LogWindows: Error: [Callstack] 0x0000000143fb22ba Client-Win64-Shipping.exe!UnknownFunction []
+[2026.05.16-16.14.45:046][  0][GameThread]LogWindows: Error: [Callstack] 0x000000014093b2f1 Client-Win64-Shipping.exe!UnknownFunction []
+[2026.05.16-16.14.45:046][  0][GameThread]LogWindows: Error: [Callstack] 0x00000001409333d6 Client-Win64-Shipping.exe!UnknownFunction []
+[2026.05.16-16.14.45:046][  0][GameThread]LogWindows: Error: [Callstack] 0x00000001409336ca Client-Win64-Shipping.exe!UnknownFunction []
+[2026.05.16-16.14.45:046][  0][GameThread]LogWindows: Error: [Callstack] 0x000000014093e7df Client-Win64-Shipping.exe!UnknownFunction []
+[2026.05.16-16.14.45:046][  0][GameThread]LogWindows: Error: [Callstack] 0x0000000146c4949e Client-Win64-Shipping.exe!UnknownFunction []
+[2026.05.16-16.14.45:046][  0][GameThread]LogWindows: Error: [Callstack] 0x00006fffffe90d59 kernel32.dll!UnknownFunction []
+[2026.05.16-16.14.45:046][  0][GameThread]LogWindows: Error: [Callstack] 0x00006ffffff001ff ntdll.dll!UnknownFunction []
+[2026.05.16-16.14.45:046][  0][GameThread]LogWindows: Error: 
+[2026.05.16-16.14.45:046][  0][GameThread]LogWindows: Error: JsStackTrace not available
+[2026.05.16-16.14.45:046][  0][GameThread]LogWindows: Error: CSharpStackTrace not available
+[2026.05.16-16.14.45:056][  0][GameThread]LogExit: Executing StaticShutdownAfterError
+[2026.05.16-16.14.45:056][  0][GameThread]LogWindows: FPlatformMisc::RequestExit(1, LaunchWindows::WinMain)
+[2026.05.16-16.14.45:056][  0][GameThread]LogWindows: FPlatformMisc::RequestExitWithStatus(1, 3, LaunchWindows::WinMain)
+[2026.05.16-16.14.45:056][  0][GameThread]LogCore: Engine exit requested (reason: Win RequestExit)
+[2026.05.16-16.14.45:072][  0]Log file closed, 2026.05.16-16.14.45
