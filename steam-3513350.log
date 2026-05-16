@@ -1,0 +1,1927 @@
+======================
+Proton: 1774238111 GE-Proton10-34
+SteamGameId: 3513350
+Command: ['/home/za3ter/.local/share/Steam/steamapps/common/Wuthering Waves/Wuthering Waves.exe']
+Options: {'forcelgadd', 'noxalia', 'noopwr'}
+depot: 3.0.20260415.224995
+pressure-vessel: 0.20260414.0
+scripts: 0.20260414.0
+sniper: 3.0.20260415.224995 sniper 3.0.20260415.224995
+Kernel: Linux 6.18.28 #1-NixOS SMP PREEMPT_DYNAMIC Fri May  8 06:40:23 UTC 2026 x86_64
+Language: LC_ALL None, LC_MESSAGES None, LC_CTYPE None
+PATH: /nix/store/l14ibcy2p1ma4qvz10lkfg9afy39pn4d-proton-ge-bin-GE-Proton10-34-steamcompattool/files/bin/:/usr/bin:/bin
+Effective WINEDEBUG: +timestamp,+pid,+tid,+seh,+unwind,+threadname,+debugstr,+loaddll,+mscoree
+======================
+fsync: up and running.
+23254.819:0028:002c:trace:seh:install_bpf Installing seccomp filters.
+23254.819:0028:002c:trace:seh:check_bpf_jit_enable enabled 0x31.
+23254.820:0028:002c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\wineboot.exe" at 00006FFFFFFC0000: builtin
+23254.820:0028:002c:trace:loaddll:build_ntdll_module Loaded L"C:\\windows\\system32\\ntdll.dll" at 00006FFFFFEF0000: builtin
+23254.820:0028:002c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernelbase.dll" at 00006FFFFFBC0000: builtin
+23254.821:0028:002c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernel32.dll" at 00006FFFFFE80000: builtin
+23254.822:0028:002c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\msvcrt.dll" at 00006FFFFFAA0000: builtin
+23254.823:0028:002c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ucrtbase.dll" at 00006FFFFF910000: builtin
+23254.823:0028:002c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\rpcrt4.dll" at 00006FFFFFA00000: builtin
+23254.823:0028:002c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\sechost.dll" at 00006FFFFF8E0000: builtin
+23254.824:0028:002c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\advapi32.dll" at 00006FFFFFB60000: builtin
+23254.824:0028:002c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ws2_32.dll" at 00006FFFFF8A0000: builtin
+23254.824:0028:002c:fixme:winediag:loader_init wine-staging 10.0 is a testing version containing experimental patches.
+23254.824:0028:002c:fixme:winediag:loader_init Please mention your exact version when filing bug reports on winehq.org.
+23254.869:0030:0034:trace:seh:sigsys_handler SIGSYS, rax 0xffff, rip 0x600000000005.
+23254.869:0030:0034:trace:seh:install_bpf Seccomp filters already installed.
+23254.869:0030:0034:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\services.exe" at 00006FFFFF870000: builtin
+23254.869:0030:0034:trace:loaddll:build_ntdll_module Loaded L"C:\\windows\\system32\\ntdll.dll" at 00006FFFFFEF0000: builtin
+23254.870:0030:0034:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernelbase.dll" at 00006FFFFFBC0000: builtin
+23254.870:0030:0034:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernel32.dll" at 00006FFFFFE80000: builtin
+23254.872:0030:0034:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\msvcrt.dll" at 00006FFFFFAA0000: builtin
+23254.873:0030:0034:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ucrtbase.dll" at 00006FFFFF910000: builtin
+23254.873:0030:0034:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\rpcrt4.dll" at 00006FFFFFA00000: builtin
+23254.873:0030:0034:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\sechost.dll" at 00006FFFFF8E0000: builtin
+23254.874:0030:0034:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\advapi32.dll" at 00006FFFFFB60000: builtin
+23254.874:0030:0034:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\setupapi.dll" at 00006FFFFF7E0000: builtin
+23254.874:0030:0034:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\userenv.dll" at 00006FFFFF7C0000: builtin
+23254.886:0030:0038:warn:threadname:NtSetInformationThread Thread renamed to L"wine_rpcrt4_server"
+23254.926:003c:0040:trace:seh:sigsys_handler SIGSYS, rax 0xffff, rip 0x600000000005.
+23254.926:003c:0040:trace:seh:install_bpf Seccomp filters already installed.
+23254.927:003c:0040:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\winedevice.exe" at 00006FFFFF7A0000: builtin
+23254.927:003c:0040:trace:loaddll:build_ntdll_module Loaded L"C:\\windows\\system32\\ntdll.dll" at 00006FFFFFEF0000: builtin
+23254.928:003c:0040:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernelbase.dll" at 00006FFFFFBC0000: builtin
+23254.928:003c:0040:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernel32.dll" at 00006FFFFFE80000: builtin
+23254.929:003c:0040:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\msvcrt.dll" at 00006FFFFFAA0000: builtin
+23254.930:003c:0040:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ucrtbase.dll" at 00006FFFFF910000: builtin
+23254.930:003c:0040:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\rpcrt4.dll" at 00006FFFFFA00000: builtin
+23254.931:003c:0040:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\sechost.dll" at 00006FFFFF8E0000: builtin
+23254.931:003c:0040:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\advapi32.dll" at 00006FFFFFB60000: builtin
+23254.931:003c:0040:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ntoskrnl.exe" at 00006FFFFF730000: builtin
+23254.933:003c:0040:fixme:ntoskrnl:driver_stub 0000000000249BF0 L"\\Registry\\Machine\\System\\CurrentControlSet\\Services\\pci" stub!
+23254.933:003c:0040:fixme:ntoskrnl:driver_stub 0000000000249E40 L"\\Registry\\Machine\\System\\CurrentControlSet\\Services\\hidusb" stub!
+23254.933:003c:0040:fixme:ntoskrnl:driver_stub 000000000024AAB0 L"\\Registry\\Machine\\System\\CurrentControlSet\\Services\\Disk" stub!
+23254.935:0030:0044:warn:threadname:NtSetInformationThread Thread renamed to L"wine_rpcrt4_io"
+23254.936:0030:0048:warn:threadname:NtSetInformationThread Thread renamed to L"wine_threadpool_worker"
+23254.938:003c:0050:warn:threadname:NtSetInformationThread Thread renamed to L"wine_sechost_service"
+23254.939:003c:0050:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\win32k.sys" at 00006FFFFF710000: builtin
+23254.939:003c:0050:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\drivers\\dxgkrnl.sys" at 00006FFFFF6F0000: builtin
+23254.939:003c:0050:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\drivers\\dxgmms1.sys" at 00006FFFFF6D0000: builtin
+23254.940:003c:0050:fixme:ntoskrnl:kernel_object_from_handle No constructor for type L"Token"
+23254.941:0030:0054:warn:threadname:NtSetInformationThread Thread renamed to L"wine_rpcrt4_io"
+23254.942:003c:004c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\drivers\\mountmgr.sys" at 00006FFFFF6A0000: builtin
+23254.945:003c:004c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\setupapi.dll" at 00006FFFFF7E0000: builtin
+23254.949:003c:0058:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\win32u.dll" at 00006FFFFF3F0000: builtin
+23254.949:003c:0058:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\gdi32.dll" at 00006FFFFF440000: builtin
+23254.949:003c:0058:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\user32.dll" at 00006FFFFF4D0000: builtin
+23254.972:003c:0058:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\imm32.dll" at 00006FFFFF3C0000: builtin
+23254.984:0064:0068:trace:seh:sigsys_handler SIGSYS, rax 0xffff, rip 0x600000000005.
+23254.984:0064:0068:trace:seh:install_bpf Seccomp filters already installed.
+23254.984:0064:0068:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\svchost.exe" at 00006FFFFF3A0000: builtin
+23254.984:0064:0068:trace:loaddll:build_ntdll_module Loaded L"C:\\windows\\system32\\ntdll.dll" at 00006FFFFFEF0000: builtin
+23254.985:0064:0068:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernelbase.dll" at 00006FFFFFBC0000: builtin
+23254.985:0064:0068:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernel32.dll" at 00006FFFFFE80000: builtin
+23254.987:0064:0068:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\msvcrt.dll" at 00006FFFFFAA0000: builtin
+23254.988:0064:0068:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ucrtbase.dll" at 00006FFFFF910000: builtin
+23254.988:0064:0068:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\rpcrt4.dll" at 00006FFFFFA00000: builtin
+23254.988:0064:0068:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\sechost.dll" at 00006FFFFF8E0000: builtin
+23254.988:0064:0068:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\advapi32.dll" at 00006FFFFFB60000: builtin
+23254.991:0064:0068:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\wevtsvc.dll" at 00006FFFFF380000: builtin
+23254.992:0030:006c:warn:threadname:NtSetInformationThread Thread renamed to L"wine_rpcrt4_io"
+23254.995:0064:0074:warn:threadname:NtSetInformationThread Thread renamed to L"wine_sechost_service"
+23254.997:003c:004c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\drivers\\sharedgpures.sys" at 00006FFFFF360000: builtin
+23255.036:0078:007c:trace:seh:sigsys_handler SIGSYS, rax 0xffff, rip 0x600000000005.
+23255.036:0078:007c:trace:seh:install_bpf Seccomp filters already installed.
+23255.036:0078:007c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\plugplay.exe" at 00006FFFFF340000: builtin
+23255.036:0078:007c:trace:loaddll:build_ntdll_module Loaded L"C:\\windows\\system32\\ntdll.dll" at 00006FFFFFEF0000: builtin
+23255.037:0078:007c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernelbase.dll" at 00006FFFFFBC0000: builtin
+23255.037:0078:007c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernel32.dll" at 00006FFFFFE80000: builtin
+23255.039:0078:007c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\msvcrt.dll" at 00006FFFFFAA0000: builtin
+23255.040:0078:007c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ucrtbase.dll" at 00006FFFFF910000: builtin
+23255.040:0078:007c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\rpcrt4.dll" at 00006FFFFFA00000: builtin
+23255.040:0078:007c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\sechost.dll" at 00006FFFFF8E0000: builtin
+23255.041:0078:007c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\advapi32.dll" at 00006FFFFFB60000: builtin
+23255.042:0078:007c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\win32u.dll" at 00006FFFFF3F0000: builtin
+23255.042:0078:007c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\gdi32.dll" at 00006FFFFF440000: builtin
+23255.042:0078:007c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\user32.dll" at 00006FFFFF4D0000: builtin
+23255.064:0078:007c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\imm32.dll" at 00006FFFFF3C0000: builtin
+23255.066:0030:0080:warn:threadname:NtSetInformationThread Thread renamed to L"wine_rpcrt4_io"
+23255.068:0078:0088:warn:threadname:NtSetInformationThread Thread renamed to L"wine_sechost_service"
+23255.069:0078:008c:warn:threadname:NtSetInformationThread Thread renamed to L"wine_rpcrt4_server"
+23255.071:003c:004c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\drivers\\nsiproxy.sys" at 00006FFFFF320000: builtin
+23255.072:003c:0090:warn:threadname:NtSetInformationThread Thread renamed to L"wine_nsi_notification"
+23255.075:003c:004c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\dnsapi.dll" at 00006FFFFF280000: builtin
+23255.076:003c:004c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\nsi.dll" at 00006FFFFF260000: builtin
+23255.076:003c:004c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ws2_32.dll" at 00006FFFFF8A0000: builtin
+23255.076:003c:004c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\iphlpapi.dll" at 00006FFFFF2B0000: builtin
+23255.076:003c:004c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\drivers\\ndis.sys" at 00006FFFFF2F0000: builtin
+23255.116:0094:0098:trace:seh:sigsys_handler SIGSYS, rax 0xffff, rip 0x600000000005.
+23255.116:0094:0098:trace:seh:install_bpf Seccomp filters already installed.
+23255.117:0094:0098:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\winedevice.exe" at 00006FFFFF7A0000: builtin
+23255.117:0094:0098:trace:loaddll:build_ntdll_module Loaded L"C:\\windows\\system32\\ntdll.dll" at 00006FFFFFEF0000: builtin
+23255.118:0094:0098:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernelbase.dll" at 00006FFFFFBC0000: builtin
+23255.118:0094:0098:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernel32.dll" at 00006FFFFFE80000: builtin
+23255.120:0094:0098:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\msvcrt.dll" at 00006FFFFFAA0000: builtin
+23255.120:0094:0098:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ucrtbase.dll" at 00006FFFFF910000: builtin
+23255.121:0094:0098:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\rpcrt4.dll" at 00006FFFFFA00000: builtin
+23255.121:0094:0098:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\sechost.dll" at 00006FFFFF8E0000: builtin
+23255.121:0094:0098:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\advapi32.dll" at 00006FFFFFB60000: builtin
+23255.121:0094:0098:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ntoskrnl.exe" at 00006FFFFF730000: builtin
+23255.123:0094:0098:fixme:ntoskrnl:driver_stub 0000000000249BF0 L"\\Registry\\Machine\\System\\CurrentControlSet\\Services\\pci" stub!
+23255.123:0094:0098:fixme:ntoskrnl:driver_stub 0000000000249E40 L"\\Registry\\Machine\\System\\CurrentControlSet\\Services\\hidusb" stub!
+23255.123:0094:0098:fixme:ntoskrnl:driver_stub 000000000024AAB0 L"\\Registry\\Machine\\System\\CurrentControlSet\\Services\\Disk" stub!
+23255.124:0030:009c:warn:threadname:NtSetInformationThread Thread renamed to L"wine_rpcrt4_io"
+23255.127:0094:00a4:warn:threadname:NtSetInformationThread Thread renamed to L"wine_sechost_service"
+23255.128:0094:00a4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\win32k.sys" at 00006FFFFF710000: builtin
+23255.128:0094:00a4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\drivers\\dxgkrnl.sys" at 00006FFFFF6F0000: builtin
+23255.129:0094:00a4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\drivers\\dxgmms1.sys" at 00006FFFFF6D0000: builtin
+23255.129:0094:00a4:fixme:ntoskrnl:kernel_object_from_handle No constructor for type L"Token"
+23255.130:0030:00a8:warn:threadname:NtSetInformationThread Thread renamed to L"wine_rpcrt4_io"
+23255.132:0094:00a0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\drivers\\hidparse.sys" at 00006FFFFF200000: builtin
+23255.133:0094:00a0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\drivers\\winebus.sys" at 00006FFFFF230000: builtin
+23255.133:0094:00a0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\setupapi.dll" at 00006FFFFF7E0000: builtin
+23255.139:0094:00a0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\win32u.dll" at 00006FFFFF3F0000: builtin
+23255.140:0094:00a0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\gdi32.dll" at 00006FFFFF440000: builtin
+23255.140:0094:00a0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\user32.dll" at 00006FFFFF4D0000: builtin
+23255.140:0094:00a0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\drivers\\hidclass.sys" at 00006FFFFF1C0000: builtin
+23255.140:0094:00a0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\drivers\\winehid.sys" at 00006FFFFF1E0000: builtin
+23255.161:0094:00a0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\imm32.dll" at 00006FFFFF3C0000: builtin
+23255.165:0078:00ac:warn:threadname:NtSetInformationThread Thread renamed to L"wine_rpcrt4_io"
+23255.166:0078:00b0:warn:threadname:NtSetInformationThread Thread renamed to L"wine_threadpool_worker"
+23255.234:0094:00a0:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\drivers\\wineusb.sys" at 00006FFFFF1A0000: builtin
+23255.238:0094:00a0:err:ntoskrnl:ZwLoadDriver failed to create driver L"\\Registry\\Machine\\System\\CurrentControlSet\\Services\\winebth": c0000142
+23255.239:0030:0034:fixme:service:scmdatabase_autostart_services Auto-start service L"winebth" failed to start: 1114
+23255.242:0028:002c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\win32u.dll" at 00006FFFFF3F0000: builtin
+23255.242:0028:002c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\user32.dll" at 00006FFFFF4D0000: builtin
+23255.242:0028:002c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\gdi32.dll" at 00006FFFFF440000: builtin
+23255.243:0028:002c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\shcore.dll" at 00006FFFFE7C0000: builtin
+23255.243:0028:002c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\shlwapi.dll" at 00006FFFFE7F0000: builtin
+23255.243:0028:002c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\shell32.dll" at 00006FFFFE850000: builtin
+23255.264:0028:002c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\imm32.dll" at 00006FFFFF3C0000: builtin
+23255.265:0028:002c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\combase.dll" at 00006FFFFE690000: builtin
+23255.265:0028:002c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\coml2.dll" at 00006FFFFE660000: builtin
+23255.265:0028:002c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ole32.dll" at 00006FFFFE6F0000: builtin
+23255.267:0028:002c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\mpr.dll" at 00006FFFFE5A0000: builtin
+23255.267:0028:002c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\wininet.dll" at 00006FFFFE5D0000: builtin
+23255.270:0020:0024:trace:seh:install_bpf Installing seccomp filters.
+23255.270:0020:0024:trace:seh:check_bpf_jit_enable enabled 0x31.
+23255.271:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\steam.exe" at 00006FFFFFFE0000: builtin
+23255.271:0020:0024:trace:loaddll:build_ntdll_module Loaded L"C:\\windows\\system32\\ntdll.dll" at 00006FFFFFEF0000: builtin
+23255.272:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernelbase.dll" at 00006FFFFFBC0000: builtin
+23255.272:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernel32.dll" at 00006FFFFFE80000: builtin
+23255.273:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\msvcrt.dll" at 00006FFFFFAA0000: builtin
+23255.274:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ucrtbase.dll" at 00006FFFFF910000: builtin
+23255.274:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\rpcrt4.dll" at 00006FFFFFA00000: builtin
+23255.275:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\sechost.dll" at 00006FFFFF8E0000: builtin
+23255.275:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\advapi32.dll" at 00006FFFFFB60000: builtin
+23255.275:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\cabinet.dll" at 00006FFFFF030000: builtin
+23255.277:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\win32u.dll" at 00006FFFFF3F0000: builtin
+23255.277:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\user32.dll" at 00006FFFFF4D0000: builtin
+23255.277:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\gdi32.dll" at 00006FFFFF440000: builtin
+23255.278:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\imm32.dll" at 00006FFFFF3C0000: builtin
+23255.279:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\combase.dll" at 00006FFFFED60000: builtin
+23255.279:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\coml2.dll" at 00006FFFFED30000: builtin
+23255.279:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ole32.dll" at 00006FFFFEDC0000: builtin
+23255.280:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\oleaut32.dll" at 00006FFFFEC40000: builtin
+23255.280:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\oleacc.dll" at 00006FFFFEE90000: builtin
+23255.280:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\comctl32.dll" at 00006FFFFEED0000: builtin
+23255.281:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\bcrypt.dll" at 00006FFFFEB20000: builtin
+23255.281:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\crypt32.dll" at 00006FFFFEB50000: builtin
+23255.281:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\dbghelp.dll" at 00006FFFFEA60000: builtin
+23255.282:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\imagehlp.dll" at 00006FFFFEAF0000: builtin
+23255.282:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\mspatcha.dll" at 00006FFFFFFC0000: builtin
+23255.282:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\odbccp32.dll" at 00006FFFFEA30000: builtin
+23255.283:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\shcore.dll" at 00006FFFFE050000: builtin
+23255.284:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\shlwapi.dll" at 00006FFFFE080000: builtin
+23255.284:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\shell32.dll" at 00006FFFFE0E0000: builtin
+23255.284:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\sxs.dll" at 00006FFFFE030000: builtin
+23255.285:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\mpr.dll" at 00006FFFFDEE0000: builtin
+23255.286:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ws2_32.dll" at 00006FFFFF8A0000: builtin
+23255.286:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\wininet.dll" at 00006FFFFDF10000: builtin
+23255.286:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\urlmon.dll" at 00006FFFFDFA0000: builtin
+23255.286:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\version.dll" at 00006FFFFDEC0000: builtin
+23255.286:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\wintrust.dll" at 00006FFFFDE80000: builtin
+23255.286:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\msi.dll" at 00006FFFFF060000: builtin
+23255.318:00d0:00d4:trace:seh:sigsys_handler SIGSYS, rax 0xffff, rip 0x600000000005.
+23255.318:00d0:00d4:trace:seh:install_bpf Seccomp filters already installed.
+23255.319:00d0:00d4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\explorer.exe" at 00006FFFFDE40000: builtin
+23255.319:00d0:00d4:trace:loaddll:build_ntdll_module Loaded L"C:\\windows\\system32\\ntdll.dll" at 00006FFFFFEF0000: builtin
+23255.319:00d0:00d4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernelbase.dll" at 00006FFFFFBC0000: builtin
+23255.319:00d0:00d4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernel32.dll" at 00006FFFFFE80000: builtin
+23255.321:00d0:00d4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\msvcrt.dll" at 00006FFFFFAA0000: builtin
+23255.322:00d0:00d4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ucrtbase.dll" at 00006FFFFF910000: builtin
+23255.322:00d0:00d4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\rpcrt4.dll" at 00006FFFFFA00000: builtin
+23255.322:00d0:00d4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\sechost.dll" at 00006FFFFF8E0000: builtin
+23255.322:00d0:00d4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\advapi32.dll" at 00006FFFFFB60000: builtin
+23255.323:00d0:00d4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\win32u.dll" at 00006FFFFF3F0000: builtin
+23255.324:00d0:00d4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\user32.dll" at 00006FFFFF4D0000: builtin
+23255.324:00d0:00d4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\gdi32.dll" at 00006FFFFF440000: builtin
+23255.346:00d0:00d4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\imm32.dll" at 00006FFFFF3C0000: builtin
+23255.351:00d0:00d4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\winex11.drv" at 00006FFFFDE20000: builtin
+23255.423:00d0:00d4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\uxtheme.dll" at 00006FFFFDDD0000: builtin
+23255.432:00d0:00dc:warn:threadname:NtSetInformationThread Thread renamed to L"wine_explorer_display_settings_restorer"
+23255.435:00d0:00d4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\shcore.dll" at 00006FFFFE050000: builtin
+23255.435:00d0:00d4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\shlwapi.dll" at 00006FFFFE080000: builtin
+23255.435:00d0:00d4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\shell32.dll" at 00006FFFFE0E0000: builtin
+23255.438:00d0:00d4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\combase.dll" at 00006FFFFED60000: builtin
+23255.439:00d0:00d4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\coml2.dll" at 00006FFFFED30000: builtin
+23255.439:00d0:00d4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ole32.dll" at 00006FFFFEDC0000: builtin
+23255.440:00d0:00e0:warn:threadname:NtSetInformationThread Thread renamed to L"wine_rpcrt4_server"
+23255.441:00d0:00d4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\oleaut32.dll" at 00006FFFFEC40000: builtin
+23255.441:00d0:00d4:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\actxprxy.dll" at 00006FFFFDD70000: builtin
+23255.441:00d0:00d4:trace:seh:dispatch_exception code=6ba (RPC_S_SERVER_UNAVAILABLE) flags=0 addr=00006FFFFFBCD1F7
+23255.441:00d0:00d4:trace:seh:dispatch_exception rip=00006fffffbcd1f7 rsp=000000000021d560 rbp=000000000021d650 eflags=00000206
+23255.441:00d0:00d4:trace:seh:dispatch_exception rax=000000000021d580 rbx=000000000021e420 rcx=000000000021d580 rdx=0000000000000000
+23255.441:00d0:00d4:trace:seh:dispatch_exception rsi=0000000000000064 rdi=00000000007e04e0  r8=0000000000000000  r9=0000000000000000
+23255.441:00d0:00d4:trace:seh:dispatch_exception r10=00000000007e0620 r11=000000000000bf9e r12=000000000021d728 r13=0000000000000005
+23255.441:00d0:00d4:trace:seh:dispatch_exception r14=00006fffffa4d260 r15=00006ffffed9cb34 mxcsr=00001fa0
+23255.441:00d0:00d4:trace:unwind:RtlVirtualUnwind2 type 1 base 6fffffbc0000 rip 6fffffbcd1f7 rva d1f7 rsp 21d560
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info **** func d188-d1ff
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info unwind info at 00006FFFFFC7CD30 flags 0 prolog 0xf bytes function 00006FFFFFBCD188-00006FFFFFBCD1FF
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0xf: subq $0xc8,%rsp
+23255.441:00d0:00d4:trace:unwind:RtlVirtualUnwind2 inside epilog.
+23255.441:00d0:00d4:trace:unwind:RtlVirtualUnwind2 type 1 base 6fffffa00000 rip 6fffffa30cb6 rva 30cb6 rsp 21d630
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info **** func 30ca0-30ceb
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info unwind info at 00006FFFFFA798E8 flags 0 prolog 0x8 bytes function 00006FFFFFA30CA0-00006FFFFFA30CEB
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     frame register rbp offset 0x0(%rsp)
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x8: subq $0x20,%rsp
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x4: leaq 0x0(%rsp),rbp
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+23255.441:00d0:00d4:trace:unwind:RtlVirtualUnwind2 type 1 base 6fffffa00000 rip 6fffffa1cee6 rva 1cee6 rsp 21d660
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info **** func 1ce50-1cee7
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info unwind info at 00006FFFFFA76FA0 flags 0 prolog 0xd bytes function 00006FFFFFA1CE50-00006FFFFFA1CEE7
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     frame register rbp offset 0x40(%rsp)
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0xd: leaq 0x40(%rsp),rbp
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x8: subq $0x48,%rsp
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x4: pushq %rbx
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x3: pushq %rsi
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x2: pushq %rdi
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+23255.441:00d0:00d4:trace:unwind:RtlVirtualUnwind2 type 1 base 6fffffa00000 rip 6fffffa3f14f rva 3f14f rsp 21d6d0
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info **** func 3ee70-3f3a5
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info unwind info at 00006FFFFFA78058 flags 0 prolog 0x1b bytes function 00006FFFFFA3EE70-00006FFFFFA3F3A5
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x1b: leaq 0x80(%rsp),rbp
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x13: subq $0xa18,%rsp
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0xc: pushq %rbx
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0xb: pushq %rsi
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0xa: pushq %rdi
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x9: pushq %r12
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x7: pushq %r13
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x5: pushq %r14
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x3: pushq %r15
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+23255.441:00d0:00d4:trace:seh:call_seh_handlers calling TEB handler 00006FFFFFA36950 (rec=000000000021D580 frame=000000000021D7B0 context=000000000021D080 dispatch=000000000021C800) sp=21e130
+23255.441:00d0:00d4:trace:seh:call_seh_handlers TEB handler at 00006FFFFFA36950 returned 1
+23255.441:00d0:00d4:trace:unwind:RtlVirtualUnwind2 type 1 base 6fffffa00000 rip 6fffffa236e2 rva 236e2 rsp 21e130
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info **** func 23070-237cc
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info unwind info at 00006FFFFFA780A0 flags 0 prolog 0x12 bytes function 00006FFFFFA23070-00006FFFFFA237CC
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x12: leaq 0x80(%rsp),rbp
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0xa: subq $0xa80,%rsp
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x3: pushq %rbx
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x2: pushq %rsi
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+23255.441:00d0:00d4:trace:unwind:RtlVirtualUnwind2 type 1 base 6fffffa00000 rip 6fffffa0529b rva 529b rsp 21ebd0
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info **** func 5280-52a0
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info unwind info at 00006FFFFFA77F64 flags 0 prolog 0x4 bytes function 00006FFFFFA05280-00006FFFFFA052A0
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x4: subq $0x28,%rsp
+23255.441:00d0:00d4:trace:unwind:RtlVirtualUnwind2 inside epilog.
+23255.441:00d0:00d4:trace:unwind:RtlVirtualUnwind2 type 1 base 6ffffed60000 rip 6ffffed7d9d4 rva 1d9d4 rsp 21ec00
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info **** func 1d9a0-1d9da
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info unwind info at 00006FFFFEDA6630 flags 0 prolog 0x8 bytes function 00006FFFFED7D9A0-00006FFFFED7D9DA
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     frame register rbp offset 0x0(%rsp)
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x8: subq $0x40,%rsp
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x4: leaq 0x0(%rsp),rbp
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+23255.441:00d0:00d4:trace:unwind:RtlVirtualUnwind2 inside epilog.
+23255.441:00d0:00d4:trace:unwind:RtlVirtualUnwind2 type 1 base 6ffffed60000 rip 6ffffed80835 rva 20835 rsp 21ec50
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info **** func 20740-20840
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info unwind info at 00006FFFFEDA5CD4 flags 0 prolog 0x12 bytes function 00006FFFFED80740-00006FFFFED80840
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x12: leaq 0x80(%rsp),rbp
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0xa: subq $0x180,%rsp
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x3: pushq %rbx
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x2: pushq %rsi
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+23255.441:00d0:00d4:trace:seh:call_seh_handlers calling TEB handler 00006FFFFED74930 (rec=000000000021D580 frame=000000000021ECA0 context=000000000021D080 dispatch=000000000021C800) sp=21edf0
+23255.441:00d0:00d4:trace:seh:RtlUnwindEx code=6ba flags=2 end_frame=000000000021ECA0 target_ip=00006FFFFED63DEA
+23255.441:00d0:00d4:trace:seh:RtlUnwindEx rip=00006ffffff26bd6 rsp=000000000021bae0 rbp=000000000021bb60 eflags=00000202
+23255.441:00d0:00d4:trace:seh:RtlUnwindEx rax=000000007ffc0000 rbx=000000000021d580 rcx=000000000021c1b0 rdx=00006ffffed63dea
+23255.441:00d0:00d4:trace:seh:RtlUnwindEx rsi=000000000021d580 rdi=000000000021c1b0  r8=000000000021d580  r9=00006ffffed84970
+23255.441:00d0:00d4:trace:seh:RtlUnwindEx r10=0000000000000000 r11=0000000000000000 r12=000000000021d7b0 r13=000000000021eca0
+23255.441:00d0:00d4:trace:seh:RtlUnwindEx r14=000000007ffc0000 r15=000000000021bc50 mxcsr=00001fa0
+23255.441:00d0:00d4:trace:unwind:RtlVirtualUnwind2 type 2 base 6fffffef0000 rip 6ffffff26bd6 rva 36bd6 rsp 21bae0
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info **** func 36b80-372f4
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info unwind info at 00006FFFFFF96054 flags 0 prolog 0x22 bytes function 00006FFFFFF26B80-00006FFFFFF272F4
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x22: movaps %xmm6,0x640(%rsp)
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x1b: leaq 0x80(%rsp),rbp
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x13: subq $0x658,%rsp
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0xc: pushq %rbx
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0xb: pushq %rsi
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0xa: pushq %rdi
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x9: pushq %r12
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x7: pushq %r13
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x5: pushq %r14
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x3: pushq %r15
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+23255.441:00d0:00d4:trace:unwind:RtlVirtualUnwind2 type 2 base 6fffffef0000 rip 6ffffff26b67 rva 36b67 rsp 21c180
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info **** func 36b40-36b71
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info unwind info at 00006FFFFFF96E88 flags 0 prolog 0x10 bytes function 00006FFFFFF26B40-00006FFFFFF26B71
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x10: leaq 0x80(%rsp),rbp
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x8: subq $0x500,%rsp
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+23255.441:00d0:00d4:trace:unwind:RtlVirtualUnwind2 type 2 base 6ffffed60000 rip 6ffffed63dea rva 3dea rsp 21c690
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info **** func 3dd0-3dec
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info unwind info at 00006FFFFEDA6720 flags 0 prolog 0x8 bytes function 00006FFFFED63DD0-00006FFFFED63DEC
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     frame register rbp offset 0x0(%rsp)
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x8: subq $0x20,%rsp
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x4: leaq 0x0(%rsp),rbp
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+23255.441:00d0:00d4:trace:unwind:RtlVirtualUnwind2 type 2 base 6ffffed60000 rip 6ffffed8496c rva 2496c rsp 21c6c0
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info **** func 24940-2496d
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info unwind info at 00006FFFFEDA672C flags 0 prolog 0x8 bytes function 00006FFFFED84940-00006FFFFED8496D
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     frame register rbp offset 0x0(%rsp)
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x8: subq $0x20,%rsp
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x4: leaq 0x0(%rsp),rbp
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+23255.441:00d0:00d4:trace:unwind:RtlVirtualUnwind2 type 2 base 6ffffed60000 rip 6ffffed74987 rva 14987 rsp 21c6f0
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info **** func 14930-14988
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info unwind info at 00006FFFFEDA6744 flags 0 prolog 0xd bytes function 00006FFFFED74930-00006FFFFED74988
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     frame register rbp offset 0x30(%rsp)
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0xd: leaq 0x30(%rsp),rbp
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x8: subq $0x38,%rsp
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x4: pushq %rbx
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x3: pushq %rsi
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x2: pushq %rdi
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+23255.441:00d0:00d4:trace:unwind:RtlVirtualUnwind2 type 2 base 6fffffef0000 rip 6fffffeffee5 rva fee5 rsp 21c750
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info **** func fedc-feeb
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info unwind info at 00006FFFFFF95EB4 flags 1 prolog 0x5 bytes function 00006FFFFFEFFEDC-00006FFFFFEFFEEB
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x5: subq $0x20,%rsp
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x1: pushq %rdx
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     handler 00006FFFFFF49240 data at 00006FFFFFF95EC0
+23255.441:00d0:00d4:trace:unwind:RtlVirtualUnwind2 type 2 base 6fffffef0000 rip 6ffffff36ab6 rva 46ab6 rsp 21c780
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info **** func 46770-46c50
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info unwind info at 00006FFFFFF96014 flags 0 prolog 0x1b bytes function 00006FFFFFF36770-00006FFFFFF36C50
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x1b: leaq 0x80(%rsp),rbp
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x13: subq $0x688,%rsp
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0xc: pushq %rbx
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0xb: pushq %rsi
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0xa: pushq %rdi
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x9: pushq %r12
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x7: pushq %r13
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x5: pushq %r14
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x3: pushq %r15
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+23255.441:00d0:00d4:trace:unwind:RtlVirtualUnwind2 type 2 base 6fffffef0000 rip 6ffffff391db rva 491db rsp 21ce50
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info **** func 48ce0-49d12
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info unwind info at 00006FFFFFF93340 flags 0 prolog 0x22 bytes function 00006FFFFFF38CE0-00006FFFFFF39D12
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x22: movaps %xmm6,0x1b0(%rsp)
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x1b: leaq 0x80(%rsp),rbp
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x13: subq $0x1c8,%rsp
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0xc: pushq %rbx
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0xb: pushq %rsi
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0xa: pushq %rdi
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x9: pushq %r12
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x7: pushq %r13
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x5: pushq %r14
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x3: pushq %r15
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+23255.441:00d0:00d4:trace:unwind:RtlVirtualUnwind2 type 2 base 6fffffef0000 rip 6ffffff000bf rva 100bf rsp 21d060
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info **** func 10040-100cc
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info unwind info at 00006FFFFFF95F84 flags 0 prolog 0x7 bytes function 00006FFFFFF00040-00006FFFFFF000CC
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x7: subq $0x4f8,%rsp
+23255.441:00d0:00d4:trace:unwind:RtlVirtualUnwind2 type 2 base 6fffffbc0000 rip 6fffffbcd1f7 rva d1f7 rsp 21d560
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info **** func d188-d1ff
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info unwind info at 00006FFFFFC7CD30 flags 0 prolog 0xf bytes function 00006FFFFFBCD188-00006FFFFFBCD1FF
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0xf: subq $0xc8,%rsp
+23255.441:00d0:00d4:trace:unwind:RtlVirtualUnwind2 inside epilog.
+23255.441:00d0:00d4:trace:unwind:RtlVirtualUnwind2 type 2 base 6fffffa00000 rip 6fffffa30cb6 rva 30cb6 rsp 21d630
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info **** func 30ca0-30ceb
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info unwind info at 00006FFFFFA798E8 flags 0 prolog 0x8 bytes function 00006FFFFFA30CA0-00006FFFFFA30CEB
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     frame register rbp offset 0x0(%rsp)
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x8: subq $0x20,%rsp
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x4: leaq 0x0(%rsp),rbp
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+23255.441:00d0:00d4:trace:unwind:RtlVirtualUnwind2 type 2 base 6fffffa00000 rip 6fffffa1cee6 rva 1cee6 rsp 21d660
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info **** func 1ce50-1cee7
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info unwind info at 00006FFFFFA76FA0 flags 0 prolog 0xd bytes function 00006FFFFFA1CE50-00006FFFFFA1CEE7
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     frame register rbp offset 0x40(%rsp)
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0xd: leaq 0x40(%rsp),rbp
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x8: subq $0x48,%rsp
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x4: pushq %rbx
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x3: pushq %rsi
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x2: pushq %rdi
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+23255.441:00d0:00d4:trace:unwind:RtlVirtualUnwind2 type 2 base 6fffffa00000 rip 6fffffa3f14f rva 3f14f rsp 21d6d0
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info **** func 3ee70-3f3a5
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info unwind info at 00006FFFFFA78058 flags 0 prolog 0x1b bytes function 00006FFFFFA3EE70-00006FFFFFA3F3A5
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x1b: leaq 0x80(%rsp),rbp
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x13: subq $0xa18,%rsp
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0xc: pushq %rbx
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0xb: pushq %rsi
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0xa: pushq %rdi
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x9: pushq %r12
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x7: pushq %r13
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x5: pushq %r14
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x3: pushq %r15
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+23255.441:00d0:00d4:trace:seh:RtlUnwindEx calling TEB handler 00006FFFFFA36950 (rec=000000000021D580, frame=000000000021D7B0 context=000000000021C1B0, dispatch=000000000021BB60)
+23255.441:00d0:00d4:trace:seh:RtlUnwindEx handler at 00006FFFFFA36950 returned 1
+23255.441:00d0:00d4:trace:unwind:RtlVirtualUnwind2 type 2 base 6fffffa00000 rip 6fffffa236e2 rva 236e2 rsp 21e130
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info **** func 23070-237cc
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info unwind info at 00006FFFFFA780A0 flags 0 prolog 0x12 bytes function 00006FFFFFA23070-00006FFFFFA237CC
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x12: leaq 0x80(%rsp),rbp
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0xa: subq $0xa80,%rsp
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x3: pushq %rbx
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x2: pushq %rsi
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+23255.441:00d0:00d4:trace:unwind:RtlVirtualUnwind2 type 2 base 6fffffa00000 rip 6fffffa0529b rva 529b rsp 21ebd0
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info **** func 5280-52a0
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info unwind info at 00006FFFFFA77F64 flags 0 prolog 0x4 bytes function 00006FFFFFA05280-00006FFFFFA052A0
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x4: subq $0x28,%rsp
+23255.441:00d0:00d4:trace:unwind:RtlVirtualUnwind2 inside epilog.
+23255.441:00d0:00d4:trace:unwind:RtlVirtualUnwind2 type 2 base 6ffffed60000 rip 6ffffed7d9d4 rva 1d9d4 rsp 21ec00
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info **** func 1d9a0-1d9da
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info unwind info at 00006FFFFEDA6630 flags 0 prolog 0x8 bytes function 00006FFFFED7D9A0-00006FFFFED7D9DA
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     frame register rbp offset 0x0(%rsp)
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x8: subq $0x40,%rsp
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x4: leaq 0x0(%rsp),rbp
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+23255.441:00d0:00d4:trace:unwind:RtlVirtualUnwind2 inside epilog.
+23255.441:00d0:00d4:trace:unwind:RtlVirtualUnwind2 type 2 base 6ffffed60000 rip 6ffffed80835 rva 20835 rsp 21ec50
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info **** func 20740-20840
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info unwind info at 00006FFFFEDA5CD4 flags 0 prolog 0x12 bytes function 00006FFFFED80740-00006FFFFED80840
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x12: leaq 0x80(%rsp),rbp
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0xa: subq $0x180,%rsp
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x3: pushq %rbx
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x2: pushq %rsi
+23255.441:00d0:00d4:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+23255.441:00d0:00d4:trace:seh:RtlRestoreContext returning to 00006FFFFED63DEA stack 000000000021EC50
+23255.443:0030:00e4:warn:threadname:NtSetInformationThread Thread renamed to L"wine_rpcrt4_io"
+23255.482:00e8:00ec:trace:seh:sigsys_handler SIGSYS, rax 0xffff, rip 0x600000000005.
+23255.482:00e8:00ec:trace:seh:install_bpf Seccomp filters already installed.
+23255.482:00e8:00ec:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\rpcss.exe" at 00006FFFFDD50000: builtin
+23255.482:00e8:00ec:trace:loaddll:build_ntdll_module Loaded L"C:\\windows\\system32\\ntdll.dll" at 00006FFFFFEF0000: builtin
+23255.483:00e8:00ec:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernelbase.dll" at 00006FFFFFBC0000: builtin
+23255.483:00e8:00ec:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernel32.dll" at 00006FFFFFE80000: builtin
+23255.485:00e8:00ec:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\msvcrt.dll" at 00006FFFFFAA0000: builtin
+23255.486:00e8:00ec:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ucrtbase.dll" at 00006FFFFF910000: builtin
+23255.486:00e8:00ec:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\rpcrt4.dll" at 00006FFFFFA00000: builtin
+23255.486:00e8:00ec:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\sechost.dll" at 00006FFFFF8E0000: builtin
+23255.486:00e8:00ec:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\advapi32.dll" at 00006FFFFFB60000: builtin
+23255.489:0030:00f0:warn:threadname:NtSetInformationThread Thread renamed to L"wine_rpcrt4_io"
+23255.498:0030:00f4:warn:threadname:NtSetInformationThread Thread renamed to L"wine_threadpool_worker"
+23255.501:00e8:00fc:warn:threadname:NtSetInformationThread Thread renamed to L"wine_sechost_service"
+23255.502:00e8:0100:warn:threadname:NtSetInformationThread Thread renamed to L"wine_rpcrt4_server"
+23255.502:00e8:0104:warn:threadname:NtSetInformationThread Thread renamed to L"wine_rpcrt4_server"
+23255.504:00e8:0108:warn:threadname:NtSetInformationThread Thread renamed to L"wine_rpcrt4_io"
+23255.506:00e8:010c:warn:threadname:NtSetInformationThread Thread renamed to L"wine_threadpool_worker"
+23255.548:0110:0114:trace:seh:sigsys_handler SIGSYS, rax 0xffff, rip 0x600000000005.
+23255.548:0110:0114:trace:seh:install_bpf Seccomp filters already installed.
+23255.549:0110:0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\tabtip.exe" at 00006FFFFDD30000: builtin
+23255.549:0110:0114:trace:loaddll:build_ntdll_module Loaded L"C:\\windows\\system32\\ntdll.dll" at 00006FFFFFEF0000: builtin
+23255.550:0110:0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernelbase.dll" at 00006FFFFFBC0000: builtin
+23255.550:0110:0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernel32.dll" at 00006FFFFFE80000: builtin
+23255.552:0110:0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\msvcrt.dll" at 00006FFFFFAA0000: builtin
+23255.553:0110:0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ucrtbase.dll" at 00006FFFFF910000: builtin
+23255.553:0110:0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\rpcrt4.dll" at 00006FFFFFA00000: builtin
+23255.554:0110:0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\sechost.dll" at 00006FFFFF8E0000: builtin
+23255.554:0110:0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\advapi32.dll" at 00006FFFFFB60000: builtin
+23255.555:0110:0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\win32u.dll" at 00006FFFFF3F0000: builtin
+23255.556:0110:0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\user32.dll" at 00006FFFFF4D0000: builtin
+23255.556:0110:0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\gdi32.dll" at 00006FFFFF440000: builtin
+23255.556:0110:0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\combase.dll" at 00006FFFFED60000: builtin
+23255.556:0110:0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\coml2.dll" at 00006FFFFED30000: builtin
+23255.556:0110:0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ole32.dll" at 00006FFFFEDC0000: builtin
+23255.557:0110:0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\oleaut32.dll" at 00006FFFFEC40000: builtin
+23255.558:0110:0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\shcore.dll" at 00006FFFFE050000: builtin
+23255.558:0110:0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\shlwapi.dll" at 00006FFFFE080000: builtin
+23255.558:0110:0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\shell32.dll" at 00006FFFFE0E0000: builtin
+23255.581:0110:0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\imm32.dll" at 00006FFFFF3C0000: builtin
+23255.583:0110:0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\oleacc.dll" at 00006FFFFEE90000: builtin
+23255.583:0110:0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\uiautomationcore.dll" at 00006FFFFDCA0000: builtin
+23255.583:0020:0024:trace:loaddll:build_module Loaded L"c:\\windows\\system32\\winex11.drv" at 00006FFFFDE20000: builtin
+23255.584:0110:0114:trace:loaddll:build_module Loaded L"c:\\windows\\system32\\winex11.drv" at 00006FFFFDE20000: builtin
+23255.591:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\uxtheme.dll" at 00006FFFFDDD0000: builtin
+23255.591:0110:0114:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\uxtheme.dll" at 00006FFFFDDD0000: builtin
+23255.602:0110:0114:fixme:oleacc:find_class_data unhandled window class: L"#32769"
+23255.602:0110:0114:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+23255.602:0110:0114:fixme:uiautomation:default_uia_provider_callback Default ProviderType_NonClientArea provider unimplemented.
+23255.603:0110:011c:warn:threadname:NtSetInformationThread Thread renamed to L"wine_rpcrt4_server"
+23255.604:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\lsteamclient.dll" at 00006FFFFDA40000: builtin
+23255.610:0110:0114:fixme:oleacc:find_class_data unhandled window class: L"#32769"
+23255.613:0110:0114:fixme:uiautomation:base_hwnd_fragment_get_FragmentRoot 00000000003987D8, 000000000021F9A0: stub!
+23255.613:0110:0114:fixme:uiautomation:base_hwnd_fragment_GetEmbeddedFragmentRoots 00000000003987D8, 000000000021F9B0: stub!
+23255.620:0020:0024:fixme:steamclient:setup_steam_registry Game language "english", defaulting LC_CTYPE / LC_MESSAGES to en_US.UTF-8.
+23255.621:0020:0024:trace:loaddll:free_modref Unloaded module L"C:\\windows\\system32\\lsteamclient.dll" : builtin
+23255.623:0020:0024:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\vrclient_x64.dll" at 00006FFFFDA70000: builtin
+23255.623:0020:0024:trace:loaddll:free_modref Unloaded module L"C:\\windows\\system32\\vrclient_x64.dll" : builtin
+23255.669:012c:0130:trace:seh:sigsys_handler SIGSYS, rax 0xffff, rip 0x600000000005.
+23255.669:012c:0130:trace:seh:install_bpf Seccomp filters already installed.
+23255.670:012c:0130:trace:loaddll:build_module Loaded L"Z:\\home\\za3ter\\.local\\share\\Steam\\steamapps\\common\\Wuthering Waves\\Wuthering Waves.exe" at 00006FFFFDC10000: native
+23255.670:012c:0130:trace:loaddll:build_ntdll_module Loaded L"C:\\windows\\system32\\ntdll.dll" at 00006FFFFFEF0000: builtin
+23255.671:012c:0130:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernelbase.dll" at 00006FFFFFBC0000: builtin
+23255.671:012c:0130:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernel32.dll" at 00006FFFFFE80000: builtin
+23255.674:012c:0130:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\msvcrt.dll" at 00006FFFFFAA0000: builtin
+23255.675:012c:0130:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ucrtbase.dll" at 00006FFFFF910000: builtin
+23255.675:012c:0130:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\rpcrt4.dll" at 00006FFFFFA00000: builtin
+23255.675:012c:0130:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\sechost.dll" at 00006FFFFF8E0000: builtin
+23255.675:012c:0130:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\advapi32.dll" at 00006FFFFFB60000: builtin
+23255.676:012c:0130:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\win32u.dll" at 00006FFFFF3F0000: builtin
+23255.676:012c:0130:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\gdi32.dll" at 00006FFFFF440000: builtin
+23255.676:012c:0130:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\USER32.dll" at 00006FFFFF4D0000: builtin
+23255.678:012c:0130:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\shcore.dll" at 00006FFFFE050000: builtin
+23255.678:012c:0130:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\shlwapi.dll" at 00006FFFFE080000: builtin
+23255.678:012c:0130:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\SHELL32.dll" at 00006FFFFE0E0000: builtin
+23255.701:012c:0130:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\imm32.dll" at 00006FFFFF3C0000: builtin
+23255.704:012c:0130:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\VCRUNTIME140.dll" at 00006FFFFDAE0000: native
+23255.705:012c:0130:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\VCRUNTIME140_1.dll" at 00006FFFFDAC0000: native
+23255.705:012c:0130:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\MSVCP140.dll" at 00006FFFFDB10000: native
+23255.705:012c:0130:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\msvcp140_2.dll" at 00006FFFFDBB0000: native
+23255.708:012c:0130:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\hid.dll" at 00006FFFFDA70000: builtin
+23255.710:012c:0130:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\setupapi.dll" at 00006FFFFF7E0000: builtin
+23255.710:012c:0130:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\XINPUT1_3.DLL" at 00006FFFFDA90000: builtin
+23255.874:0138:013c:trace:seh:sigsys_handler SIGSYS, rax 0xffff, rip 0x600000000005.
+23255.874:0138:013c:trace:seh:install_bpf Seccomp filters already installed.
+23255.875:0138:013c:trace:loaddll:build_module Loaded L"Z:\\home\\za3ter\\.local\\share\\Steam\\steamapps\\common\\Wuthering Waves\\Client\\Binaries\\Win64\\Client-Win64-Shipping.exe" at 0000000140000000: native
+23255.875:0138:013c:trace:loaddll:build_ntdll_module Loaded L"C:\\windows\\system32\\ntdll.dll" at 00006FFFFFEF0000: builtin
+23255.876:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernelbase.dll" at 00006FFFFFBC0000: builtin
+23255.876:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\kernel32.dll" at 00006FFFFFE80000: builtin
+23255.891:0138:013c:trace:loaddll:build_module Loaded L"Z:\\home\\za3ter\\.local\\share\\Steam\\steamapps\\common\\Wuthering Waves\\Client\\Binaries\\Win64\\Client-Win64-ShippingBase.dll" at 00006FFFFBD80000: native
+23256.113:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\msvcrt.dll" at 00006FFFFFAA0000: builtin
+23256.114:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ucrtbase.dll" at 00006FFFFF910000: builtin
+23256.114:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\rpcrt4.dll" at 00006FFFFFA00000: builtin
+23256.114:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\sechost.dll" at 00006FFFFF8E0000: builtin
+23256.115:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\advapi32.dll" at 00006FFFFFB60000: builtin
+23256.119:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\dnsapi.dll" at 00006FFFFF280000: builtin
+23256.120:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\nsi.dll" at 00006FFFFF260000: builtin
+23256.120:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ws2_32.dll" at 00006FFFFF8A0000: builtin
+23256.120:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\iphlpapi.dll" at 00006FFFFF2B0000: builtin
+23256.121:003c:0050:fixme:ntoskrnl:kernel_object_from_handle No constructor for type L"Token"
+23256.135:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\bcrypt.dll" at 00006FFFFEB20000: builtin
+23256.139:0138:0140:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFFFFFFFFFA, 000000000225FF50
+23256.523:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\version.dll" at 00006FFFFDEC0000: builtin
+23256.541:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\win32u.dll" at 00006FFFFF3F0000: builtin
+23256.542:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\user32.dll" at 00006FFFFF4D0000: builtin
+23256.543:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\gdi32.dll" at 00006FFFFF440000: builtin
+23256.543:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\combase.dll" at 00006FFFFED60000: builtin
+23256.546:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\coml2.dll" at 00006FFFFED30000: builtin
+23256.546:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\ole32.dll" at 00006FFFFEDC0000: builtin
+23256.622:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\imm32.dll" at 00006FFFFF3C0000: builtin
+23256.637:0138:013c:trace:loaddll:build_module Loaded L"c:\\windows\\system32\\winex11.drv" at 00006FFFFDE20000: builtin
+23256.659:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\uxtheme.dll" at 00006FFFFDDD0000: builtin
+23256.674:0138:013c:err:ole:com_get_class_object class {6962a8a2-bf55-4246-ad5d-9d26e0c1e1ce} not registered
+23256.674:0138:013c:err:ole:com_get_class_object class {6962a8a2-bf55-4246-ad5d-9d26e0c1e1ce} not registered
+23256.676:00e8:0148:warn:threadname:NtSetInformationThread Thread renamed to L"wine_rpcrt4_io"
+23256.677:0138:013c:err:ole:create_server class {6962a8a2-bf55-4246-ad5d-9d26e0c1e1ce} not registered
+23256.677:0138:013c:fixme:ole:com_get_class_object CLSCTX_REMOTE_SERVER not supported
+23256.677:0138:013c:err:ole:com_get_class_object no class object {6962a8a2-bf55-4246-ad5d-9d26e0c1e1ce} could be created for context 0x17
+23256.677:0138:013c:err:ole:com_get_class_object class {71663b86-cc70-44a6-bb3a-40b95b74ebdf} not registered
+23256.677:0138:013c:err:ole:com_get_class_object class {71663b86-cc70-44a6-bb3a-40b95b74ebdf} not registered
+23256.677:0138:013c:err:ole:create_server class {71663b86-cc70-44a6-bb3a-40b95b74ebdf} not registered
+23256.677:0138:013c:fixme:ole:com_get_class_object CLSCTX_REMOTE_SERVER not supported
+23256.677:0138:013c:err:ole:com_get_class_object no class object {71663b86-cc70-44a6-bb3a-40b95b74ebdf} could be created for context 0x17
+23256.723:0138:013c:fixme:ntdll:NtQuerySystemInformation SystemCodeIntegrityInformation, size 8, info 0xb92a08, stub!
+23256.723:0138:013c:fixme:ntdll:NtQuerySystemInformation SystemCodeIntegrityInformation, size 8, info 0xb92a10, stub!
+23256.723:0138:013c:fixme:ntdll:NtQuerySystemInformation semi-stub!
+23256.723:0138:013c:fixme:ntdll:NtQuerySystemInformation semi-stub!
+23256.786:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\shcore.dll" at 00006FFFFE050000: builtin
+23256.786:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\shlwapi.dll" at 00006FFFFE080000: builtin
+23260.638:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\SETUPAPI.dll" at 00006FFFFF7E0000: builtin
+23260.638:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\d3d9.dll" at 00006FFFFB7F0000: native
+23260.888:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\crypt32.dll" at 00006FFFFEB50000: builtin
+23260.891:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\opengl32.dll" at 000000007BEE0000: builtin
+23260.894:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\libvkd3d-shader-1.dll" at 00006FFFFB420000: builtin
+23260.894:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\libvkd3d-1.dll" at 00006FFFFB5A0000: builtin
+23260.894:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\wined3d.dll" at 00006FFFFB630000: builtin
+23260.894:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\d3dcompiler_47.dll" at 00006FFFFB7A0000: builtin
+23260.899:0138:013c:trace:loaddll:build_module Loaded L"Z:\\home\\za3ter\\.local\\share\\Steam\\steamapps\\common\\Wuthering Waves\\Client\\Binaries\\Win64\\joyshocklibrary.dll" at 00006FFFFB3D0000: native
+23260.920:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\VCRUNTIME140.dll" at 00006FFFFDAE0000: native
+23260.920:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\VCRUNTIME140_1.dll" at 00006FFFFDAC0000: native
+23260.921:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\msvcp140.dll" at 00006FFFFDB10000: native
+23260.930:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\mswsock.dll" at 00006FFFFB3B0000: builtin
+23260.931:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\normaliz.dll" at 0000000180000000: builtin
+23260.933:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\oleaut32.dll" at 00006FFFFEC40000: builtin
+23260.937:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\shell32.dll" at 00006FFFFE0E0000: builtin
+23260.941:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\oleacc.dll" at 00006FFFFEE90000: builtin
+23260.942:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\uiautomationcore.dll" at 00006FFFFDCA0000: builtin
+23260.949:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\jsproxy.dll" at 00006FFFFB320000: builtin
+23260.950:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\winhttp.dll" at 00006FFFFB350000: builtin
+23260.951:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\msacm32.dll" at 00006FFFFB210000: builtin
+23260.951:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\winmm.dll" at 00006FFFFB240000: builtin
+23260.955:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\wintrust.dll" at 00006FFFFDE80000: builtin
+23260.956:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\secur32.dll" at 00006FFFFB140000: builtin
+23260.957:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\wldap32.dll" at 00006FFFFB170000: builtin
+23260.958:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\Kerberos.dll" at 00006FFFFB120000: builtin
+23260.958:0138:013c:err:kerberos:kerberos_LsaApInitializePackage no Kerberos support, expect problems
+23260.958:0138:013c:trace:loaddll:free_modref Unloaded module L"C:\\windows\\system32\\Kerberos.dll" : builtin
+23260.961:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\netutils.dll" at 00006FFFFB0B0000: builtin
+23260.961:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\netapi32.dll" at 00006FFFFB0D0000: builtin
+23260.961:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\MSV1_0.dll" at 00006FFFFB110000: builtin
+23260.961:0138:013c:err:ntlm:ntlm_LsaApInitializePackage no NTLM support, expect problems
+23260.961:0138:013c:trace:loaddll:free_modref Unloaded module L"C:\\windows\\system32\\MSV1_0.dll" : builtin
+23260.962:0138:013c:trace:loaddll:free_modref Unloaded module L"C:\\windows\\system32\\netapi32.dll" : builtin
+23260.962:0138:013c:trace:loaddll:free_modref Unloaded module L"C:\\windows\\system32\\netutils.dll" : builtin
+23260.965:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\x3daudio1_7.dll" at 00006FFFFB120000: builtin
+23260.966:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\xapofx1_5.dll" at 00006FFFFB0F0000: builtin
+23260.967:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\hid.dll" at 00006FFFFDA70000: builtin
+23260.967:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\xinput1_4.dll" at 00006FFFFB0C0000: builtin
+23261.024:0138:013c:trace:loaddll:build_module Loaded L"Z:\\home\\za3ter\\.local\\share\\Steam\\steamapps\\common\\Wuthering Waves\\Client\\Binaries\\Win64\\cgsdk-loader.dll" at 00006FFFFB090000: native
+23261.026:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\dxgi.dll" at 00006FFFFA640000: native
+23261.026:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\d3d11.dll" at 00006FFFFAA90000: native
+23261.046:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\dwmapi.dll" at 00006FFFFA620000: builtin
+23261.054:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\pdh.dll" at 00006FFFFA5F0000: builtin
+23261.978:0138:0150:warn:threadname:NtSetInformationThread Thread renamed to L"wine_threadpool_worker"
+23261.979:0138:0154:warn:threadname:NtSetInformationThread Thread renamed to L"wine_threadpool_waitqueue"
+23261.980:0138:013c:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+23261.984:0138:0158:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\psapi.dll" at 00006FFFFA5D0000: builtin
+23261.984:0138:0158:fixme:seh:EnumDeviceDrivers (000000000733D860, 8192, 000000000733D850): stub
+23261.986:0030:0160:warn:threadname:NtSetInformationThread Thread renamed to L"wine_rpcrt4_io"
+23261.987:0030:0164:warn:threadname:NtSetInformationThread Thread renamed to L"wine_threadpool_worker"
+23261.987:0030:0164:fixme:service:svcctl_EnumServicesStatusExW resume handle not supported
+23261.987:0030:0164:fixme:service:svcctl_EnumServicesStatusExW resume handle not supported
+23262.002:0138:0158:fixme:reg:NtQueryLicenseValue License key L"Kernel-VMDetection-Private" not found
+23262.006:0138:0158:fixme:ntdll:enum_firmware_info info_class SYSTEM_FIRMWARE_TABLE_INFORMATION provider 4649524d
+23262.006:0138:0158:fixme:ntdll:enum_firmware_info info_class SYSTEM_FIRMWARE_TABLE_INFORMATION provider 41435049
+info:  Game: Client-Win64-Shipping.exe
+info:  DXVK: v2.7.1-509-g1676dcaf342a9b1
+info:  Build: x86_64 gcc 14.2.0
+23262.011:0138:0158:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\winevulkan.dll" at 00006FFFFA580000: builtin
+info:  Vulkan: Found vkGetInstanceProcAddr in winevulkan.dll @ 0x6ffffa58fbf0
+info:  Extension providers:
+info:    Platform WSI
+info:    OpenVR
+info:    OpenXR
+23262.012:0138:0158:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\wineopenxr.dll" at 00006FFFFA540000: builtin
+23262.013:0138:0158:err:openxr:get_vulkan_extensions Error getting openxr_vulkan_instance_extensions, status 0x2.
+warn:  OpenXR: Unable to get required Vulkan instance extensions size
+23262.044:0138:016c:warn:threadname:NtSetInformationThread Thread renamed to L"PakFileVerifyWorker"
+23262.044:0138:016c:warn:threadname:dispatch_exception Thread renamed to "PakFileVerifyWorker"
+23262.044:0138:016c:trace:seh:dispatch_exception code=406d1388 (EXCEPTION_WINE_NAME_THREAD) flags=0 addr=00006FFFFFBCD1F7
+23262.044:0138:016c:trace:seh:dispatch_exception  info[0]=0000000000001000
+23262.044:0138:016c:trace:seh:dispatch_exception  info[1]=000000000A53FE70
+23262.044:0138:016c:trace:seh:dispatch_exception  info[2]=000000000000016C
+23262.044:0138:016c:trace:seh:dispatch_exception rip=00006fffffbcd1f7 rsp=000000000a53fd20 rbp=0000000000000000 eflags=00000202
+23262.044:0138:016c:trace:seh:dispatch_exception rax=000000000a53fd70 rbx=0000000009882830 rcx=000000000a53fd40 rdx=0000000000000000
+23262.044:0138:016c:trace:seh:dispatch_exception rsi=0000000000000000 rdi=0000000000000014  r8=000000000000016c  r9=000000000a53fe20
+23262.044:0138:016c:trace:seh:dispatch_exception r10=00000000012300c8 r11=7650979189fe1508 r12=0000000000000000 r13=0000000000000000
+23262.044:0138:016c:trace:seh:dispatch_exception r14=0000000000000000 r15=0000000000000000 mxcsr=00001fa0
+23262.044:0138:016c:trace:seh:call_vectored_handlers calling handler at 00006FFFFAAAE3C0 code=406d1388 flags=0
+23262.044:0138:016c:trace:seh:call_vectored_handlers handler at 00006FFFFAAAE3C0 returned ffffffff
+info:  Enabled instance extensions:
+info:    VK_KHR_get_surface_capabilities2
+info:    VK_KHR_surface
+info:    VK_KHR_surface_maintenance1
+info:    VK_KHR_win32_surface
+info:  Found device: NVIDIA GeForce GTX 960 (NVIDIA 580.142.0)
+info:  Found device: llvmpipe (LLVM 21.1.8, 256 bits) (llvmpipe 26.1.0)
+info:    Skipping: Software driver
+23262.115:0138:0158:err:openxr:get_vulkan_extensions Error getting openxr_vulkan_instance_extensions, status 0x2.
+warn:  OpenXR: Unable to get required Vulkan Device extensions size
+23262.115:0138:0158:trace:loaddll:free_modref Unloaded module L"C:\\windows\\system32\\wineopenxr.dll" : builtin
+info:  D3D9: VK_FORMAT_D16_UNORM_S8_UINT -> VK_FORMAT_D24_UNORM_S8_UINT
+info:  Process set as DPI aware
+23262.541:0138:0158:fixme:ntdll:NtQuerySystemInformation semi-stub!
+23262.541:0138:0158:fixme:ntdll:NtQuerySystemInformation semi-stub!
+23263.121:0138:0170:warn:threadname:NtSetInformationThread Thread renamed to L"TaskGraphThreadNP 0"
+23263.121:0138:0170:warn:threadname:dispatch_exception Thread renamed to "TaskGraphThreadNP 0"
+23263.121:0138:0170:trace:seh:dispatch_exception code=406d1388 (EXCEPTION_WINE_NAME_THREAD) flags=0 addr=00006FFFFFBCD1F7
+23263.121:0138:0170:trace:seh:dispatch_exception  info[0]=0000000000001000
+23263.121:0138:0170:trace:seh:dispatch_exception  info[1]=000000001E1FFE70
+23263.121:0138:0170:trace:seh:dispatch_exception  info[2]=0000000000000170
+23263.121:0138:0170:trace:seh:dispatch_exception rip=00006fffffbcd1f7 rsp=000000001e1ffd20 rbp=0000000000000000 eflags=00000202
+23263.121:0138:0170:trace:seh:dispatch_exception rax=000000001e1ffd70 rbx=0000000015266160 rcx=000000001e1ffd40 rdx=0000000000000000
+23263.121:0138:0170:trace:seh:dispatch_exception rsi=0000000000000000 rdi=0000000000000014  r8=0000000000000170  r9=000000001e1ffe20
+23263.121:0138:0170:trace:seh:dispatch_exception r10=0000000000000000 r11=0000000015266160 r12=0000000000000000 r13=0000000000000000
+23263.121:0138:0170:trace:seh:dispatch_exception r14=0000000000000000 r15=0000000000000000 mxcsr=00001fa0
+23263.121:0138:0170:trace:seh:call_vectored_handlers calling handler at 00006FFFFAAAE3C0 code=406d1388 flags=0
+23263.121:0138:0170:trace:seh:call_vectored_handlers handler at 00006FFFFAAAE3C0 returned ffffffff
+23263.126:0138:0174:warn:threadname:NtSetInformationThread Thread renamed to L"TaskGraphThreadNP 1"
+23263.126:0138:0174:warn:threadname:dispatch_exception Thread renamed to "TaskGraphThreadNP 1"
+23263.126:0138:0174:trace:seh:dispatch_exception code=406d1388 (EXCEPTION_WINE_NAME_THREAD) flags=0 addr=00006FFFFFBCD1F7
+23263.126:0138:0174:trace:seh:dispatch_exception  info[0]=0000000000001000
+23263.126:0138:0174:trace:seh:dispatch_exception  info[1]=000000001E31FE70
+23263.126:0138:0174:trace:seh:dispatch_exception  info[2]=0000000000000174
+23263.126:0138:0174:trace:seh:dispatch_exception rip=00006fffffbcd1f7 rsp=000000001e31fd20 rbp=0000000000000000 eflags=00000202
+23263.126:0138:0174:trace:seh:dispatch_exception rax=000000001e31fd70 rbx=0000000015266190 rcx=000000001e31fd40 rdx=0000000000000000
+23263.126:0138:0174:trace:seh:dispatch_exception rsi=0000000000000000 rdi=0000000000000014  r8=0000000000000174  r9=000000001e31fe20
+23263.126:0138:0174:trace:seh:dispatch_exception r10=0000000000000000 r11=0000000015266190 r12=0000000000000000 r13=0000000000000000
+23263.126:0138:0174:trace:seh:dispatch_exception r14=0000000000000000 r15=0000000000000000 mxcsr=00001fa0
+23263.126:0138:0174:trace:seh:call_vectored_handlers calling handler at 00006FFFFAAAE3C0 code=406d1388 flags=0
+23263.126:0138:0174:trace:seh:call_vectored_handlers handler at 00006FFFFAAAE3C0 returned ffffffff
+23263.127:0138:0178:warn:threadname:NtSetInformationThread Thread renamed to L"TaskGraphThreadNP 2"
+23263.127:0138:0178:warn:threadname:dispatch_exception Thread renamed to "TaskGraphThreadNP 2"
+23263.127:0138:0178:trace:seh:dispatch_exception code=406d1388 (EXCEPTION_WINE_NAME_THREAD) flags=0 addr=00006FFFFFBCD1F7
+23263.127:0138:0178:trace:seh:dispatch_exception  info[0]=0000000000001000
+23263.127:0138:0178:trace:seh:dispatch_exception  info[1]=000000001E42FE70
+23263.127:0138:0178:trace:seh:dispatch_exception  info[2]=0000000000000178
+23263.127:0138:0178:trace:seh:dispatch_exception rip=00006fffffbcd1f7 rsp=000000001e42fd20 rbp=0000000000000000 eflags=00000202
+23263.127:0138:0178:trace:seh:dispatch_exception rax=000000001e42fd70 rbx=00000000152661f0 rcx=000000001e42fd40 rdx=0000000000000000
+23263.127:0138:0178:trace:seh:dispatch_exception rsi=0000000000000000 rdi=0000000000000014  r8=0000000000000178  r9=000000001e42fe20
+23263.127:0138:0178:trace:seh:dispatch_exception r10=0000000000000000 r11=00000000152661f0 r12=0000000000000000 r13=0000000000000000
+23263.127:0138:0178:trace:seh:dispatch_exception r14=0000000000000000 r15=0000000000000000 mxcsr=00001fa0
+23263.127:0138:0178:trace:seh:call_vectored_handlers calling handler at 00006FFFFAAAE3C0 code=406d1388 flags=0
+23263.127:0138:0178:trace:seh:call_vectored_handlers handler at 00006FFFFAAAE3C0 returned ffffffff
+23263.128:0138:017c:warn:threadname:NtSetInformationThread Thread renamed to L"TaskGraphThreadHP 3"
+23263.128:0138:017c:warn:threadname:dispatch_exception Thread renamed to "TaskGraphThreadHP 3"
+23263.128:0138:017c:trace:seh:dispatch_exception code=406d1388 (EXCEPTION_WINE_NAME_THREAD) flags=0 addr=00006FFFFFBCD1F7
+23263.128:0138:017c:trace:seh:dispatch_exception  info[0]=0000000000001000
+23263.128:0138:017c:trace:seh:dispatch_exception  info[1]=000000001E53FE70
+23263.128:0138:017c:trace:seh:dispatch_exception  info[2]=000000000000017C
+23263.128:0138:017c:trace:seh:dispatch_exception rip=00006fffffbcd1f7 rsp=000000001e53fd20 rbp=0000000000000000 eflags=00000202
+23263.128:0138:017c:trace:seh:dispatch_exception rax=000000001e53fd70 rbx=00000000152661c0 rcx=000000001e53fd40 rdx=0000000000000000
+23263.128:0138:017c:trace:seh:dispatch_exception rsi=0000000000000000 rdi=0000000000000014  r8=000000000000017c  r9=000000001e53fe20
+23263.128:0138:017c:trace:seh:dispatch_exception r10=0000000000000000 r11=00000000152661c0 r12=0000000000000000 r13=0000000000000000
+23263.128:0138:017c:trace:seh:dispatch_exception r14=0000000000000000 r15=0000000000000000 mxcsr=00001fa0
+23263.128:0138:017c:trace:seh:call_vectored_handlers calling handler at 00006FFFFAAAE3C0 code=406d1388 flags=0
+23263.128:0138:017c:trace:seh:call_vectored_handlers handler at 00006FFFFAAAE3C0 returned ffffffff
+23263.129:0138:0180:warn:threadname:NtSetInformationThread Thread renamed to L"TaskGraphThreadHP 4"
+23263.129:0138:0180:warn:threadname:dispatch_exception Thread renamed to "TaskGraphThreadHP 4"
+23263.129:0138:0180:trace:seh:dispatch_exception code=406d1388 (EXCEPTION_WINE_NAME_THREAD) flags=0 addr=00006FFFFFBCD1F7
+23263.129:0138:0180:trace:seh:dispatch_exception  info[0]=0000000000001000
+23263.129:0138:0180:trace:seh:dispatch_exception  info[1]=000000001E64FE70
+23263.129:0138:0180:trace:seh:dispatch_exception  info[2]=0000000000000180
+23263.129:0138:0180:trace:seh:dispatch_exception rip=00006fffffbcd1f7 rsp=000000001e64fd20 rbp=0000000000000000 eflags=00000202
+23263.129:0138:0180:trace:seh:dispatch_exception rax=000000001e64fd70 rbx=0000000015266220 rcx=000000001e64fd40 rdx=0000000000000000
+23263.129:0138:0180:trace:seh:dispatch_exception rsi=0000000000000000 rdi=0000000000000014  r8=0000000000000180  r9=000000001e64fe20
+23263.129:0138:0180:trace:seh:dispatch_exception r10=0000000000000000 r11=0000000015266220 r12=0000000000000000 r13=0000000000000000
+23263.129:0138:0180:trace:seh:dispatch_exception r14=0000000000000000 r15=0000000000000000 mxcsr=00001fa0
+23263.129:0138:0180:trace:seh:call_vectored_handlers calling handler at 00006FFFFAAAE3C0 code=406d1388 flags=0
+23263.129:0138:0180:trace:seh:call_vectored_handlers handler at 00006FFFFAAAE3C0 returned ffffffff
+23263.130:0138:0184:warn:threadname:NtSetInformationThread Thread renamed to L"TaskGraphThreadHP 5"
+23263.130:0138:0184:warn:threadname:dispatch_exception Thread renamed to "TaskGraphThreadHP 5"
+23263.130:0138:0184:trace:seh:dispatch_exception code=406d1388 (EXCEPTION_WINE_NAME_THREAD) flags=0 addr=00006FFFFFBCD1F7
+23263.130:0138:0184:trace:seh:dispatch_exception  info[0]=0000000000001000
+23263.130:0138:0184:trace:seh:dispatch_exception  info[1]=000000001E75FE70
+23263.130:0138:0184:trace:seh:dispatch_exception  info[2]=0000000000000184
+23263.130:0138:0184:trace:seh:dispatch_exception rip=00006fffffbcd1f7 rsp=000000001e75fd20 rbp=0000000000000000 eflags=00000202
+23263.130:0138:0184:trace:seh:dispatch_exception rax=000000001e75fd70 rbx=0000000015266250 rcx=000000001e75fd40 rdx=0000000000000000
+23263.130:0138:0184:trace:seh:dispatch_exception rsi=0000000000000000 rdi=0000000000000014  r8=0000000000000184  r9=000000001e75fe20
+23263.130:0138:0184:trace:seh:dispatch_exception r10=0000000000000000 r11=0000000015266250 r12=0000000000000000 r13=0000000000000000
+23263.130:0138:0184:trace:seh:dispatch_exception r14=0000000000000000 r15=0000000000000000 mxcsr=00001fa0
+23263.130:0138:0184:trace:seh:call_vectored_handlers calling handler at 00006FFFFAAAE3C0 code=406d1388 flags=0
+23263.130:0138:0184:trace:seh:call_vectored_handlers handler at 00006FFFFAAAE3C0 returned ffffffff
+23263.131:0138:0188:warn:threadname:NtSetInformationThread Thread renamed to L"TaskGraphThreadBP 6"
+23263.131:0138:0188:warn:threadname:dispatch_exception Thread renamed to "TaskGraphThreadBP 6"
+23263.131:0138:0188:trace:seh:dispatch_exception code=406d1388 (EXCEPTION_WINE_NAME_THREAD) flags=0 addr=00006FFFFFBCD1F7
+23263.131:0138:0188:trace:seh:dispatch_exception  info[0]=0000000000001000
+23263.131:0138:0188:trace:seh:dispatch_exception  info[1]=000000001E86FE70
+23263.131:0138:0188:trace:seh:dispatch_exception  info[2]=0000000000000188
+23263.131:0138:0188:trace:seh:dispatch_exception rip=00006fffffbcd1f7 rsp=000000001e86fd20 rbp=0000000000000000 eflags=00000202
+23263.131:0138:0188:trace:seh:dispatch_exception rax=000000001e86fd70 rbx=0000000015266280 rcx=000000001e86fd40 rdx=0000000000000000
+23263.131:0138:0188:trace:seh:dispatch_exception rsi=0000000000000000 rdi=0000000000000014  r8=0000000000000188  r9=000000001e86fe20
+23263.131:0138:0188:trace:seh:dispatch_exception r10=0000000000000000 r11=0000000015266280 r12=0000000000000000 r13=0000000000000000
+23263.131:0138:0188:trace:seh:dispatch_exception r14=0000000000000000 r15=0000000000000000 mxcsr=00001fa0
+23263.131:0138:0188:trace:seh:call_vectored_handlers calling handler at 00006FFFFAAAE3C0 code=406d1388 flags=0
+23263.131:0138:0188:trace:seh:call_vectored_handlers handler at 00006FFFFAAAE3C0 returned ffffffff
+23263.132:0138:018c:warn:threadname:NtSetInformationThread Thread renamed to L"TaskGraphThreadBP 7"
+23263.132:0138:018c:warn:threadname:dispatch_exception Thread renamed to "TaskGraphThreadBP 7"
+23263.132:0138:018c:trace:seh:dispatch_exception code=406d1388 (EXCEPTION_WINE_NAME_THREAD) flags=0 addr=00006FFFFFBCD1F7
+23263.132:0138:018c:trace:seh:dispatch_exception  info[0]=0000000000001000
+23263.132:0138:018c:trace:seh:dispatch_exception  info[1]=000000001E96FE70
+23263.132:0138:018c:trace:seh:dispatch_exception  info[2]=000000000000018C
+23263.132:0138:018c:trace:seh:dispatch_exception rip=00006fffffbcd1f7 rsp=000000001e96fd20 rbp=0000000000000000 eflags=00000202
+23263.132:0138:018c:trace:seh:dispatch_exception rax=000000001e96fd70 rbx=00000000152662b0 rcx=000000001e96fd40 rdx=0000000000000000
+23263.132:0138:018c:trace:seh:dispatch_exception rsi=0000000000000000 rdi=0000000000000014  r8=000000000000018c  r9=000000001e96fe20
+23263.132:0138:018c:trace:seh:dispatch_exception r10=0000000000000000 r11=00000000152662b0 r12=0000000000000000 r13=0000000000000000
+23263.132:0138:018c:trace:seh:dispatch_exception r14=0000000000000000 r15=0000000000000000 mxcsr=00001fa0
+23263.132:0138:018c:trace:seh:call_vectored_handlers calling handler at 00006FFFFAAAE3C0 code=406d1388 flags=0
+23263.132:0138:018c:trace:seh:call_vectored_handlers handler at 00006FFFFAAAE3C0 returned ffffffff
+23263.133:0138:0190:warn:threadname:NtSetInformationThread Thread renamed to L"TaskGraphThreadBP 8"
+23263.133:0138:0190:warn:threadname:dispatch_exception Thread renamed to "TaskGraphThreadBP 8"
+23263.133:0138:0190:trace:seh:dispatch_exception code=406d1388 (EXCEPTION_WINE_NAME_THREAD) flags=0 addr=00006FFFFFBCD1F7
+23263.133:0138:0190:trace:seh:dispatch_exception  info[0]=0000000000001000
+23263.133:0138:0190:trace:seh:dispatch_exception  info[1]=000000001EA6FE70
+23263.133:0138:0190:trace:seh:dispatch_exception  info[2]=0000000000000190
+23263.133:0138:0190:trace:seh:dispatch_exception rip=00006fffffbcd1f7 rsp=000000001ea6fd20 rbp=0000000000000000 eflags=00000202
+23263.133:0138:0190:trace:seh:dispatch_exception rax=000000001ea6fd70 rbx=00000000152662e0 rcx=000000001ea6fd40 rdx=0000000000000000
+23263.133:0138:0190:trace:seh:dispatch_exception rsi=0000000000000000 rdi=0000000000000014  r8=0000000000000190  r9=000000001ea6fe20
+23263.133:0138:0190:trace:seh:dispatch_exception r10=0000000000000000 r11=00000000152662e0 r12=0000000000000000 r13=0000000000000000
+23263.133:0138:0190:trace:seh:dispatch_exception r14=0000000000000000 r15=0000000000000000 mxcsr=00001fa0
+23263.133:0138:0190:trace:seh:call_vectored_handlers calling handler at 00006FFFFAAAE3C0 code=406d1388 flags=0
+23263.133:0138:0190:trace:seh:call_vectored_handlers handler at 00006FFFFAAAE3C0 returned ffffffff
+23263.160:0138:0194:warn:threadname:NtSetInformationThread Thread renamed to L"ThreadPool Thread-0"
+23263.160:0138:0194:warn:threadname:dispatch_exception Thread renamed to "ThreadPool Thread-0"
+23263.160:0138:0194:trace:seh:dispatch_exception code=406d1388 (EXCEPTION_WINE_NAME_THREAD) flags=0 addr=00006FFFFFBCD1F7
+23263.160:0138:0194:trace:seh:dispatch_exception  info[0]=0000000000001000
+23263.160:0138:0194:trace:seh:dispatch_exception  info[1]=000000001F0AFE70
+23263.160:0138:0194:trace:seh:dispatch_exception  info[2]=0000000000000194
+23263.160:0138:0194:trace:seh:dispatch_exception rip=00006fffffbcd1f7 rsp=000000001f0afd20 rbp=0000000000000000 eflags=00000202
+23263.160:0138:0194:trace:seh:dispatch_exception rax=000000001f0afd70 rbx=000000001ef1f1f0 rcx=000000001f0afd40 rdx=0000000000000000
+23263.160:0138:0194:trace:seh:dispatch_exception rsi=0000000000000000 rdi=0000000000000014  r8=0000000000000194  r9=000000001f0afe20
+23263.160:0138:0194:trace:seh:dispatch_exception r10=0000000000000000 r11=000000001ef1f1f0 r12=0000000000000000 r13=0000000000000000
+23263.160:0138:0194:trace:seh:dispatch_exception r14=0000000000000000 r15=0000000000000000 mxcsr=00001fa0
+23263.160:0138:0194:trace:seh:call_vectored_handlers calling handler at 00006FFFFAAAE3C0 code=406d1388 flags=0
+23263.160:0138:0194:trace:seh:call_vectored_handlers handler at 00006FFFFAAAE3C0 returned ffffffff
+23263.161:0138:0198:warn:threadname:NtSetInformationThread Thread renamed to L"ThreadPool Thread-1"
+23263.161:0138:0198:warn:threadname:dispatch_exception Thread renamed to "ThreadPool Thread-1"
+23263.161:0138:0198:trace:seh:dispatch_exception code=406d1388 (EXCEPTION_WINE_NAME_THREAD) flags=0 addr=00006FFFFFBCD1F7
+23263.161:0138:0198:trace:seh:dispatch_exception  info[0]=0000000000001000
+23263.161:0138:0198:trace:seh:dispatch_exception  info[1]=000000001F1AFE70
+23263.161:0138:0198:trace:seh:dispatch_exception  info[2]=0000000000000198
+23263.161:0138:0198:trace:seh:dispatch_exception rip=00006fffffbcd1f7 rsp=000000001f1afd20 rbp=0000000000000000 eflags=00000202
+23263.161:0138:0198:trace:seh:dispatch_exception rax=000000001f1afd70 rbx=000000001ef1fcd0 rcx=000000001f1afd40 rdx=0000000000000000
+23263.161:0138:0198:trace:seh:dispatch_exception rsi=0000000000000000 rdi=0000000000000014  r8=0000000000000198  r9=000000001f1afe20
+23263.161:0138:0198:trace:seh:dispatch_exception r10=0000000000000000 r11=000000001ef1fcd0 r12=0000000000000000 r13=0000000000000000
+23263.161:0138:0198:trace:seh:dispatch_exception r14=0000000000000000 r15=0000000000000000 mxcsr=00001fa0
+23263.161:0138:0198:trace:seh:call_vectored_handlers calling handler at 00006FFFFAAAE3C0 code=406d1388 flags=0
+23263.161:0138:0198:trace:seh:call_vectored_handlers handler at 00006FFFFAAAE3C0 returned ffffffff
+23263.162:0138:019c:warn:threadname:NtSetInformationThread Thread renamed to L"ThreadPool Thread-2"
+23263.162:0138:019c:warn:threadname:dispatch_exception Thread renamed to "ThreadPool Thread-2"
+23263.162:0138:019c:trace:seh:dispatch_exception code=406d1388 (EXCEPTION_WINE_NAME_THREAD) flags=0 addr=00006FFFFFBCD1F7
+23263.162:0138:019c:trace:seh:dispatch_exception  info[0]=0000000000001000
+23263.162:0138:019c:trace:seh:dispatch_exception  info[1]=000000001F2AFE70
+23263.162:0138:019c:trace:seh:dispatch_exception  info[2]=000000000000019C
+23263.162:0138:019c:trace:seh:dispatch_exception rip=00006fffffbcd1f7 rsp=000000001f2afd20 rbp=0000000000000000 eflags=00000202
+23263.162:0138:019c:trace:seh:dispatch_exception rax=000000001f2afd70 rbx=000000001ef1f220 rcx=000000001f2afd40 rdx=0000000000000000
+23263.162:0138:019c:trace:seh:dispatch_exception rsi=0000000000000000 rdi=0000000000000014  r8=000000000000019c  r9=000000001f2afe20
+23263.162:0138:019c:trace:seh:dispatch_exception r10=0000000000000000 r11=000000001ef1f220 r12=0000000000000000 r13=0000000000000000
+23263.162:0138:019c:trace:seh:dispatch_exception r14=0000000000000000 r15=0000000000000000 mxcsr=00001fa0
+23263.162:0138:019c:trace:seh:call_vectored_handlers calling handler at 00006FFFFAAAE3C0 code=406d1388 flags=0
+23263.162:0138:019c:trace:seh:call_vectored_handlers handler at 00006FFFFAAAE3C0 returned ffffffff
+23263.163:0138:01a0:warn:threadname:NtSetInformationThread Thread renamed to L"BackgroundThreadPool Thread-3"
+23263.163:0138:01a0:warn:threadname:dispatch_exception Thread renamed to "BackgroundThreadPool Thread-3"
+23263.163:0138:01a0:trace:seh:dispatch_exception code=406d1388 (EXCEPTION_WINE_NAME_THREAD) flags=0 addr=00006FFFFFBCD1F7
+23263.163:0138:01a0:trace:seh:dispatch_exception  info[0]=0000000000001000
+23263.163:0138:01a0:trace:seh:dispatch_exception  info[1]=000000001F3AFE70
+23263.163:0138:01a0:trace:seh:dispatch_exception  info[2]=00000000000001A0
+23263.163:0138:01a0:trace:seh:dispatch_exception rip=00006fffffbcd1f7 rsp=000000001f3afd20 rbp=0000000000000000 eflags=00000202
+23263.163:0138:01a0:trace:seh:dispatch_exception rax=000000001f3afd70 rbx=00000000087f5940 rcx=000000001f3afd40 rdx=0000000000000000
+23263.163:0138:01a0:trace:seh:dispatch_exception rsi=0000000000000000 rdi=000000000000001e  r8=00000000000001a0  r9=000000001f3afe20
+23263.163:0138:01a0:trace:seh:dispatch_exception r10=0000000000000000 r11=00000000087f5940 r12=0000000000000000 r13=0000000000000000
+23263.163:0138:01a0:trace:seh:dispatch_exception r14=0000000000000000 r15=0000000000000000 mxcsr=00001fa0
+23263.163:0138:01a0:trace:seh:call_vectored_handlers calling handler at 00006FFFFAAAE3C0 code=406d1388 flags=0
+23263.163:0138:01a0:trace:seh:call_vectored_handlers handler at 00006FFFFAAAE3C0 returned ffffffff
+23263.164:0138:01a4:warn:threadname:NtSetInformationThread Thread renamed to L"BackgroundThreadPool Thread-4"
+23263.164:0138:01a4:warn:threadname:dispatch_exception Thread renamed to "BackgroundThreadPool Thread-4"
+23263.164:0138:01a4:trace:seh:dispatch_exception code=406d1388 (EXCEPTION_WINE_NAME_THREAD) flags=0 addr=00006FFFFFBCD1F7
+23263.164:0138:01a4:trace:seh:dispatch_exception  info[0]=0000000000001000
+23263.164:0138:01a4:trace:seh:dispatch_exception  info[1]=000000001F4AFE70
+23263.164:0138:01a4:trace:seh:dispatch_exception  info[2]=00000000000001A4
+23263.164:0138:01a4:trace:seh:dispatch_exception rip=00006fffffbcd1f7 rsp=000000001f4afd20 rbp=0000000000000000 eflags=00000202
+23263.164:0138:01a4:trace:seh:dispatch_exception rax=000000001f4afd70 rbx=00000000087f5ac0 rcx=000000001f4afd40 rdx=0000000000000000
+23263.164:0138:01a4:trace:seh:dispatch_exception rsi=0000000000000000 rdi=000000000000001e  r8=00000000000001a4  r9=000000001f4afe20
+23263.164:0138:01a4:trace:seh:dispatch_exception r10=0000000000000000 r11=00000000087f5ac0 r12=0000000000000000 r13=0000000000000000
+23263.164:0138:01a4:trace:seh:dispatch_exception r14=0000000000000000 r15=0000000000000000 mxcsr=00001fa0
+23263.164:0138:01a4:trace:seh:call_vectored_handlers calling handler at 00006FFFFAAAE3C0 code=406d1388 flags=0
+23263.164:0138:01a4:trace:seh:call_vectored_handlers handler at 00006FFFFAAAE3C0 returned ffffffff
+23263.167:0138:013c:trace:loaddll:build_module Loaded L"Z:\\home\\za3ter\\.local\\share\\Steam\\steamapps\\common\\Wuthering Waves\\Engine\\Binaries\\ThirdParty\\NVIDIA\\NVaftermath\\Win64\\GFSDK_Aftermath_Lib.x64.dll" at 00006FFFFA070000: native
+23263.172:0138:013c:fixme:nls:get_dummy_preferred_ui_language (0x8 0x409 0000000000B9E4F4 0000000000000000 0000000000B9E4F0) returning a dummy value (current locale)
+23263.172:0138:013c:fixme:nls:get_dummy_preferred_ui_language (0x8 0x409 0000000000B9E4F4 000000001EF92540 0000000000B9E4F0) returning a dummy value (current locale)
+23263.184:0138:013c:trace:loaddll:build_module Loaded L"Z:\\home\\za3ter\\.local\\share\\Steam\\steamapps\\common\\Wuthering Waves\\Engine\\Binaries\\ThirdParty\\DbgHelp\\dbghelp.dll" at 00006FFFFEA60000: builtin
+23263.185:0138:01a8:warn:threadname:NtSetInformationThread Thread renamed to L"LogMasterThread"
+23263.185:0138:01a8:warn:threadname:dispatch_exception Thread renamed to "LogMasterThread"
+23263.185:0138:01a8:trace:seh:dispatch_exception code=406d1388 (EXCEPTION_WINE_NAME_THREAD) flags=0 addr=00006FFFFFBCD1F7
+23263.185:0138:01a8:trace:seh:dispatch_exception  info[0]=0000000000001000
+23263.185:0138:01a8:trace:seh:dispatch_exception  info[1]=000000002018FE70
+23263.185:0138:01a8:trace:seh:dispatch_exception  info[2]=00000000000001A8
+23263.185:0138:01a8:trace:seh:dispatch_exception rip=00006fffffbcd1f7 rsp=000000002018fd20 rbp=0000000000000000 eflags=00000202
+23263.185:0138:01a8:trace:seh:dispatch_exception rax=000000002018fd70 rbx=000000001ebdf020 rcx=000000002018fd40 rdx=0000000000000000
+23263.185:0138:01a8:trace:seh:dispatch_exception rsi=0000000000000000 rdi=0000000000000010  r8=00000000000001a8  r9=000000002018fe20
+23263.185:0138:01a8:trace:seh:dispatch_exception r10=0000000000000000 r11=000000001ebdf020 r12=0000000000000000 r13=0000000000000000
+23263.185:0138:01a8:trace:seh:dispatch_exception r14=0000000000000000 r15=0000000000000000 mxcsr=00001fa0
+23263.185:0138:01a8:trace:seh:call_vectored_handlers calling handler at 00006FFFFAAAE3C0 code=406d1388 flags=0
+23263.185:0138:01a8:trace:seh:call_vectored_handlers handler at 00006FFFFAAAE3C0 returned ffffffff
+23263.235:0138:013c:trace:loaddll:build_module Loaded L"Z:\\home\\za3ter\\.local\\share\\Steam\\steamapps\\common\\Wuthering Waves\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Global\\libcrypto-3-x64.dll" at 00006FFFF9A90000: native
+23263.236:0138:01ac:warn:threadname:NtSetInformationThread Thread renamed to L"FChunkCacheWorker"
+23263.236:0138:01ac:warn:threadname:dispatch_exception Thread renamed to "FChunkCacheWorker"
+23263.236:0138:01ac:trace:seh:dispatch_exception code=406d1388 (EXCEPTION_WINE_NAME_THREAD) flags=0 addr=00006FFFFFBCD1F7
+23263.236:0138:01ac:trace:seh:dispatch_exception  info[0]=0000000000001000
+23263.236:0138:01ac:trace:seh:dispatch_exception  info[1]=00000000210BFE70
+23263.236:0138:01ac:trace:seh:dispatch_exception  info[2]=00000000000001AC
+23263.236:0138:01ac:trace:seh:dispatch_exception rip=00006fffffbcd1f7 rsp=00000000210bfd20 rbp=0000000000000000 eflags=00000202
+23263.236:0138:01ac:trace:seh:dispatch_exception rax=00000000210bfd70 rbx=000000001eeaaba0 rcx=00000000210bfd40 rdx=0000000000000000
+23263.236:0138:01ac:trace:seh:dispatch_exception rsi=0000000000000000 rdi=0000000000000012  r8=00000000000001ac  r9=00000000210bfe20
+23263.236:0138:01ac:trace:seh:dispatch_exception r10=0000000000000000 r11=000000001eeaaba0 r12=0000000000000000 r13=0000000000000000
+23263.236:0138:01ac:trace:seh:dispatch_exception r14=0000000000000000 r15=0000000000000000 mxcsr=00001fa0
+23263.236:0138:01ac:trace:seh:call_vectored_handlers calling handler at 00006FFFFAAAE3C0 code=406d1388 flags=0
+23263.236:0138:01ac:trace:seh:call_vectored_handlers handler at 00006FFFFAAAE3C0 returned ffffffff
+23263.237:0138:013c:trace:loaddll:build_module Loaded L"Z:\\home\\za3ter\\.local\\share\\Steam\\steamapps\\common\\Wuthering Waves\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Global\\libssl-3-x64.dll" at 00006FFFF99B0000: native
+23263.239:0138:013c:trace:loaddll:build_module Loaded L"Z:\\home\\za3ter\\.local\\share\\Steam\\steamapps\\common\\Wuthering Waves\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Global\\KRShmq.dll" at 00006FFFF9990000: native
+23263.240:0138:013c:trace:loaddll:build_module Loaded L"Z:\\home\\za3ter\\.local\\share\\Steam\\steamapps\\common\\Wuthering Waves\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Global\\krsdk_zlib.dll" at 00006FFFF9960000: native
+23263.244:0138:013c:trace:loaddll:build_module Loaded L"Z:\\home\\za3ter\\.local\\share\\Steam\\steamapps\\common\\Wuthering Waves\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Global\\mfc140u.dll" at 00006FFFF93B0000: native
+23263.246:0138:013c:fixme:nls:RtlGetThreadPreferredUILanguages 00000038, 0000000000B9D2B4, 0000000000B9D2D0 0000000000B9D2B0
+23263.246:0138:013c:fixme:nls:get_dummy_preferred_ui_language (0x38 0x409 0000000000B9D2B4 0000000000B9D2D0 0000000000B9D2B0) returning a dummy value (current locale)
+23263.246:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\winsxs\\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.2600.2982_none_deadbeef\\Comctl32.dll" at 00006FFFFEED0000: builtin
+23263.250:0138:013c:trace:loaddll:build_module Loaded L"Z:\\home\\za3ter\\.local\\share\\Steam\\steamapps\\common\\Wuthering Waves\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Global\\msvcp140.dll" at 00006FFFF9300000: native
+23263.252:0138:013c:trace:loaddll:build_module Loaded L"Z:\\home\\za3ter\\.local\\share\\Steam\\steamapps\\common\\Wuthering Waves\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Global\\vcruntime140.dll" at 00006FFFF92D0000: native
+23263.253:0138:013c:trace:loaddll:build_module Loaded L"Z:\\home\\za3ter\\.local\\share\\Steam\\steamapps\\common\\Wuthering Waves\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Global\\libkrsdkcurl.dll" at 00006FFFF9240000: native
+23263.254:0138:01b0:warn:threadname:NtSetInformationThread Thread renamed to L"FChunkCacheWorker"
+23263.254:0138:01b0:warn:threadname:dispatch_exception Thread renamed to "FChunkCacheWorker"
+23263.255:0138:01b0:trace:seh:dispatch_exception code=406d1388 (EXCEPTION_WINE_NAME_THREAD) flags=0 addr=00006FFFFFBCD1F7
+23263.255:0138:01b0:trace:seh:dispatch_exception  info[0]=0000000000001000
+23263.255:0138:01b0:trace:seh:dispatch_exception  info[1]=0000000021CCFE70
+23263.255:0138:01b0:trace:seh:dispatch_exception  info[2]=00000000000001B0
+23263.255:0138:01b0:trace:seh:dispatch_exception rip=00006fffffbcd1f7 rsp=0000000021ccfd20 rbp=0000000000000000 eflags=00000202
+23263.255:0138:01b0:trace:seh:dispatch_exception rax=0000000021ccfd70 rbx=000000001eeaaae0 rcx=0000000021ccfd40 rdx=0000000000000000
+23263.255:0138:01b0:trace:seh:dispatch_exception rsi=0000000000000000 rdi=0000000000000012  r8=00000000000001b0  r9=0000000021ccfe20
+23263.255:0138:01b0:trace:seh:dispatch_exception r10=0000000000000000 r11=000000001eeaaae0 r12=0000000000000000 r13=0000000000000000
+23263.255:0138:01b0:trace:seh:dispatch_exception r14=0000000000000000 r15=0000000000000000 mxcsr=00001fa0
+23263.255:0138:01b0:trace:seh:call_vectored_handlers calling handler at 00006FFFFAAAE3C0 code=406d1388 flags=0
+23263.255:0138:01b0:trace:seh:call_vectored_handlers handler at 00006FFFFAAAE3C0 returned ffffffff
+23263.256:0138:013c:trace:loaddll:build_module Loaded L"Z:\\home\\za3ter\\.local\\share\\Steam\\steamapps\\common\\Wuthering Waves\\Client\\Binaries\\Win64\\steam_api64.dll" at 00006FFFF91E0000: native
+23263.260:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\mlang.dll" at 00006FFFF8F10000: builtin
+23263.260:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\gdiplus.dll" at 00006FFFF8F50000: builtin
+23263.261:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\netutils.dll" at 00006FFFF8EB0000: builtin
+23263.261:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\NETAPI32.dll" at 00006FFFF8ED0000: builtin
+23263.262:0138:013c:trace:loaddll:build_module Loaded L"Z:\\home\\za3ter\\.local\\share\\Steam\\steamapps\\common\\Wuthering Waves\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Global\\KRSDK.dll" at 00006FFFF8FF0000: native
+23263.263:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\msftedit.dll" at 00006FFFF8E80000: builtin
+23263.264:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\riched20.dll" at 000000007BE50000: builtin
+23263.264:0138:013c:fixme:nls:RtlGetThreadPreferredUILanguages 00000038, 0000000000B9D1B4, 0000000000B9D1D0 0000000000B9D1B0
+23263.264:0138:013c:fixme:nls:get_dummy_preferred_ui_language (0x38 0x409 0000000000B9D1B4 0000000000B9D1D0 0000000000B9D1B0) returning a dummy value (current locale)
+23263.264:0138:013c:fixme:shell:InitNetworkAddressControl stub
+23263.607:0138:01d0:warn:threadname:NtSetInformationThread Thread renamed to L"FChunkCacheWorker"
+23263.607:0138:01d0:warn:threadname:dispatch_exception Thread renamed to "FChunkCacheWorker"
+23263.607:0138:01d0:trace:seh:dispatch_exception code=406d1388 (EXCEPTION_WINE_NAME_THREAD) flags=0 addr=00006FFFFFBCD1F7
+23263.607:0138:01d0:trace:seh:dispatch_exception  info[0]=0000000000001000
+23263.607:0138:01d0:trace:seh:dispatch_exception  info[1]=000000002594FE70
+23263.607:0138:01d0:trace:seh:dispatch_exception  info[2]=00000000000001D0
+23263.607:0138:01d0:trace:seh:dispatch_exception rip=00006fffffbcd1f7 rsp=000000002594fd20 rbp=0000000000000000 eflags=00000202
+23263.607:0138:01d0:trace:seh:dispatch_exception rax=000000002594fd70 rbx=000000001eeaab70 rcx=000000002594fd40 rdx=0000000000000000
+23263.607:0138:01d0:trace:seh:dispatch_exception rsi=0000000000000000 rdi=0000000000000012  r8=00000000000001d0  r9=000000002594fe20
+23263.607:0138:01d0:trace:seh:dispatch_exception r10=0000000000000000 r11=000000001eeaab70 r12=0000000000000000 r13=0000000000000000
+23263.607:0138:01d0:trace:seh:dispatch_exception r14=0000000000000000 r15=0000000000000000 mxcsr=00001fa0
+23263.607:0138:01d0:trace:seh:call_vectored_handlers calling handler at 00006FFFFAAAE3C0 code=406d1388 flags=0
+23263.607:0138:01d0:trace:seh:call_vectored_handlers handler at 00006FFFFAAAE3C0 returned ffffffff
+23263.649:0138:01d4:warn:threadname:NtSetInformationThread Thread renamed to L"FChunkCacheWorker"
+23263.649:0138:01d4:warn:threadname:dispatch_exception Thread renamed to "FChunkCacheWorker"
+23263.649:0138:01d4:trace:seh:dispatch_exception code=406d1388 (EXCEPTION_WINE_NAME_THREAD) flags=0 addr=00006FFFFFBCD1F7
+23263.649:0138:01d4:trace:seh:dispatch_exception  info[0]=0000000000001000
+23263.649:0138:01d4:trace:seh:dispatch_exception  info[1]=00000000264CFE70
+23263.649:0138:01d4:trace:seh:dispatch_exception  info[2]=00000000000001D4
+23263.649:0138:01d4:trace:seh:dispatch_exception rip=00006fffffbcd1f7 rsp=00000000264cfd20 rbp=0000000000000000 eflags=00000202
+23263.649:0138:01d4:trace:seh:dispatch_exception rax=00000000264cfd70 rbx=000000001eeaaa80 rcx=00000000264cfd40 rdx=0000000000000000
+23263.649:0138:01d4:trace:seh:dispatch_exception rsi=0000000000000000 rdi=0000000000000012  r8=00000000000001d4  r9=00000000264cfe20
+23263.649:0138:01d4:trace:seh:dispatch_exception r10=0000000000000000 r11=000000001eeaaa80 r12=0000000000000000 r13=0000000000000000
+23263.649:0138:01d4:trace:seh:dispatch_exception r14=0000000000000000 r15=0000000000000000 mxcsr=00001fa0
+23263.649:0138:01d4:trace:seh:call_vectored_handlers calling handler at 00006FFFFAAAE3C0 code=406d1388 flags=0
+23263.649:0138:01d4:trace:seh:call_vectored_handlers handler at 00006FFFFAAAE3C0 returned ffffffff
+23263.757:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\lsteamclient.dll" at 00006FFFF72F0000: builtin
+23263.758:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\imagehlp.dll" at 00006FFFFEAF0000: builtin
+23263.758:0138:013c:trace:loaddll:build_module Loaded L"C:\\Program Files (x86)\\Steam\\steamclient64.dll" at 00006FFFF7550000: native
+23263.758:0138:013c:warn:debugstr:OutputDebugStringA "[S_API] SteamAPI_Init(): Loaded 'C:\\Program Files (x86)\\Steam\\steamclient64.dll' OK.\n"
+23263.758:0138:013c:warn:seh:dispatch_exception "[S_API] SteamAPI_Init(): Loaded 'C:\\Program Files (x86)\\Steam\\steamclient64.dll' OK.\n"
+23263.758:0138:013c:trace:seh:dispatch_exception code=40010006 (DBG_PRINTEXCEPTION_C) flags=0 addr=00006FFFFFBCD1F7
+23263.758:0138:013c:trace:seh:dispatch_exception  info[0]=0000000000000056
+23263.758:0138:013c:trace:seh:dispatch_exception  info[1]=0000000000B9C920
+23263.758:0138:013c:trace:seh:dispatch_exception rip=00006fffffbcd1f7 rsp=0000000000b9c520 rbp=0000000000b9c670 eflags=00000202
+23263.758:0138:013c:trace:seh:dispatch_exception rax=0000000000b9c568 rbx=000000007ffc0000 rcx=0000000000b9c540 rdx=0000000000000000
+23263.758:0138:013c:trace:seh:dispatch_exception rsi=0000000000006e5c rdi=000000000000745c  r8=0000000000b9c920  r9=0000000000b9c638
+23263.758:0138:013c:trace:seh:dispatch_exception r10=0000000000000000 r11=0000000000000000 r12=0000000000005c5c r13=000000000000225c
+23263.758:0138:013c:trace:seh:dispatch_exception r14=000000000000725c r15=0000000000b9c975 mxcsr=00001fa0
+23263.758:0138:013c:trace:seh:call_vectored_handlers calling handler at 00006FFFFAAAE3C0 code=40010006 flags=0
+23263.758:0138:013c:trace:seh:call_vectored_handlers handler at 00006FFFFAAAE3C0 returned 0
+23263.758:0138:013c:trace:seh:call_vectored_handlers calling handler at 00006FFFFA65C6A0 code=40010006 flags=0
+23263.758:0138:013c:trace:seh:call_vectored_handlers handler at 00006FFFFA65C6A0 returned 0
+23263.758:0138:013c:trace:seh:call_vectored_handlers calling handler at 00006FFFFB80C980 code=40010006 flags=0
+23263.758:0138:013c:trace:seh:call_vectored_handlers handler at 00006FFFFB80C980 returned 0
+23263.758:0138:013c:trace:unwind:RtlVirtualUnwind2 type 1 base 6fffffbc0000 rip 6fffffbcd1f7 rva d1f7 rsp b9c520
+23263.758:0138:013c:trace:unwind:dump_unwind_info **** func d188-d1ff
+23263.758:0138:013c:trace:unwind:dump_unwind_info unwind info at 00006FFFFFC7CD30 flags 0 prolog 0xf bytes function 00006FFFFFBCD188-00006FFFFFBCD1FF
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0xf: subq $0xc8,%rsp
+23263.758:0138:013c:trace:unwind:RtlVirtualUnwind2 inside epilog.
+23263.758:0138:013c:trace:unwind:RtlVirtualUnwind2 type 1 base 6fffffe80000 rip 6fffffea2d43 rva 22d43 rsp b9c5f0
+23263.758:0138:013c:trace:unwind:dump_unwind_info **** func 22ab0-2300b
+23263.758:0138:013c:trace:unwind:dump_unwind_info unwind info at 00006FFFFFEC1834 flags 0 prolog 0x23 bytes function 00006FFFFFEA2AB0-00006FFFFFEA300B
+23263.758:0138:013c:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0x23: leaq 0x80(%rsp),rbp
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0x1b: subq $0x2b8,%rsp
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0x14: pushq %rbx
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0x13: pushq %rsi
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0x12: pushq %rdi
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0x11: pushq %r12
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0xf: pushq %r13
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0xd: pushq %r14
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0xb: pushq %r15
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0x9: pushq %rbp
+23263.758:0138:013c:trace:seh:call_seh_handlers calling TEB handler 00006FFFFFEA9DB0 (rec=0000000000B9C540 frame=0000000000B9C770 context=0000000000B9C040 dispatch=0000000000B9B7C0) sp=b9c8f0
+23263.758:0138:013c:trace:seh:RtlUnwindEx code=40010006 flags=2 end_frame=0000000000B9C770 target_ip=00006FFFFFE947AA
+23263.758:0138:013c:trace:seh:RtlUnwindEx  info[0]=0000000000000056
+23263.758:0138:013c:trace:seh:RtlUnwindEx  info[1]=0000000000b9c920
+23263.758:0138:013c:trace:seh:RtlUnwindEx rip=00006ffffff26bd6 rsp=0000000000b9aaa0 rbp=0000000000b9ab20 eflags=00000206
+23263.758:0138:013c:trace:seh:RtlUnwindEx rax=000000007ffc0000 rbx=0000000000b9c540 rcx=0000000000b9b170 rdx=00006fffffe947aa
+23263.758:0138:013c:trace:seh:RtlUnwindEx rsi=0000000000b9c540 rdi=0000000000b9b170  r8=0000000000b9c540  r9=00006fffffeacff0
+23263.758:0138:013c:trace:seh:RtlUnwindEx r10=0000000000000000 r11=0000000000000000 r12=0000000000b9c770 r13=0000000000b9c770
+23263.758:0138:013c:trace:seh:RtlUnwindEx r14=000000007ffc0000 r15=0000000000b9ac10 mxcsr=00001fa0
+23263.758:0138:013c:trace:unwind:RtlVirtualUnwind2 type 2 base 6fffffef0000 rip 6ffffff26bd6 rva 36bd6 rsp b9aaa0
+23263.758:0138:013c:trace:unwind:dump_unwind_info **** func 36b80-372f4
+23263.758:0138:013c:trace:unwind:dump_unwind_info unwind info at 00006FFFFFF96054 flags 0 prolog 0x22 bytes function 00006FFFFFF26B80-00006FFFFFF272F4
+23263.758:0138:013c:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0x22: movaps %xmm6,0x640(%rsp)
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0x1b: leaq 0x80(%rsp),rbp
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0x13: subq $0x658,%rsp
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0xc: pushq %rbx
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0xb: pushq %rsi
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0xa: pushq %rdi
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0x9: pushq %r12
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0x7: pushq %r13
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0x5: pushq %r14
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0x3: pushq %r15
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+23263.758:0138:013c:trace:unwind:RtlVirtualUnwind2 type 2 base 6fffffef0000 rip 6ffffff26b67 rva 36b67 rsp b9b140
+23263.758:0138:013c:trace:unwind:dump_unwind_info **** func 36b40-36b71
+23263.758:0138:013c:trace:unwind:dump_unwind_info unwind info at 00006FFFFFF96E88 flags 0 prolog 0x10 bytes function 00006FFFFFF26B40-00006FFFFFF26B71
+23263.758:0138:013c:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0x10: leaq 0x80(%rsp),rbp
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0x8: subq $0x500,%rsp
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+23263.758:0138:013c:trace:unwind:RtlVirtualUnwind2 type 2 base 6fffffe80000 rip 6fffffe947aa rva 147aa rsp b9b650
+23263.758:0138:013c:trace:unwind:dump_unwind_info **** func 14790-147ac
+23263.758:0138:013c:trace:unwind:dump_unwind_info unwind info at 00006FFFFFEC3274 flags 0 prolog 0x8 bytes function 00006FFFFFE94790-00006FFFFFE947AC
+23263.758:0138:013c:trace:unwind:dump_unwind_info     frame register rbp offset 0x0(%rsp)
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0x8: subq $0x20,%rsp
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0x4: leaq 0x0(%rsp),rbp
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+23263.758:0138:013c:trace:unwind:RtlVirtualUnwind2 type 2 base 6fffffe80000 rip 6fffffeacfec rva 2cfec rsp b9b680
+23263.758:0138:013c:trace:unwind:dump_unwind_info **** func 2cfc0-2cfed
+23263.758:0138:013c:trace:unwind:dump_unwind_info unwind info at 00006FFFFFEC3280 flags 0 prolog 0x8 bytes function 00006FFFFFEACFC0-00006FFFFFEACFED
+23263.758:0138:013c:trace:unwind:dump_unwind_info     frame register rbp offset 0x0(%rsp)
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0x8: subq $0x20,%rsp
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0x4: leaq 0x0(%rsp),rbp
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+23263.758:0138:013c:trace:unwind:RtlVirtualUnwind2 type 2 base 6fffffe80000 rip 6fffffea9e07 rva 29e07 rsp b9b6b0
+23263.758:0138:013c:trace:unwind:dump_unwind_info **** func 29db0-29e08
+23263.758:0138:013c:trace:unwind:dump_unwind_info unwind info at 00006FFFFFEC3298 flags 0 prolog 0xd bytes function 00006FFFFFEA9DB0-00006FFFFFEA9E08
+23263.758:0138:013c:trace:unwind:dump_unwind_info     frame register rbp offset 0x30(%rsp)
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0xd: leaq 0x30(%rsp),rbp
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0x8: subq $0x38,%rsp
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0x4: pushq %rbx
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0x3: pushq %rsi
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0x2: pushq %rdi
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+23263.758:0138:013c:trace:unwind:RtlVirtualUnwind2 type 2 base 6fffffef0000 rip 6fffffeffee5 rva fee5 rsp b9b710
+23263.758:0138:013c:trace:unwind:dump_unwind_info **** func fedc-feeb
+23263.758:0138:013c:trace:unwind:dump_unwind_info unwind info at 00006FFFFFF95EB4 flags 1 prolog 0x5 bytes function 00006FFFFFEFFEDC-00006FFFFFEFFEEB
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0x5: subq $0x20,%rsp
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0x1: pushq %rdx
+23263.758:0138:013c:trace:unwind:dump_unwind_info     handler 00006FFFFFF49240 data at 00006FFFFFF95EC0
+23263.758:0138:013c:trace:unwind:RtlVirtualUnwind2 type 2 base 6fffffef0000 rip 6ffffff36ab6 rva 46ab6 rsp b9b740
+23263.758:0138:013c:trace:unwind:dump_unwind_info **** func 46770-46c50
+23263.758:0138:013c:trace:unwind:dump_unwind_info unwind info at 00006FFFFFF96014 flags 0 prolog 0x1b bytes function 00006FFFFFF36770-00006FFFFFF36C50
+23263.758:0138:013c:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0x1b: leaq 0x80(%rsp),rbp
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0x13: subq $0x688,%rsp
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0xc: pushq %rbx
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0xb: pushq %rsi
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0xa: pushq %rdi
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0x9: pushq %r12
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0x7: pushq %r13
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0x5: pushq %r14
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0x3: pushq %r15
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+23263.758:0138:013c:trace:unwind:RtlVirtualUnwind2 type 2 base 6fffffef0000 rip 6ffffff391db rva 491db rsp b9be10
+23263.758:0138:013c:trace:unwind:dump_unwind_info **** func 48ce0-49d12
+23263.758:0138:013c:trace:unwind:dump_unwind_info unwind info at 00006FFFFFF93340 flags 0 prolog 0x22 bytes function 00006FFFFFF38CE0-00006FFFFFF39D12
+23263.758:0138:013c:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0x22: movaps %xmm6,0x1b0(%rsp)
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0x1b: leaq 0x80(%rsp),rbp
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0x13: subq $0x1c8,%rsp
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0xc: pushq %rbx
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0xb: pushq %rsi
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0xa: pushq %rdi
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0x9: pushq %r12
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0x7: pushq %r13
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0x5: pushq %r14
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0x3: pushq %r15
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+23263.758:0138:013c:trace:unwind:RtlVirtualUnwind2 type 2 base 6fffffef0000 rip 6ffffff000bf rva 100bf rsp b9c020
+23263.758:0138:013c:trace:unwind:dump_unwind_info **** func 10040-100cc
+23263.758:0138:013c:trace:unwind:dump_unwind_info unwind info at 00006FFFFFF95F84 flags 0 prolog 0x7 bytes function 00006FFFFFF00040-00006FFFFFF000CC
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0x7: subq $0x4f8,%rsp
+23263.758:0138:013c:trace:unwind:RtlVirtualUnwind2 type 2 base 6fffffbc0000 rip 6fffffbcd1f7 rva d1f7 rsp b9c520
+23263.758:0138:013c:trace:unwind:dump_unwind_info **** func d188-d1ff
+23263.758:0138:013c:trace:unwind:dump_unwind_info unwind info at 00006FFFFFC7CD30 flags 0 prolog 0xf bytes function 00006FFFFFBCD188-00006FFFFFBCD1FF
+23263.758:0138:013c:trace:unwind:dump_unwind_info     0xf: subq $0xc8,%rsp
+23263.758:0138:013c:trace:unwind:RtlVirtualUnwind2 inside epilog.
+23263.758:0138:013c:trace:unwind:RtlVirtualUnwind2 type 2 base 6fffffe80000 rip 6fffffea2d43 rva 22d43 rsp b9c5f0
+23263.758:0138:013c:trace:unwind:dump_unwind_info **** func 22ab0-2300b
+23263.758:0138:013c:trace:unwind:dump_unwind_info unwind info at 00006FFFFFEC1834 flags 0 prolog 0x23 bytes function 00006FFFFFEA2AB0-00006FFFFFEA300B
+23263.759:0138:013c:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+23263.759:0138:013c:trace:unwind:dump_unwind_info     0x23: leaq 0x80(%rsp),rbp
+23263.759:0138:013c:trace:unwind:dump_unwind_info     0x1b: subq $0x2b8,%rsp
+23263.759:0138:013c:trace:unwind:dump_unwind_info     0x14: pushq %rbx
+23263.759:0138:013c:trace:unwind:dump_unwind_info     0x13: pushq %rsi
+23263.759:0138:013c:trace:unwind:dump_unwind_info     0x12: pushq %rdi
+23263.759:0138:013c:trace:unwind:dump_unwind_info     0x11: pushq %r12
+23263.759:0138:013c:trace:unwind:dump_unwind_info     0xf: pushq %r13
+23263.759:0138:013c:trace:unwind:dump_unwind_info     0xd: pushq %r14
+23263.759:0138:013c:trace:unwind:dump_unwind_info     0xb: pushq %r15
+23263.759:0138:013c:trace:unwind:dump_unwind_info     0x9: pushq %rbp
+23263.759:0138:013c:trace:seh:RtlRestoreContext returning to 00006FFFFFE947AA stack 0000000000B9C5F0
+23263.776:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\CFGMGR32.dll" at 00006FFFF7100000: builtin
+23263.776:0138:013c:trace:loaddll:build_module Loaded L"C:\\Program Files (x86)\\Steam\\gameoverlayrenderer64.dll" at 00006FFFF7130000: native
+23263.776:0138:013c:fixme:steamclient:manual_convert_Set_SteamAPI_CCheckCallbackRegisteredInProcess_func_156 not implemented!
+23263.961:0110:0124:fixme:oleacc:find_class_data unhandled window class: L"Button"
+23263.962:0138:013c:trace:loaddll:free_modref Unloaded module L"Z:\\home\\za3ter\\.local\\share\\Steam\\steamapps\\common\\Wuthering Waves\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Global\\msvcp140.dll" : native
+23263.963:0138:013c:trace:loaddll:free_modref Unloaded module L"Z:\\home\\za3ter\\.local\\share\\Steam\\steamapps\\common\\Wuthering Waves\\Client\\Binaries\\Win64\\ThirdParty\\KrPcSdk_Global\\vcruntime140.dll" : native
+23264.320:0138:013c:trace:loaddll:build_module Loaded L"Z:\\home\\za3ter\\.local\\share\\Steam\\steamapps\\common\\Wuthering Waves\\Client\\Binaries\\Win64\\CrashSight64.dll" at 00006FFFF6390000: native
+23264.323:0138:013c:fixme:ole:CoInitializeSecurity 0000000000000000, -1, 0000000000000000, 0000000000000000, 0, 3, 0000000000000000, 0, 0000000000000000 stub
+23264.326:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\compstui.dll" at 00006FFFF92E0000: builtin
+23264.326:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\winspool.drv" at 00006FFFF9310000: builtin
+23264.326:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\wbem\\wbemprox.dll" at 00006FFFF9360000: builtin
+23264.329:0138:013c:fixme:wbemprox:client_security_SetBlanket 00006FFFF9381EC0, 0000000003494EA0, 10, 0, (null), 3, 3, 0000000000000000, 0
+23264.329:0138:013c:fixme:wbemprox:client_security_Release 00006FFFF9381EC0
+23264.329:0138:013c:fixme:wbemprox:client_security_SetBlanket 00006FFFF9381EC0, 0000000003494FC0, 10, 0, (null), 3, 3, 0000000000000000, 0
+23264.329:0138:013c:fixme:wbemprox:client_security_Release 00006FFFF9381EC0
+info:  Game: Client-Win64-Shipping.exe
+info:  DXVK: v2.7.1-509-g1676dcaf342a9b1
+info:  Build: x86_64 gcc 14.2.0
+info:  Vulkan: Found vkGetInstanceProcAddr in winevulkan.dll @ 0x6ffffa58fbf0
+info:  Extension providers:
+info:    Platform WSI
+info:    OpenVR
+info:    OpenXR
+23264.334:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\wineopenxr.dll" at 00006FFFF6350000: builtin
+23264.335:0138:013c:err:openxr:get_vulkan_extensions Error getting openxr_vulkan_instance_extensions, status 0x2.
+warn:  OpenXR: Unable to get required Vulkan instance extensions size
+info:  Enabled instance extensions:
+info:    VK_KHR_get_surface_capabilities2
+info:    VK_KHR_surface
+info:    VK_KHR_surface_maintenance1
+info:    VK_KHR_win32_surface
+info:  Found device: NVIDIA GeForce GTX 960 (NVIDIA 580.142.0)
+info:  Found device: llvmpipe (LLVM 21.1.8, 256 bits) (llvmpipe 26.1.0)
+info:    Skipping: Software driver
+23264.374:0138:013c:err:openxr:get_vulkan_extensions Error getting openxr_vulkan_instance_extensions, status 0x2.
+warn:  OpenXR: Unable to get required Vulkan Device extensions size
+23264.374:0138:013c:trace:loaddll:free_modref Unloaded module L"C:\\windows\\system32\\wineopenxr.dll" : builtin
+info:  Game: Client-Win64-Shipping.exe
+info:  DXVK: v2.7.1-509-g1676dcaf342a9b1
+info:  Build: x86_64 gcc 14.2.0
+info:  Vulkan: Found vkGetInstanceProcAddr in winevulkan.dll @ 0x6ffffa58fbf0
+info:  Extension providers:
+info:    Platform WSI
+info:    OpenVR
+info:    OpenXR
+23264.378:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\wineopenxr.dll" at 00006FFFF6350000: builtin
+info:  Enabled instance extensions:
+info:    VK_KHR_get_surface_capabilities2
+info:    VK_KHR_surface
+info:    VK_KHR_surface_maintenance1
+info:    VK_KHR_win32_surface
+info:  Found device: NVIDIA GeForce GTX 960 (NVIDIA 580.142.0)
+info:  Found device: llvmpipe (LLVM 21.1.8, 256 bits) (llvmpipe 26.1.0)
+info:    Skipping: Software driver
+23264.448:0138:013c:fixme:file:NtLockFile I/O completion on lock not implemented yet
+23264.455:0138:01e4:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFFFFFFFFFA, 0000000027BCFF50
+23264.456:0138:01e8:warn:threadname:dispatch_exception Thread renamed to "CS-PreProcessThread"
+23264.456:0138:01e8:trace:seh:dispatch_exception code=406d1388 (EXCEPTION_WINE_NAME_THREAD) flags=0 addr=00006FFFFFBCD1F7
+23264.456:0138:01e8:trace:seh:dispatch_exception  info[0]=0000000000001000
+23264.456:0138:01e8:trace:seh:dispatch_exception  info[1]=00006FFFF681C198
+23264.456:0138:01e8:trace:seh:dispatch_exception  info[2]=00000000000001E8
+23264.456:0138:01e8:trace:seh:dispatch_exception rip=00006fffffbcd1f7 rsp=000000002874f970 rbp=0000000000000000 eflags=00000202
+23264.456:0138:01e8:trace:seh:dispatch_exception rax=000000002874f9c0 rbx=00000000033eaac0 rcx=000000002874f990 rdx=0000000000000000
+23264.456:0138:01e8:trace:seh:dispatch_exception rsi=0000000000000000 rdi=0000000000000000  r8=00000000000001e8  r9=000000002874fa70
+23264.456:0138:01e8:trace:seh:dispatch_exception r10=0000000000000000 r11=0000000000000202 r12=0000000000000000 r13=0000000000000000
+23264.456:0138:01e8:trace:seh:dispatch_exception r14=0000000000000000 r15=0000000000000000 mxcsr=00001f80
+23264.456:0138:01e8:trace:seh:call_vectored_handlers calling handler at 00006FFFF64E4C40 code=406d1388 flags=0
+23264.456:0138:01e8:trace:seh:call_vectored_handlers handler at 00006FFFF64E4C40 returned 0
+23264.456:0138:01e8:trace:seh:call_vectored_handlers calling handler at 00006FFFFAAAE3C0 code=406d1388 flags=0
+23264.456:0138:01e8:trace:seh:call_vectored_handlers handler at 00006FFFFAAAE3C0 returned ffffffff
+23264.457:0138:01ec:warn:threadname:dispatch_exception Thread renamed to "CS-ProcessThread"
+23264.457:0138:01ec:trace:seh:dispatch_exception code=406d1388 (EXCEPTION_WINE_NAME_THREAD) flags=0 addr=00006FFFFFBCD1F7
+23264.457:0138:01ec:trace:seh:dispatch_exception  info[0]=0000000000001000
+23264.457:0138:01ec:trace:seh:dispatch_exception  info[1]=00006FFFF681C448
+23264.457:0138:01ec:trace:seh:dispatch_exception  info[2]=00000000000001EC
+23264.457:0138:01ec:trace:seh:dispatch_exception rip=00006fffffbcd1f7 rsp=00000000292cf960 rbp=0000000000000000 eflags=00000206
+23264.457:0138:01ec:trace:seh:dispatch_exception rax=00000000292cf9b0 rbx=00000000033eab20 rcx=00000000292cf980 rdx=0000000000000000
+23264.457:0138:01ec:trace:seh:dispatch_exception rsi=0000000000000000 rdi=0000000000000000  r8=00000000000001ec  r9=00000000292cfa60
+23264.457:0138:01ec:trace:seh:dispatch_exception r10=0000000000000000 r11=0000000000000202 r12=0000000000000000 r13=0000000000000000
+23264.457:0138:01ec:trace:seh:dispatch_exception r14=0000000000000000 r15=0000000000000000 mxcsr=00001f80
+23264.457:0138:01ec:trace:seh:call_vectored_handlers calling handler at 00006FFFF64E4C40 code=406d1388 flags=0
+23264.457:0138:01ec:trace:seh:call_vectored_handlers handler at 00006FFFF64E4C40 returned 0
+23264.457:0138:01ec:trace:seh:call_vectored_handlers calling handler at 00006FFFFAAAE3C0 code=406d1388 flags=0
+23264.457:0138:01ec:trace:seh:call_vectored_handlers handler at 00006FFFFAAAE3C0 returned ffffffff
+23264.457:0138:01f0:warn:threadname:dispatch_exception Thread renamed to "CS-RecordThread"
+23264.457:0138:01f0:trace:seh:dispatch_exception code=406d1388 (EXCEPTION_WINE_NAME_THREAD) flags=0 addr=00006FFFFFBCD1F7
+23264.457:0138:01f0:trace:seh:dispatch_exception  info[0]=0000000000001000
+23264.457:0138:01f0:trace:seh:dispatch_exception  info[1]=00006FFFF681DE78
+23264.457:0138:01f0:trace:seh:dispatch_exception  info[2]=00000000000001F0
+23264.457:0138:01f0:trace:seh:dispatch_exception rip=00006fffffbcd1f7 rsp=0000000029e4fc10 rbp=0000000000000000 eflags=00000202
+23264.457:0138:01f0:trace:seh:dispatch_exception rax=0000000029e4fc60 rbx=00000000033eab80 rcx=0000000029e4fc30 rdx=0000000000000000
+23264.457:0138:01f0:trace:seh:dispatch_exception rsi=0000000000000000 rdi=0000000000000000  r8=00000000000001f0  r9=0000000029e4fd10
+23264.457:0138:01f0:trace:seh:dispatch_exception r10=0000000000000000 r11=0000000000000202 r12=0000000000000000 r13=0000000000000000
+23264.457:0138:01f0:trace:seh:dispatch_exception r14=0000000000000000 r15=0000000000000000 mxcsr=00001f80
+23264.457:0138:01f0:trace:seh:call_vectored_handlers calling handler at 00006FFFF64E4C40 code=406d1388 flags=0
+23264.457:0138:01f0:trace:seh:call_vectored_handlers handler at 00006FFFF64E4C40 returned 0
+23264.457:0138:01f0:trace:seh:call_vectored_handlers calling handler at 00006FFFFAAAE3C0 code=406d1388 flags=0
+23264.457:0138:01f0:trace:seh:call_vectored_handlers handler at 00006FFFFAAAE3C0 returned ffffffff
+23264.506:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\MSVFW32.dll" at 00006FFFF4C30000: builtin
+23264.507:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\AVIFIL32.dll" at 00006FFFF4BD0000: builtin
+23264.508:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\AVICAP32.dll" at 00006FFFF4BB0000: builtin
+23264.510:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\CONCRT140.dll" at 00006FFFF4B50000: native
+23264.511:0138:013c:trace:loaddll:build_module Loaded L"Z:\\home\\za3ter\\.local\\share\\Steam\\steamapps\\common\\Wuthering Waves\\Engine\\Plugins\\Compositing\\OpenCVLensDistortion\\Binaries\\ThirdParty\\Win64\\opencv_world331.dll" at 00006FFFF4C70000: native
+info:  Game: Client-Win64-Shipping.exe
+info:  DXVK: v2.7.1-509-g1676dcaf342a9b1
+info:  Build: x86_64 gcc 14.2.0
+23264.515:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\propsys.dll" at 00006FFFF4A20000: builtin
+23264.515:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\rtworkq.dll" at 00006FFFF49F0000: builtin
+23264.515:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\mfplat.dll" at 00006FFFF4A60000: builtin
+23264.515:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\mf.dll" at 00006FFFF4AD0000: builtin
+23264.516:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\mfplay.dll" at 00006FFFF49B0000: builtin
+23264.517:0138:01f8:warn:threadname:NtSetInformationThread Thread renamed to L"wine_threadpool_worker"
+23264.517:0138:01fc:warn:threadname:NtSetInformationThread Thread renamed to L"FMediaTicker"
+23264.517:0138:01fc:warn:threadname:dispatch_exception Thread renamed to "FMediaTicker"
+23264.517:0138:01fc:trace:seh:dispatch_exception code=406d1388 (EXCEPTION_WINE_NAME_THREAD) flags=0 addr=00006FFFFFBCD1F7
+23264.517:0138:01fc:trace:seh:dispatch_exception  info[0]=0000000000001000
+23264.517:0138:01fc:trace:seh:dispatch_exception  info[1]=000000002B54FE70
+23264.517:0138:01fc:trace:seh:dispatch_exception  info[2]=00000000000001FC
+23264.517:0138:01fc:trace:seh:dispatch_exception rip=00006fffffbcd1f7 rsp=000000002b54fd20 rbp=0000000000000000 eflags=00000202
+23264.517:0138:01fc:trace:seh:dispatch_exception rax=000000002b54fd70 rbx=000000001eec41e0 rcx=000000002b54fd40 rdx=0000000000000000
+23264.517:0138:01fc:trace:seh:dispatch_exception rsi=0000000000000000 rdi=000000000000000d  r8=00000000000001fc  r9=000000002b54fe20
+23264.517:0138:01fc:trace:seh:dispatch_exception r10=0000000000000000 r11=000000001eec41e0 r12=0000000000000000 r13=0000000000000000
+23264.517:0138:01fc:trace:seh:dispatch_exception r14=0000000000000000 r15=0000000000000000 mxcsr=00001fa0
+23264.517:0138:01fc:trace:seh:call_vectored_handlers calling handler at 00006FFFF64E4C40 code=406d1388 flags=0
+23264.517:0138:01fc:trace:seh:call_vectored_handlers handler at 00006FFFF64E4C40 returned 0
+23264.517:0138:01fc:trace:seh:call_vectored_handlers calling handler at 00006FFFFAAAE3C0 code=406d1388 flags=0
+23264.517:0138:01fc:trace:seh:call_vectored_handlers handler at 00006FFFFAAAE3C0 returned ffffffff
+info:  Vulkan: Found vkGetInstanceProcAddr in winevulkan.dll @ 0x6ffffa58fbf0
+info:  Extension providers:
+info:    Platform WSI
+info:    OpenVR
+info:    OpenXR
+info:  Enabled instance extensions:
+info:    VK_KHR_get_surface_capabilities2
+info:    VK_KHR_surface
+info:    VK_KHR_surface_maintenance1
+info:    VK_KHR_win32_surface
+23264.548:0138:0200:warn:threadname:NtSetInformationThread Thread renamed to L"IOThreadPool Thread-5"
+23264.548:0138:0200:warn:threadname:dispatch_exception Thread renamed to "IOThreadPool Thread-5"
+23264.548:0138:0200:trace:seh:dispatch_exception code=406d1388 (EXCEPTION_WINE_NAME_THREAD) flags=0 addr=00006FFFFFBCD1F7
+23264.548:0138:0200:trace:seh:dispatch_exception  info[0]=0000000000001000
+23264.548:0138:0200:trace:seh:dispatch_exception  info[1]=0000000002C4FE70
+23264.548:0138:0200:trace:seh:dispatch_exception  info[2]=0000000000000200
+23264.548:0138:0200:trace:seh:dispatch_exception rip=00006fffffbcd1f7 rsp=0000000002c4fd20 rbp=0000000000000000 eflags=00000202
+23264.548:0138:0200:trace:seh:dispatch_exception rax=0000000002c4fd70 rbx=000000001eeaa8a0 rcx=0000000002c4fd40 rdx=0000000000000000
+23264.548:0138:0200:trace:seh:dispatch_exception rsi=0000000000000000 rdi=0000000000000016  r8=0000000000000200  r9=0000000002c4fe20
+23264.548:0138:0200:trace:seh:dispatch_exception r10=0000000000000000 r11=000000001eeaa8a0 r12=0000000000000000 r13=0000000000000000
+23264.548:0138:0200:trace:seh:dispatch_exception r14=0000000000000000 r15=0000000000000000 mxcsr=00001fa0
+23264.548:0138:0200:trace:seh:call_vectored_handlers calling handler at 00006FFFF64E4C40 code=406d1388 flags=0
+23264.548:0138:0200:trace:seh:call_vectored_handlers handler at 00006FFFF64E4C40 returned 0
+23264.548:0138:0200:trace:seh:call_vectored_handlers calling handler at 00006FFFFAAAE3C0 code=406d1388 flags=0
+23264.548:0138:0200:trace:seh:call_vectored_handlers handler at 00006FFFFAAAE3C0 returned ffffffff
+23264.549:0138:0204:warn:threadname:NtSetInformationThread Thread renamed to L"IOThreadPool Thread-6"
+23264.549:0138:0204:warn:threadname:dispatch_exception Thread renamed to "IOThreadPool Thread-6"
+23264.549:0138:0204:trace:seh:dispatch_exception code=406d1388 (EXCEPTION_WINE_NAME_THREAD) flags=0 addr=00006FFFFFBCD1F7
+23264.549:0138:0204:trace:seh:dispatch_exception  info[0]=0000000000001000
+23264.549:0138:0204:trace:seh:dispatch_exception  info[1]=0000000002D4FE70
+23264.549:0138:0204:trace:seh:dispatch_exception  info[2]=0000000000000204
+23264.549:0138:0204:trace:seh:dispatch_exception rip=00006fffffbcd1f7 rsp=0000000002d4fd20 rbp=0000000000000000 eflags=00000202
+23264.549:0138:0204:trace:seh:dispatch_exception rax=0000000002d4fd70 rbx=000000001eeab350 rcx=0000000002d4fd40 rdx=0000000000000000
+23264.549:0138:0204:trace:seh:dispatch_exception rsi=0000000000000000 rdi=0000000000000016  r8=0000000000000204  r9=0000000002d4fe20
+23264.549:0138:0204:trace:seh:dispatch_exception r10=0000000000000000 r11=000000001eeab350 r12=0000000000000000 r13=0000000000000000
+23264.549:0138:0204:trace:seh:dispatch_exception r14=0000000000000000 r15=0000000000000000 mxcsr=00001fa0
+23264.549:0138:0204:trace:seh:call_vectored_handlers calling handler at 00006FFFF64E4C40 code=406d1388 flags=0
+23264.549:0138:0204:trace:seh:call_vectored_handlers handler at 00006FFFF64E4C40 returned 0
+23264.549:0138:0204:trace:seh:call_vectored_handlers calling handler at 00006FFFFAAAE3C0 code=406d1388 flags=0
+23264.549:0138:0204:trace:seh:call_vectored_handlers handler at 00006FFFFAAAE3C0 returned ffffffff
+23264.550:0138:0208:warn:threadname:NtSetInformationThread Thread renamed to L"IOThreadPool Thread-7"
+23264.550:0138:0208:warn:threadname:dispatch_exception Thread renamed to "IOThreadPool Thread-7"
+23264.550:0138:0208:trace:seh:dispatch_exception code=406d1388 (EXCEPTION_WINE_NAME_THREAD) flags=0 addr=00006FFFFFBCD1F7
+23264.550:0138:0208:trace:seh:dispatch_exception  info[0]=0000000000001000
+23264.550:0138:0208:trace:seh:dispatch_exception  info[1]=000000002B64FE70
+23264.550:0138:0208:trace:seh:dispatch_exception  info[2]=0000000000000208
+23264.550:0138:0208:trace:seh:dispatch_exception rip=00006fffffbcd1f7 rsp=000000002b64fd20 rbp=0000000000000000 eflags=00000202
+23264.550:0138:0208:trace:seh:dispatch_exception rax=000000002b64fd70 rbx=000000001eeaa780 rcx=000000002b64fd40 rdx=0000000000000000
+23264.550:0138:0208:trace:seh:dispatch_exception rsi=0000000000000000 rdi=0000000000000016  r8=0000000000000208  r9=000000002b64fe20
+23264.550:0138:0208:trace:seh:dispatch_exception r10=0000000000000000 r11=000000001eeaa780 r12=0000000000000000 r13=0000000000000000
+23264.550:0138:0208:trace:seh:dispatch_exception r14=0000000000000000 r15=0000000000000000 mxcsr=00001fa0
+23264.550:0138:0208:trace:seh:call_vectored_handlers calling handler at 00006FFFF64E4C40 code=406d1388 flags=0
+23264.550:0138:0208:trace:seh:call_vectored_handlers handler at 00006FFFF64E4C40 returned 0
+23264.550:0138:0208:trace:seh:call_vectored_handlers calling handler at 00006FFFFAAAE3C0 code=406d1388 flags=0
+23264.550:0138:0208:trace:seh:call_vectored_handlers handler at 00006FFFFAAAE3C0 returned ffffffff
+23264.551:0138:020c:warn:threadname:NtSetInformationThread Thread renamed to L"IOThreadPool Thread-8"
+23264.551:0138:020c:warn:threadname:dispatch_exception Thread renamed to "IOThreadPool Thread-8"
+23264.551:0138:020c:trace:seh:dispatch_exception code=406d1388 (EXCEPTION_WINE_NAME_THREAD) flags=0 addr=00006FFFFFBCD1F7
+23264.551:0138:020c:trace:seh:dispatch_exception  info[0]=0000000000001000
+23264.551:0138:020c:trace:seh:dispatch_exception  info[1]=000000002B74FE70
+23264.551:0138:020c:trace:seh:dispatch_exception  info[2]=000000000000020C
+23264.551:0138:020c:trace:seh:dispatch_exception rip=00006fffffbcd1f7 rsp=000000002b74fd20 rbp=0000000000000000 eflags=00000202
+23264.551:0138:020c:trace:seh:dispatch_exception rax=000000002b74fd70 rbx=000000001eeab230 rcx=000000002b74fd40 rdx=0000000000000000
+23264.551:0138:020c:trace:seh:dispatch_exception rsi=0000000000000000 rdi=0000000000000016  r8=000000000000020c  r9=000000002b74fe20
+23264.551:0138:020c:trace:seh:dispatch_exception r10=0000000000000000 r11=000000001eeab230 r12=0000000000000000 r13=0000000000000000
+23264.551:0138:020c:trace:seh:dispatch_exception r14=0000000000000000 r15=0000000000000000 mxcsr=00001fa0
+23264.551:0138:020c:trace:seh:call_vectored_handlers calling handler at 00006FFFF64E4C40 code=406d1388 flags=0
+23264.551:0138:020c:trace:seh:call_vectored_handlers handler at 00006FFFF64E4C40 returned 0
+23264.551:0138:020c:trace:seh:call_vectored_handlers calling handler at 00006FFFFAAAE3C0 code=406d1388 flags=0
+23264.551:0138:020c:trace:seh:call_vectored_handlers handler at 00006FFFFAAAE3C0 returned ffffffff
+23264.560:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\gameux.dll" at 00006FFFF4970000: builtin
+23264.560:0138:013c:fixme:gameux:GameExplorerImpl_VerifyAccess (0000000003020E00, L"Z:\\home\\za3ter\\.local\\share\\Steam\\steamapps\\common\\Wuthering Waves\\Client\\Binaries\\Win64\\Client-Win64-Shipping.exe", 0000000000B9E0D0)
+info:  Found device: NVIDIA GeForce GTX 960 (NVIDIA 580.142.0)
+info:  Found device: llvmpipe (LLVM 21.1.8, 256 bits) (llvmpipe 26.1.0)
+info:    Skipping: Software driver
+23264.562:0138:013c:trace:loaddll:build_module Loaded L"Z:\\home\\za3ter\\.local\\share\\Steam\\steamapps\\common\\Wuthering Waves\\Engine\\Binaries\\ThirdParty\\PhysX3\\Win64\\VS2015\\PxFoundation_x64.dll" at 00006FFFF4940000: native
+23264.574:0138:013c:trace:loaddll:build_module Loaded L"Z:\\home\\za3ter\\.local\\share\\Steam\\steamapps\\common\\Wuthering Waves\\Engine\\Binaries\\ThirdParty\\PhysX3\\Win64\\VS2015\\PhysX3Common_x64.dll" at 00006FFFF47A0000: native
+23264.576:0138:013c:trace:loaddll:build_module Loaded L"Z:\\home\\za3ter\\.local\\share\\Steam\\steamapps\\common\\Wuthering Waves\\Engine\\Binaries\\ThirdParty\\PhysX3\\Win64\\VS2015\\PxPvdSDK_x64.dll" at 00006FFFF4750000: native
+23264.586:0138:013c:trace:loaddll:build_module Loaded L"Z:\\home\\za3ter\\.local\\share\\Steam\\steamapps\\common\\Wuthering Waves\\Engine\\Binaries\\ThirdParty\\PhysX3\\Win64\\VS2015\\PhysX3_x64.dll" at 00006FFFF4530000: native
+23264.592:0138:013c:trace:loaddll:build_module Loaded L"Z:\\home\\za3ter\\.local\\share\\Steam\\steamapps\\common\\Wuthering Waves\\Engine\\Binaries\\ThirdParty\\PhysX3\\Win64\\VS2015\\APEXFramework_x64.dll" at 00006FFFF4410000: native
+23264.603:0138:013c:trace:loaddll:build_module Loaded L"Z:\\home\\za3ter\\.local\\share\\Steam\\steamapps\\common\\Wuthering Waves\\Engine\\Binaries\\ThirdParty\\PhysX3\\Win64\\VS2015\\APEX_Legacy_x64.dll" at 00006FFFF4090000: native
+23264.610:0138:013c:trace:loaddll:build_module Loaded L"Z:\\home\\za3ter\\.local\\share\\Steam\\steamapps\\common\\Wuthering Waves\\Engine\\Binaries\\ThirdParty\\PhysX3\\Win64\\VS2015\\APEX_Clothing_x64.dll" at 00006FFFF3F40000: native
+23264.616:0138:013c:trace:loaddll:build_module Loaded L"Z:\\home\\za3ter\\.local\\share\\Steam\\steamapps\\common\\Wuthering Waves\\Engine\\Binaries\\ThirdParty\\PhysX3\\Win64\\VS2015\\PhysX3Cooking_x64.dll" at 00006FFFF3EF0000: native
+23264.649:0138:013c:fixme:win:DisableProcessWindowsGhosting : stub
+23264.652:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\msctf.dll" at 00006FFFF3EA0000: builtin
+23264.652:0138:013c:fixme:msctf:InputProcessorProfileMgr_GetActiveProfile (00000000033D4CE0)->({34745c63-b2f0-4784-8b67-5e12c8701a31} 0000000000B9E8C0)
+23264.653:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\explorerframe.dll" at 00006FFFF3E70000: builtin
+23264.657:0138:013c:fixme:system:NtUserSystemParametersInfo Unimplemented action: 59 (SPI_SETSTICKYKEYS)
+23264.657:0138:013c:fixme:system:NtUserSystemParametersInfo Unimplemented action: 53 (SPI_SETTOGGLEKEYS)
+23264.657:0138:013c:fixme:system:NtUserSystemParametersInfo Unimplemented action: 51 (SPI_SETFILTERKEYS)
+23264.657:0094:00a4:fixme:ntoskrnl:kernel_object_from_handle No constructor for type L"Token"
+23264.674:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\d3d12.dll" at 00006FFFF3E30000: native
+23264.675:0138:013c:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\d3d12core.dll" at 00006FFFF3920000: native
+23264.676:0138:013c:warn:vkd3d-proton:openvr_instance_extensions: Failed to wait for VR registry key ready.
+23264.676:0138:013c:err:openxr:get_vulkan_extensions Error getting openxr_vulkan_instance_extensions, status 0x2.
+23264.676:0138:013c:warn:vkd3d-proton:openxr_vulkan_extensions: Failed to get OpenXR extensions size from wineopenxr.
+23264.676:0138:013c:info:vkd3d-proton:vkd3d_instance_apply_application_workarounds: Program name: "Client-Win64-Shipping.exe" (hash: 941de038f029d0dc)
+23264.676:0138:013c:info:vkd3d-proton:vkd3d_instance_apply_application_workarounds: Detected game Client-Win64-Shipping.exe, adding config 0x6000000000000, removing masks 0x0.
+23264.676:0138:013c:info:vkd3d-proton:vkd3d_instance_apply_application_workarounds: Detected game Client-Win64-Shipping.exe, adding shader quirks for specific shaders.
+23264.676:0138:013c:info:vkd3d-proton:vkd3d_instance_deduce_config_flags_from_environment: shader_cache is used, global_pipeline_cache is enforced.
+23264.676:0138:013c:info:vkd3d-proton:vkd3d_config_flags_init_once: VKD3D_CONFIG=''.
+23264.727:0138:013c:info:vkd3d-proton:vkd3d_get_vk_version: vkd3d-proton - applicationVersion: 3.0.0.
+23264.727:0138:013c:info:vkd3d-proton:vkd3d_instance_init: vkd3d-proton - build: bd3f5e3d245c3ad.
+23264.756:0138:013c:warn:vkd3d-proton:openvr_device_extensions: Failed to wait for VR registry key ready.
+23264.756:0138:013c:err:openxr:get_vulkan_extensions Error getting openxr_vulkan_instance_extensions, status 0x2.
+23264.756:0138:013c:warn:vkd3d-proton:openxr_vulkan_extensions: Failed to get OpenXR extensions size from wineopenxr.
+23264.900:0138:013c:info:vkd3d-proton:vkd3d_init_device_caps: Not all relevant pipeline stages are supported by EXT_dgc. Skipping EXT.
+Fossilize INFO: Overriding serialization path: "/home/za3ter/.local/share/Steam/steamapps/shadercache/3513350/fozpipelinesv6/steamapprun_pipeline_cache".
+23264.953:0138:013c:warn:vkd3d-proton:d3d12_device_create_vkd3d_queues: Could not allocate an out of band queue for queue family 2. All out of band work will happen on the in band queue.
+23264.962:0138:013c:info:vkd3d-proton:vkd3d_memory_info_decide_hvv_usage: Topology: Device heaps are split. Assuming small BAR situation.
+23264.962:0138:013c:info:vkd3d-proton:vkd3d_memory_info_upload_hvv_memory_properties: Topology: HVV usage is not allowed, using HOST_COHERENT for UPLOAD.
+23264.962:0138:013c:info:vkd3d-proton:vkd3d_bindless_state_get_bindless_flags: Enabling fast paths for advanced ExecuteIndirect() graphics (NV_dgc).
+23264.962:0138:013c:info:vkd3d-proton:vkd3d_bindless_state_get_bindless_flags: Device does not support VK_EXT_mutable_descriptor_type (or VALVE).
+23264.962:0138:013c:info:vkd3d-proton:vkd3d_bindless_state_add_binding: Device supports VK_EXT_descriptor_buffer!
+23264.962:0138:013c:info:vkd3d-proton:vkd3d_bindless_state_add_binding: Device supports VK_EXT_descriptor_buffer!
+23264.962:0138:013c:info:vkd3d-proton:vkd3d_bindless_state_add_binding: Device supports VK_EXT_descriptor_buffer!
+23264.962:0138:013c:info:vkd3d-proton:vkd3d_bindless_state_add_binding: Device supports VK_EXT_descriptor_buffer!
+23264.962:0138:013c:info:vkd3d-proton:vkd3d_bindless_state_add_binding: Device supports VK_EXT_descriptor_buffer!
+23264.962:0138:013c:info:vkd3d-proton:vkd3d_bindless_state_add_binding: Device supports VK_EXT_descriptor_buffer!
+23264.962:0138:013c:info:vkd3d-proton:vkd3d_bindless_state_add_binding: Device supports VK_EXT_descriptor_buffer!
+23264.966:0138:013c:info:vkd3d-proton:d3d12_device_caps_init_shader_model: Enabling support for SM 6.6.
+23264.966:0138:013c:warn:vkd3d-proton:d3d12_device_caps_init_shader_model: Enabling SM 6.6 on pre-Turing NVIDIA despite lack of native compute shader derivatives.
+23264.966:0138:013c:fixme:vkd3d-proton:d3d12_device_caps_init_feature_options1: TotalLaneCount = 1024, may be inaccurate.
+23264.966:0138:013c:info:vkd3d-proton:vkd3d_pipeline_library_init_disk_cache: Remapping VKD3D_SHADER_CACHE to: vkd3d-proton.cache.
+23264.966:0138:013c:info:vkd3d-proton:vkd3d_pipeline_library_init_disk_cache: Attempting to load disk cache from: vkd3d-proton.cache.
+23264.966:0138:013c:warn:vkd3d-proton:d3d12_device_CheckFeatureSupport: Assuming device does not support tile based rendering.
+23264.967:0138:0214:warn:threadname:NtSetInformationThread Thread renamed to L"vkd3d-disk$"
+23264.967:0138:0214:info:vkd3d-proton:vkd3d_pipeline_library_disk_thread_main: Performing async setup of stream archive ...
+23264.967:0138:0214:info:vkd3d-proton:vkd3d_pipeline_library_disk_cache_merge: No write cache exists. No need to merge any disk caches.
+23264.967:0138:0214:info:vkd3d-proton:vkd3d_pipeline_library_disk_cache_initial_setup: Merging pipeline libraries took 0.325 ms.
+23264.967:0138:0214:info:vkd3d-proton:vkd3d_pipeline_library_disk_cache_initial_setup: Failed to map read-only cache: vkd3d-proton.cache.
+23264.967:0138:0214:info:vkd3d-proton:vkd3d_pipeline_library_disk_thread_main: Done performing async setup of stream archive.
+err:   readMonitorEdidFromKey: Failed to get EDID reg key size
+err:   DXGI: Failed to parse display metadata + colorimetry info, using blank.
+23264.987:0138:013c:warn:seh:dispatch_exception backtrace: --- Exception 0xc0000094.
+23264.987:0138:013c:trace:seh:dispatch_exception code=c0000094 (EXCEPTION_INT_DIVIDE_BY_ZERO) flags=0 addr=00006FFFFA6666CC
+23264.987:0138:013c:trace:seh:dispatch_exception rip=00006ffffa6666cc rsp=0000000000b9ab60 rbp=0000000000b9abe0 eflags=00010206
+23264.987:0138:013c:trace:seh:dispatch_exception rax=000000e8d4a51000 rbx=00000000012c8230 rcx=00001528cd51a968 rdx=0000000000000000
+23264.987:0138:013c:trace:seh:dispatch_exception rsi=0000000000b9ac30 rdi=00000000000003e8  r8=0000000000000002  r9=0000000000f4e9fe
+23264.987:0138:013c:trace:seh:dispatch_exception r10=0000000000000000 r11=0000000000000202 r12=0000000000000000 r13=0000000000005ae0
+23264.987:0138:013c:trace:seh:dispatch_exception r14=0000000000b9abd0 r15=00006ffffa9ad580 mxcsr=00001f80
+23264.987:0138:013c:trace:seh:call_vectored_handlers calling handler at 00006FFFF3942F60 code=c0000094 flags=0
+23264.987:0138:013c:trace:seh:call_vectored_handlers handler at 00006FFFF3942F60 returned 0
+23264.987:0138:013c:trace:seh:call_vectored_handlers calling handler at 00006FFFF3E42100 code=c0000094 flags=0
+23264.987:0138:013c:trace:seh:call_vectored_handlers handler at 00006FFFF3E42100 returned 0
+23264.987:0138:013c:trace:seh:call_vectored_handlers calling handler at 00006FFFF64E4C40 code=c0000094 flags=0
+23266.277:0138:013c:fixme:dbghelp:elf_search_auxv can't find symbol in module
+23266.278:0138:013c:trace:seh:EnumProcessModulesEx (FFFFFFFFFFFFFFFF, 000000000365E790, 2048, 0000000000B9917C, 0)
+23266.501:0138:0218:trace:seh:EnumProcessModulesEx (FFFFFFFFFFFFFFFF, 000000000365E790, 2048, 0000000034F1F8FC, 0)
+23267.776:0138:0218:fixme:dbghelp:elf_search_auxv can't find symbol in module
+23267.863:0138:013c:fixme:vulkan:NtGdiDdDDIQueryStatistics (0xb98bd0): stub
+23271.713:0138:013c:trace:seh:call_vectored_handlers handler at 00006FFFF64E4C40 returned 0
+23271.713:0138:013c:trace:seh:call_vectored_handlers calling handler at 00006FFFFAAAE3C0 code=c0000094 flags=0
+23271.713:0138:013c:trace:seh:call_vectored_handlers handler at 00006FFFFAAAE3C0 returned 0
+23271.713:0138:013c:trace:seh:call_vectored_handlers calling handler at 00006FFFFA65C6A0 code=c0000094 flags=0
+23271.713:0138:013c:trace:seh:call_vectored_handlers handler at 00006FFFFA65C6A0 returned 0
+23271.713:0138:013c:trace:seh:call_vectored_handlers calling handler at 00006FFFFB80C980 code=c0000094 flags=0
+23271.713:0138:013c:trace:seh:call_vectored_handlers handler at 00006FFFFB80C980 returned 0
+23271.713:0138:013c:warn:seh:virtual_unwind backtrace: 00006FFFFA6666CC: L"dxgi.dll" + 00000000000266CC.
+23271.713:0138:013c:trace:unwind:RtlVirtualUnwind2 type 1 base 6ffffa640000 rip 6ffffa6666cc rva 266cc rsp b9ab60
+23271.713:0138:013c:trace:unwind:dump_unwind_info **** func 26440-269ce
+23271.713:0138:013c:trace:unwind:dump_unwind_info unwind info at 00006FFFFAA3CA50 flags 3 prolog 0x2f bytes function 00006FFFFA666440-00006FFFFA6669CE
+23271.713:0138:013c:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x2f: movaps %xmm7,0x3180(%rsp)
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x28: movaps %xmm6,0x3170(%rsp)
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x21: leaq 0x80(%rsp),rbp
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x19: subq $0x3198,%rsp
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x11: pushq %rbx
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x10: pushq %rsi
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0xf: pushq %rdi
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0xe: pushq %r12
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0xc: pushq %r13
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0xa: pushq %r14
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x8: pushq %r15
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+23271.713:0138:013c:trace:unwind:dump_unwind_info     handler 00006FFFFA965960 data at 00006FFFFAA3CA78
+23271.713:0138:013c:trace:seh:call_seh_handlers calling handler 00006FFFFA965960 (rec=0000000000B9A930, frame=b9ab60 context=0000000000B9A440, dispatch=0000000000B99BE0)
+23271.713:0138:013c:trace:seh:call_seh_handlers handler at 00006FFFFA965960 returned 1
+23271.713:0138:013c:warn:seh:virtual_unwind backtrace: 00006FFFFA66880F: L"dxgi.dll" + 000000000002880F.
+23271.713:0138:013c:trace:unwind:RtlVirtualUnwind2 type 1 base 6ffffa640000 rip 6ffffa66880f rva 2880f rsp b9dd40
+23271.713:0138:013c:trace:unwind:dump_unwind_info **** func 28730-2886e
+23271.713:0138:013c:trace:unwind:dump_unwind_info unwind info at 00006FFFFAA3CAD4 flags 3 prolog 0x13 bytes function 00006FFFFA668730-00006FFFFA66886E
+23271.713:0138:013c:trace:unwind:dump_unwind_info     frame register rbp offset 0x20(%rsp)
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x13: movaps %xmm6,0x20(%rsp)
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0xf: leaq 0x20(%rsp),rbp
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0xa: subq $0x30,%rsp
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x6: pushq %rbx
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x5: pushq %rsi
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x4: pushq %rdi
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x3: pushq %r12
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+23271.713:0138:013c:trace:unwind:dump_unwind_info     handler 00006FFFFA965960 data at 00006FFFFAA3CAF0
+23271.713:0138:013c:trace:seh:call_seh_handlers calling handler 00006FFFFA965960 (rec=0000000000B9A930, frame=b9dd40 context=0000000000B9A440, dispatch=0000000000B99BE0)
+23271.713:0138:013c:trace:seh:call_seh_handlers handler at 00006FFFFA965960 returned 1
+23271.713:0138:013c:warn:seh:virtual_unwind backtrace: 00006FFFFA66F222: L"dxgi.dll" + 000000000002F222.
+23271.713:0138:013c:trace:unwind:RtlVirtualUnwind2 type 1 base 6ffffa640000 rip 6ffffa66f222 rva 2f222 rsp b9dda0
+23271.713:0138:013c:trace:unwind:dump_unwind_info **** func 2f110-2f37a
+23271.713:0138:013c:trace:unwind:dump_unwind_info unwind info at 00006FFFFAA3B1D0 flags 3 prolog 0x13 bytes function 00006FFFFA66F110-00006FFFFA66F37A
+23271.713:0138:013c:trace:unwind:dump_unwind_info     frame register rbp offset 0x50(%rsp)
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x13: leaq 0x50(%rsp),rbp
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0xe: subq $0x50,%rsp
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0xa: pushq %rbx
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x9: pushq %rsi
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x8: pushq %rdi
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x7: pushq %r12
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x5: pushq %r13
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x3: pushq %r14
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+23271.713:0138:013c:trace:unwind:dump_unwind_info     handler 00006FFFFA965960 data at 00006FFFFAA3B1EC
+23271.713:0138:013c:trace:seh:call_seh_handlers calling handler 00006FFFFA965960 (rec=0000000000B9A930, frame=b9dda0 context=0000000000B9A440, dispatch=0000000000B99BE0)
+23271.713:0138:013c:trace:seh:call_seh_handlers handler at 00006FFFFA965960 returned 1
+23271.713:0138:013c:warn:seh:virtual_unwind backtrace: 00000001430C6F64: L"Client-Win64-Shipping.exe" + 00000000030C6F64.
+23271.713:0138:013c:trace:unwind:RtlVirtualUnwind2 type 1 base 140000000 rip 1430c6f64 rva 30c6f64 rsp b9de30
+23271.713:0138:013c:trace:unwind:dump_unwind_info **** func 30c6cde-30c7750
+23271.713:0138:013c:trace:unwind:dump_unwind_info unwind info at 00000001487A8878 flags 4 prolog 0x0 bytes function 00000001430C6CDE-00000001430C7750
+23271.713:0138:013c:trace:unwind:dump_unwind_info     chained to function 00000001430C6B4C-00000001430C6BD0
+23271.713:0138:013c:trace:unwind:dump_unwind_info unwind info at 00000001487A8844 flags 4 prolog 0x67 bytes function 00000001430C6B4C-00000001430C6BD0
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x67: movq %r12,0x768(%rsp)
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x18: movq %r13,0x760(%rsp)
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x10: movq %rdi,0x7a8(%rsp)
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x8: movq %rsi,0x7a0(%rsp)
+23271.713:0138:013c:trace:unwind:dump_unwind_info     chained to function 00000001430C6B44-00000001430C6B4C
+23271.713:0138:013c:trace:unwind:dump_unwind_info unwind info at 00000001487A8830 flags 4 prolog 0x8 bytes function 00000001430C6B44-00000001430C6B4C
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x8: movq %rbx,0x798(%rsp)
+23271.713:0138:013c:trace:unwind:dump_unwind_info     chained to function 00000001430C6B00-00000001430C6B44
+23271.713:0138:013c:trace:unwind:dump_unwind_info unwind info at 00000001487A8818 flags 3 prolog 0x26 bytes function 00000001430C6B00-00000001430C6B44
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x15: subq $0x770,%rsp
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x6: pushq %r15
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x4: pushq %r14
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x2: pushq %rbp
+23271.713:0138:013c:trace:unwind:dump_unwind_info     handler 0000000146C48854 data at 00000001487A882C
+23271.713:0138:013c:trace:seh:call_seh_handlers calling handler 0000000146C48854 (rec=0000000000B9A930, frame=b9de30 context=0000000000B9A440, dispatch=0000000000B99BE0)
+23271.713:0138:013c:trace:seh:call_seh_handlers handler at 0000000146C48854 returned 1
+23271.713:0138:013c:warn:seh:virtual_unwind backtrace: 00000001430BDB96: L"Client-Win64-Shipping.exe" + 00000000030BDB96.
+23271.713:0138:013c:trace:unwind:RtlVirtualUnwind2 type 1 base 140000000 rip 1430bdb96 rva 30bdb96 rsp b9e5c0
+23271.713:0138:013c:trace:unwind:dump_unwind_info **** func 30bdb60-30bdcfe
+23271.713:0138:013c:trace:unwind:dump_unwind_info unwind info at 00000001485D0C44 flags 0 prolog 0xa bytes function 00000001430BDB60-00000001430BDCFE
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0xa: movq %rbx,0x70(%rsp)
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0xa: subq $0x60,%rsp
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x6: pushq %rdi
+23271.713:0138:013c:warn:seh:virtual_unwind backtrace: 0000000143FDB9D2: L"Client-Win64-Shipping.exe" + 0000000003FDB9D2.
+23271.713:0138:013c:trace:unwind:RtlVirtualUnwind2 type 1 base 140000000 rip 143fdb9d2 rva 3fdb9d2 rsp b9e630
+23271.713:0138:013c:trace:unwind:dump_unwind_info **** func 3fdb270-3fdbefc
+23271.713:0138:013c:trace:unwind:dump_unwind_info unwind info at 000000014883A6CC flags 3 prolog 0x38 bytes function 0000000143FDB270-0000000143FDBEFC
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x27: movaps %xmm6,0x220(%rsp)
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x1f: movq %rbx,0x280(%rsp)
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x1f: subq $0x230,%rsp
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x10: pushq %r15
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0xe: pushq %r14
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0xc: pushq %r13
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0xa: pushq %r12
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x8: pushq %rdi
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x7: pushq %rsi
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x6: pushq %rbp
+23271.713:0138:013c:trace:unwind:dump_unwind_info     handler 0000000146C48854 data at 000000014883A6F0
+23271.713:0138:013c:trace:seh:call_seh_handlers calling handler 0000000146C48854 (rec=0000000000B9A930, frame=b9e630 context=0000000000B9A440, dispatch=0000000000B99BE0)
+23271.713:0138:013c:trace:seh:call_seh_handlers handler at 0000000146C48854 returned 1
+23271.713:0138:013c:warn:seh:virtual_unwind backtrace: 0000000143FDC7C3: L"Client-Win64-Shipping.exe" + 0000000003FDC7C3.
+23271.713:0138:013c:trace:unwind:RtlVirtualUnwind2 type 1 base 140000000 rip 143fdc7c3 rva 3fdc7c3 rsp b9e8a0
+23271.713:0138:013c:trace:unwind:dump_unwind_info **** func 3fdc7b0-3fdc7f1
+23271.713:0138:013c:trace:unwind:dump_unwind_info unwind info at 00000001485CFB3C flags 0 prolog 0x4 bytes function 0000000143FDC7B0-0000000143FDC7F1
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x4: subq $0x28,%rsp
+23271.713:0138:013c:warn:seh:virtual_unwind backtrace: 0000000143FB22BA: L"Client-Win64-Shipping.exe" + 0000000003FB22BA.
+23271.713:0138:013c:trace:unwind:RtlVirtualUnwind2 type 1 base 140000000 rip 143fb22ba rva 3fb22ba rsp b9e8d0
+23271.713:0138:013c:trace:unwind:dump_unwind_info **** func 3fb2178-3fb22d0
+23271.713:0138:013c:trace:unwind:dump_unwind_info unwind info at 000000014883729C flags 4 prolog 0x8 bytes function 0000000143FB2178-0000000143FB22D0
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x8: movq %r13,0x128(%rsp)
+23271.713:0138:013c:trace:unwind:dump_unwind_info     chained to function 0000000143FB2160-0000000143FB2178
+23271.713:0138:013c:trace:unwind:dump_unwind_info unwind info at 0000000148837288 flags 0 prolog 0x16 bytes function 0000000143FB2160-0000000143FB2178
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x16: subq $0xf0,%rsp
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0xa: pushq %r12
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x8: pushq %rdi
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x7: pushq %rsi
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x6: pushq %rbx
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x5: pushq %rbp
+23271.713:0138:013c:warn:seh:virtual_unwind backtrace: 000000014093B2F1: L"Client-Win64-Shipping.exe" + 000000000093B2F1.
+23271.713:0138:013c:trace:unwind:RtlVirtualUnwind2 type 1 base 140000000 rip 14093b2f1 rva 93b2f1 rsp b9e9f0
+23271.713:0138:013c:trace:unwind:dump_unwind_info **** func 93a582-93b93b
+23271.713:0138:013c:trace:unwind:dump_unwind_info unwind info at 00000001485D1988 flags 4 prolog 0x11 bytes function 000000014093A582-000000014093B93B
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x11: movaps %xmm8,0xaf0(%rsp)
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x8: movaps %xmm7,0xb00(%rsp)
+23271.713:0138:013c:trace:unwind:dump_unwind_info     chained to function 000000014093A398-000000014093A582
+23271.713:0138:013c:trace:unwind:dump_unwind_info unwind info at 00000001485D1974 flags 4 prolog 0x8 bytes function 000000014093A398-000000014093A582
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x8: movaps %xmm6,0xb10(%rsp)
+23271.713:0138:013c:trace:unwind:dump_unwind_info     chained to function 0000000140938E33-000000014093A398
+23271.713:0138:013c:trace:unwind:dump_unwind_info unwind info at 00000001485D1960 flags 4 prolog 0x8 bytes function 0000000140938E33-000000014093A398
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x8: movq %r13,0xb28(%rsp)
+23271.713:0138:013c:trace:unwind:dump_unwind_info     chained to function 0000000140938C58-0000000140938E33
+23271.713:0138:013c:trace:unwind:dump_unwind_info unwind info at 00000001485D1944 flags 4 prolog 0x9c bytes function 0000000140938C58-0000000140938E33
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x9c: movq %rsi,0xb70(%rsp)
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x13: movq %r15,0xb20(%rsp)
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x8: movq %rdi,0xb30(%rsp)
+23271.713:0138:013c:trace:unwind:dump_unwind_info     chained to function 0000000140938BB0-0000000140938C58
+23271.713:0138:013c:trace:unwind:dump_unwind_info unwind info at 00000001485D192C flags 3 prolog 0x27 bytes function 0000000140938BB0-0000000140938C58
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x16: subq $0xb38,%rsp
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x7: pushq %r14
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x5: pushq %r12
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x3: pushq %rbx
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x2: pushq %rbp
+23271.713:0138:013c:trace:unwind:dump_unwind_info     handler 0000000146C48854 data at 00000001485D1940
+23271.713:0138:013c:trace:seh:call_seh_handlers calling handler 0000000146C48854 (rec=0000000000B9A930, frame=b9e9f0 context=0000000000B9A440, dispatch=0000000000B99BE0)
+23271.713:0138:013c:trace:seh:call_seh_handlers handler at 0000000146C48854 returned 1
+23271.713:0138:013c:warn:seh:virtual_unwind backtrace: 00000001409333D6: L"Client-Win64-Shipping.exe" + 00000000009333D6.
+23271.713:0138:013c:trace:unwind:RtlVirtualUnwind2 type 1 base 140000000 rip 1409333d6 rva 9333d6 rsp b9f550
+23271.713:0138:013c:trace:unwind:dump_unwind_info **** func 9332c0-9336ad
+23271.713:0138:013c:trace:unwind:dump_unwind_info unwind info at 00000001485D1CB0 flags 3 prolog 0x28 bytes function 00000001409332C0-00000001409336AD
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x1a: movq %rsi,0x160(%rsp)
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x1a: movq %rbx,0x158(%rsp)
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x1a: subq $0x130,%rsp
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0xe: pushq %r14
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0xc: pushq %rdi
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0xb: pushq %rbp
+23271.713:0138:013c:trace:unwind:dump_unwind_info     handler 0000000146C48854 data at 00000001485D1CCC
+23271.713:0138:013c:trace:seh:call_seh_handlers calling handler 0000000146C48854 (rec=0000000000B9A930, frame=b9f550 context=0000000000B9A440, dispatch=0000000000B99BE0)
+23271.713:0138:013c:trace:seh:call_seh_handlers handler at 0000000146C48854 returned 1
+23271.713:0138:013c:warn:seh:virtual_unwind backtrace: 00000001409336CA: L"Client-Win64-Shipping.exe" + 00000000009336CA.
+23271.713:0138:013c:trace:unwind:RtlVirtualUnwind2 type 1 base 140000000 rip 1409336ca rva 9336ca rsp b9f6a0
+23271.713:0138:013c:trace:unwind:dump_unwind_info **** func 9336b0-9336e4
+23271.713:0138:013c:trace:unwind:dump_unwind_info unwind info at 00000001485D2354 flags 1 prolog 0x4 bytes function 00000001409336B0-00000001409336E4
+23271.713:0138:013c:trace:unwind:dump_unwind_info     0x4: subq $0x38,%rsp
+23271.713:0138:013c:trace:unwind:dump_unwind_info     handler 0000000146C4D82D data at 00000001485D2360
+23271.713:0138:013c:trace:seh:call_seh_handlers calling handler 0000000146C4D82D (rec=0000000000B9A930, frame=b9f6a0 context=0000000000B9A440, dispatch=0000000000B99BE0)
+23273.074:0138:0168:fixme:dbghelp:elf_search_auxv can't find symbol in module
+23273.075:0138:0168:trace:seh:EnumProcessModulesEx (FFFFFFFFFFFFFFFF, 0000000030961820, 2048, 00000000094FD09C, 0)
+23273.153:0138:0168:trace:seh:EnumProcessModulesEx (FFFFFFFFFFFFFFFF, 00000000094FD590, 0, 00000000094FD560, 3)
+23273.153:0138:0168:trace:seh:EnumProcessModulesEx (FFFFFFFFFFFFFFFF, 00000000094FD590, 904, 00000000094FD560, 3)
+23273.157:0138:0168:trace:seh:EnumProcessModulesEx (FFFFFFFFFFFFFFFF, 00000000094FD880, 0, 00000000094FD810, 3)
+23273.157:0138:0168:trace:seh:EnumProcessModulesEx (FFFFFFFFFFFFFFFF, 00000000094FD880, 904, 00000000094FD810, 3)
+23273.157:0138:0168:trace:seh:EnumProcessModulesEx (FFFFFFFFFFFFFFFF, 00000000094FD880, 0, 00000000094FD810, 3)
+23273.157:0138:0168:trace:seh:EnumProcessModulesEx (FFFFFFFFFFFFFFFF, 00000000094FD880, 904, 00000000094FD810, 3)
+23273.157:0138:0168:trace:seh:EnumProcessModulesEx (FFFFFFFFFFFFFFFF, 00000000094FD880, 0, 00000000094FD810, 3)
+23273.157:0138:0168:trace:seh:EnumProcessModulesEx (FFFFFFFFFFFFFFFF, 00000000094FD880, 904, 00000000094FD810, 3)
+23273.157:0138:0168:trace:seh:EnumProcessModulesEx (FFFFFFFFFFFFFFFF, 00000000094FD880, 0, 00000000094FD810, 3)
+23273.157:0138:0168:trace:seh:EnumProcessModulesEx (FFFFFFFFFFFFFFFF, 00000000094FD880, 904, 00000000094FD810, 3)
+23273.157:0138:0168:trace:seh:EnumProcessModulesEx (FFFFFFFFFFFFFFFF, 00000000094FD880, 0, 00000000094FD810, 3)
+23273.157:0138:0168:trace:seh:EnumProcessModulesEx (FFFFFFFFFFFFFFFF, 00000000094FD880, 904, 00000000094FD810, 3)
+23273.157:0138:0168:trace:seh:EnumProcessModulesEx (FFFFFFFFFFFFFFFF, 00000000094FD880, 0, 00000000094FD810, 3)
+23273.157:0138:0168:trace:seh:EnumProcessModulesEx (FFFFFFFFFFFFFFFF, 00000000094FD880, 904, 00000000094FD810, 3)
+23273.157:0138:0168:trace:seh:EnumProcessModulesEx (FFFFFFFFFFFFFFFF, 00000000094FD880, 0, 00000000094FD810, 3)
+23273.157:0138:0168:trace:seh:EnumProcessModulesEx (FFFFFFFFFFFFFFFF, 00000000094FD880, 904, 00000000094FD810, 3)
+23273.157:0138:0168:trace:seh:EnumProcessModulesEx (FFFFFFFFFFFFFFFF, 00000000094FD880, 0, 00000000094FD810, 3)
+23273.157:0138:0168:trace:seh:EnumProcessModulesEx (FFFFFFFFFFFFFFFF, 00000000094FD880, 904, 00000000094FD810, 3)
+23273.157:0138:0168:trace:seh:EnumProcessModulesEx (FFFFFFFFFFFFFFFF, 00000000094FD880, 0, 00000000094FD810, 3)
+23273.157:0138:0168:trace:seh:EnumProcessModulesEx (FFFFFFFFFFFFFFFF, 00000000094FD880, 904, 00000000094FD810, 3)
+23273.157:0138:0168:trace:seh:EnumProcessModulesEx (FFFFFFFFFFFFFFFF, 00000000094FD880, 0, 00000000094FD810, 3)
+23273.157:0138:0168:trace:seh:EnumProcessModulesEx (FFFFFFFFFFFFFFFF, 00000000094FD880, 904, 00000000094FD810, 3)
+23273.157:0138:0168:trace:seh:EnumProcessModulesEx (FFFFFFFFFFFFFFFF, 00000000094FD880, 0, 00000000094FD810, 3)
+23273.157:0138:0168:trace:seh:EnumProcessModulesEx (FFFFFFFFFFFFFFFF, 00000000094FD880, 904, 00000000094FD810, 3)
+23273.157:0138:0168:trace:seh:EnumProcessModulesEx (FFFFFFFFFFFFFFFF, 00000000094FD880, 0, 00000000094FD810, 3)
+23273.157:0138:0168:trace:seh:EnumProcessModulesEx (FFFFFFFFFFFFFFFF, 00000000094FD880, 904, 00000000094FD810, 3)
+23273.157:0138:0168:trace:seh:EnumProcessModulesEx (FFFFFFFFFFFFFFFF, 00000000094FD880, 0, 00000000094FD810, 3)
+23273.157:0138:0168:trace:seh:EnumProcessModulesEx (FFFFFFFFFFFFFFFF, 00000000094FD880, 904, 00000000094FD810, 3)
+23273.157:0138:0168:trace:seh:EnumProcessModulesEx (FFFFFFFFFFFFFFFF, 00000000094FD880, 0, 00000000094FD810, 3)
+23273.157:0138:0168:trace:seh:EnumProcessModulesEx (FFFFFFFFFFFFFFFF, 00000000094FD880, 904, 00000000094FD810, 3)
+23273.157:0138:0168:trace:seh:EnumProcessModulesEx (FFFFFFFFFFFFFFFF, 00000000094FD880, 0, 00000000094FD810, 3)
+23273.157:0138:0168:trace:seh:EnumProcessModulesEx (FFFFFFFFFFFFFFFF, 00000000094FD880, 904, 00000000094FD810, 3)
+23273.157:0138:0168:trace:seh:EnumProcessModulesEx (FFFFFFFFFFFFFFFF, 00000000094FD880, 0, 00000000094FD810, 3)
+23273.157:0138:0168:trace:seh:EnumProcessModulesEx (FFFFFFFFFFFFFFFF, 00000000094FD880, 904, 00000000094FD810, 3)
+23273.157:0138:0168:trace:seh:EnumProcessModulesEx (FFFFFFFFFFFFFFFF, 00000000094FD880, 0, 00000000094FD810, 3)
+23273.157:0138:0168:trace:seh:EnumProcessModulesEx (FFFFFFFFFFFFFFFF, 00000000094FD880, 904, 00000000094FD810, 3)
+23273.157:0138:0168:trace:seh:EnumProcessModulesEx (FFFFFFFFFFFFFFFF, 00000000094FD880, 0, 00000000094FD810, 3)
+23273.157:0138:0168:trace:seh:EnumProcessModulesEx (FFFFFFFFFFFFFFFF, 00000000094FD880, 904, 00000000094FD810, 3)
+23273.157:0138:0168:trace:seh:EnumProcessModulesEx (FFFFFFFFFFFFFFFF, 00000000094FD880, 0, 00000000094FD810, 3)
+23273.157:0138:0168:trace:seh:EnumProcessModulesEx (FFFFFFFFFFFFFFFF, 00000000094FD880, 904, 00000000094FD810, 3)
+23273.157:0138:0168:trace:seh:EnumProcessModulesEx (FFFFFFFFFFFFFFFF, 00000000094FD880, 0, 00000000094FD810, 3)
+23273.157:0138:0168:trace:seh:EnumProcessModulesEx (FFFFFFFFFFFFFFFF, 00000000094FD880, 904, 00000000094FD810, 3)
+23273.157:0138:0168:trace:seh:EnumProcessModulesEx (FFFFFFFFFFFFFFFF, 00000000094FD880, 0, 00000000094FD810, 3)
+23273.157:0138:0168:trace:seh:EnumProcessModulesEx (FFFFFFFFFFFFFFFF, 00000000094FD880, 904, 00000000094FD810, 3)
+23273.157:0138:0168:trace:seh:EnumProcessModulesEx (FFFFFFFFFFFFFFFF, 00000000094FD880, 0, 00000000094FD810, 3)
+23273.157:0138:0168:trace:seh:EnumProcessModulesEx (FFFFFFFFFFFFFFFF, 00000000094FD880, 904, 00000000094FD810, 3)
+23273.157:0138:0168:trace:seh:EnumProcessModulesEx (FFFFFFFFFFFFFFFF, 00000000094FD880, 0, 00000000094FD810, 3)
+23273.157:0138:0168:trace:seh:EnumProcessModulesEx (FFFFFFFFFFFFFFFF, 00000000094FD880, 904, 00000000094FD810, 3)
+23273.157:0138:0168:trace:seh:EnumProcessModulesEx (FFFFFFFFFFFFFFFF, 00000000094FD880, 0, 00000000094FD810, 3)
+23273.157:0138:0168:trace:seh:EnumProcessModulesEx (FFFFFFFFFFFFFFFF, 00000000094FD880, 904, 00000000094FD810, 3)
+23273.157:0138:0168:trace:seh:EnumProcessModulesEx (FFFFFFFFFFFFFFFF, 00000000094FD880, 0, 00000000094FD810, 3)
+23273.157:0138:0168:trace:seh:EnumProcessModulesEx (FFFFFFFFFFFFFFFF, 00000000094FD880, 904, 00000000094FD810, 3)
+23273.157:0138:0168:trace:seh:EnumProcessModulesEx (FFFFFFFFFFFFFFFF, 00000000094FD880, 0, 00000000094FD810, 3)
+23273.157:0138:0168:trace:seh:EnumProcessModulesEx (FFFFFFFFFFFFFFFF, 00000000094FD880, 904, 00000000094FD810, 3)
+23273.159:0138:0168:fixme:dbghelp:MiniDumpWriteDump NIY MiniDumpWithHandleData
+23273.162:0138:0224:trace:seh:EnumProcessModulesEx (FFFFFFFFFFFFFFFF, 0000000030BA1830, 2048, 000000002F8DF8FC, 0)
+23274.481:0138:0224:fixme:dbghelp:elf_search_auxv can't find symbol in module
+23274.517:0138:0168:trace:loaddll:build_module Loaded L"C:\\windows\\system32\\msimg32.dll" at 00006FFFF3900000: builtin
+23274.531:0110:0124:fixme:oleacc:find_class_data unhandled window class: L"#32770"
+23274.531:0110:0124:fixme:oleacc:Window_get_accState (00000000003FC360)->(000000000182FB20 {VT_I4: 0} 000000000182FB40)
+23274.545:0110:0124:fixme:oleacc:find_class_data unhandled window class: L"#32770"
+23274.548:0110:0124:fixme:oleacc:Window_get_accState (00000000003FC360)->(000000000182FB20 {VT_I4: 0} 000000000182FB40)
+23274.558:0110:0124:fixme:oleacc:find_class_data unhandled window class: L"Button"
+23274.565:0110:0124:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+23274.565:0110:0124:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 00000000003FEBD0, 10002, 000000000182F8A0: stub
+23274.572:0110:0124:fixme:oleacc:find_class_data unhandled window class: L"#32770"
+23276.931:0138:0248:warn:threadname:NtSetInformationThread Thread renamed to L"FChunkCacheWorker"
+23276.931:0138:0248:warn:threadname:dispatch_exception Thread renamed to "FChunkCacheWorker"
+23276.931:0138:0248:trace:seh:dispatch_exception code=406d1388 (EXCEPTION_WINE_NAME_THREAD) flags=0 addr=00006FFFFFBCD1F7
+23276.931:0138:0248:trace:seh:dispatch_exception  info[0]=0000000000001000
+23276.931:0138:0248:trace:seh:dispatch_exception  info[1]=00000000304DFE70
+23276.931:0138:0248:trace:seh:dispatch_exception  info[2]=0000000000000248
+23276.931:0138:0248:trace:seh:dispatch_exception rip=00006fffffbcd1f7 rsp=00000000304dfd20 rbp=0000000000000000 eflags=00000202
+23276.931:0138:0248:trace:seh:dispatch_exception rax=00000000304dfd70 rbx=000000001eeaaa50 rcx=00000000304dfd40 rdx=0000000000000000
+23276.931:0138:0248:trace:seh:dispatch_exception rsi=0000000000000000 rdi=0000000000000012  r8=0000000000000248  r9=00000000304dfe20
+23276.931:0138:0248:trace:seh:dispatch_exception r10=0000000000000000 r11=000000001eeaaa50 r12=0000000000000000 r13=0000000000000000
+23276.931:0138:0248:trace:seh:dispatch_exception r14=0000000000000000 r15=0000000000000000 mxcsr=00001fa0
+23276.931:0138:0248:trace:seh:call_vectored_handlers calling handler at 00006FFFF3942F60 code=406d1388 flags=0
+23276.931:0138:0248:trace:seh:call_vectored_handlers handler at 00006FFFF3942F60 returned ffffffff
+23279.686:0138:0254:warn:threadname:NtSetInformationThread Thread renamed to L"FChunkCacheWorker"
+23279.687:0138:0254:warn:threadname:dispatch_exception Thread renamed to "FChunkCacheWorker"
+23279.687:0138:0254:trace:seh:dispatch_exception code=406d1388 (EXCEPTION_WINE_NAME_THREAD) flags=0 addr=00006FFFFFBCD1F7
+23279.687:0138:0254:trace:seh:dispatch_exception  info[0]=0000000000001000
+23279.687:0138:0254:trace:seh:dispatch_exception  info[1]=00000000323FFE70
+23279.687:0138:0254:trace:seh:dispatch_exception  info[2]=0000000000000254
+23279.687:0138:0254:trace:seh:dispatch_exception rip=00006fffffbcd1f7 rsp=00000000323ffd20 rbp=0000000000000000 eflags=00000202
+23279.687:0138:0254:trace:seh:dispatch_exception rax=00000000323ffd70 rbx=000000002da1a8a0 rcx=00000000323ffd40 rdx=0000000000000000
+23279.687:0138:0254:trace:seh:dispatch_exception rsi=0000000000000000 rdi=0000000000000012  r8=0000000000000254  r9=00000000323ffe20
+23279.687:0138:0254:trace:seh:dispatch_exception r10=0000000000000000 r11=000000002da1a8a0 r12=0000000000000000 r13=0000000000000000
+23279.687:0138:0254:trace:seh:dispatch_exception r14=0000000000000000 r15=0000000000000000 mxcsr=00001fa0
+23279.687:0138:0254:trace:seh:call_vectored_handlers calling handler at 00006FFFF3942F60 code=406d1388 flags=0
+23279.687:0138:0254:trace:seh:call_vectored_handlers handler at 00006FFFF3942F60 returned ffffffff
+23280.132:0138:013c:trace:seh:call_seh_handlers handler at 0000000146C4D82D returned 1
+23280.132:0138:013c:warn:seh:virtual_unwind backtrace: 000000014093E7DF: L"Client-Win64-Shipping.exe" + 000000000093E7DF.
+23280.132:0138:013c:trace:unwind:RtlVirtualUnwind2 type 1 base 140000000 rip 14093e7df rva 93e7df rsp b9f6e0
+23280.132:0138:013c:trace:unwind:dump_unwind_info **** func 93e650-93e92c
+23280.132:0138:013c:trace:unwind:dump_unwind_info unwind info at 00000001485D1C78 flags 3 prolog 0x25 bytes function 000000014093E650-000000014093E92C
+23280.132:0138:013c:trace:unwind:dump_unwind_info     0x13: movq %rsi,0x868(%rsp)
+23280.132:0138:013c:trace:unwind:dump_unwind_info     0x13: movq %rbx,0x860(%rsp)
+23280.132:0138:013c:trace:unwind:dump_unwind_info     0x13: subq $0x850,%rsp
+23280.132:0138:013c:trace:unwind:dump_unwind_info     0xc: pushq %r14
+23280.132:0138:013c:trace:unwind:dump_unwind_info     handler 0000000146C488D0 data at 00000001485D1C90
+23280.132:0138:013c:trace:seh:call_seh_handlers calling handler 0000000146C488D0 (rec=0000000000B9A930, frame=b9f6e0 context=0000000000B9A440, dispatch=0000000000B99BE0)
+23280.132:0138:013c:trace:seh:RtlUnwindEx code=c0000094 flags=2 end_frame=0000000000B9F6E0 target_ip=000000014093E7EE
+23280.132:0138:013c:trace:seh:RtlUnwindEx rip=00006ffffff26bd6 rsp=0000000000b993f0 rbp=0000000000b99470 eflags=00000206
+23280.132:0138:013c:trace:seh:RtlUnwindEx rax=000000007ffc0000 rbx=0000000000b9a930 rcx=0000000000b99d10 rdx=000000014093e7ee
+23280.132:0138:013c:trace:seh:RtlUnwindEx rsi=0000000000b9a930 rdi=0000000000b99d10  r8=0000000000b9a930  r9=00000000c0000094
+23280.132:0138:013c:trace:seh:RtlUnwindEx r10=0000000000b9f6e0 r11=0000000000000840 r12=0000000000000000 r13=0000000000b9f6e0
+23280.132:0138:013c:trace:seh:RtlUnwindEx r14=000000000093e7df r15=0000000000b99560 mxcsr=00001fa0
+23280.132:0138:013c:trace:unwind:RtlVirtualUnwind2 type 2 base 6fffffef0000 rip 6ffffff26bd6 rva 36bd6 rsp b993f0
+23280.132:0138:013c:trace:unwind:dump_unwind_info **** func 36b80-372f4
+23280.132:0138:013c:trace:unwind:dump_unwind_info unwind info at 00006FFFFFF96054 flags 0 prolog 0x22 bytes function 00006FFFFFF26B80-00006FFFFFF272F4
+23280.132:0138:013c:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+23280.132:0138:013c:trace:unwind:dump_unwind_info     0x22: movaps %xmm6,0x640(%rsp)
+23280.132:0138:013c:trace:unwind:dump_unwind_info     0x1b: leaq 0x80(%rsp),rbp
+23280.132:0138:013c:trace:unwind:dump_unwind_info     0x13: subq $0x658,%rsp
+23280.132:0138:013c:trace:unwind:dump_unwind_info     0xc: pushq %rbx
+23280.132:0138:013c:trace:unwind:dump_unwind_info     0xb: pushq %rsi
+23280.132:0138:013c:trace:unwind:dump_unwind_info     0xa: pushq %rdi
+23280.132:0138:013c:trace:unwind:dump_unwind_info     0x9: pushq %r12
+23280.132:0138:013c:trace:unwind:dump_unwind_info     0x7: pushq %r13
+23280.132:0138:013c:trace:unwind:dump_unwind_info     0x5: pushq %r14
+23280.132:0138:013c:trace:unwind:dump_unwind_info     0x3: pushq %r15
+23280.132:0138:013c:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+23280.132:0138:013c:trace:unwind:RtlVirtualUnwind2 type 2 base 6ffffdae0000 rip 6ffffdaef502 rva f502 rsp b99a90
+23280.132:0138:013c:trace:unwind:dump_unwind_info **** func f3e0-f5f7
+23280.132:0138:013c:trace:unwind:dump_unwind_info unwind info at 00006FFFFDAF732C flags 0 prolog 0x1c bytes function 00006FFFFDAEF3E0-00006FFFFDAEF5F7
+23280.132:0138:013c:trace:unwind:dump_unwind_info     0x1c: movq %rsi,0x80(%rsp)
+23280.132:0138:013c:trace:unwind:dump_unwind_info     0x1c: movq %rbp,0x78(%rsp)
+23280.132:0138:013c:trace:unwind:dump_unwind_info     0x1c: movq %rbx,0x70(%rsp)
+23280.132:0138:013c:trace:unwind:dump_unwind_info     0x1c: subq $0x40,%rsp
+23280.132:0138:013c:trace:unwind:dump_unwind_info     0x18: pushq %r15
+23280.132:0138:013c:trace:unwind:dump_unwind_info     0x16: pushq %r14
+23280.132:0138:013c:trace:unwind:dump_unwind_info     0x14: pushq %r13
+23280.132:0138:013c:trace:unwind:dump_unwind_info     0x12: pushq %r12
+23280.132:0138:013c:trace:unwind:dump_unwind_info     0x10: pushq %rdi
+23280.132:0138:013c:trace:unwind:RtlVirtualUnwind2 type 2 base 140000000 rip 146c4893a rva 6c4893a rsp b99b00
+23280.132:0138:013c:trace:unwind:dump_unwind_info **** func 6c488d0-6c48955
+23280.132:0138:013c:trace:unwind:dump_unwind_info unwind info at 0000000148A52B28 flags 0 prolog 0x19 bytes function 0000000146C488D0-0000000146C48955
+23280.132:0138:013c:trace:unwind:dump_unwind_info     0x19: movq %rdi,0x48(%rsp)
+23280.132:0138:013c:trace:unwind:dump_unwind_info     0x19: movq %rsi,0x40(%rsp)
+23280.132:0138:013c:trace:unwind:dump_unwind_info     0x19: movq %rbp,0x38(%rsp)
+23280.132:0138:013c:trace:unwind:dump_unwind_info     0x19: movq %rbx,0x30(%rsp)
+23280.132:0138:013c:trace:unwind:dump_unwind_info     0x19: subq $0x20,%rsp
+23280.132:0138:013c:trace:unwind:dump_unwind_info     0x15: pushq %r14
+23280.132:0138:013c:trace:unwind:RtlVirtualUnwind2 type 2 base 6fffffef0000 rip 6fffffeffee5 rva fee5 rsp b99b30
+23280.132:0138:013c:trace:unwind:dump_unwind_info **** func fedc-feeb
+23280.132:0138:013c:trace:unwind:dump_unwind_info unwind info at 00006FFFFFF95EB4 flags 1 prolog 0x5 bytes function 00006FFFFFEFFEDC-00006FFFFFEFFEEB
+23280.132:0138:013c:trace:unwind:dump_unwind_info     0x5: subq $0x20,%rsp
+23280.132:0138:013c:trace:unwind:dump_unwind_info     0x1: pushq %rdx
+23280.132:0138:013c:trace:unwind:dump_unwind_info     handler 00006FFFFFF49240 data at 00006FFFFFF95EC0
+23280.134:0138:013c:trace:unwind:RtlVirtualUnwind2 type 2 base 6fffffef0000 rip 6ffffff36859 rva 46859 rsp b99b60
+23280.134:0138:013c:trace:unwind:dump_unwind_info **** func 46770-46c50
+23280.134:0138:013c:trace:unwind:dump_unwind_info unwind info at 00006FFFFFF96014 flags 0 prolog 0x1b bytes function 00006FFFFFF36770-00006FFFFFF36C50
+23280.134:0138:013c:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x1b: leaq 0x80(%rsp),rbp
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x13: subq $0x688,%rsp
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0xc: pushq %rbx
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0xb: pushq %rsi
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0xa: pushq %rdi
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x9: pushq %r12
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x7: pushq %r13
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x5: pushq %r14
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x3: pushq %r15
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+23280.134:0138:013c:trace:unwind:RtlVirtualUnwind2 type 2 base 6fffffef0000 rip 6ffffff391db rva 491db rsp b9a230
+23280.134:0138:013c:trace:unwind:dump_unwind_info **** func 48ce0-49d12
+23280.134:0138:013c:trace:unwind:dump_unwind_info unwind info at 00006FFFFFF93340 flags 0 prolog 0x22 bytes function 00006FFFFFF38CE0-00006FFFFFF39D12
+23280.134:0138:013c:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x22: movaps %xmm6,0x1b0(%rsp)
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x1b: leaq 0x80(%rsp),rbp
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x13: subq $0x1c8,%rsp
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0xc: pushq %rbx
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0xb: pushq %rsi
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0xa: pushq %rdi
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x9: pushq %r12
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x7: pushq %r13
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x5: pushq %r14
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x3: pushq %r15
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+23280.134:0138:013c:trace:unwind:RtlVirtualUnwind2 type 2 base 6fffffef0000 rip 6fffffefff16 rva ff16 rsp b9a440
+23280.134:0138:013c:trace:unwind:dump_unwind_info **** func feec-ff17
+23280.134:0138:013c:trace:unwind:dump_unwind_info unwind info at 00006FFFFFF95EC0 flags 0 prolog 0x0 bytes function 00006FFFFFEFFEEC-00006FFFFFEFFF17
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x0: movq %r15,0xf0(%rsp)
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x0: movq %r14,0xe8(%rsp)
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x0: movq %r13,0xe0(%rsp)
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x0: movq %r12,0xd8(%rsp)
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x0: movq %rdi,0xb0(%rsp)
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x0: movq %rsi,0xa8(%rsp)
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x0: movq %rbp,0xa0(%rsp)
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x0: movq %rbx,0x90(%rsp)
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x0: subq $0x590,%rsp
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x0: PUSH_MACHFRAME 0
+23280.134:0138:013c:trace:unwind:RtlVirtualUnwind2 type 2 base 6ffffa640000 rip 6ffffa6666cc rva 266cc rsp b9ab60
+23280.134:0138:013c:trace:unwind:dump_unwind_info **** func 26440-269ce
+23280.134:0138:013c:trace:unwind:dump_unwind_info unwind info at 00006FFFFAA3CA50 flags 3 prolog 0x2f bytes function 00006FFFFA666440-00006FFFFA6669CE
+23280.134:0138:013c:trace:unwind:dump_unwind_info     frame register rbp offset 0x80(%rsp)
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x2f: movaps %xmm7,0x3180(%rsp)
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x28: movaps %xmm6,0x3170(%rsp)
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x21: leaq 0x80(%rsp),rbp
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x19: subq $0x3198,%rsp
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x11: pushq %rbx
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x10: pushq %rsi
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0xf: pushq %rdi
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0xe: pushq %r12
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0xc: pushq %r13
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0xa: pushq %r14
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x8: pushq %r15
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+23280.134:0138:013c:trace:unwind:dump_unwind_info     handler 00006FFFFA965960 data at 00006FFFFAA3CA78
+23280.134:0138:013c:trace:seh:RtlUnwindEx calling handler 00006FFFFA965960 (rec=0000000000B9A930, frame=b9ab60 context=0000000000B99D10, dispatch=0000000000B99470)
+23280.134:0138:013c:trace:seh:RtlUnwindEx handler 00006FFFFA965960 returned 1
+23280.134:0138:013c:trace:unwind:RtlVirtualUnwind2 type 2 base 6ffffa640000 rip 6ffffa66880f rva 2880f rsp b9dd40
+23280.134:0138:013c:trace:unwind:dump_unwind_info **** func 28730-2886e
+23280.134:0138:013c:trace:unwind:dump_unwind_info unwind info at 00006FFFFAA3CAD4 flags 3 prolog 0x13 bytes function 00006FFFFA668730-00006FFFFA66886E
+23280.134:0138:013c:trace:unwind:dump_unwind_info     frame register rbp offset 0x20(%rsp)
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x13: movaps %xmm6,0x20(%rsp)
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0xf: leaq 0x20(%rsp),rbp
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0xa: subq $0x30,%rsp
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x6: pushq %rbx
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x5: pushq %rsi
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x4: pushq %rdi
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x3: pushq %r12
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+23280.134:0138:013c:trace:unwind:dump_unwind_info     handler 00006FFFFA965960 data at 00006FFFFAA3CAF0
+23280.134:0138:013c:trace:seh:RtlUnwindEx calling handler 00006FFFFA965960 (rec=0000000000B9A930, frame=b9dd40 context=0000000000B99D10, dispatch=0000000000B99470)
+23280.134:0138:013c:trace:seh:RtlUnwindEx handler 00006FFFFA965960 returned 1
+23280.134:0138:013c:trace:unwind:RtlVirtualUnwind2 type 2 base 6ffffa640000 rip 6ffffa66f222 rva 2f222 rsp b9dda0
+23280.134:0138:013c:trace:unwind:dump_unwind_info **** func 2f110-2f37a
+23280.134:0138:013c:trace:unwind:dump_unwind_info unwind info at 00006FFFFAA3B1D0 flags 3 prolog 0x13 bytes function 00006FFFFA66F110-00006FFFFA66F37A
+23280.134:0138:013c:trace:unwind:dump_unwind_info     frame register rbp offset 0x50(%rsp)
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x13: leaq 0x50(%rsp),rbp
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0xe: subq $0x50,%rsp
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0xa: pushq %rbx
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x9: pushq %rsi
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x8: pushq %rdi
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x7: pushq %r12
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x5: pushq %r13
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x3: pushq %r14
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x1: pushq %rbp
+23280.134:0138:013c:trace:unwind:dump_unwind_info     handler 00006FFFFA965960 data at 00006FFFFAA3B1EC
+23280.134:0138:013c:trace:seh:RtlUnwindEx calling handler 00006FFFFA965960 (rec=0000000000B9A930, frame=b9dda0 context=0000000000B99D10, dispatch=0000000000B99470)
+23280.134:0138:013c:trace:seh:RtlUnwindEx handler 00006FFFFA965960 returned 1
+23280.134:0138:013c:trace:unwind:RtlVirtualUnwind2 type 2 base 140000000 rip 1430c6f64 rva 30c6f64 rsp b9de30
+23280.134:0138:013c:trace:unwind:dump_unwind_info **** func 30c6cde-30c7750
+23280.134:0138:013c:trace:unwind:dump_unwind_info unwind info at 00000001487A8878 flags 4 prolog 0x0 bytes function 00000001430C6CDE-00000001430C7750
+23280.134:0138:013c:trace:unwind:dump_unwind_info     chained to function 00000001430C6B4C-00000001430C6BD0
+23280.134:0138:013c:trace:unwind:dump_unwind_info unwind info at 00000001487A8844 flags 4 prolog 0x67 bytes function 00000001430C6B4C-00000001430C6BD0
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x67: movq %r12,0x768(%rsp)
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x18: movq %r13,0x760(%rsp)
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x10: movq %rdi,0x7a8(%rsp)
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x8: movq %rsi,0x7a0(%rsp)
+23280.134:0138:013c:trace:unwind:dump_unwind_info     chained to function 00000001430C6B44-00000001430C6B4C
+23280.134:0138:013c:trace:unwind:dump_unwind_info unwind info at 00000001487A8830 flags 4 prolog 0x8 bytes function 00000001430C6B44-00000001430C6B4C
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x8: movq %rbx,0x798(%rsp)
+23280.134:0138:013c:trace:unwind:dump_unwind_info     chained to function 00000001430C6B00-00000001430C6B44
+23280.134:0138:013c:trace:unwind:dump_unwind_info unwind info at 00000001487A8818 flags 3 prolog 0x26 bytes function 00000001430C6B00-00000001430C6B44
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x15: subq $0x770,%rsp
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x6: pushq %r15
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x4: pushq %r14
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x2: pushq %rbp
+23280.134:0138:013c:trace:unwind:dump_unwind_info     handler 0000000146C48854 data at 00000001487A882C
+23280.134:0138:013c:trace:seh:RtlUnwindEx calling handler 0000000146C48854 (rec=0000000000B9A930, frame=b9de30 context=0000000000B99D10, dispatch=0000000000B99470)
+23280.134:0138:013c:trace:seh:RtlUnwindEx handler 0000000146C48854 returned 1
+23280.134:0138:013c:trace:unwind:RtlVirtualUnwind2 type 2 base 140000000 rip 1430bdb96 rva 30bdb96 rsp b9e5c0
+23280.134:0138:013c:trace:unwind:dump_unwind_info **** func 30bdb60-30bdcfe
+23280.134:0138:013c:trace:unwind:dump_unwind_info unwind info at 00000001485D0C44 flags 0 prolog 0xa bytes function 00000001430BDB60-00000001430BDCFE
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0xa: movq %rbx,0x70(%rsp)
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0xa: subq $0x60,%rsp
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x6: pushq %rdi
+23280.134:0138:013c:trace:unwind:RtlVirtualUnwind2 type 2 base 140000000 rip 143fdb9d2 rva 3fdb9d2 rsp b9e630
+23280.134:0138:013c:trace:unwind:dump_unwind_info **** func 3fdb270-3fdbefc
+23280.134:0138:013c:trace:unwind:dump_unwind_info unwind info at 000000014883A6CC flags 3 prolog 0x38 bytes function 0000000143FDB270-0000000143FDBEFC
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x27: movaps %xmm6,0x220(%rsp)
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x1f: movq %rbx,0x280(%rsp)
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x1f: subq $0x230,%rsp
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x10: pushq %r15
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0xe: pushq %r14
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0xc: pushq %r13
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0xa: pushq %r12
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x8: pushq %rdi
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x7: pushq %rsi
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x6: pushq %rbp
+23280.134:0138:013c:trace:unwind:dump_unwind_info     handler 0000000146C48854 data at 000000014883A6F0
+23280.134:0138:013c:trace:seh:RtlUnwindEx calling handler 0000000146C48854 (rec=0000000000B9A930, frame=b9e630 context=0000000000B99D10, dispatch=0000000000B99470)
+23280.134:0138:013c:trace:seh:RtlUnwindEx handler 0000000146C48854 returned 1
+23280.134:0138:013c:trace:unwind:RtlVirtualUnwind2 type 2 base 140000000 rip 143fdc7c3 rva 3fdc7c3 rsp b9e8a0
+23280.134:0138:013c:trace:unwind:dump_unwind_info **** func 3fdc7b0-3fdc7f1
+23280.134:0138:013c:trace:unwind:dump_unwind_info unwind info at 00000001485CFB3C flags 0 prolog 0x4 bytes function 0000000143FDC7B0-0000000143FDC7F1
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x4: subq $0x28,%rsp
+23280.134:0138:013c:trace:unwind:RtlVirtualUnwind2 type 2 base 140000000 rip 143fb22ba rva 3fb22ba rsp b9e8d0
+23280.134:0138:013c:trace:unwind:dump_unwind_info **** func 3fb2178-3fb22d0
+23280.134:0138:013c:trace:unwind:dump_unwind_info unwind info at 000000014883729C flags 4 prolog 0x8 bytes function 0000000143FB2178-0000000143FB22D0
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x8: movq %r13,0x128(%rsp)
+23280.134:0138:013c:trace:unwind:dump_unwind_info     chained to function 0000000143FB2160-0000000143FB2178
+23280.134:0138:013c:trace:unwind:dump_unwind_info unwind info at 0000000148837288 flags 0 prolog 0x16 bytes function 0000000143FB2160-0000000143FB2178
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x16: subq $0xf0,%rsp
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0xa: pushq %r12
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x8: pushq %rdi
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x7: pushq %rsi
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x6: pushq %rbx
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x5: pushq %rbp
+23280.134:0138:013c:trace:unwind:RtlVirtualUnwind2 type 2 base 140000000 rip 14093b2f1 rva 93b2f1 rsp b9e9f0
+23280.134:0138:013c:trace:unwind:dump_unwind_info **** func 93a582-93b93b
+23280.134:0138:013c:trace:unwind:dump_unwind_info unwind info at 00000001485D1988 flags 4 prolog 0x11 bytes function 000000014093A582-000000014093B93B
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x11: movaps %xmm8,0xaf0(%rsp)
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x8: movaps %xmm7,0xb00(%rsp)
+23280.134:0138:013c:trace:unwind:dump_unwind_info     chained to function 000000014093A398-000000014093A582
+23280.134:0138:013c:trace:unwind:dump_unwind_info unwind info at 00000001485D1974 flags 4 prolog 0x8 bytes function 000000014093A398-000000014093A582
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x8: movaps %xmm6,0xb10(%rsp)
+23280.134:0138:013c:trace:unwind:dump_unwind_info     chained to function 0000000140938E33-000000014093A398
+23280.134:0138:013c:trace:unwind:dump_unwind_info unwind info at 00000001485D1960 flags 4 prolog 0x8 bytes function 0000000140938E33-000000014093A398
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x8: movq %r13,0xb28(%rsp)
+23280.134:0138:013c:trace:unwind:dump_unwind_info     chained to function 0000000140938C58-0000000140938E33
+23280.134:0138:013c:trace:unwind:dump_unwind_info unwind info at 00000001485D1944 flags 4 prolog 0x9c bytes function 0000000140938C58-0000000140938E33
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x9c: movq %rsi,0xb70(%rsp)
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x13: movq %r15,0xb20(%rsp)
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x8: movq %rdi,0xb30(%rsp)
+23280.134:0138:013c:trace:unwind:dump_unwind_info     chained to function 0000000140938BB0-0000000140938C58
+23280.134:0138:013c:trace:unwind:dump_unwind_info unwind info at 00000001485D192C flags 3 prolog 0x27 bytes function 0000000140938BB0-0000000140938C58
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x16: subq $0xb38,%rsp
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x7: pushq %r14
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x5: pushq %r12
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x3: pushq %rbx
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x2: pushq %rbp
+23280.134:0138:013c:trace:unwind:dump_unwind_info     handler 0000000146C48854 data at 00000001485D1940
+23280.134:0138:013c:trace:seh:RtlUnwindEx calling handler 0000000146C48854 (rec=0000000000B9A930, frame=b9e9f0 context=0000000000B99D10, dispatch=0000000000B99470)
+23280.134:0138:013c:trace:seh:RtlUnwindEx handler 0000000146C48854 returned 1
+23280.134:0138:013c:trace:unwind:RtlVirtualUnwind2 type 2 base 140000000 rip 1409333d6 rva 9333d6 rsp b9f550
+23280.134:0138:013c:trace:unwind:dump_unwind_info **** func 9332c0-9336ad
+23280.134:0138:013c:trace:unwind:dump_unwind_info unwind info at 00000001485D1CB0 flags 3 prolog 0x28 bytes function 00000001409332C0-00000001409336AD
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x1a: movq %rsi,0x160(%rsp)
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x1a: movq %rbx,0x158(%rsp)
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x1a: subq $0x130,%rsp
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0xe: pushq %r14
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0xc: pushq %rdi
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0xb: pushq %rbp
+23280.134:0138:013c:trace:unwind:dump_unwind_info     handler 0000000146C48854 data at 00000001485D1CCC
+23280.134:0138:013c:trace:seh:RtlUnwindEx calling handler 0000000146C48854 (rec=0000000000B9A930, frame=b9f550 context=0000000000B99D10, dispatch=0000000000B99470)
+23280.134:0138:013c:trace:seh:RtlUnwindEx handler 0000000146C48854 returned 1
+23280.134:0138:013c:trace:unwind:RtlVirtualUnwind2 type 2 base 140000000 rip 1409336ca rva 9336ca rsp b9f6a0
+23280.134:0138:013c:trace:unwind:dump_unwind_info **** func 9336b0-9336e4
+23280.134:0138:013c:trace:unwind:dump_unwind_info unwind info at 00000001485D2354 flags 1 prolog 0x4 bytes function 00000001409336B0-00000001409336E4
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x4: subq $0x38,%rsp
+23280.134:0138:013c:trace:unwind:dump_unwind_info     handler 0000000146C4D82D data at 00000001485D2360
+23280.134:0138:013c:trace:unwind:RtlVirtualUnwind2 type 2 base 140000000 rip 14093e7df rva 93e7df rsp b9f6e0
+23280.134:0138:013c:trace:unwind:dump_unwind_info **** func 93e650-93e92c
+23280.134:0138:013c:trace:unwind:dump_unwind_info unwind info at 00000001485D1C78 flags 3 prolog 0x25 bytes function 000000014093E650-000000014093E92C
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x13: movq %rsi,0x868(%rsp)
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x13: movq %rbx,0x860(%rsp)
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0x13: subq $0x850,%rsp
+23280.134:0138:013c:trace:unwind:dump_unwind_info     0xc: pushq %r14
+23280.134:0138:013c:trace:unwind:dump_unwind_info     handler 0000000146C488D0 data at 00000001485D1C90
+23280.134:0138:013c:trace:seh:RtlUnwindEx calling handler 0000000146C488D0 (rec=0000000000B9A930, frame=b9f6e0 context=0000000000B99D10, dispatch=0000000000B99470)
+23280.134:0138:013c:trace:seh:RtlUnwindEx handler 0000000146C488D0 returned 1
+23280.134:0138:013c:trace:seh:RtlRestoreContext returning to 000000014093E7EE stack 0000000000B9F6E0
+23280.230:012c:0130:fixme:kernelbase:AppPolicyGetProcessTerminationMethod FFFFFFFFFFFFFFFA, 0000000000B9FEB0
+23280.233:00e8:025c:warn:threadname:NtSetInformationThread Thread renamed to L"wine_threadpool_worker"
+23280.251:0030:0260:warn:threadname:NtSetInformationThread Thread renamed to L"wine_threadpool_worker"
+23280.253:0030:0264:warn:threadname:NtSetInformationThread Thread renamed to L"wine_threadpool_worker"
+23280.253:0030:0268:warn:threadname:NtSetInformationThread Thread renamed to L"wine_threadpool_worker"
+pid 29279 != 29278, skipping destruction (fork without exec?)
