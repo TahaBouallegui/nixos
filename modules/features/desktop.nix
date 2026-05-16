@@ -33,6 +33,8 @@
       pkgs.proton-vpn
     ];
 
+    programs.steam.enable = true;
+
     fonts.packages = with pkgs; [
       nerd-fonts.jetbrains-mono
       ubuntu-sans
