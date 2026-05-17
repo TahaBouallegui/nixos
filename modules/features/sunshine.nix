@@ -9,6 +9,7 @@
     ...
   }: {
 
+
     # auto‑login
     services.greetd = {
         enable = true;

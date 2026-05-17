@@ -8,6 +8,10 @@
     pkgs,
     ...
   }: {
+    
+    # Allow unfree packages
+    nixpkgs.config.allowUnfree = true;
+
     imports = [
       # Rajoutez ici les modules que vous voulez voir dans le système
       self.nixosModules.robotechMachineHardware
@@ -58,12 +62,12 @@
 
     # Configure keymap in X11
     services.xserver.xkb = {
-      layout = "fr";
+      layout = "us";
       variant = "";
     };
 
     # Configure console keymap
-    console.keyMap = "fr";
+    console.keyMap = "us";
 
     # Define a user account. Don't forget to set a password with ‘passwd’.
     users = {
@@ -97,9 +101,6 @@
       };
     };
 
-    # Allow unfree packages
-    nixpkgs.config.allowUnfree = true;
-
     # List packages installed in system profile. To search, run:
     # $ nix search wget
     environment.systemPackages = [
@@ -118,8 +119,6 @@
       enable = true;
       enableSSHSupport = true;
     };
-
-    # X11 display with i3 and auto‑login
 
     services.pulseaudio.enable = false;
     security.rtkit.enable = true;
