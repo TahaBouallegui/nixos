@@ -149,8 +149,8 @@
     nixpkgs.config.allowUnfree = true;
 
 
-#    services.xserver.videoDrivers = [ "nvidia" "intel" ];
-#
+    services.xserver.videoDrivers = [ "nvidia" "intel" ];
+
     hardware = {
       graphics = {
         enable = true;
