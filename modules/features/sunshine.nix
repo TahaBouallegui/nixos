@@ -13,13 +13,28 @@
     services.xserver = {
       enable = true;
       desktopManager = {
-        xterm.enable = false;
         xfce.enable = true;
       };
       displayManager.autoLogin = {
         enable = true;
         user = "za3ter";
-      };
+      };config = ''
+  Section "Device"
+      Identifier  "Nvidia Card"
+      Driver      "nvidia"
+      VendorName  "NVIDIA Corporation"
+      Option      "AllowEmptyInitialConfiguration" "True"
+      Option      "ConnectedMonitor" "DFP-0"
+  EndSection
+  Section "Screen"
+      Identifier  "Default Screen"
+      Device      "Nvidia Card"
+      SubSection "Display"
+          Depth    24
+          Virtual  1920 1080
+      EndSubSection
+  EndSection
+'';
     };
 
 
