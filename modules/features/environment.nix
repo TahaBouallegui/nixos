@@ -49,7 +49,7 @@
         pkgs.killall
         pkgs.sshfs
         pkgs.fzf
-        (btop.overrideAttrs (oldAttrs: {
+        (pkgs.btop.overrideAttrs (oldAttrs: {
             cmakeFlags = (oldAttrs.cmakeFlags or []) ++ [
             "-DBTOP_GPU=ON"
             ];
