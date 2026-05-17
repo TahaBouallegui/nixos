@@ -159,27 +159,26 @@
             intel-media-driver
         ];
       };
-#      
-#      
-#      nvidia = {
-#        package = config.boot.kernelPackages.nvidiaPackages.legacy_580;
-#        modesetting.enable = true;
-#        powerManagement.enable = true;
-#        powerManagement.finegrained = false;
-#    
-#        open = false;
-#
-#        nvidiaSettings = true;
-#
-#        prime = {
-#          offload = {
-#            enable = true;
-#            enableOffloadCmd = true;
-#          };
-#        intelBusId = "PCI:0@0:2:0";
-#        nvidiaBusId = "PCI:2@0:0:0";
-#        };
-#      };
+      
+      
+      nvidia = {
+        package = config.boot.kernelPackages.nvidiaPackages.legacy_580;
+        modesetting.enable = true;
+        powerManagement.enable = true;
+        powerManagement.finegrained = false;
+    
+        open = false;
+
+        nvidiaSettings = true;
+
+        prime = {
+          offload = {
+            enable = true;
+          };
+        intelBusId = "PCI:0@0:2:0";
+        nvidiaBusId = "PCI:2@0:0:0";
+        };
+      };
     };
 
     # Some programs need SUID wrappers, can be configured further or are
