@@ -18,29 +18,28 @@
       self.nixosModules.pkgs-stable
 
       self.nixosModules.base
-      
+
       self.nixosModules.moonlight
 
       self.nixosModules.sddm
       self.nixosModules.desktop
     ];
 
-
-  boot = {
-    # Kernel Panic on suspend fix, taken from ArchLinux wiki.
-    kernelParams = [
-      "acpi_enforce_resources=lax"
-      "i915.enable_dc=0"
-    ];
-    # Audio Mute LED
-    extraModprobeConfig = ''
-      options snd-hda-intel model=mute-led-gpio
-    '';
-  };
+    boot = {
+      # Kernel Panic on suspend fix, taken from ArchLinux wiki.
+      kernelParams = [
+        "acpi_enforce_resources=lax"
+        "i915.enable_dc=0"
+      ];
+      # Audio Mute LED
+      extraModprobeConfig = ''
+        options snd-hda-intel model=mute-led-gpio
+      '';
+    };
     nix.settings = {
       #Enabling flakes
       experimental-features = ["nix-command" "flakes"];
-      
+
       # Nix Limit parallel build
       max-jobs = 12;
       cores = 12;
@@ -58,10 +57,10 @@
 
     boot.kernelPackages = pkgs.linuxPackages_latest;
 
-   # boot.kernelParams = [
-   #   "nvidia_drm.modeset=1"
-   #   "nvidia.NVreg_PreserveVideoMemoryAllocations=1"
-   # ];
+    # boot.kernelParams = [
+    #   "nvidia_drm.modeset=1"
+    #   "nvidia.NVreg_PreserveVideoMemoryAllocations=1"
+    # ];
 
     networking.hostName = "nixos"; # Define your hostname.
     # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
@@ -148,25 +147,20 @@
     # Allow unfree packages
     nixpkgs.config.allowUnfree = true;
 
-
-    services.xserver.videoDrivers = [ "nvidia" "intel" ];
+    services.xserver.videoDrivers = ["nvidia" "intel"];
 
     hardware = {
       graphics = {
         enable = true;
         enable32Bit = true;
-        extraPackages = with pkgs; [
-            intel-media-driver
-        ];
       };
-      
-      
+
       nvidia = {
         package = config.boot.kernelPackages.nvidiaPackages.legacy_580;
         modesetting.enable = true;
         powerManagement.enable = true;
         powerManagement.finegrained = false;
-    
+
         open = false;
 
         nvidiaSettings = true;
@@ -175,8 +169,8 @@
           offload = {
             enable = true;
           };
-        intelBusId = "PCI:0@0:2:0";
-        nvidiaBusId = "PCI:2@0:0:0";
+          intelBusId = "PCI:0@0:2:0";
+          nvidiaBusId = "PCI:2@0:0:0";
         };
       };
     };
