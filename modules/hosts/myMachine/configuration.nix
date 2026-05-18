@@ -138,6 +138,7 @@
       isNormalUser = true;
       description = "atb";
       extraGroups = ["networkmanager" "wheel" "dialout"];
+      shell = self.packages.${pkgs.system}.environment;
     };
 
     services = {
