@@ -82,8 +82,8 @@
         pkgs.minicom
         pkgs.SDL2
         pkgs.SDL2_ttf
+        pkgs.libusb1
         pkgs.pkg-config
-
 
         #avr
         pkgs.avra

@@ -9,6 +9,7 @@
   flake.nixosModules.myMachineConfiguration = {
     config,
     pkgs,
+    lib,
     ...
   }: {
     imports = [
@@ -89,7 +90,7 @@
       LC_TELEPHONE = "fr_FR.UTF-8";
       LC_TIME = "fr_FR.UTF-8";
     };
-
+    
     # 1. Enable the service and the firewall
     services.tailscale = {
       enable = true;
@@ -138,17 +139,19 @@
       isNormalUser = true;
       description = "atb";
       extraGroups = ["networkmanager" "wheel" "dialout"];
-      shell = self.packages.${pkgs.system}.environment;
     };
+
+    #sops.defaultSopsFile = ./secrets.yaml;
 
     services = {
       desktopManager.plasma6.enable = true;
     };
 
+
     # Allow unfree packages
     nixpkgs.config.allowUnfree = true;
 
-    services.xserver.videoDrivers = ["nvidia" "intel"];
+    services.xserver.videoDrivers = ["intel"];
 
     hardware = {
       graphics = {
@@ -188,6 +191,7 @@
 
     # Enable the OpenSSH daemon.
     # services.openssh.enable = true;
+    # services.openssh.ports = [2222];
 
     # Open ports in the firewall.
     # networking.firewall.allowedTCPPorts = [ ... ];

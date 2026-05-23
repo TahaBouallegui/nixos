@@ -79,7 +79,6 @@
         description = "za3ter";
         extraGroups = ["networkmanager" "wheel" "nixos-config"];
         packages = with pkgs; [];
-        shell = self.packages.${pkgs.system}.environment;
       };
       users.bobg = {
         isNormalUser = true;

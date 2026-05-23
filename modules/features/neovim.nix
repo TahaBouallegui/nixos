@@ -12,7 +12,7 @@
     packages.neovim = inputs.wrapper-modules.wrappers.neovim.wrap {
       inherit pkgs;
 
-      extraPackages = with pkgs; [
+      runtimePkgs = with pkgs; [
         wl-clipboard
         ffmpeg-full
         lua-language-server

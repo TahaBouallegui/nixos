@@ -9,7 +9,7 @@
     config,
     ...
   }: let
-    selfpkgs = self.packages."${pkgs.system}";
+    selfpkgs = self.packages."${pkgs.stdenv.hostPlatform.system}";
   in {
     imports = [
       self.nixosModules.kicad
@@ -31,6 +31,8 @@
       pkgs.heroic
       pkgs.element-desktop
       pkgs.proton-vpn
+      pkgs.prusa-slicer
+      pkgs.gparted
     ];
 
     programs.steam.enable = true;

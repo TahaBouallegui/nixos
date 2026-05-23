@@ -25,15 +25,7 @@
             geometry-corner-radius = 20;
             clip-to-geometry = true;
           }
-          #  {
-          #      matches = [{app-id = "^Kitty$";}];
-          #      background-effect = {
-          #          blur = true;
-          #          xray = false;
-          #      };
-          #  }
         ];
-
         layer-rules = [
           {
             matches = [{namespace = "^noctalia-overview";}];
@@ -61,6 +53,11 @@
             };
             scale = 1.25;
           };
+        };
+
+        cursor = { # Auto hide cursor when I don't need it
+          hide-after-inactive-ms = 3000;
+          hide-when-typing = true;
         };
 
         prefer-no-csd = _: {};
