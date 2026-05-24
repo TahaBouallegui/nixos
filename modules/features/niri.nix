@@ -55,7 +55,8 @@
           };
         };
 
-        cursor = { # Auto hide cursor when I don't need it
+        cursor = {
+          # Auto hide cursor when I don't need it
           hide-after-inactive-ms = 3000;
           hide-when-typing = true;
         };

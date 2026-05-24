@@ -8,37 +8,35 @@
     pkgs,
     ...
   }: {
-
-
     # auto‑login
     services.greetd = {
-        enable = true;
-        settings = {
-            defualt_session = {
-                command = "${pkgs.cage}/bin/cage -s -- ${pkgs.steam}/bin/steam -bigpicture";
-                user = "za3ter";
-            };
+      enable = true;
+      settings = {
+        defualt_session = {
+          command = "${pkgs.cage}/bin/cage -s -- ${pkgs.steam}/bin/steam -bigpicture";
+          user = "za3ter";
         };
+      };
     };
     # No need for Xorg
     services.xserver.enable = false;
 
-users.users.za3ter = {
-  extraGroups = [ "uinput" ];
-  isNormalUser = true;
-};
+    users.users.za3ter = {
+      extraGroups = ["uinput"];
+      isNormalUser = true;
+    };
     hardware.uinput.enable = true;
-    
+
     services.sunshine = {
       enable = true;
-      autoStart = true; 
+      autoStart = true;
       capSysAdmin = true;
       openFirewall = true;
     };
 
     programs.steam = {
-        enable = true;
-        extraCompatPackages = [ pkgs.proton-ge-bin ];
+      enable = true;
+      extraCompatPackages = [pkgs.proton-ge-bin];
     };
   };
 }

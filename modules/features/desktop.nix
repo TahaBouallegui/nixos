@@ -37,12 +37,12 @@
 
     programs.steam.enable = true;
     nixpkgs.overlays = [
-    (final: prev: {
-      steam = prev.steam.override {
-        extraArgs = "-cef-disable-gpu-compositing";
-      };
-    })   
-  ];
+      (final: prev: {
+        steam = prev.steam.override {
+          extraArgs = "-cef-disable-gpu-compositing";
+        };
+      })
+    ];
 
     fonts.packages = with pkgs; [
       nerd-fonts.jetbrains-mono

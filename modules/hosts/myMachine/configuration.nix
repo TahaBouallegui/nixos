@@ -46,6 +46,12 @@
       cores = 12;
     };
 
+    nix.gc = {
+      automatic = true;
+      dates = "weekly";
+      options = "--delete-older-than 30d";
+    };
+
     # Bootloader.
     boot.loader = {
       grub = {
@@ -90,7 +96,7 @@
       LC_TELEPHONE = "fr_FR.UTF-8";
       LC_TIME = "fr_FR.UTF-8";
     };
-    
+
     # 1. Enable the service and the firewall
     services.tailscale = {
       enable = true;
@@ -146,7 +152,6 @@
     services = {
       desktopManager.plasma6.enable = true;
     };
-
 
     # Allow unfree packages
     nixpkgs.config.allowUnfree = true;

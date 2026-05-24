@@ -8,7 +8,6 @@
     pkgs,
     ...
   }: {
-    
     # Allow unfree packages
     nixpkgs.config.allowUnfree = true;
 
@@ -40,7 +39,6 @@
     networking.networkmanager.enable = true;
 
     services.tailscale.enable = true;
-    
 
     time.timeZone = "Europe/Paris";
     time.hardwareClockInLocalTime = false;

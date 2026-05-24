@@ -50,8 +50,10 @@
         pkgs.sshfs
         pkgs.fzf
         (pkgs.btop.overrideAttrs (oldAttrs: {
-            cmakeFlags = (oldAttrs.cmakeFlags or []) ++ [
-            "-DBTOP_GPU=ON"
+          cmakeFlags =
+            (oldAttrs.cmakeFlags or [])
+            ++ [
+              "-DBTOP_GPU=ON"
             ];
         }))
         pkgs.eza

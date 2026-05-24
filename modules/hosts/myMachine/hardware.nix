@@ -32,22 +32,10 @@
       fsType = "vfat";
       options = ["fmask=0077" "dmask=0077"];
     };
-    
-    zramSwap = {
-      enable = true;
-      algorithm = "zstd";
-      memoryPercent = 50;
-      priority = 100;
-    };
 
     swapDevices = [
-      {
-        device = "/dev/disk/by-uuid/871e1acc-2a4e-4ba4-8b88-72ad5bc8a970";
-        priority = 100;
-      }
+      {device = "/dev/disk/by-uuid/871e1acc-2a4e-4ba4-8b88-72ad5bc8a970";}
     ];
-    boot.resumeDevice = "/dev/disk/by-uuid/871e1acc-2a4e-4ba4-8b88-72ad5bc8a970";
-    boot.kernel.sysctl."vm.swappiness" = 10;
 
     nixpkgs.hostPlatform = lib.mkDefault "x86_64-linux";
     hardware.cpu.intel.updateMicrocode = lib.mkDefault config.hardware.enableRedistributableFirmware;
