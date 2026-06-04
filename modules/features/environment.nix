@@ -73,9 +73,8 @@
         pkgs.btop
         pkgs.cowsay
         pkgs.yazi
-
-        pkgs.python3
-        pkgs.python313Packages.dbus-python
+        pkgs.tldr
+        pkgs.pstree
 
         pkgs.gnumake
         pkgs.dfu-programmer
@@ -97,6 +96,7 @@
         self'.packages.neovim
         self'.packages.qalc
         self'.packages.git
+        self'.packages.lf
       ];
     };
   };
