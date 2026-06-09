@@ -14,7 +14,7 @@
     imports = [
       # Rajoutez ici les modules que vous voulez voir dans le système
       self.nixosModules.robotechMachineHardware
-      self.nixosModules.sunshine
+#      self.nixosModules.sunshine
       self.nixosModules.fixed-boot-date
     ];
 
@@ -30,7 +30,6 @@
 
     networking.hostName = "lingangu"; # Define your hostname.
     # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
-
     # Configure network proxy if necessary
     # networking.proxy.default = "http://user:password@proxy:port/";
     # networking.proxy.noProxy = "127.0.0.1,localhost,internal.domain";
@@ -55,7 +54,7 @@
       LC_NUMERIC = "fr_FR.UTF-8";
       LC_PAPER = "fr_FR.UTF-8";
       LC_TELEPHONE = "fr_FR.UTF-8";
-      LC_TIME = "fr_FR.UTF-8";
+      LCTIME = "fr_FR.UTF-8";
     };
 
     # Configure keymap in X11
@@ -77,6 +76,7 @@
         description = "za3ter";
         extraGroups = ["networkmanager" "wheel" "nixos-config"];
         packages = with pkgs; [];
+	shell = self.packages.${pkgs.system}.environment;
       };
       users.bobg = {
         isNormalUser = true;
@@ -95,6 +95,16 @@
         description = "AI = Actually Indian";
         extraGroups = ["networkmanager" "wheel" "nixos-config"];
         packages = with pkgs; [];
+      };
+      users.bingqilin = {
+        isNormalUser = true;
+        description = "joueur de lol";
+        extraGroups = ["networkmanager" "wheel" "nixos-config"];
+        packages = with pkgs; [];
+	shell = self.packages.${pkgs.system}.environment;
+    home = {
+    keyboard.layout = "fr";
+  };
       };
     };
 

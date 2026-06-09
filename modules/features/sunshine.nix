@@ -19,7 +19,7 @@
       };
     };
     # No need for Xorg
-    services.xserver.enable = false;
+    services.xserver.enable = true;
 
     users.users.za3ter = {
       extraGroups = ["uinput"];
