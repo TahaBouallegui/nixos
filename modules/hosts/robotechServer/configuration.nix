@@ -102,11 +102,9 @@
         extraGroups = ["networkmanager" "wheel" "nixos-config"];
         packages = with pkgs; [];
         shell = self.packages.${pkgs.system}.environment;
-        home = {
-          keyboard.layout = "fr";
-        };
       };
     };
+
 
     # List packages installed in system profile. To search, run:
     # $ nix search wget
