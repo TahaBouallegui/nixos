@@ -14,7 +14,7 @@
     imports = [
       # Rajoutez ici les modules que vous voulez voir dans le système
       self.nixosModules.robotechMachineHardware
-#      self.nixosModules.sunshine
+      #      self.nixosModules.sunshine
       self.nixosModules.fixed-boot-date
     ];
 
@@ -76,7 +76,7 @@
         description = "za3ter";
         extraGroups = ["networkmanager" "wheel" "nixos-config"];
         packages = with pkgs; [];
-	shell = self.packages.${pkgs.system}.environment;
+        shell = self.packages.${pkgs.system}.environment;
       };
       users.bobg = {
         isNormalUser = true;
@@ -101,10 +101,10 @@
         description = "joueur de lol";
         extraGroups = ["networkmanager" "wheel" "nixos-config"];
         packages = with pkgs; [];
-	shell = self.packages.${pkgs.system}.environment;
-    home = {
-    keyboard.layout = "fr";
-  };
+        shell = self.packages.${pkgs.system}.environment;
+        home = {
+          keyboard.layout = "fr";
+        };
       };
     };
 
