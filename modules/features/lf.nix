@@ -15,10 +15,10 @@
         set ignorecase true
 
         # previewer
-        # cmd on-quit %${pkgs.ctpv}/bin/ctpv -e $id
-        # &${pkgs.ctpv}/bin/ctpv -s $id
-        # set cleaner ${pkgs.ctpv}/bin/ctpvclear
-        # set previewer ${pkgs.ctpv}/bin/ctpv
+        cmd on-quit %${pkgs.ctpv}/bin/ctpv -e $id
+        &${pkgs.ctpv}/bin/ctpv -s $id
+        set cleaner ${pkgs.ctpv}/bin/ctpvclear
+        set previewer ${pkgs.ctpv}/bin/ctpv
 
 
         cmd stripspace %stripspace "$f"
@@ -41,7 +41,7 @@
         # map C clear
         # map U unselect
 
-        # map do drag-out
+        map do drag-out
 
         # map g~ cd
         # map gh cd
@@ -52,11 +52,11 @@
         # map gc cd ~/.config
         # map gn cd ~/nixconf
 
-        # map eE $ $EDITOR "$f"
-        # map ee $ ${lib.getExe pkgs.direnv} exec . $EDITOR "$f"
-        # map e. $ ${lib.getExe pkgs.direnv} exec . $EDITOR .
-        # map V $ ${lib.getExe pkgs.bat} --paging=always --theme=gruvbox "$f"
-        # map do $ ${lib.getExe pkgs.ripdrag} -a -x "$fx"
+        map eE $ $EDITOR "$f"
+        map ee $ ${lib.getExe pkgs.direnv} exec . $EDITOR "$f"
+        map e. $ ${lib.getExe pkgs.direnv} exec . $EDITOR .
+        map V $ ${lib.getExe pkgs.bat} --paging=always --theme=gruvbox "$f"
+        map do $ ${lib.getExe pkgs.ripdrag} -a -x "$fx"
 
         # map <C-d> 5j
         # map <C-u> 5k

@@ -61,7 +61,6 @@
         pkgs.zoxide
         pkgs.dust
         pkgs.ripgrep
-        pkgs.fastfetch
         pkgs.tree-sitter
         pkgs.imagemagick
         pkgs.imv
@@ -70,7 +69,6 @@
         pkgs.lazygit
         pkgs.texliveFull
         pkgs.tree
-        pkgs.btop
         pkgs.cowsay
         pkgs.yazi
         pkgs.tldr

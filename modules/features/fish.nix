@@ -16,6 +16,10 @@
         function fish_prompt
             string join "" -- (set_color red) "[" (set_color yellow) $USER (set_color green) "@" (set_color blue) $hostname (set_color magenta) " " $(prompt_pwd) (set_color red) ']' (set_color normal) "\$ "
         end
+        
+        function fish_greeting
+            ${lib.getExe pkgs.fastfetch} -l small --structure "os:host:kernel:uptime:packages:cpu:gpu:memory:swap:disk"
+        end
 
         set fish_greeting
         fish_vi_key_bindings

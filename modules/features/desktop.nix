@@ -33,7 +33,12 @@
       pkgs.proton-vpn
       pkgs.prusa-slicer
       pkgs.gparted
-    ];
+      pkgs.osu-lazer
+      pkgs.lmms
+      pkgs.printrun
+      pkgs.orca-slicer
+      pkgs.freecad
+   ];
 
     programs.steam.enable = true;
     nixpkgs.overlays = [
