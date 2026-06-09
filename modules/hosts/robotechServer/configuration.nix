@@ -18,6 +18,8 @@
       self.nixosModules.faker
       #      self.nixosModules.sunshine
       self.nixosModules.fixed-boot-date
+
+      self.nixosModules.minecraft
     ];
 
     nix.settings = {
@@ -64,9 +66,6 @@
       layout = "us";
       variant = "";
     };
-
-    # Configure console keymap
-    console.keyMap = "us";
 
     # Define a user account. Don't forget to set a password with ‘passwd’.
     users = {
