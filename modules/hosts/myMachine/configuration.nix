@@ -57,6 +57,11 @@
         options = "--delete-older-than 30d";
       };
 
+  xdg.portal = {
+    enable = true;
+    extraPortals = [ pkgs.xdg-desktop-portal-gnome ];
+    configPackages = [ pkgs.gnome-shell ];  # Helps portal detection
+  };
       # Bootloader.
       boot.loader = {
         grub = {
@@ -158,6 +163,8 @@
 
       #sops.defaultSopsFile = ./secrets.yaml;
 
+      services.teamviewer.enable = true;
+      
       services = {
         desktopManager.plasma6.enable = true;
       };

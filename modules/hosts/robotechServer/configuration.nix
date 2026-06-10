@@ -14,6 +14,8 @@
     imports = [
       # Rajoutez ici les modules que vous voulez voir dans le système
       self.nixosModules.robotechMachineHardware
+
+      self.nixosModules.faker
       #      self.nixosModules.sunshine
       self.nixosModules.fixed-boot-date
     ];

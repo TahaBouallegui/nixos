@@ -40,6 +40,10 @@
       pkgs.freecad
    ];
 
+  programs.obs-studio = {
+    enable = true;
+  };
+
     programs.steam.enable = true;
     nixpkgs.overlays = [
       (final: prev: {
