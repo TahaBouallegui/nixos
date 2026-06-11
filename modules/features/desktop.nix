@@ -36,7 +36,7 @@
       pkgs.osu-lazer
       pkgs.lmms
       pkgs.printrun
-      pkgs.orca-slicer
+      pkgs-stable.orca-slicer
       pkgs.freecad
    ];
 

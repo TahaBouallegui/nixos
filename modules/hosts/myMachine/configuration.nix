@@ -57,6 +57,7 @@
         options = "--delete-older-than 30d";
       };
 
+
       # Bootloader.
       boot.loader = {
         grub = {
@@ -121,12 +122,13 @@
         "TS_DEBUG_FIREWALL_MODE=nftables"
       ];
 
-      # 3. Optimization: Prevent systemd from waiting for network online
-      # (Optional but recommended for faster boot with VPNs)
-      systemd.network.wait-online.enable = false;
-      boot.initrd.systemd.network.wait-online.enable = false;
+      services.udisks2.enable = true;
 
       # Enable CUPS to print documents.
+      security.polkit.enable = true;
+
+      environment.systemPackages = [ pkgs.hyprpolkitagent ];
+
       services.printing.enable = true;
 
       # Enable sound with pipewire.
