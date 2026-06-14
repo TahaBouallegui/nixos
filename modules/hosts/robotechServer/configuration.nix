@@ -16,7 +16,7 @@
       self.nixosModules.robotechMachineHardware
 
       self.nixosModules.faker
-      #      self.nixosModules.sunshine
+      self.nixosModules.sunshine
       self.nixosModules.fixed-boot-date
 
       self.nixosModules.minecraft
