@@ -2,7 +2,9 @@
   flake.nixosModules.moonlight = {pkgs, ...}: {
     environment.systemPackages = [
       pkgs.moonlight-qt
-      pkgs.tigervnc
     ];
+  environment.sessionVariables = {
+    LIBVA_DRIVER_NAME = "iHD";
+  };
   };
 }

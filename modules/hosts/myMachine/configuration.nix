@@ -172,7 +172,13 @@
         graphics = {
           enable = true;
           enable32Bit = true;
+              extraPackages = with pkgs; [
+      intel-media-driver
+      intel-vaapi-driver
+      libvdpau-va-gl  # Optional, for VDPAU compatibility
+    ];
         };
+
 
         nvidia = {
           package = config.boot.kernelPackages.nvidiaPackages.legacy_580;
