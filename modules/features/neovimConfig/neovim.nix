@@ -1,106 +1,92 @@
 {
-  self,
   inputs,
   ...
-}: {
-  perSystem = {
-    config,
-    lib,
-    pkgs,
-    ...
-  }: {
-    packages.neovim = inputs.wrapper-modules.wrappers.neovim.wrap {
-      inherit pkgs;
+}:
+{
+  perSystem =
+    {
+      pkgs,
+      ...
+    }:
+    {
+      packages.neovim = inputs.wrapper-modules.wrappers.neovim.wrap {
+        inherit pkgs;
 
-      runtimePkgs = with pkgs; [
-        wl-clipboard
-        ffmpeg-full
-        lua-language-server
-      ];
-
-      specs = {
-        general = with pkgs.vimPlugins; [
-          lz-n
-          plenary-nvim
-          nvim-lspconfig
-          nvim-treesitter
-
-          #completion
-          nvim-web-devicons
-          lspkind-nvim
-          colorful-menu-nvim
-          blink-cmp
-
-          #misc
-          snacks-nvim
-          oil-nvim
-          lualine-nvim
-          luasnip
-          telescope-nvim
+        runtimePkgs = with pkgs; [
+          wl-clipboard
+          ffmpeg-full
+          lua-language-server
+          clang-tools
         ];
 
-        lazy = {
-          lazy = true;
-          data =
-            (with pkgs.vimPlugins; [
-              lazydev-nvim
-              gitsigns-nvim
-              nvim-autopairs
-              fastaction-nvim
-              mini-files
-              codecompanion-nvim
-            ])
-            ++ (with pkgs; [
-              nixd
-              alejandra
-              typescript-language-server
-            ]);
-        };
+        specs = {
+          general = with pkgs.vimPlugins; [
+            lz-n
+            plenary-nvim
+            nvim-lspconfig
+            nvim-treesitter
 
-        config =
-          #lua
-          ''
-            vim.lsp.enable("lua_ls")
-                   vim.lsp.config("ts_ls", {
-                     settings = {
-                       suggestionActions = {
-                         enabled = false
-                       }
-                     }
-                   })
-                   vim.lsp.enable("ts_ls")
+            #completion
+            nvim-web-devicons
+            lspkind-nvim
+            colorful-menu-nvim
+            blink-cmp
 
+            #misc
+            snacks-nvim
+            oil-nvim
+            lualine-nvim
+            luasnip
+            telescope-nvim
+          ];
 
-                   vim.lsp.config("qmlls", {
-                     cmd = { "qmlls", "-E" },
-                   })
-                   vim.lsp.enable("qmlls")
+          lazy = {
+            lazy = true;
+            data =
+              (with pkgs.vimPlugins; [
+                lazydev-nvim
+                gitsigns-nvim
+                nvim-autopairs
+                fastaction-nvim
+                mini-files
+                codecompanion-nvim
+              ])
+              ++ (with pkgs; [
+                nixd
+                alejandra
+              ]);
+          };
 
-
-            vim.lsp.config("nixd", {
-                     cmd = { "nixd" },
-                     settings = {
-                       nixd = {
-                         nixpkgs = {
-                           expr = "import <nixpkgs> { }",
-                         },
-                         formatting = {
-                           command = { "alejandra" },
+          config =
+            #lua
+            ''
+              vim.lsp.enable("lua_ls")
+              vim.lsp.config("nixd", {
+                       cmd = { "nixd" },
+                       settings = {
+                         nixd = {
+                           nixpkgs = {
+                             expr = "import <nixpkgs> { }",
+                           },
+                           formatting = {
+                             command = { "alejandra" },
+                           },
                          },
                        },
-                     },
-                   })
-                   vim.lsp.enable("nixd")
-          '';
+                     })
+                     vim.lsp.enable("nixd")
+              vim.lsp.config("clangd", { cmd = { "clangd" } })
+              vim.lsp.enable("clangd")
+            '';
 
-        init = {
-          data = null;
-          before = ["MAIN_INIT"];
-          config = "require('init')";
+          init = {
+            data = null;
+            before = [ "MAIN_INIT" ];
+            config = "require('init')";
+          };
         };
-      };
 
-      settings.config_directory = ./.;
+        settings.config_directory = ./.;
+      };
     };
-  };
 }

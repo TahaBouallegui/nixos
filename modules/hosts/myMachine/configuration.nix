@@ -22,8 +22,10 @@
         self.nixosModules.base
 
         self.nixosModules.moonlight
-
         self.nixosModules.sddm
+
+        self.nixosModules.distrobox
+
         self.nixosModules.desktop
       ];
 
