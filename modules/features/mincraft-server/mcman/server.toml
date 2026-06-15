@@ -20,3 +20,273 @@ auto_update = false
 [options]
 success_line = ""
 stop_command = ""
+
+[[mods]]
+type = "modrinth"
+id = "animal-garden-alligator-gar"
+version = "ydKunokg"
+
+[[mods]]
+type = "modrinth"
+id = "animal-garden-bull-shark"
+version = "MfztXQNT"
+
+[[mods]]
+type = "modrinth"
+id = "animal-garden-common-raven"
+version = "yvslNCZY"
+
+[[mods]]
+type = "modrinth"
+id = "animal-garden-crocodile"
+version = "i0wtFyQv"
+
+[[mods]]
+type = "modrinth"
+id = "animal-garden-harp-seal"
+version = "xruP7HjL"
+
+[[mods]]
+type = "modrinth"
+id = "animal-garden-hippopotamus"
+version = "skkk19ah"
+
+[[mods]]
+type = "modrinth"
+id = "animal-garden-lion"
+version = "iaAB8EN1"
+
+[[mods]]
+type = "modrinth"
+id = "animal-garden-narwhal"
+version = "ErNkSyef"
+
+[[mods]]
+type = "modrinth"
+id = "animal-garden-prairie-dog"
+version = "KaE3FXDG"
+
+[[mods]]
+type = "modrinth"
+id = "animal-garden-red-river-hog"
+version = "aLf3lbrK"
+
+[[mods]]
+type = "modrinth"
+id = "animal-garden-sea-otter"
+version = "q884O4YC"
+
+[[mods]]
+type = "modrinth"
+id = "animal-garden-snow-leopard"
+version = "7yzxLk1p"
+
+[[mods]]
+type = "modrinth"
+id = "animal-garden-spotted-hyena"
+version = "VpmWyrJe"
+
+[[mods]]
+type = "modrinth"
+id = "animal-garden-springhare"
+version = "a0tQKgsq"
+
+[[mods]]
+type = "modrinth"
+id = "animal-garden-sugar-glider"
+version = "7ISPnGDH"
+
+[[mods]]
+type = "modrinth"
+id = "animal-garden-vicuna"
+version = "fOubxqO8"
+
+[[mods]]
+type = "modrinth"
+id = "animal-garden-western-gorilla"
+version = "OcNJ45ih"
+
+[[mods]]
+type = "modrinth"
+id = "animal-garden-white-rhinoceros"
+version = "DKRB2odc"
+
+[[mods]]
+type = "modrinth"
+id = "animal-garden-fennec-fox"
+version = "1WiwWALW"
+
+[[mods]]
+type = "modrinth"
+id = "animal-garden-manatee"
+version = "iMF2XqLX"
+
+[[mods]]
+type = "modrinth"
+id = "animal-garden-meerkat"
+version = "7pDaHD6Z"
+
+[[mods]]
+type = "modrinth"
+id = "animal-garden-mouse"
+version = "U406gfSV"
+
+[[mods]]
+type = "modrinth"
+id = "animal-garden-owl"
+version = "WVy9J5sD"
+
+[[mods]]
+type = "modrinth"
+id = "animal-garden-porcupine"
+version = "6vevqh5u"
+
+[[mods]]
+type = "modrinth"
+id = "animal-garden-red-panda"
+version = "hq55e5FE"
+
+[[mods]]
+type = "modrinth"
+id = "appleskin"
+version = "59ti1rvg"
+
+[[mods]]
+type = "modrinth"
+id = "aquarius-libs"
+version = "OMgGWDxj"
+
+[[mods]]
+type = "modrinth"
+id = "balm"
+version = "5POKgjJn"
+
+[[mods]]
+type = "modrinth"
+id = "bear-minimum"
+version = "Cm5XzgNe"
+
+[[mods]]
+type = "modrinth"
+id = "c2me-fabric"
+version = "UeCYljaE"
+
+[[mods]]
+type = "modrinth"
+id = "cloth-config"
+version = "xuX40TN5"
+
+[[mods]]
+type = "modrinth"
+id = "dynamic-fps"
+version = "Fab7e5Th"
+
+[[mods]]
+type = "modrinth"
+id = "entityculling"
+version = "VLqpkz4s"
+
+[[mods]]
+type = "modrinth"
+id = "fabric-api"
+version = "5zJNhXV2"
+
+[[mods]]
+type = "modrinth"
+id = "fabric-language-kotlin"
+version = "Pd0xrHCw"
+
+[[mods]]
+type = "modrinth"
+id = "falling-tree-datapack"
+version = "j3kAPBm8"
+
+[[mods]]
+type = "modrinth"
+id = "ferrite-core"
+version = "Ii0gP3D8"
+
+[[mods]]
+type = "modrinth"
+id = "fish-of-thieves"
+version = "PiLU3EcM"
+
+[[mods]]
+type = "modrinth"
+id = "geckolib"
+version = "G1BvHQDL"
+
+[[mods]]
+type = "modrinth"
+id = "inventory-essentials"
+version = "9VYHFaRj"
+
+[[mods]]
+type = "modrinth"
+id = "iris"
+version = "fDpuVzVr"
+
+[[mods]]
+type = "modrinth"
+id = "lambdynamiclights"
+version = "5Tp7kdU0"
+
+[[mods]]
+type = "modrinth"
+id = "libipn"
+version = "ByG214OZ"
+
+[[mods]]
+type = "modrinth"
+id = "inventory-sorting"
+version = "Dq4h9aTH"
+
+[[mods]]
+type = "modrinth"
+id = "lithium"
+version = "Ow7wA0kG"
+
+[[mods]]
+type = "modrinth"
+id = "modernfix-mvus"
+version = "yPCwXBn8"
+
+[[mods]]
+type = "modrinth"
+id = "mouse-tweaks"
+version = "i1duwnJl"
+
+[[mods]]
+type = "modrinth"
+id = "slabbed"
+version = "KOJrT0t1"
+
+[[mods]]
+type = "modrinth"
+id = "sodium"
+version = "1Zzoi12t"
+
+[[mods]]
+type = "modrinth"
+id = "toms-storage"
+version = "FydlCSUl"
+
+[[mods]]
+type = "modrinth"
+id = "untitled-duck-mod"
+version = "kjVdAw5R"
+
+[[mods]]
+type = "modrinth"
+id = "journeymap"
+version = "snRkD2zP"
+
+[[mods]]
+type = "modrinth"
+id = "yacl"
+version = "pHWDw3Vc"
+
+[[mods]]
+type = "modrinth"
+id = "zoomify"
+version = "gI5KZI8V"

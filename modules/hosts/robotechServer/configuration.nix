@@ -106,7 +106,9 @@
       };
     };
 
-
+    environment.sessionVariables = {
+        TERM= "xterm";
+    };
     # List packages installed in system profile. To search, run:
     # $ nix search wget
     environment.systemPackages = [

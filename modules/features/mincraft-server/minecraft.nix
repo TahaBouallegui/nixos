@@ -11,10 +11,13 @@
 
       flux = {
         enable = true;
-        package = pkgs.mkMinecraftServer {
-            name = "HAHAL MINECRAFT SERVER";
+        servers.halalserver = {
+          enable = true;
+          package = pkgs.mkMinecraftServer {
+            name = "HAHALminecraftserver";
             src = ./mcman;
-            hash = lib.fakeHash;
+            hash = "sha256-5DZyuiBqemIDVSyIjWJB1Qogg+hlIbQq1S+Ku1Eg/Tw=";
+          };
         };
       };
     };
