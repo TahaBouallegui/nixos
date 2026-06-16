@@ -25,8 +25,11 @@
       url = "github:in-a-dil-emma/declarative-flatpak/latest";
     };
 
-    nix-minecraft.url = "github:Infinidoge/nix-minecraft";
+    flux ={ 
+      url = "github:iogamaster/flux";
+      inputs.nixpkgs.follows = "nixpkgs";
+      };
   };
 
-  outputs = inputs: inputs.flake-parts.lib.mkFlake {inherit inputs;} (inputs.import-tree ./modules);
+  outputs = inputs: inputs.flake-parts.lib.mkFlake { inherit inputs; } (inputs.import-tree ./modules);
 }
