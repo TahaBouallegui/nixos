@@ -208,11 +208,6 @@ version = "Ii0gP3D8"
 
 [[mods]]
 type = "modrinth"
-id = "fish-of-thieves"
-version = "PiLU3EcM"
-
-[[mods]]
-type = "modrinth"
 id = "geckolib"
 version = "G1BvHQDL"
 
