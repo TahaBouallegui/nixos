@@ -67,6 +67,9 @@
         pkgs.ffmpeg-full
         pkgs.yt-dlp
         pkgs.lazygit
+        pkgs.man-pages
+        pkgs.man-pages-posix
+
         pkgs.texliveFull
         pkgs.tree
         pkgs.cowsay
