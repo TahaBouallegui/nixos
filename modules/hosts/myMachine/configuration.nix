@@ -213,8 +213,8 @@
       # List services that you want to enable:
 
       # Enable the OpenSSH daemon.
-      # services.openssh.enable = true;
-      # services.openssh.ports = [2222];
+      services.openssh.enable = true;
+      services.openssh.ports = [2222];
 
       # Open ports in the firewall.
       # networking.firewall.allowedTCPPorts = [ ... ];

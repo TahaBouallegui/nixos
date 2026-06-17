@@ -42,6 +42,7 @@
         pkgs.printrun
         pkgs-stable.orca-slicer
         pkgs.freecad
+        pkgs.cutter
       ];
 
       programs.obs-studio = {
