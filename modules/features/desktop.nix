@@ -1,6 +1,5 @@
 {
   self,
-  config,
   ...
 }:
 {
@@ -8,7 +7,6 @@
     {
       pkgs,
       pkgs-stable,
-      config,
       ...
     }:
     let
@@ -38,11 +36,11 @@
         pkgs.prusa-slicer
         pkgs.gparted
         pkgs.osu-lazer
-        pkgs.lmms
-        pkgs.printrun
         pkgs-stable.orca-slicer
         pkgs.freecad
         pkgs.cutter
+        pkgs.twitch-hls-client
+        pkgs.mpv
       ];
 
       programs.obs-studio = {

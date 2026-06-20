@@ -26,6 +26,8 @@
         shell_integration = "enabled";
 
         cursor_trail = 3;
+        background_opacity = 0.85;
+
 
         map = [
           "alt+1 goto_tab 1"

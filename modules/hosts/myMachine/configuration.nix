@@ -24,8 +24,6 @@
         self.nixosModules.moonlight
         self.nixosModules.sddm
 
-        self.nixosModules.distrobox
-
         self.nixosModules.desktop
       ];
 
@@ -58,7 +56,6 @@
         dates = "weekly";
         options = "--delete-older-than 30d";
       };
-
 
       # Bootloader.
       boot.loader = {
@@ -124,13 +121,6 @@
         "TS_DEBUG_FIREWALL_MODE=nftables"
       ];
 
-      services.udisks2.enable = true;
-
-      # Enable CUPS to print documents.
-      security.polkit.enable = true;
-
-      environment.systemPackages = [ pkgs.hyprpolkitagent ];
-
       services.printing.enable = true;
 
       # Enable sound with pipewire.
@@ -174,13 +164,11 @@
         graphics = {
           enable = true;
           enable32Bit = true;
-              extraPackages = with pkgs; [
-      intel-media-driver
-      intel-vaapi-driver
-      libvdpau-va-gl  # Optional, for VDPAU compatibility
-    ];
+          extraPackages = with pkgs; [
+            intel-media-driver
+            intel-vaapi-driver
+          ];
         };
-
 
         nvidia = {
           package = config.boot.kernelPackages.nvidiaPackages.legacy_580;
@@ -213,8 +201,8 @@
       # List services that you want to enable:
 
       # Enable the OpenSSH daemon.
-      services.openssh.enable = true;
-      services.openssh.ports = [2222];
+      # services.openssh.enable = true;
+      # services.openssh.ports = [ 2222 ];
 
       # Open ports in the firewall.
       # networking.firewall.allowedTCPPorts = [ ... ];
