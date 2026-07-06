@@ -178,16 +178,6 @@ version = "xuX40TN5"
 
 [[mods]]
 type = "modrinth"
-id = "dynamic-fps"
-version = "Fab7e5Th"
-
-[[mods]]
-type = "modrinth"
-id = "entityculling"
-version = "VLqpkz4s"
-
-[[mods]]
-type = "modrinth"
 id = "fabric-api"
 version = "5zJNhXV2"
 
@@ -213,28 +203,8 @@ version = "G1BvHQDL"
 
 [[mods]]
 type = "modrinth"
-id = "inventory-essentials"
-version = "9VYHFaRj"
-
-[[mods]]
-type = "modrinth"
-id = "iris"
-version = "fDpuVzVr"
-
-[[mods]]
-type = "modrinth"
-id = "lambdynamiclights"
-version = "5Tp7kdU0"
-
-[[mods]]
-type = "modrinth"
 id = "libipn"
 version = "ByG214OZ"
-
-[[mods]]
-type = "modrinth"
-id = "inventory-sorting"
-version = "Dq4h9aTH"
 
 [[mods]]
 type = "modrinth"
@@ -248,16 +218,6 @@ version = "yPCwXBn8"
 
 [[mods]]
 type = "modrinth"
-id = "mouse-tweaks"
-version = "i1duwnJl"
-
-[[mods]]
-type = "modrinth"
-id = "sodium"
-version = "1Zzoi12t"
-
-[[mods]]
-type = "modrinth"
 id = "toms-storage"
 version = "FydlCSUl"
 
@@ -268,18 +228,7 @@ version = "kjVdAw5R"
 
 [[mods]]
 type = "modrinth"
-id = "journeymap"
-version = "snRkD2zP"
-
-[[mods]]
-type = "modrinth"
 id = "yacl"
-version = "pHWDw3Vc"
-
-[[mods]]
-type = "modrinth"
-id = "zoomify"
-version = "gI5KZI8V"
 
 [[mods]]
 type = "modrinth"
