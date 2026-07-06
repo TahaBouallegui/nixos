@@ -253,11 +253,6 @@ version = "i1duwnJl"
 
 [[mods]]
 type = "modrinth"
-id = "slabbed"
-version = "KOJrT0t1"
-
-[[mods]]
-type = "modrinth"
 id = "sodium"
 version = "1Zzoi12t"
 
@@ -285,3 +280,23 @@ version = "pHWDw3Vc"
 type = "modrinth"
 id = "zoomify"
 version = "gI5KZI8V"
+
+[[mods]]
+type = "modrinth"
+id = "cyberanner-ironchest"
+version = "lYUqK1HU"
+
+[[mods]]
+type = "modrinth"
+id = "jei"
+version = "oHe0elMI"
+
+[[mods]]
+type = "modrinth"
+id = "tree-harvester"
+version = "8mfyGsIg"
+
+[[mods]]
+type = "modrinth"
+id = "collective"
+version = "MuYyVagF"
