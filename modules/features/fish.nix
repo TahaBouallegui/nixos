@@ -21,6 +21,15 @@
             ${lib.getExe pkgs.fastfetch} -l small --structure "os:host:kernel:uptime:packages:cpu:gpu:memory:swap:disk"
         end
 
+        function y
+            set tmp (mktemp -t "yazi-cwd.XXXXXX")
+            command ${lib.getExe self'.packages.yazi} $argv --cwd-file="$tmp"
+            if read -z cwd < "$tmp"; and [ "$cwd" != "$PWD" ]; and test -d "$cwd"
+                builtin cd -- "$cwd"
+            end
+            command rm -f -- "$tmp"
+        end
+
         set fish_greeting
         fish_vi_key_bindings
 

@@ -17,12 +17,13 @@
         self.nixosModules.kicad
         self.nixosModules.flatpak
         self.nixosModules.librewolf
-      ];
 
+      ];
+      
+      programs.ladybird.enable = true;
       programs.niri.enable = true;
       programs.niri.package = selfpkgs.desktop;
 
-      # preferences.autostart = [selfpkgs.quickshellWrapped];
       preferences.autostart = [ selfpkgs.noctalia-shell ];
 
       environment.systemPackages = [
@@ -34,8 +35,6 @@
         pkgs.element-desktop
         pkgs.proton-vpn
         pkgs.prusa-slicer
-        pkgs.gparted
-        pkgs.osu-lazer
         pkgs-stable.orca-slicer
         pkgs.freecad
         pkgs.cutter

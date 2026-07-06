@@ -24,6 +24,8 @@
         self.nixosModules.moonlight
         self.nixosModules.sddm
 
+        self.nixosModules.tailscale
+
         self.nixosModules.desktop
       ];
 
@@ -102,27 +104,6 @@
         LC_TIME = "fr_FR.UTF-8";
       };
 
-      # 1. Enable the service and the firewall
-      services.tailscale = {
-        enable = true;
-      };
-      networking.nftables.enable = true;
-      networking.firewall = {
-        enable = true;
-        # Always allow traffic from your Tailscale network
-        trustedInterfaces = [ "tailscale0" ];
-        # Allow the Tailscale UDP port through the firewall
-        allowedUDPPorts = [ config.services.tailscale.port ];
-      };
-
-      # 2. Force tailscaled to use nftables (Critical for clean nftables-only systems)
-      # This avoids the "iptables-compat" translation layer issues.
-      systemd.services.tailscaled.serviceConfig.Environment = [
-        "TS_DEBUG_FIREWALL_MODE=nftables"
-      ];
-
-      services.printing.enable = true;
-
       # Enable sound with pipewire.
       services.pulseaudio.enable = false;
       security.rtkit.enable = true;
@@ -152,7 +133,6 @@
 
       #sops.defaultSopsFile = ./secrets.yaml;
 
-      # Allow unfree packages
       nixpkgs.config.allowUnfree = true;
 
       services.xserver.videoDrivers = [
@@ -164,10 +144,6 @@
         graphics = {
           enable = true;
           enable32Bit = true;
-          extraPackages = with pkgs; [
-            intel-media-driver
-            intel-vaapi-driver
-          ];
         };
 
         nvidia = {
@@ -204,6 +180,7 @@
       # services.openssh.enable = true;
       # services.openssh.ports = [ 2222 ];
 
+      networking.firewall.enable = true;
       # Open ports in the firewall.
       # networking.firewall.allowedTCPPorts = [ ... ];
       # networking.firewall.allowedUDPPorts = [ ... ];

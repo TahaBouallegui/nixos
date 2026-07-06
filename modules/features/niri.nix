@@ -7,7 +7,6 @@
     config,
     lib,
     pkgs,
-    wlib,
     ...
   }: {
     options.terminal = lib.mkOption {
@@ -17,13 +16,17 @@
 
     config = {
       settings = let
-        startNoctaliaExe = lib.getExe self.packages.${config.pkgs.stdenv.hostPlatform.system}.start-noctalia-shell;
         noctaliaExe = lib.getExe self.packages.${config.pkgs.stdenv.hostPlatform.system}.noctalia-shell;
       in {
         window-rules = [
           {
             geometry-corner-radius = 20;
             clip-to-geometry = true;
+          }
+          {
+            matches = [{ is-active =  false; }];
+            opacity = 0.85;
+            background-effect = { blur = true; };
           }
         ];
         layer-rules = [
@@ -35,7 +38,7 @@
 
         outputs = {
           "eDP-1" = {
-            mode = "1920x1080@60";
+            mode = "1920x1080@60.020";
             position = _: {
               props = {
                 x = 0;
@@ -43,15 +46,25 @@
               };
             };
           };
-          "DP-1" = {
+      #    "HDMI-A-2" = {
+      #      mode = "1360x768@59.799";
+      #      position = _: {
+      #        props = {
+      #          x = 88;
+      #          y = -1024;
+      #        };
+      #      };
+      #      scale = 0.75;
+      #    };
+
+          "HDMI-A-2" = {
             mode = "1920x1080@60";
             position = _: {
               props = {
                 x = 0;
-                y = -864;
+                y = -1080;
               };
             };
-            scale = 1.25;
           };
         };
 
@@ -87,7 +100,6 @@
 
         binds = {
           "Mod+Return".spawn = config.terminal;
-          "Mod+T".spawn = config.terminal;
 
           "Mod+Q".close-window = _: {};
           "Mod+D".maximize-column = _: {};
@@ -97,13 +109,13 @@
 
           "Mod+H".focus-column-left = _: {};
           "Mod+L".focus-column-right = _: {};
-          "Mod+K".focus-window-up = _: {};
-          "Mod+J".focus-window-down = _: {};
+          "Mod+K".focus-workspace-up = _: {};
+          "Mod+J".focus-workspace-down = _: {};
 
           "Mod+Left".focus-column-left = _: {};
           "Mod+Right".focus-column-right = _: {};
-          "Mod+Up".focus-window-up = _: {};
-          "Mod+Down".focus-window-down = _: {};
+          "Mod+Up".focus-workspace-up = _: {};
+          "Mod+Down".focus-workspace-down = _: {};
 
           "Mod+Shift+H".move-column-left = _: {};
           "Mod+Shift+L".move-column-right = _: {};
@@ -166,8 +178,6 @@
 
           "Mod+Ctrl+Slash".show-hotkey-overlay = _: {};
 
-          "Mod+Ctrl+R".spawn = ''niri msg action reload-config '';
-
           "Mod+G".spawn-sh = self.mkWhichKeyExe config.pkgs [
             {
               key = "b";
@@ -198,10 +208,10 @@
         };
 
         layout = {
-          gaps = 5;
+          gaps = 8;
 
           focus-ring = {
-            width = 1;
+            width = 0;
             active-color = "#${self.themeNoHash.base09}";
           };
         };

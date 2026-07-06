@@ -49,13 +49,6 @@
         pkgs.killall
         pkgs.sshfs
         pkgs.fzf
-        (pkgs.btop.overrideAttrs (oldAttrs: {
-          cmakeFlags =
-            (oldAttrs.cmakeFlags or [])
-            ++ [
-              "-DBTOP_GPU=ON"
-            ];
-        }))
         pkgs.eza
         pkgs.fd
         pkgs.zoxide
@@ -68,36 +61,17 @@
         pkgs.yt-dlp
         pkgs.lazygit
         pkgs.man-pages
-        pkgs.man-pages-posix
-
-        pkgs.texliveFull
+        pkgs.btop-cuda
         pkgs.tree
-        pkgs.cowsay
         pkgs.yazi
         pkgs.tldr
         pkgs.pstree
-
-        pkgs.gnumake
-        pkgs.dfu-programmer
-        pkgs.usbutils
-        pkgs.gcc
-        pkgs.minicom
-        pkgs.SDL2
-        pkgs.SDL2_ttf
-        pkgs.libusb1
-        pkgs.pkg-config
-
-        #avr
-        pkgs.avra
-        pkgs.avrdude
-        pkgs.pkgsCross.avr.buildPackages.gcc
-        pkgs.pkgsCross.avr.buildPackages.binutils
 
         # wrapped
         self'.packages.neovim
         self'.packages.qalc
         self'.packages.git
-        self'.packages.lf
+        self'.packages.yazi
       ];
     };
   };
