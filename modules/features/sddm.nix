@@ -1,10 +1,11 @@
+{ inputs, self, ... }:
 {
   flake.nixosModules.sddm = {pkgs, ...}: let
     customized_sddm_astronaut = pkgs.sddm-astronaut.override {
       embeddedTheme = "pixel_sakura"; # The name of the theme you most loved
-      # themeConfig = {
-      #    Background = "path/to/background.jpg"; # This theme also accepts videos
-      # };
+       themeConfig = {
+          Background = "${self.lockscreen}"; # This theme also accepts videos
+       };
     };
   in {
     environment.systemPackages = [
@@ -15,7 +16,7 @@
     services.displayManager.sddm = {
       enable = true;
       wayland.enable = true;
-      extraPackages = with pkgs; [
+      extraPackages = [
         customized_sddm_astronaut # change the name of the package here to the one you created
       ];
 

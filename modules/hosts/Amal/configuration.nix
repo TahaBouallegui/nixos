@@ -19,7 +19,7 @@
 
         self.nixosModules.base
 
-        self.nixosModules.tailscale
+        #self.nixosModules.tailscale
         inputs.sops.nixosModules.sops
 
         self.nixosModules.moonlight
