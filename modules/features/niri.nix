@@ -210,6 +210,13 @@
         layout = {
           gaps = 8;
 
+          struts = {
+            left = 10;
+            right = 10;
+            top = 5;
+            bottom = 5;
+          };
+
           focus-ring = {
             width = 0;
             active-color = "#${self.themeNoHash.base09}";
@@ -240,6 +247,7 @@
             pkgs.writeShellScriptBin "wallpaper"
             "${lib.getExe pkgs.swaybg} -i ${self.wallpaper} -m fill"
           ))
+          (lib.getExe pkgs.proton-vpn)
         ];
       };
     };

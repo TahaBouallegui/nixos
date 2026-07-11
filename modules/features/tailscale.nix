@@ -6,15 +6,13 @@
 
       services.tailscale = {
         enable = true;
-        extraUpFlags = [
-          #"--accept-routes=false" # Don't import routes from peers
-          #"--accept-dns=false" # Don't override system DNS – Proton will handle it
-          # If you ever need to use an exit node, you'd set --exit-node=... here,
-          # but then you can't use Proton VPN simultaneously.
-        ];
+        extraUpFlags = ["--ssh"];
       };
       networking.nftables.enable = true;
       networking.firewall = {
+        enable = true;
+
+
         # Always allow traffic from your Tailscale network
         trustedInterfaces = [ "tailscale0" ];
         # Allow the Tailscale UDP port through the firewall

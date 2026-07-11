@@ -19,7 +19,7 @@
 
         self.nixosModules.base
 
-        #self.nixosModules.tailscale
+        self.nixosModules.tailscale
         inputs.sops.nixosModules.sops
 
         self.nixosModules.moonlight
@@ -28,31 +28,13 @@
         self.nixosModules.desktop
         self.nixosModules.gaming
 
-        #inputs.nixos-hardware.nixosModules.lenovo-thinkpad-t480
+        inputs.nixos-hardware.nixosModules.lenovo-thinkpad-t480
       ];
 
       # Bootloader.
       boot.loader = {
         systemd-boot.enable = true;
         efi.canTouchEfiVariables = true;
-      };
-
-      boot = {
-        plymouth = {
-          enable = true;
-        };
-
-        # Enable 'silent boot' for a cleaner experience and to ensure
-        # Plymouth is visible
-        consoleLogLevel = 3;
-        initrd.verbose = false;
-        kernelParams = [
-          "quiet"
-          "splash"
-          "boot.shell_on_fail"
-          "udev.log_priority=3"
-          "rd.systemd.show_status=auto"
-        ];
       };
 
       # Use latest kernel.
@@ -64,7 +46,7 @@
             "nix-command"
             "flakes"
           ];
-          max-jobs = 8;
+          max-jobs = 6;
           cores = 8;
         };
 
@@ -85,7 +67,6 @@
 
       # Enable networking
       networking.networkmanager.enable = true;
-
 
       # Set your time zone.
       time.timeZone = "Europe/Paris";
@@ -156,6 +137,7 @@
           prime = {
             offload = {
               enable = true;
+              enableOffloadCmd = true;
             };
             intelBusId = "PCI:0@0:2:0";
             nvidiaBusId = "PCI:1@0:0:0";

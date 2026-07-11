@@ -24,7 +24,7 @@
 
     nix.settings = {
       experimental-features = ["nix-command" "flakes"];
-      max-jobs = 4;
+      max-jobs = 3;
       cores = 4;
     };
 

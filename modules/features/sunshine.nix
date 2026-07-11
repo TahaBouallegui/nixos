@@ -25,7 +25,7 @@
       Screen 0 "metaScreen" 0 0
   EndSection
 
-  Section "Monitor"``
+  Section "Monitor"
       Identifier "Monitor0"
       Option "Enable" "true"
   EndSection

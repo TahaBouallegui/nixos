@@ -69,7 +69,7 @@
                              expr = "import <nixpkgs> { }",
                            },
                            formatting = {
-                             command = { "nixpkgs-fmt" },
+                             command = { "alejandra" },
                            },
                          },
                        },

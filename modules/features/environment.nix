@@ -66,6 +66,9 @@
         pkgs.yazi
         pkgs.tldr
         pkgs.pstree
+        pkgs.man-pages
+        pkgs.man-pages-posix
+        pkgs.wl-clipboard
 
         # wrapped
         self'.packages.neovim

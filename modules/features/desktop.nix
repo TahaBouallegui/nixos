@@ -36,7 +36,6 @@
         pkgs.proton-vpn
         pkgs.prusa-slicer
         pkgs-stable.orca-slicer
-        pkgs.freecad
         pkgs.cutter
         pkgs.twitch-hls-client
         pkgs.mpv
