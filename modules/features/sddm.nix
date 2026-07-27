@@ -5,6 +5,7 @@
       embeddedTheme = "pixel_sakura"; # The name of the theme you most loved
        themeConfig = {
           Background = "${self.lockscreen}"; # This theme also accepts videos
+          HeaderTextColor = self.headerColor;
        };
     };
   in {

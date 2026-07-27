@@ -16,6 +16,7 @@
       terminal = lib.getExe self'.packages.terminal;
       env = {
         EDITOR = lib.getExe self'.packages.neovim;
+        NIXPKGS_ALLOW_UNFREE = "1";
       };
     };
 
@@ -69,6 +70,8 @@
         pkgs.man-pages
         pkgs.man-pages-posix
         pkgs.wl-clipboard
+        pkgs.opencode
+        pkgs.mtkclient
 
         # wrapped
         self'.packages.neovim

@@ -6,7 +6,6 @@
   flake.nixosModules.desktop =
     {
       pkgs,
-      pkgs-stable,
       ...
     }:
     let
@@ -18,6 +17,7 @@
         self.nixosModules.flatpak
         self.nixosModules.librewolf
 
+        self.nixosModules.pkgs-stable
       ];
       
       programs.ladybird.enable = true;
@@ -32,18 +32,17 @@
         selfpkgs.noctalia-shell
         pkgs.libreoffice
         pkgs.heroic
-        pkgs.element-desktop
         pkgs.proton-vpn
         pkgs.prusa-slicer
-        pkgs-stable.orca-slicer
+        pkgs.orca-slicer
         pkgs.cutter
         pkgs.twitch-hls-client
         pkgs.mpv
+        pkgs.qbittorrent
+        pkgs.eden
+        pkgs.thunderbird
+        pkgs.burpsuite
       ];
-
-      programs.obs-studio = {
-        enable = true;
-      };
 
       programs.steam.enable = true;
       nixpkgs.overlays = [

@@ -247,7 +247,6 @@
             pkgs.writeShellScriptBin "wallpaper"
             "${lib.getExe pkgs.swaybg} -i ${self.wallpaper} -m fill"
           ))
-          (lib.getExe pkgs.proton-vpn)
         ];
       };
     };
