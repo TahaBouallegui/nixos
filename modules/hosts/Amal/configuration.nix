@@ -110,6 +110,8 @@
         shell = self.packages.${pkgs.system}.environment;
       };
 
+      environment.systemPackages = [ pkgs.koboldcpp pkgs.sillytavern ]; #testing this out for WALL-E
+
       services.xserver.videoDrivers = [
         "intel"
       ];
