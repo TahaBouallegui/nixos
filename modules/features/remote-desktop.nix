@@ -4,15 +4,12 @@
     { pkgs, config, ... }:
     {
 
-      services.xserver.enable = true;
-      services.xserver.displayManager.gdm.enable = true;
-      services.xserver.desktopManager.gnome.enable = true;
-
-      services.gnome.gnome-remote-desktop.enable = true;
-
       services.xrdp.enable = true;
-      services.xrdp.defaultWindowManager = "gnome-session";
-      services.xrdp.openFirewall = true; 
+      services.xrdp.defaultWindowManager = "${pkgs.gnome-session}/bin/gnome-session"; # gnome wayland session
+      services.gnome.gnome-remote-desktop.enable = true; # needs gnome-remote-desktop backend to work!!
+      services.displayManager.autoLogin.enable = false;
+      services.getty.autologinUser = null;
+      networking.firewall.allowedTCPPorts = [ 3389 ];
 
       systemd.sleep.settings.Sleep = {
         AllowSuspend = "no";
