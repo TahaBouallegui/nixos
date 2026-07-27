@@ -1,6 +1,6 @@
 { self, inputs, ... }:
 {
-  self.nixosModules.nvidia =
+  flake.nixosModules.nvidia =
     { config, pkgs, ... }:
     {
       nixpkgs.config.allowUnfree = true;
@@ -44,12 +44,6 @@
 
           nvidiaSettings = true;
 
-          prime = {
-            offload = {
-              enable = true;
-              enableOffloadCmd = true;
-            };
-          };
         };
       };
     };

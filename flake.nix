@@ -13,11 +13,6 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    sops = {
-      url = "github:Mic92/sops-nix";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
-
     wrappers.url = "github:Lassulus/wrappers";
     wrapper-modules = {
       url = "github:BirdeeHub/nix-wrapper-modules";

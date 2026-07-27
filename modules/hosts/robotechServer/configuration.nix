@@ -14,6 +14,7 @@
       self.nixosModules.robotechMachineHardware
 
       self.nixosModules.faker
+      self.nixosModules.nvidia
       #self.nixosModules.sunshine
 
       #self.nixosModules.minecraft
