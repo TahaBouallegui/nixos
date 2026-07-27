@@ -16,6 +16,7 @@
       self.nixosModules.faker
       self.nixosModules.nvidia
       #self.nixosModules.sunshine
+      self.nixosModules.remote-desktop
 
       #self.nixosModules.minecraft
     ];
