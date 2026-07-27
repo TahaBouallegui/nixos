@@ -8,22 +8,20 @@
     pkgs,
     ...
   }: {
-    # Allow unfree packages
-    nixpkgs.config.allowUnfree = true;
 
     imports = [
       # Rajoutez ici les modules que vous voulez voir dans le système
       self.nixosModules.robotechMachineHardware
 
       self.nixosModules.faker
-      self.nixosModules.sunshine
+      #self.nixosModules.sunshine
 
-      self.nixosModules.minecraft
+      #self.nixosModules.minecraft
     ];
 
     nix.settings = {
       experimental-features = ["nix-command" "flakes"];
-      max-jobs = 3;
+      max-jobs = 4;
       cores = 4;
     };
 
@@ -112,11 +110,6 @@
     # $ nix search wget
     environment.systemPackages = [
       pkgs.vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
-      # On installe Python avec la bibliothèque nécessaire pour l'IA
-      (pkgs.python3.withPackages (ps:
-        with ps; [
-          openai
-        ]))
     ];
 
     # Some programs need SUID wrappers, can be configured further or are
@@ -134,19 +127,6 @@
       alsa.enable = true;
       alsa.support32Bit = true;
       pulse.enable = true;
-    };
-
-    services.xserver.videoDrivers = ["nvidia"];
-
-    hardware.nvidia = {
-      package = config.boot.kernelPackages.nvidiaPackages.legacy_580;
-      modesetting.enable = true;
-      open = false;
-      nvidiaSettings = true;
-    };
-    hardware.graphics = {
-      enable = true;
-      enable32Bit = true;
     };
 
     # List services that you want to enable:
