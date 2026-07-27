@@ -3,13 +3,22 @@
   flake.nixosModules.remote-desktop =
     { pkgs, config, ... }:
     {
-      #services.xrdp.enable = true;
-      #services.xrdp.defaultWindowManager = "${pkgs.gnome-session}/bin/gnome-session"; # gnome wayland session
-      services.gnome.gnome-remote-desktop.enable = true; # needs gnome-remote-desktop backend to work!!
-      services.displayManager.autoLogin.enable = false;
-      services.getty.autologinUser = null;
-      networking.firewall.allowedTCPPorts = [ 3389 ];
-      networking.firewall.allowedUDPPorts = [ 3389 ];
 
+      # Enable GNOME
+      services.xserver.enable = true;
+      services.xserver.displayManager.gdm.enable = true;
+      services.xserver.desktopManager.gnome.enable = true;
+
+      # Enable GNOME Remote Desktop (RDP)
+      services.gnome.gnome-remote-desktop.enable = true;
+
+      # Open firewall port for RDP (default 3389)
+      networking.firewall.allowedTCPPorts = [ 3389 ];
+      systemd.sleep.extraConfig = ''
+        AllowSuspend=no
+        AllowHibernation=no
+        AllowHybridSleep=no
+        AllowSuspendThenHibernate=no
+      '';
     };
 }
