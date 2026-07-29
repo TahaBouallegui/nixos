@@ -17,6 +17,8 @@
       self.nixosModules.nvidia
       #self.nixosModules.sunshine
       self.nixosModules.remote-desktop
+      self.nixosModules.immich
+      self.nixosModules.grocy
 
       #self.nixosModules.minecraft
     ];
