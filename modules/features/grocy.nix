@@ -5,9 +5,9 @@
     {
       services.grocy = {
         enable = true;
+        hostName = "grocy.tld";
         settings = {
           currency = "EUR";
-          hostName = "grocy.tld";
           culture = "fr";
         };
       };
