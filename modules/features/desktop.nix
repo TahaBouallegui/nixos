@@ -13,7 +13,6 @@
     in
     {
       imports = [
-        self.nixosModules.kicad
         self.nixosModules.flatpak
         self.nixosModules.librewolf
 
@@ -42,6 +41,8 @@
         pkgs.eden
         pkgs.thunderbird
         pkgs.burpsuite
+        pkgs.remmina
+        pkgs.kicad
       ];
 
       programs.steam.enable = true;
@@ -60,6 +61,7 @@
         corefonts
         unifont
         dejavu_fonts
+        roboto
       ];
 
       fonts.fontconfig.defaultFonts = {

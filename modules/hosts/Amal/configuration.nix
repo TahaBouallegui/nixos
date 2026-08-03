@@ -19,13 +19,14 @@
 
         self.nixosModules.tailscale
         self.nixosModules.nvidia
+        self.nixosModules.ai
 
         self.nixosModules.moonlight
         self.nixosModules.sddm
         self.nixosModules.plymouth
 
         self.nixosModules.desktop
-        self.nixosModules.gaming
+        #self.nixosModules.gaming
 
         inputs.nixos-hardware.nixosModules.lenovo-thinkpad-t480
       ];

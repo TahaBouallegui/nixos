@@ -28,6 +28,10 @@
             opacity = 0.85;
             background-effect = { blur = true; };
           }
+          {
+            matches = [{app-id = "librewolf";}];
+            background-effect = { blur = true; };
+          }
         ];
         layer-rules = [
           {
@@ -209,13 +213,6 @@
 
         layout = {
           gaps = 8;
-
-          struts = {
-            left = 10;
-            right = 10;
-            top = 5;
-            bottom = 5;
-          };
 
           focus-ring = {
             width = 0;

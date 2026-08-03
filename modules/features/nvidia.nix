@@ -4,6 +4,8 @@
     { config, pkgs, ... }:
     {
       nixpkgs.config.allowUnfree = true;
+      nixpkgs.config.cudaSupport= true;
+
 
       nix.settings = {
         substituters = [

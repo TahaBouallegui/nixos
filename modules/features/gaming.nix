@@ -1,6 +1,6 @@
 { self, inputs, ... }: {
   flake.nixosModules.gaming =
-    { pkgs, ... }:
+    { pkgs-stable, ... }:
     {
       nix.settings = {
         substituters = [
@@ -10,8 +10,9 @@
           "prismlauncher.cachix.org-1:9/n/FGyABA2jLUVfY+DEp4hKds/rwO+SCOtbOkDzd+c="
         ];
       };
+      nixpkgs.overlays = [ inputs.pineconemc.overlays.default ];
       environment.systemPackages = [
-        inputs.pineconemc.packages.${pkgs.system}.prismlauncher
+        pkgs-stable.prismlauncher
       ];
     };
 }
