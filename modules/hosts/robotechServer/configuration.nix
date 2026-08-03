@@ -20,7 +20,7 @@
       self.nixosModules.immich
       self.nixosModules.grocy
 
-      #self.nixosModules.minecraft
+      self.nixosModules.minecraft
     ];
 
     nix.settings = {
