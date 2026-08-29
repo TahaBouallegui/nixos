@@ -43,8 +43,8 @@
             direnv hook fish | source
         end
 
-        alias l="eza -G --icons"
-        alias ls="eza -G --icons"
+        alias l="eza --icons -G"
+        alias ls="eza --icons -G"
 
       '';
   in {

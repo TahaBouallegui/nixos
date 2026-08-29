@@ -35,6 +35,10 @@
 
     pineconemc = {
       url = "github:ElyPrismLauncher/Launcher";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+    deepseek-harness = {
+      url = "github:moraxyc/deepseek-harness.nix";
       inputs.nixpkgs.follows = "nixpkgs-stable";
     };
   };

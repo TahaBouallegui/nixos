@@ -17,7 +17,7 @@
 
         self.nixosModules.base
 
-        self.nixosModules.tailscale
+        #self.nixosModules.tailscale
         self.nixosModules.nvidia
         self.nixosModules.ai
 
@@ -26,7 +26,7 @@
         self.nixosModules.plymouth
 
         self.nixosModules.desktop
-        #self.nixosModules.gaming
+        self.nixosModules.gaming
 
         inputs.nixos-hardware.nixosModules.lenovo-thinkpad-t480
       ];
@@ -46,8 +46,8 @@
             "nix-command"
             "flakes"
           ];
-          max-jobs = 6;
-          cores = 8;
+          max-jobs = 4;
+          cores = 4;
         };
 
         gc = {
@@ -100,6 +100,20 @@
         alsa.support32Bit = true;
         pulse.enable = true;
       };
+#      services.pipewire.wireplumber.extraConfig."10-hdmi-default" = {
+#        "monitor.alsa.rules" = [
+#          {
+#            matches = [
+#              { "device.name" = "alsa_card.pci-0000_00_1f.3"; }
+#            ];
+#            actions = {
+#              update-props = {
+#                "device.profile" = "output:hdmi-stereo+input:analog-stereo";
+#              };
+#            };
+#          }
+#        ];
+#      };
 
       users.users."atb" = {
         isNormalUser = true;
@@ -111,7 +125,10 @@
         shell = self.packages.${pkgs.system}.environment;
       };
 
-      environment.systemPackages = [ pkgs.koboldcpp pkgs.sillytavern ]; #testing this out for WALL-E
+      environment.systemPackages = [
+        pkgs.koboldcpp
+        pkgs.sillytavern
+      ]; # testing this out for WALL-E
 
       services.xserver.videoDrivers = [
         "intel"

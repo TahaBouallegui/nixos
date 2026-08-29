@@ -3,11 +3,12 @@
   flake.nixosModules.nvidia =
     { config, pkgs, ... }:
     {
-      nixpkgs.config.allowUnfree = true;
-      nixpkgs.config.cudaSupport= true;
-
+      nixpkgs.config = {
+        allowUnfree = true;
+      };
 
       nix.settings = {
+
         substituters = [
           "https://cache.nixos.org" # Official (free packages)
           "https://cache.nixos-cuda.org" # CUDA packages

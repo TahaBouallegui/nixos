@@ -19,7 +19,6 @@
         self.nixosModules.pkgs-stable
       ];
       
-      programs.ladybird.enable = true;
       programs.niri.enable = true;
       programs.niri.package = selfpkgs.desktop;
 
@@ -31,7 +30,7 @@
         selfpkgs.noctalia-shell
         pkgs.libreoffice
         pkgs.heroic
-        pkgs.proton-vpn
+        pkgs.proton-vpn 
         pkgs.prusa-slicer
         pkgs.orca-slicer
         pkgs.cutter
@@ -39,20 +38,13 @@
         pkgs.mpv
         pkgs.qbittorrent
         pkgs.eden
-        pkgs.thunderbird
         pkgs.burpsuite
         pkgs.remmina
         pkgs.kicad
+        pkgs.tutanota-desktop
+        pkgs.pdfarranger
       ];
 
-      programs.steam.enable = true;
-      nixpkgs.overlays = [
-        (final: prev: {
-          steam = prev.steam.override {
-            extraArgs = "-cef-disable-gpu-compositing";
-          };
-        })
-      ];
 
       fonts.packages = with pkgs; [
         nerd-fonts.jetbrains-mono
