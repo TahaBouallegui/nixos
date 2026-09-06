@@ -65,7 +65,7 @@
           pkgs.yt-dlp
           pkgs.lazygit
           pkgs.man-pages
-          (pkgs.btop.override { cudaSupport = true; })
+          pkgs.btop
           pkgs.tree
           pkgs.yazi
           pkgs.tldr

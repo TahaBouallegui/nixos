@@ -17,7 +17,7 @@
 
         self.nixosModules.base
 
-        #self.nixosModules.tailscale
+        self.nixosModules.tailscale
         self.nixosModules.nvidia
         self.nixosModules.ai
 

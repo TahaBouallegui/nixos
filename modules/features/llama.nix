@@ -16,36 +16,47 @@
 
       programs.dsh = {
         enable = true;
-        profiles.tui.bundles = [ pkgs.dsh.bundles.tui ];
+        profiles.tui.bundles = [
+          pkgs.dsh.bundles.tui
+          pkgs.dsh.bundles.modsearch
+          pkgs.dsh.bundles.web-app
+          pkgs.dsh.bundles.web-ui
+        ];
         defaultProfile = "nix-tui";
       };
 
       environment.systemPackages = [
-        (pkgs.llama-cpp-cuda.overrideAttrs (old: {
-          cmakeFlags = (old.cmakeFlags or [ ]) ++ [
-            "-DCMAKE_CUDA_ARCHITECTURES=61"
+        (inputs.ik-llama.packages.${pkgs.system}.default.overrideAttrs (old: {
+          cmakeFlags = old.cmakeFlags ++ [
+            "-DGGML_CPU_ALL_VARIANTS=ON"
+            "-DGGML_BACKEND_DL=ON"
           ];
         }))
+        pkgs.pi-coding-agent
       ];
 
       services.llama-cpp = {
-        package = (
-          pkgs.llama-cpp.overrideAttrs (old: {
-            cmakeFlags = (old.cmakeFlags or [ ]) ++ [
-              "-DGGML_NATIVE=ON"
-              "-DGGML_LTO=ON"
-              "-DGGML_OPENMP=ON"
-            ];
-          })
-        );
-        enable = false;
+        package = (inputs.ik-llama.packages.${pkgs.system}.default).overrideAttrs (old: {
+          cmakeFlags = old.cmakeFlags ++ [
+            "-DGGML_CPU_ALL_VARIANTS=ON"
+            "-DGGML_BACKEND_DL=ON"
+          ];
+        });
+        enable = true;
         settings = {
-          hf-repo = "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive:Q4_K_M";
-          threads = 5;
-          flash-attn = "on";
+          hf-repo = "0xKitkat/Ornith-1.5-35B-A3B-Uncensored-GGUF";
+          hf-file = "Ornith-1.5-35B-Uncensored-Q4_K_M.gguf";
           jinja = "";
-          tools = "all";
+          threads = 3;
           ctx-size = 131072;
+          reasoning-format = "deepseek";
+          port = 8900;
+          temp = 0.6;
+          top_p = 0.95;
+          top_k = 20;
+          batch-size = 4096;
+          ubatch-size = 512;
+          webui = "none";
         };
       };
     };

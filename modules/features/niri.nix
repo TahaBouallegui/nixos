@@ -25,21 +25,24 @@
           {
             window-rules = [
               {
-                geometry-corner-radius = 20;
+                geometry-corner-radius = 8;
                 clip-to-geometry = true;
               }
               {
                 matches = [ { is-active = false; } ];
-                opacity = 0.85;
+                opacity = 0.98;
                 background-effect = {
                   blur = true;
                 };
               }
               {
-                matches = [ { app-id = "librewolf"; } ];
+                matches = [ { app-id = "zen"; } ];
                 background-effect = {
                   blur = true;
                 };
+              }
+              {
+                draw-border-with-background = false;
               }
             ];
             layer-rules = [
@@ -51,7 +54,7 @@
 
             outputs = {
               "eDP-1" = {
-                mode = "1280x720@60";
+                mode = "1920x1080@60.020";
                 position = _: {
                   props = {
                     x = 0;
@@ -70,16 +73,16 @@
               #  scale = 0.75;
               #};
 
-              #"HDMI-A-2" = {
-              #  mode = "1360x768@59.799";
-              #  position = _: {
-              #    props = {
-              #      x = 88;
-              #      y = -1024;
-              #    };
-              #  };
-              #  scale = 0.75;
-              #};
+              # "HDMI-A-2" = {
+              #   mode = "1360x768@59.799";
+              #   position = _: {
+              #     props = {
+              #       x = 88;
+              #       y = -1024;
+              #     };
+              #   };
+              #   scale = 0.75;
+              # };
 
               "HDMI-A-2" = {
                 mode = "1920x1080@60";
@@ -237,6 +240,12 @@
 
             layout = {
               gaps = 8;
+
+              shadow = {
+                on = _: { };
+                softness = 30;
+                spread = 5;
+              };
 
               focus-ring = {
                 width = 0;
