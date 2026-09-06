@@ -18,6 +18,8 @@
       #self.nixosModules.sunshine
       self.nixosModules.remote-desktop
       self.nixosModules.immich
+      self.nixos.nixosModules.searxng
+
       self.nixosModules.grocy
 
       self.nixosModules.minecraft
