@@ -47,7 +47,7 @@
           hf-repo = "0xKitkat/Ornith-1.5-35B-A3B-Uncensored-GGUF";
           hf-file = "Ornith-1.5-35B-Uncensored-Q4_K_M.gguf";
           jinja = "";
-          threads = 3;
+          threads = 2;
           ctx-size = 131072;
           reasoning-format = "deepseek";
           port = 8900;
