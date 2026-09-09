@@ -33,6 +33,7 @@
           ];
         }))
         pkgs.pi-coding-agent
+        pkgs.mcp-nixos
       ];
 
       services.llama-cpp = {

@@ -16,6 +16,7 @@
         self.nixosModules.amalHardware
 
         self.nixosModules.base
+        self.nixosModules.kvm-qemu
 
         self.nixosModules.tailscale
         self.nixosModules.nvidia
@@ -56,6 +57,10 @@
           options = "--delete-older-than 30d";
         };
 
+      };
+
+      services.logind.settings.Login = {
+        HandleLidSwitch = "hibernate";
       };
 
       networking.hostName = "amal"; # Define your hostname.
@@ -100,20 +105,20 @@
         alsa.support32Bit = true;
         pulse.enable = true;
       };
-#      services.pipewire.wireplumber.extraConfig."10-hdmi-default" = {
-#        "monitor.alsa.rules" = [
-#          {
-#            matches = [
-#              { "device.name" = "alsa_card.pci-0000_00_1f.3"; }
-#            ];
-#            actions = {
-#              update-props = {
-#                "device.profile" = "output:hdmi-stereo+input:analog-stereo";
-#              };
-#            };
-#          }
-#        ];
-#      };
+      #      services.pipewire.wireplumber.extraConfig."10-hdmi-default" = {
+      #        "monitor.alsa.rules" = [
+      #          {
+      #            matches = [
+      #              { "device.name" = "alsa_card.pci-0000_00_1f.3"; }
+      #            ];
+      #            actions = {
+      #              update-props = {
+      #                "device.profile" = "output:hdmi-stereo+input:analog-stereo";
+      #              };
+      #            };
+      #          }
+      #        ];
+      #      };
 
       users.users."atb" = {
         isNormalUser = true;
