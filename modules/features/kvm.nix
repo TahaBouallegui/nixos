@@ -1,3 +1,4 @@
+
 { self, inputs, ... }:
 {
   flake.nixosModules.kvm-qemu =
@@ -22,6 +23,19 @@
         onShutdown = lib.mkDefault "suspend";
       };
 
+      networking = {
+        firewall = {
+          # Trust the libvirt bridge interface so DHCP and DNS work for VMs
+          trustedInterfaces = [ "virbr0" ];
+        };
+        
+        # Ensure NAT is enabled for the virtual network
+        nat = {
+          enable = true;
+          internalInterfaces = [ "virbr0" ];
+        };
+      };
+
       # libvirtd asserts this, desktop.nix already sets it,
       # keep it here so the module works standalone.
       security.polkit.enable = lib.mkDefault true;
@@ -40,8 +54,6 @@
         OVMF
       ];
 
-      # Add your user to "libvirtd" to use virsh/virt-manager
-      # without sudo, e.g. in your host configuration:
-      #   users.users.atb.extraGroups = [ "libvirtd" ];
+      users.users."atb".extraGroups = [ "libvirtd" ];
     };
 }

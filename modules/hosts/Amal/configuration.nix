@@ -20,7 +20,7 @@
 
         self.nixosModules.tailscale
         self.nixosModules.nvidia
-        self.nixosModules.ai
+        #self.nixosModules.ai
 
         self.nixosModules.moonlight
         self.nixosModules.sddm
@@ -105,20 +105,36 @@
         alsa.support32Bit = true;
         pulse.enable = true;
       };
-      #      services.pipewire.wireplumber.extraConfig."10-hdmi-default" = {
-      #        "monitor.alsa.rules" = [
-      #          {
-      #            matches = [
-      #              { "device.name" = "alsa_card.pci-0000_00_1f.3"; }
-      #            ];
-      #            actions = {
-      #              update-props = {
-      #                "device.profile" = "output:hdmi-stereo+input:analog-stereo";
-      #              };
-      #            };
-      #          }
-      #        ];
-      #      };
+
+      services.pipewire.wireplumber.extraConfig = {
+        "51-set-priorities" = {
+          "monitor.alsa.rules" = [
+            {
+              # Rule for your HDMI sink: give it a very low priority
+              matches = [
+                { "node.name" = "alsa_output.pci-0000_00_1f.3.hdmi-stereo"; }
+              ];
+              actions = {
+                update-props = {
+                  "priority.session" = 0;
+                };
+              };
+            }
+            {
+              # Rule for your headphone sink: give it a high priority
+              matches = [
+                { "node.name" = "alsa_output.pci-0000_00_1f.3.analog-stereo"; }
+              ];
+              actions = {
+                update-props = {
+                  # Set this higher than the default (usually around 1000)
+                  "priority.session" = 2000;
+                };
+              };
+            }
+          ];
+        };
+      };
 
       users.users."atb" = {
         isNormalUser = true;

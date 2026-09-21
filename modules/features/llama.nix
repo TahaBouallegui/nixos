@@ -26,18 +26,18 @@
       };
 
       environment.systemPackages = [
-        (inputs.ik-llama.packages.${pkgs.system}.default.overrideAttrs (old: {
-          cmakeFlags = old.cmakeFlags ++ [
-            "-DGGML_CPU_ALL_VARIANTS=ON"
-            "-DGGML_BACKEND_DL=ON"
-          ];
-        }))
+        #(inputs.ik-llama.packages.${pkgs.system}.default.overrideAttrs (old: {
+        #  cmakeFlags = old.cmakeFlags ++ [
+        #    "-DGGML_CPU_ALL_VARIANTS=ON"
+        #    "-DGGML_BACKEND_DL=ON"
+        #  ];
+        #}))
         pkgs.pi-coding-agent
         pkgs.mcp-nixos
       ];
 
       services.llama-cpp = {
-        package = (inputs.ik-llama.packages.${pkgs.system}.default).overrideAttrs (old: {
+        package = (inputs.ik-llama.packages.${pkgs.stdenv.hostPlatform.system}.default).overrideAttrs (old: {
           cmakeFlags = old.cmakeFlags ++ [
             "-DGGML_CPU_ALL_VARIANTS=ON"
             "-DGGML_BACKEND_DL=ON"
