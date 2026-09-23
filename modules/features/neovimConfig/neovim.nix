@@ -17,6 +17,7 @@
           ffmpeg-full
           lua-language-server
           clang-tools
+          pyright
         ];
 
         specs = {
@@ -77,6 +78,20 @@
                      vim.lsp.enable("nixd")
               vim.lsp.config("clangd", { cmd = { "clangd" } })
               vim.lsp.enable("clangd")
+              vim.lsp.config("pyright", {
+              cmd = { "pyright-langserver", "--stdio" },
+              filetypes = { "python" },
+              settings = {
+                python = {
+                  analysis = {
+                    typeCheckingMode = "basic",
+                    autoSearchPaths = true,
+                    useLibraryCodeForTypes = true,
+                  },
+                },
+              },
+            })
+            vim.lsp.enable("pyright")
             '';
 
           init = {

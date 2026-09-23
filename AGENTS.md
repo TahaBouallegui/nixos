@@ -58,6 +58,27 @@ Never `git commit` unless atb explicitly asks.
 - New host onboarding: append `nix run nixpkgs#ssh-to-age < /etc/ssh/ssh_host_ed25519_key.pub`
   to `.sops.yaml`, then `sops updatekeys secrets/secrets.yaml`.
 
+## microVMs on robotechServer (added 2026-09-22)
+
+- `modules/features/microvms.nix` — microvm.nix in host (hub) mode, via the
+  `microvm` flake input (nixpkgs followed). Guests `vm1`/`vm2`: 1 vCPU,
+  2047 MiB (exactly 2048 hangs qemu boot, microvm.nix #171), qemu hypervisor,
+  built inside the host's system closure.
+- The host rebuild is the only way to change a guest; **never
+  `nixos-rebuild switch` inside a guest**. State lives in
+  `/var/lib/microvms/<name>/` (store overlay + `/var` + `/home` volumes;
+  everything else is tmpfs and dies on reboot). Guests are always-on:
+  `poweroff` inside resurrects them after 5s (`Restart = always`); stop them
+  from the host with `systemctl stop microvm@<name>`. User-facing guide: README.
+- Networking is qemu SLIRP user-mode on purpose: outbound-only, touches
+  nothing on the host (NetworkManager/tailscale stay as they are; no bridges,
+  no networkd on that host). Inbound: loopback `2201`/`2202` → guest ssh,
+  vsock ssh, serial console.
+- From the host: `microvm -r vm1` console, `microvm -s vm1` ssh over vsock,
+  or `ssh -p 2201 admin@127.0.0.1`. Paste pubkeys into the module's
+  `guestKeys` to make ssh usable; console bootstrap is root/`microvm`
+  (change with `passwd root`).
+
 ## eduroam feature (added 2026-09-16, enabled on amal only)
 
 - `modules/features/eduroam/` — `default.nix` + `ca.pem` (HARICA TLS RSA Root

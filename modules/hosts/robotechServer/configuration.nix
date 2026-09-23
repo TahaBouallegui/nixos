@@ -22,7 +22,9 @@
 
       self.nixosModules.grocy
 
-      self.nixosModules.minecraft
+      #self.nixosModules.minecraft
+
+      self.nixosModules.microvms
     ];
 
     nix.settings = {

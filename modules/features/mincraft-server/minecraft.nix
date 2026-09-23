@@ -16,7 +16,7 @@
           package = pkgs.mkMinecraftServer {
             name = "HAHALminecraftserver";
             src = ./mcman;
-            hash = "sha256-5DZyuiBqemIDVSyIjWJB1Qogg+hlIbQq1S+Ku1Eg/Tw=";
+            hash = "sha256-GLz4RZRIJeOvnbnz+cE1BlDWPD5IQ4l4xAaK7l22FL4=";
           };
         };
         servers.halaltensura = {

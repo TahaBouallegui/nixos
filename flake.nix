@@ -43,6 +43,11 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
+    microvm = {
+      url = "github:microvm-nix/microvm.nix";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
     pineconemc = {
       url = "github:ElyPrismLauncher/Launcher";
       inputs.nixpkgs.follows = "nixpkgs";
