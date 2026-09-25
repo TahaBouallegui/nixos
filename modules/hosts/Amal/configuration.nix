@@ -20,7 +20,7 @@
 
         self.nixosModules.tailscale
         self.nixosModules.nvidia
-        #self.nixosModules.ai
+        self.nixosModules.ai
 
         self.nixosModules.moonlight
         self.nixosModules.sddm

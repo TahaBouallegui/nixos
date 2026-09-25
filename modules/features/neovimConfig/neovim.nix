@@ -18,6 +18,8 @@
           lua-language-server
           clang-tools
           pyright
+          jdt-language-server
+          jdk21
         ];
 
         specs = {
@@ -92,6 +94,30 @@
               },
             })
             vim.lsp.enable("pyright")
+            vim.lsp.config("jdtls", {
+              cmd = { "jdtls" },
+              -- optional, but useful for multi-module projects
+              root_markers = { ".git", "pom.xml", "build.gradle", "settings.gradle", "mvnw", "gradlew" },
+              settings = {
+                java = {
+                  -- add your own preferences here, for example:
+                  signatureHelp = { enabled = true },
+                  completion = {
+                    favoriteStaticMembers = {
+                      "org.junit.Assert.*",
+                      "org.junit.jupiter.api.Assertions.*",
+                    },
+                  },
+                  sources = {
+                    organizeImports = {
+                      starThreshold = 9999,
+                      staticStarThreshold = 9999,
+                    },
+                  },
+                },
+              },
+            })
+            vim.lsp.enable("jdtls")
             '';
 
           init = {

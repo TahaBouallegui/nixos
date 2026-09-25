@@ -16,13 +16,14 @@
 
       programs.dsh = {
         enable = true;
-        profiles.tui.bundles = [
-          pkgs.dsh.bundles.tui
-          pkgs.dsh.bundles.modsearch
-          pkgs.dsh.bundles.web-app
-          pkgs.dsh.bundles.web-ui
+        patch = [
+          {
+            id = "tool-bash-persistent"; # Or "terminal-bash"
+            config = {
+              shellPath = "/run/current-system/sw/bin/bash";
+            };
+          }
         ];
-        defaultProfile = "nix-tui";
       };
 
       environment.systemPackages = [
@@ -32,18 +33,18 @@
         #    "-DGGML_BACKEND_DL=ON"
         #  ];
         #}))
-        pkgs.pi-coding-agent
-        pkgs.mcp-nixos
       ];
 
       services.llama-cpp = {
-        package = (inputs.ik-llama.packages.${pkgs.stdenv.hostPlatform.system}.default).overrideAttrs (old: {
-          cmakeFlags = old.cmakeFlags ++ [
-            "-DGGML_CPU_ALL_VARIANTS=ON"
-            "-DGGML_BACKEND_DL=ON"
-          ];
-        });
-        enable = true;
+        package =
+          (inputs.ik-llama.packages.${pkgs.stdenv.hostPlatform.system}.default).overrideAttrs
+            (old: {
+              cmakeFlags = old.cmakeFlags ++ [
+                "-DGGML_CPU_ALL_VARIANTS=ON"
+                "-DGGML_BACKEND_DL=ON"
+              ];
+            });
+        enable = false;
         settings = {
           hf-repo = "0xKitkat/Ornith-1.5-35B-A3B-Uncensored-GGUF";
           hf-file = "Ornith-1.5-35B-Uncensored-Q4_K_M.gguf";
