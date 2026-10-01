@@ -1,6 +1,6 @@
 { self, flake, ... }:
 {
-  flake.nixos.nixosModules.searxng = { ... }: {
+  flake.nixosModules.searxng = { ... }: {
     services.searx = {
       enable = true;
       redisCreateLocally = true;

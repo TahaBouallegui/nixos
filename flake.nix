@@ -60,6 +60,7 @@
     ik-llama = {
       url = "github:ikawrakow/ik_llama.cpp";
     };
+
   };
 
   outputs = inputs: inputs.flake-parts.lib.mkFlake { inherit inputs; } (inputs.import-tree ./modules);

@@ -1,0 +1,10 @@
+keys:
+  - &atb age1u2wj4l5rjafnmk9dyaw5adz67yxt9z5lqktfyfe35g2hnwaxqyhqm34r5t
+  - &amal age18gr72wn9rg2nhnj3j073f4y6l82wc9uxgxy36gvnzesdtr46nvzs9c2dcd
+
+creation_rules:
+  - path_regex: secrets/[^/]+\.yaml$
+    key_groups:
+      - age:
+          - *atb
+          - *amal

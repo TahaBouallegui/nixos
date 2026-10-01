@@ -15,7 +15,7 @@
       imports = [
         self.nixosModules.flatpak
         self.nixosModules.librewolf
-        self.nixosModules.zen-browser
+        #self.nixosModules.zen-browser
 
         self.nixosModules.pkgs-stable
       ];

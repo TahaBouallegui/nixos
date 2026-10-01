@@ -18,13 +18,13 @@
       #self.nixosModules.sunshine
       self.nixosModules.remote-desktop
       self.nixosModules.immich
-      self.nixos.nixosModules.searxng
+      self.nixosModules.searxng
 
       self.nixosModules.grocy
 
       #self.nixosModules.minecraft
 
-      self.nixosModules.microvms
+      #self.nixosModules.microvms
     ];
 
     nix.settings = {
@@ -63,7 +63,7 @@
       LC_NUMERIC = "fr_FR.UTF-8";
       LC_PAPER = "fr_FR.UTF-8";
       LC_TELEPHONE = "fr_FR.UTF-8";
-      LCTIME = "fr_FR.UTF-8";
+      LC_TIME = "fr_FR.UTF-8";
     };
 
     # Configure keymap in X11

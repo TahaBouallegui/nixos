@@ -16,6 +16,7 @@
         self.nixosModules.amalHardware
 
         self.nixosModules.base
+        self.nixosModules.secrets
         self.nixosModules.kvm-qemu
 
         self.nixosModules.tailscale
@@ -28,6 +29,8 @@
 
         self.nixosModules.desktop
         self.nixosModules.gaming
+        self.nixosModules.searxng
+        self.nixosModules.secretspec
 
         inputs.nixos-hardware.nixosModules.lenovo-thinkpad-t480
       ];

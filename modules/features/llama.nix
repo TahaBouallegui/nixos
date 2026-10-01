@@ -7,23 +7,56 @@
         inputs.deepseek-harness.nixosModules.default
       ];
 
-      nix.settings = {
-        substituters = [ "https://deepseek-harness-nix.cachix.org" ];
-        trusted-public-keys = [
-          "deepseek-harness-nix.cachix.org-1:5NrkwLN9veNMhiINtU5ZeV4isXFhFsOwn6Ms7J1M+TA="
-        ];
-      };
-
       programs.dsh = {
         enable = true;
-        patch = [
-          {
-            id = "tool-bash-persistent"; # Or "terminal-bash"
-            config = {
-              shellPath = "/run/current-system/sw/bin/bash";
-            };
-          }
-        ];
+
+        profiles.web = {
+          # Keep the default `managed` mode so Nix owns the profile directory.
+          bundles = [
+            pkgs.dsh.bundles.base
+            pkgs.dsh.bundles.web-app
+            pkgs.dsh.bundles.web-ui
+          ];
+
+          # The patch list mirrors the Web profile's cordis.patch.yml exactly.
+          # Nix serialises this to YAML and writes it to
+          #   ~/.dsh/profiles/nix-tui/cordis.patch.yml
+          # on every activation, so the provider stays reproducible.
+          patch = [
+            {
+              id = "ui-settings-general";
+              name = "@deepseek-ai/dsh-client-ui-settings-general";
+              config = {
+                welcomeNoticeVersion = "2026-08-13.1";
+              };
+            }
+
+            {
+              id = "llm-pi-ai";
+              name = "@deepseek-ai/dsh-llm-pi-ai";
+              config = {
+                providers = {
+                  zabeth24 = {
+                    displayName = "zabeth24";
+                    apiKeyEnv = "ZABETH24_API_KEY";
+                    api = "openai-completions";
+                    baseURL = "http://zabeth24.tail5481a4.ts.net:8080/v1";
+                    models = [
+                      {
+                        id = "peculiar-ragdoll/Tiel-Coder-35B-A3B-GGUF-MTP:UD-Q4_K_XL";
+                        name = "peculiar-ragdoll/Tiel-Coder-35B-A3B-GGUF-MTP:UD-Q4_K_XL";
+                      }
+                    ];
+                  };
+                };
+              };
+            }
+          ];
+        };
+      };
+
+      environment.sessionVariables = {
+        ZABETH24_API_KEY = "x";
       };
 
       environment.systemPackages = [
@@ -33,6 +66,7 @@
         #    "-DGGML_BACKEND_DL=ON"
         #  ];
         #}))
+        pkgs.mcp-nixos
       ];
 
       services.llama-cpp = {
@@ -58,7 +92,6 @@
           top_k = 20;
           batch-size = 4096;
           ubatch-size = 512;
-          webui = "none";
         };
       };
     };

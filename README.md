@@ -1,89 +1,80 @@
 # nixos
-My nixos configuration
 
-## microVMs on robotechServer
+Mypersonal NixOS configuration — a single flake covering three machines,
+built with [flake-parts](https://flake.parts/) and auto-discovery of modules
+instead of hand-maintained import lists.
 
-robotechServer hosts two NixOS microVMs (`vm1`, `vm2`) managed declaratively with
-[microvm.nix](https://github.com/microvm-nix/microvm.nix) in hub mode
-(`modules/features/microvms.nix`): 1 vCPU / 2047 MiB each
-(exactly 2048 triggers a qemu boot hang, microvm.nix #171), qemu hypervisor,
-built inside the host's system closure.
+## How it's wired
 
-### Golden rule
-
-**The host owns the guests.** A guest's entire config lives in
-`modules/features/microvms.nix`. To change one: edit that file and
-`sudo nixos-rebuild switch --flake .#robotechServer` **on the host** — a changed
-guest is reinstalled and restarted gracefully as part of the rebuild.
-
-**Never run `nixos-rebuild switch` inside a guest.** It will appear to work,
-but it writes a rival system profile into the guest while the host keeps
-booting its own build: next reboot or rebuild silently reverts everything and
-you end up with config split-brain. Same goes for editing files in `/etc` for
-anything you care about — `/etc` is regenerated from the host config at every
-boot. If you want it to stick, put it in the host module.
-
-### Connecting
-
-From the server itself:
-
-```sh
-microvm -r vm1                      # serial console (root / microvm — bootstrap only)
-microvm -s vm1                      # ssh over vsock, no network involved
-ssh -p 2201 admin@127.0.0.1         # vm1 over TCP, loopback only (vm2: 2202)
+```
+outputs = flake-parts.lib.mkFlake { inherit inputs; } (import-tree ./modules);
 ```
 
-From any tailnet machine: `ssh -J za3ter@lingangu -p 2201 admin@localhost`.
+Every `*.nix` file under `modules/` is auto-imported as a flake-parts module —
+drop a file in, it's live, nothing to register by hand (via
+[`vic/import-tree`](https://github.com/vic/import-tree)). Layout:
 
-`admin` authenticates with the pubkeys in `guestKeys` (in the module;
-your `id_ed25519` is wired in). Root ssh login is `prohibit-password`; the
-`microvm` password only exists for console bootstrap — change it with
-`passwd root` after first login.
+- **`modules/base/`** — shared plumbing: `base` (shared option surface),
+  `pkgs-stable` (pins an `nixpkgs-stable` instance alongside unstable),
+  `secrets` (sops-nix wiring).
+- **`modules/features/`** — host-agnostic, drop-in capabilities. Each file
+  exports exactly one `flake.nixosModules.<name>`: desktop environment,
+  gaming, nvidia, tailscale, searxng, a Minecraft server, a full Neovim
+  config, and so on. A feature may carry data files next to its `.nix`
+  (wallpapers, server configs, Lua plugin specs).
+- **`modules/hosts/<Name>/`** — one directory per machine. `default.nix`
+  declares the `nixosConfiguration`, `configuration.nix` composes features
+  via `imports = [ self.nixosModules.<feature> ... ]`, `hardware.nix` is the
+  stock `nixos-generate-config` output.
 
-### What survives a reboot
+Adding a capability to one machine means writing a feature file and importing
+it in that host's `configuration.nix` — never editing another host's config.
+Cross-cutting state (theme colors, a which-key launcher, wrapped packages)
+flows through `flake.*` outputs (`self.theme`, `self.wrappersModules`,
+`self.mkWhichKeyExe`, `self.packages`) rather than NixOS module-arg plumbing.
 
-Guest root is tmpfs — **only these paths persist** (they are disk volumes
-under `/var/lib/microvms/<name>/` on the host):
+## Hosts
 
-| Path | Volume | Size |
+| Host | Hostname | Role |
 |---|---|---|
-| `/var/**` (NixOS state, host keys, profiles, data) | `drive-var.img` | 8 GiB |
-| `/home/**` (user files) | `drive-home.img` | 8 GiB |
-| `/nix/store` writes → overlay | `drive-rw-store.img` | 16 GiB |
+| `amal` | `amal` | ThinkPad T480 laptop — niri/Wayland desktop, hybrid Intel/NVIDIA graphics, gaming, local LLM serving |
+| `myMachine` | `nixos` | Desktop tower — niri/Wayland desktop, NVIDIA |
+| `robotechServer` | `lingangu` | Headless server — Immich, SearXNG, Grocy, remote desktop, Tailscale |
 
-Everything else — `/etc`, `/tmp`, anything you drop at `/`, installed
-software's state outside `/var` — is gone on next boot. Write files to your
-home, not `/root`.
+## Notable bits
 
-### Using a guest day-to-day
+- **Desktop**: [niri](https://github.com/YaLTeR/niri) (scrolling-tile Wayland
+  compositor) + [noctalia-shell](https://github.com/noctalia-dev/noctalia-shell),
+  kitty, a from-scratch Neovim config (own colorscheme, LSP setup, and even a
+  custom tree-sitter grammar under `neovimConfig/vjxl-ts/`).
+- **Secrets**: [sops-nix](https://github.com/Mic92/sops-nix), age-encrypted,
+  keyed off existing SSH host/user keys (`ssh-to-age`) rather than separate
+  age keypairs — nothing plaintext ever touches the repo or the Nix store.
+- **Self-hosted services** (`robotechServer`): Immich (photos), SearXNG
+  (meta-search), Grocy (household inventory), plus a Minecraft server managed
+  with `mcman`.
+- **Local LLM serving** (`amal`): `llama.cpp` (ik_llama.cpp fork, built with
+  all-CPU-variant kernels) wired into a chat UI via
+  [dsh](https://github.com/moraxyc/deepseek-harness.nix).
 
-- Imperative installs are fine and persist: `nix profile install nixpkgs#htop`.
-- Quick experiments anywhere are fine *as long as you accept they evaporate*.
-- The guest OS and its packages update when the host updates: guests are built
-  from the host's nixpkgs input, so `nix flake update` + host rebuild is also
-  the guest update mechanism (`nixos-version` in a guest matches the host).
-- Ballooning is enabled: the host can reclaim guest RAM under memory pressure.
+## Using this
 
-### Stopping / restarting
+```sh
+# evaluate without building — fast sanity check
+nix eval ".#nixosConfigurations.<host>.config.networking.hostName"
 
-- `poweroff` or `reboot` inside a guest: the VM **comes back on its own**
-  (the `microvm@<name>` unit is `Restart = "always"`). That's a feature —
-  guests are meant to be always-on.
-- Really stop one (e.g. to work on it): `sudo systemctl stop microvm@vm1`
-  on the host — that's a graceful ACPI shutdown.
-- Restart on demand: `sudo systemctl restart microvm@vm1`.
+# deploy
+sudo nixos-rebuild switch --flake .#<host>
+```
 
-### Networking
+`<host>` is one of `amal`, `myMachine`, `robotechServer`. Note: Nix only sees
+files that are in the git index — a brand-new untracked `.nix` file is
+invisible to eval until `git add -N` (or a real `git add`) picks it up.
 
-qemu SLIRP **user-mode on purpose**: outbound internet works, the guests are
-*not* visible on the LAN, and no host bridge/networkd setup is touched.
-Inbound only where explicitly forwarded — currently loopback `2201`/`2202`
-→ guest ssh. To expose a service on the host, add a `forwardPorts` entry in
-the module and rebuild the host; want it on your tailnet instead? Enable
-`services.tailscale.enable` inside the guest config (needs an auth key).
+This is a personal config, published as-is; hardware modules and host-specific
+secrets obviously won't apply to your machine. See `AGENTS.md` for the deeper
+conventions if you're poking around or adapting pieces of it.
 
-### Removing a guest
+## License
 
-Delete its entry from `guests` in the module + host rebuild: the services go
-away but the state is kept. Nuke the data deliberately with
-`sudo rm -rf /var/lib/microvms/<name>` on the host.
+GPL-3.0 — see [`LICENSE`](./LICENSE).
