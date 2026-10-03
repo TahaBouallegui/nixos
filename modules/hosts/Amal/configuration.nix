@@ -20,6 +20,7 @@
         self.nixosModules.secrets
         self.nixosModules.nixIndex
         self.nixosModules.kvm-qemu
+        self.nixosModules.robotechserver-share
 
         self.nixosModules.tailscale
         self.nixosModules.nvidia

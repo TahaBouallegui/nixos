@@ -23,6 +23,7 @@
       self.nixosModules.immich
       self.nixosModules.searxng
       self.nixosModules.jellyfin
+      self.nixosModules.samba
 
       self.nixosModules.grocy
 
