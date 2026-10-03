@@ -198,12 +198,6 @@ Deploy with `sudo nixos-rebuild switch --flake /home/atb/.config/nixos#<host>`.
 
 ## Known pre-existing warts
 
-- `self.packages.${pkgs.system}.environment` in `modules/hosts/Amal/configuration.nix`
-  and `modules/hosts/robotechServer/configuration.nix` (3 call sites) triggers
-  the `pkgs.system` → `pkgs.stdenv.hostPlatform.system` deprecation warning.
-  `llama.nix` already uses the correct form; the host configs don't yet.
-  Harmless, but don't be surprised by the warning and don't "fix" it as an
-  unrelated drive-by in an unrelated change.
 - Flake inputs `home-manager` and `microvm` are declared but currently
   **unreferenced** by any module — `home-manager` looks aspirational,
   `microvm` is orphaned leftover from the removed microVM feature (see next

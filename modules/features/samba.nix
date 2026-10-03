@@ -17,6 +17,19 @@
         "d /srv/share 0775 share share -"
       ];
 
+      # `bind interfaces only` + an interface that doesn't exist yet at smbd
+      # startup makes smbd silently skip it and bind only to what *is*
+      # present (lo) -- no error, no crash, just quietly unreachable over
+      # tailscale. Order after the actual tailscale0 device unit (not just
+      # tailscaled.service -- the daemon being "active" doesn't mean the
+      # interface has appeared yet) so this race can't happen. Soft
+      # dependency (wants+after, not requires/bindsTo) so a later tailscale0
+      # flap doesn't take smbd down with it.
+      systemd.services.samba-smbd = {
+        after = [ "sys-subsystem-net-devices-tailscale0.device" ];
+        wants = [ "sys-subsystem-net-devices-tailscale0.device" ];
+      };
+
       services.samba = {
         enable = true;
         # Tailnet-only on purpose, same posture as jellyfin/grocy/searxng

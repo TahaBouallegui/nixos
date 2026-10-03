@@ -133,7 +133,7 @@
           "networkmanager"
           "wheel"
         ];
-        shell = self.packages.${pkgs.system}.environment;
+        shell = self.packages.${pkgs.stdenv.hostPlatform.system}.environment;
       };
 
       environment.sessionVariables = {
