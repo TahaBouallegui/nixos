@@ -24,6 +24,15 @@
         # even firewall -- structurally unreachable off the tailnet, not just
         # filtered.
         openFirewall = false;
+        # nmbd (legacy NetBIOS name broadcast/browsing, "Network
+        # Neighborhood") relies on L2 broadcast, which tailscale0 (a
+        # point-to-point tunnel interface) doesn't support -- it hangs on
+        # startup past the systemd timeout and gets killed. Not needed: the
+        # client mounts by hostname directly (SMB2/3 + DNS), no NetBIOS
+        # involved. winbindd (AD/NT domain NSS integration) is equally
+        # unused here -- local Unix users only.
+        nmbd.enable = false;
+        winbindd.enable = false;
         settings = {
           global = {
             workgroup = "WORKGROUP";
