@@ -17,33 +17,29 @@
         "d /srv/share 0775 share share -"
       ];
 
-      # `bind interfaces only` + an interface that doesn't exist yet at smbd
-      # startup makes smbd silently skip it and bind only to what *is*
-      # present (lo) -- no error, no crash, just quietly unreachable over
-      # tailscale. Order after the actual tailscale0 device unit (not just
-      # tailscaled.service -- the daemon being "active" doesn't mean the
-      # interface has appeared yet) so this race can't happen. Soft
-      # dependency (wants+after, not requires/bindsTo) so a later tailscale0
-      # flap doesn't take smbd down with it.
-      systemd.services.samba-smbd = {
-        after = [ "sys-subsystem-net-devices-tailscale0.device" ];
-        wants = [ "sys-subsystem-net-devices-tailscale0.device" ];
-      };
-
       services.samba = {
         enable = true;
-        # Tailnet-only on purpose, same posture as jellyfin/grocy/searxng
-        # this session: bound only to tailscale0 + lo, so there's nothing to
-        # even firewall -- structurally unreachable off the tailnet, not just
-        # filtered.
+        # Tailnet-only, same posture as jellyfin/grocy/searxng this session
+        # -- but via `hosts allow`/`hosts deny` (below), not interface
+        # binding. `bind interfaces only` structurally cannot work with
+        # tailscale0: it's a point-to-point tunnel interface with no
+        # broadcast capability, and Samba's interface-binding logic only
+        # considers broadcast-capable interfaces -- smbd silently skips it
+        # and binds only to lo, no error, no crash, just quietly
+        # unreachable, no matter how `interfaces` is specified (name or
+        # CIDR, confirmed both fail the same way). Known Samba limitation,
+        # not a config mistake -- `hosts allow` is the documented fix.
+        # openFirewall stays false regardless: the default-deny firewall
+        # already blocks non-tailnet traffic to 445, this is a second,
+        # application-level layer on top.
         openFirewall = false;
         # nmbd (legacy NetBIOS name broadcast/browsing, "Network
-        # Neighborhood") relies on L2 broadcast, which tailscale0 (a
-        # point-to-point tunnel interface) doesn't support -- it hangs on
-        # startup past the systemd timeout and gets killed. Not needed: the
-        # client mounts by hostname directly (SMB2/3 + DNS), no NetBIOS
-        # involved. winbindd (AD/NT domain NSS integration) is equally
-        # unused here -- local Unix users only.
+        # Neighborhood") relies on L2 broadcast, which tailscale0 doesn't
+        # support either -- it hangs on startup past the systemd timeout
+        # and gets killed. Not needed: the client mounts by hostname
+        # directly (SMB2/3 + DNS), no NetBIOS involved. winbindd (AD/NT
+        # domain NSS integration) is equally unused here -- local Unix
+        # users only.
         nmbd.enable = false;
         winbindd.enable = false;
         settings = {
@@ -51,8 +47,11 @@
             workgroup = "WORKGROUP";
             "server string" = "lingangu";
             "netbios name" = "lingangu";
-            "bind interfaces only" = true;
-            interfaces = "tailscale0 lo";
+            # Tailscale's full CGNAT allocation, plus loopback. "hosts
+            # allow" is checked first and short-circuits to allow on a
+            # match, so this correctly takes priority over "hosts deny".
+            "hosts allow" = "100.64.0.0/10 127.0.0.1";
+            "hosts deny" = "0.0.0.0/0";
           };
           share = {
             path = "/srv/share";
