@@ -43,6 +43,19 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
+    nix-index-database = {
+      url = "github:nix-community/nix-index-database";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
+    # Not following our nixpkgs on purpose: this wraps proprietary,
+    # FHS-sandboxed vendored binaries (Xilinx Vivado), which is exactly the
+    # kind of thing that's sensitive to glibc/library drift. Pin to whatever
+    # nixpkgs upstream actually tested it against.
+    xilinx-nix-utils = {
+      url = "github:DLR-FT/xilinx-nix-utils";
+    };
+
     microvm = {
       url = "github:microvm-nix/microvm.nix";
       inputs.nixpkgs.follows = "nixpkgs";

@@ -16,7 +16,9 @@
         self.nixosModules.amalHardware
 
         self.nixosModules.base
+        self.nixosModules.nix
         self.nixosModules.secrets
+        self.nixosModules.nixIndex
         self.nixosModules.kvm-qemu
 
         self.nixosModules.tailscale
@@ -44,22 +46,9 @@
       # Use latest kernel.
       boot.kernelPackages = pkgs.linuxPackages_latest;
 
-      nix = {
-        settings = {
-          experimental-features = [
-            "nix-command"
-            "flakes"
-          ];
-          max-jobs = 4;
-          cores = 4;
-        };
-
-        gc = {
-          automatic = true;
-          dates = "weekly";
-          options = "--delete-older-than 30d";
-        };
-
+      nix.settings = {
+        max-jobs = 4;
+        cores = 4;
       };
 
       services.logind.settings.Login = {
@@ -113,7 +102,6 @@
         "51-set-priorities" = {
           "monitor.alsa.rules" = [
             {
-              # Rule for your HDMI sink: give it a very low priority
               matches = [
                 { "node.name" = "alsa_output.pci-0000_00_1f.3.hdmi-stereo"; }
               ];
@@ -124,13 +112,11 @@
               };
             }
             {
-              # Rule for your headphone sink: give it a high priority
               matches = [
                 { "node.name" = "alsa_output.pci-0000_00_1f.3.analog-stereo"; }
               ];
               actions = {
                 update-props = {
-                  # Set this higher than the default (usually around 1000)
                   "priority.session" = 2000;
                 };
               };
@@ -149,10 +135,10 @@
         shell = self.packages.${pkgs.system}.environment;
       };
 
-      environment.systemPackages = [
-        pkgs.koboldcpp
-        pkgs.sillytavern
-      ]; # testing this out for WALL-E
+      environment.sessionVariables = {
+        NH_FLAKE = "/home/atb/.config/nixos";
+        NIXD_HOST = "amal";
+      };
 
       services.xserver.videoDrivers = [
         "intel"

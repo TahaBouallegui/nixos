@@ -86,7 +86,7 @@
           threads = 2;
           ctx-size = 131072;
           reasoning-format = "deepseek";
-          port = 8900;
+          port = 8901; # 8900 is searxng's -- was colliding, both are enabled on amal
           temp = 0.6;
           top_p = 0.95;
           top_k = 20;

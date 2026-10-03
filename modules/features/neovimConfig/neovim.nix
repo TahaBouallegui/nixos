@@ -27,7 +27,18 @@
             lz-n
             plenary-nvim
             nvim-lspconfig
-            nvim-treesitter
+            (nvim-treesitter.withPlugins (
+              p: with p; [
+                nix
+                bash
+                fish
+                python
+                java
+                toml
+                yaml
+                json
+              ]
+            ))
 
             #completion
             nvim-web-devicons
@@ -53,6 +64,7 @@
                 fastaction-nvim
                 mini-files
                 codecompanion-nvim
+                which-key-nvim
               ])
               ++ (with pkgs; [
                 nixd
@@ -64,20 +76,36 @@
             #lua
             ''
               vim.lsp.enable("lua_ls")
+
+              -- nixd resolves `./.`  against its own cwd, which the LSP
+              -- client sets to the root it auto-detects from `flake.nix` --
+              -- no hardcoded path, works for any clone of this flake.
+              local nixd_settings = {
+                nixpkgs = {
+                  expr = 'import (builtins.getFlake (toString ./.)).inputs.nixpkgs { }',
+                },
+                formatting = {
+                  command = { "alejandra" },
+                },
+              }
+              -- Per-host NixOS option completion needs to know which
+              -- `nixosConfigurations.<name>` is "this machine" -- that's
+              -- inherently host-specific, so each host opts in by setting
+              -- $NIXD_HOST (see environment.sessionVariables) instead of
+              -- hardcoding a hostname here.
+              local nixd_host = os.getenv("NIXD_HOST")
+              if nixd_host then
+                nixd_settings.options = {
+                  nixos = {
+                    expr = '(builtins.getFlake (toString ./.)).nixosConfigurations.' .. nixd_host .. '.options',
+                  },
+                }
+              end
               vim.lsp.config("nixd", {
-                       cmd = { "nixd" },
-                       settings = {
-                         nixd = {
-                           nixpkgs = {
-                             expr = "import <nixpkgs> { }",
-                           },
-                           formatting = {
-                             command = { "alejandra" },
-                           },
-                         },
-                       },
-                     })
-                     vim.lsp.enable("nixd")
+                cmd = { "nixd" },
+                settings = { nixd = nixd_settings },
+              })
+              vim.lsp.enable("nixd")
               vim.lsp.config("clangd", { cmd = { "clangd" } })
               vim.lsp.enable("clangd")
               vim.lsp.config("pyright", {

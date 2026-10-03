@@ -14,11 +14,15 @@
       self.nixosModules.robotechMachineHardware
 
       self.nixosModules.faker
+      self.nixosModules.nix
+      self.nixosModules.nixIndex
       self.nixosModules.nvidia
+      self.nixosModules.tailscale
       #self.nixosModules.sunshine
       self.nixosModules.remote-desktop
       self.nixosModules.immich
       self.nixosModules.searxng
+      self.nixosModules.jellyfin
 
       self.nixosModules.grocy
 
@@ -28,7 +32,6 @@
     ];
 
     nix.settings = {
-      experimental-features = ["nix-command" "flakes"];
       max-jobs = 4;
       cores = 4;
     };
@@ -45,8 +48,6 @@
 
     # Enable networking
     networking.networkmanager.enable = true;
-
-    services.tailscale.enable = true;
 
     time.timeZone = "Europe/Paris";
     time.hardwareClockInLocalTime = false;
@@ -113,6 +114,7 @@
 
     environment.sessionVariables = {
         TERM= "xterm";
+        NH_FLAKE = "/etc/nixos";
     };
     # List packages installed in system profile. To search, run:
     # $ nix search wget

@@ -43,6 +43,7 @@
           pkgs.alejandra
           pkgs.manix
           pkgs.nix-inspect
+          pkgs.nh
 
           # other
           pkgs.file
@@ -67,7 +68,6 @@
           pkgs.man-pages
           pkgs.btop
           pkgs.tree
-          pkgs.yazi
           pkgs.tldr
           pkgs.pstree
           pkgs.man-pages

@@ -49,7 +49,10 @@ local highlights = {
     DiagnosticHint = { fg = COLORSCHEME.yellow },
     DiagnosticInfo = { fg = COLORSCHEME.yellow },
     DiagnosticWarn = { fg = COLORSCHEME.orange },
-    NormalFloat = { bg = COLORSCHEME.bg },
+    -- kitty only subjects a cell to `background_opacity` when its bg color
+    -- exactly matches kitty's own `background` (COLORSCHEME.bg == kitty's
+    -- base00) -- use a distinct shade so floats render opaque, same as PMenu.
+    NormalFloat = { bg = COLORSCHEME.base01 },
 
     -- Syntax
     Boolean = { fg = COLORSCHEME.base0E },
@@ -90,7 +93,7 @@ local highlights = {
     AlphaButtons = { fg = COLORSCHEME.green },
     AlphaHeader = { fg = COLORSCHEME.yellow },
     BionicReadingHL = { fg = COLORSCHEME.blue },
-    FloatBorder = { fg = COLORSCHEME.blue, bg = COLORSCHEME.bg },
+    FloatBorder = { fg = COLORSCHEME.blue, bg = COLORSCHEME.base01 },
     GitSignsAdd = { fg = COLORSCHEME.green },
     GitSignsChange = { fg = COLORSCHEME.blue },
     GitSignsDelete = { fg = COLORSCHEME.red },

@@ -20,6 +20,7 @@
         self.nixosModules.pkgs-stable
 
         self.nixosModules.base
+        self.nixosModules.nix
 
         self.nixosModules.moonlight
         self.nixosModules.sddm
@@ -42,21 +43,8 @@
         '';
       };
       nix.settings = {
-        #Enabling flakes
-        experimental-features = [
-          "nix-command"
-          "flakes"
-        ];
-
-        # Nix Limit parallel build
         max-jobs = 12;
         cores = 12;
-      };
-
-      nix.gc = {
-        automatic = true;
-        dates = "weekly";
-        options = "--delete-older-than 30d";
       };
 
       # Bootloader.
@@ -133,7 +121,9 @@
 
       #sops.defaultSopsFile = ./secrets.yaml;
 
-      nixpkgs.config.allowUnfree = true;
+      environment.sessionVariables = {
+        NIXD_HOST = "myMachine";
+      };
 
       services.xserver.videoDrivers = [
         "intel"
