@@ -36,7 +36,7 @@
 
     fileSystems."/srv/share" = {
       device = "/dev/disk/by-uuid/53bbbff5-31a8-4dd4-9642-b3e27e7c23f9";
-      type = "ext4";
+      fsType = "ext4";
     };
 
     swapDevices = [
