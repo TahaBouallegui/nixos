@@ -7,9 +7,14 @@
     { config, ... }:
     {
       sops.secrets."samba-share-password" = { };
+      # `domain=` is required here even though the server has no real NT
+      # domain (just workgroup = WORKGROUP) -- its absence is the single
+      # most common cause of mount.cifs rejecting auth that smbclient
+      # accepts fine, since the two tools negotiate differently.
       sops.templates."robotechserver-share-credentials".content = ''
         username=share
         password=${config.sops.placeholder."samba-share-password"}
+        domain=WORKGROUP
       '';
 
       fileSystems."/mnt/robotechserver" = {
@@ -20,6 +25,9 @@
           "uid=1000"
           "gid=100"
           "vers=3.0"
+          # kernel default since 3.8, but the whole point here is this
+          # exact negotiation was failing -- make it explicit.
+          "sec=ntlmssp"
           "_netdev"
           # mount on first access rather than blocking boot on an
           # unreachable tailnet host (e.g. the server being down)
