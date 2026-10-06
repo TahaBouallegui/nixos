@@ -116,38 +116,24 @@ Never `git commit` unless atb explicitly asks.
   shared module, never re-inline `services.tailscale.enable`.
 - Ports currently in use, check before adding a new network service:
   `8900` searxng, `8901` llama-cpp (was `8900`, collided), `2283` immich
-  (`openFirewall = false`, now nginx-fronted — see below), `3389` xrdp
-  (`remote-desktop.nix`, `allowedTCPPorts`), `8099` nextcloud (own
-  dedicated nginx vhost/port, on purpose — see `nextcloud.nix`), `445`
-  samba (bound by `hosts allow`/`hosts deny`, not interface binding — see
-  the wrapper-modules section above for why). `jellyfin.nix` (`8096`/`8920`
-  + `1900`/`7359` UDP) and `grocy.nix` (`80`) exist and build, but are
-  **not currently imported by any host** — see the "not currently
-  imported" comment at the top of each file before reserving those ports
-  for something else, and before assuming either service is actually
-  live on `robotechServer`.
-- **Two nginx vhosts, one port 80.** If/when `grocy.nix` gets re-imported
-  (currently it isn't — see above), it'll be the only vhost bound to port
-  80, hence the implicit `default_server` — any request nginx can't match
-  to a vhost by `Host:` header falls through to it. Adding a second plain
-  `services.nginx.virtualHosts."<name>"` on port 80 (no explicit `listen`)
-  risks nginx picking a *new* default and silently breaking grocy's
-  existing plain-IP/tailscale-hostname access. `nextcloud.nix` sidesteps
-  this by giving its vhost an explicit
-  `listen = [{ addr = "0.0.0.0"; port = 8099; ssl = true; }]` instead of
-  sharing port 80 — do the same for any future nginx-backed service rather
-  than relying on `Host:`-header vhost routing.
-- **Every nginx vhost attribute key must be unique, even for services that
-  share a physical port-based identity rather than real DNS names.**
-  `immich.nix`'s hand-rolled reverse-proxy vhost almost reused the literal
-  tailscale hostname as its `virtualHosts."<key>"` attribute name — but
-  `searxng.nix`'s key *is* forced to that literal string (its `domain`
-  option doubles as the attribute name its own module reads back
-  internally for `base_url` detection), so reusing it merged the two
-  vhosts into one, concatenating their `listen` lists and colliding their
-  `locations."/"` (`uwsgiPass` vs `proxyPass`, a hard assertion failure).
-  Fix: give a hand-rolled vhost its own distinct key (e.g. `"immich"`) and
-  set `serverName` to the real hostname instead of keying by it directly.
+  (`openFirewall = true`), `3389` xrdp (`remote-desktop.nix`,
+  `allowedTCPPorts`), `8096`/`8920` jellyfin + `1900`/`7359` UDP
+  (`openFirewall = false` — tailnet-only, relies on `trustedInterfaces`
+  above, not an open port), `80` grocy (sole/default nginx vhost — see
+  next point), `8099` nextcloud (own dedicated nginx vhost/port, on
+  purpose — see `nextcloud.nix`), `445` samba (bound by `hosts
+  allow`/`hosts deny`, not interface binding — see the wrapper-modules
+  section above for why).
+- **Two nginx vhosts, one port 80.** `grocy.nix` is the only vhost
+  currently bound to port 80, so it's the implicit `default_server` — any
+  request nginx can't match to a vhost by `Host:` header falls through to
+  it. Adding a second plain `services.nginx.virtualHosts."<name>"` on port
+  80 (no explicit `listen`) risks nginx picking a *new* default and
+  silently breaking grocy's existing plain-IP/tailscale-hostname access.
+  `nextcloud.nix` sidesteps this by giving its vhost an explicit
+  `listen = [{ addr = "0.0.0.0"; port = 8099; }]` instead of sharing port
+  80 — do the same for any future nginx-backed service rather than
+  relying on `Host:`-header vhost routing.
 - **A service's own app-level domain allowlist isn't the same as nginx's.**
   Nextcloud rejects requests whose `Host:` header isn't in
   `services.nextcloud.settings.trusted_domains`, independently of whatever
@@ -169,61 +155,12 @@ Never `git commit` unless atb explicitly asks.
   `trustedInterfaces`) unless atb explicitly says it needs to be reachable
   off the tailnet. Don't default to `openFirewall = true` or a raw
   `allowedTCPPorts` entry.
-- `grocy.nix` (not currently imported, see above): `services.grocy.nginx.enableSSL`
-  defaults to `true`, which unconditionally forces `enableACME + forceSSL`
-  on its vhost — set to `false` here on purpose, since
-  `hostName = "grocy.tld"` isn't a real, publicly-resolvable domain and
-  ACME would fail on every activation. It still serves HTTPS (via the
-  shared Tailscale cert below, same as every other service), just not
-  through this option — don't re-enable it.
-- **HTTPS for every self-hosted service uses one shared, real cert**, not
-  per-service ACME or self-signed certs: `modules/features/tailscale-certs.nix`
-  (`self.nixosModules.tailscale-certs`) wraps `tailscale cert` (issues a
-  real, browser-trusted Let's Encrypt cert for the host's own tailnet
-  MagicDNS name — requires "HTTPS Certificates" enabled in the tailnet
-  admin console, an account-level setting this can't express
-  declaratively) with a daily renewal timer, and exposes the resulting
-  paths as `self.tailscaleCert.{certFile,keyFile}` (same cross-module
-  convention as `self.theme`). Every nginx-fronted service points its
-  `sslCertificate`/`sslCertificateKey` at these rather than running its own
-  ACME flow — keeps the port number unchanged, just `http://` → `https://`.
-  Must be imported once per host (`robotechServer` does); a feature module
-  that reads `self.tailscaleCert` without that import evaluates fine but
-  has no renewal timer actually running.
-- **A daily timer alone isn't enough to guarantee a cert exists before
-  nginx needs it.** First hit this for real: on a fresh activation the
-  cert files didn't exist yet (`tailscale-cert-renew.service` had only
-  ever been wired to its timer, next fire hours away), nginx's pre-start
-  config test failed trying to load a nonexistent cert, and nginx hit
-  `start-limit-hit` retrying before the timer got a chance to run.
-  `tailscale-certs.nix` now also gives the renewal service
-  `wantedBy = [ "multi-user.target" ]` (so it runs on every boot/activation,
-  not just daily) and makes `systemd.services.nginx` explicitly
-  `after`/`wants` it — an ordering guarantee, not a timing hope. Any future
-  consumer of `self.tailscaleCert` outside nginx needs the same explicit
-  dependency, not just "the timer will probably have fired by then".
-- **That ordering dependency then caused a real deadlock**, from the
-  renewal script's own `systemctl reload nginx.service` call at the end:
-  with `nginx.service` ordered `After=tailscale-cert-renew.service`, a
-  fresh boot blocks nginx's start on this service finishing — but this
-  service's own script was blocking on a synchronous reload of nginx,
-  which can't finish starting until this service exits. Circular wait,
-  hung forever (not a crash — `systemctl restart nginx` just never
-  returns). Fix: only reload nginx if it's already active
-  (`systemctl is-active --quiet nginx.service && systemctl reload ...`) —
-  the fresh-boot case doesn't need a reload anyway, since nginx picks up
-  the cert on its own first start right after. Any future service wired
-  into this ordering chain needs the same guard, not an unconditional
-  reload/restart call.
-- **Jellyfin has no TLS option in its NixOS module at all** (`jellyfin.nix`
-  is not currently imported, see above) — unlike every other service here,
-  there's no `sslCertificate`-style option to set.
-  Its HTTPS listener is configured at runtime through its own admin
-  dashboard, and it wants a password-protected PKCS#12 (`.pfx`) bundle,
-  not raw PEM files. `jellyfin.nix` rebuilds that bundle from the shared
-  cert automatically (a `systemd.paths` unit watching the key file), but
-  pointing the dashboard at it is a one-time manual step that can't be
-  automated away — see the comment in that file for the exact values.
+- `grocy.nix`: `services.grocy.nginx.enableSSL` defaults to `true`, which
+  unconditionally forces `enableACME + forceSSL` on its vhost — set to
+  `false` here on purpose, since `hostName = "grocy.tld"` isn't a real,
+  publicly-resolvable domain and ACME would fail on every activation. Don't
+  "fix" this by giving it a real `hostName` without checking with atb first;
+  it's deliberately HTTP-only, tailnet-reachable.
 
 ## Wrapper-modules config (yazi, niri, kitty, neovim)
 
