@@ -44,7 +44,7 @@ rather than hardcoded — keeps the feature modules themselves portable.
 |---|---|---|
 | `amal` | `amal` | ThinkPad T480 laptop — niri/Wayland desktop, hybrid Intel/NVIDIA graphics, gaming, local LLM serving |
 | `myMachine` | `nixos` | Desktop tower — niri/Wayland desktop, NVIDIA |
-| `robotechServer` | `lingangu` | Headless server — Immich, Jellyfin, Nextcloud, SearXNG, Grocy, a Samba file share, remote desktop, Tailscale |
+| `robotechServer` | `lingangu` | Headless server — Immich, Nextcloud, SearXNG, a Samba file share, remote desktop, Tailscale |
 
 ## Services (tailnet-only)
 
@@ -55,16 +55,28 @@ ports, see [Firewall & tailscale](./AGENTS.md#firewall--tailscale) in
 
 | Service | Address |
 |---|---|
-| Immich (photos) | http://lingangu.tail5481a4.ts.net:2283 |
-| Jellyfin (media) | http://lingangu.tail5481a4.ts.net:8096 |
-| Nextcloud (files) | http://lingangu.tail5481a4.ts.net:8099 |
-| SearXNG (search) | http://lingangu.tail5481a4.ts.net:8900 |
-| Grocy (inventory) | http://lingangu.tail5481a4.ts.net (plain port 80) |
+| Immich (photos) | https://lingangu.tail5481a4.ts.net:2283 |
+| Nextcloud (files) | https://lingangu.tail5481a4.ts.net:8099 |
+| SearXNG (search) | https://lingangu.tail5481a4.ts.net:8900 |
 | Samba share | `smb://lingangu.tail5481a4.ts.net/share` — declaratively mounted on `amal` at `/mnt/robotechserver` already; use this address to reach it from anywhere else |
 | Remote desktop | RDP to `lingangu.tail5481a4.ts.net:3389` |
 
-All plain `http://`, not `https://` — none of these have TLS configured
-(see `AGENTS.md` for why Grocy specifically has it disabled on purpose).
+Every service above keeps the exact same port it always had — only the
+scheme changed, `http://` → `https://`. Certs are real, browser-trusted ones
+issued by Tailscale itself for `lingangu.tail5481a4.ts.net` (`tailscale
+cert`, auto-renewed daily — see `modules/features/tailscale-certs.nix`), not
+self-signed.
+
+**Jellyfin and Grocy are currently not imported** (commented out in
+`robotechServer/configuration.nix`) — both modules work, but each has a real
+HTTPS wrinkle that isn't resolved yet: Jellyfin's NixOS module has no TLS
+option at all, so enabling HTTPS there needs a one-time manual step in its
+own dashboard rather than anything `nixos-rebuild` can do; Grocy's only port
+is 80, and since `https://` doesn't default to port 80 the way `http://`
+does, reaching it over HTTPS means typing the port explicitly
+(`:80`) — worse than what it had before. See the comment at the top of each
+file (`modules/features/jellyfin.nix`, `modules/features/grocy.nix`) for the
+full explanation; re-import once either is resolved.
 
 ## Notable bits
 
@@ -76,13 +88,13 @@ All plain `http://`, not `https://` — none of these have TLS configured
 - **Secrets**: [sops-nix](https://github.com/Mic92/sops-nix), age-encrypted,
   keyed off existing SSH host/user keys (`ssh-to-age`) rather than separate
   age keypairs — nothing plaintext ever touches the repo or the Nix store.
-- **Self-hosted services** (`robotechServer`): Immich (photos), Jellyfin
-  (media), Nextcloud (files), SearXNG (meta-search), Grocy (household
-  inventory), and a Samba share (`/srv/share`) mounted declaratively on
-  `amal` at `/mnt/robotechserver`. All of it is tailnet-only by default —
-  no raw ports opened to the WAN, reachability comes from Tailscale's
-  `trustedInterfaces`, not a firewall allow-list. See
-  [Services](#services-tailnet-only) above for the actual addresses.
+- **Self-hosted services** (`robotechServer`): Immich (photos), Nextcloud
+  (files), SearXNG (meta-search), and a Samba share (`/srv/share`) mounted
+  declaratively on `amal` at `/mnt/robotechserver`. Jellyfin and Grocy are
+  written but not currently imported — see
+  [Services](#services-tailnet-only) above for why. All of it is
+  tailnet-only by default — no raw ports opened to the WAN, reachability
+  comes from Tailscale's `trustedInterfaces`, not a firewall allow-list.
 - **Instant shell lookups**: [`nix-index-database`](https://github.com/nix-community/nix-index-database)
   backs `,`/`comma` (`, cowsay hello` runs anything in nixpkgs ephemerally)
   and `nix-locate` with a weekly-updated prebuilt index — no local database
