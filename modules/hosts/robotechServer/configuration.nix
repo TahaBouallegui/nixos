@@ -20,9 +20,9 @@
       self.nixosModules.tailscale
       #self.nixosModules.sunshine
       self.nixosModules.remote-desktop
-      self.nixosModules.immich
+      #self.nixosModules.immich
       self.nixosModules.searxng
-      self.nixosModules.jellyfin
+      #self.nixosModules.jellyfin
       self.nixosModules.samba
       self.nixosModules.nextcloud
 
