@@ -30,6 +30,12 @@ in
         description = "Renew the Tailscale-issued TLS cert for this host";
         after = [ "tailscaled.service" ];
         wants = [ "tailscaled.service" ];
+        # Also runs on every boot/activation (not just the daily timer
+        # below) -- without this, a fresh machine/first activation has no
+        # cert file yet, nginx's pre-start config test fails trying to
+        # load a cert that doesn't exist, and nginx hits start-limit-hit
+        # retrying before the timer ever gets a chance to fire.
+        wantedBy = [ "multi-user.target" ];
         serviceConfig.Type = "oneshot";
         script = ''
           ${pkgs.tailscale}/bin/tailscale cert \
@@ -50,6 +56,14 @@ in
           Persistent = true;
           RandomizedDelaySec = "1h";
         };
+      };
+
+      # Every nginx-fronted service here depends on the cert existing
+      # before nginx's pre-start config test runs -- an explicit ordering
+      # dependency, not just "the timer will probably have fired by now".
+      systemd.services.nginx = {
+        after = [ "tailscale-cert-renew.service" ];
+        wants = [ "tailscale-cert-renew.service" ];
       };
     };
 }

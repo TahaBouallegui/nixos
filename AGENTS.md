@@ -190,6 +190,18 @@ Never `git commit` unless atb explicitly asks.
   Must be imported once per host (`robotechServer` does); a feature module
   that reads `self.tailscaleCert` without that import evaluates fine but
   has no renewal timer actually running.
+- **A daily timer alone isn't enough to guarantee a cert exists before
+  nginx needs it.** First hit this for real: on a fresh activation the
+  cert files didn't exist yet (`tailscale-cert-renew.service` had only
+  ever been wired to its timer, next fire hours away), nginx's pre-start
+  config test failed trying to load a nonexistent cert, and nginx hit
+  `start-limit-hit` retrying before the timer got a chance to run.
+  `tailscale-certs.nix` now also gives the renewal service
+  `wantedBy = [ "multi-user.target" ]` (so it runs on every boot/activation,
+  not just daily) and makes `systemd.services.nginx` explicitly
+  `after`/`wants` it — an ordering guarantee, not a timing hope. Any future
+  consumer of `self.tailscaleCert` outside nginx needs the same explicit
+  dependency, not just "the timer will probably have fired by then".
 - **Jellyfin has no TLS option in its NixOS module at all** (`jellyfin.nix`
   is not currently imported, see above) — unlike every other service here,
   there's no `sslCertificate`-style option to set.
