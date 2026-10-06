@@ -202,6 +202,19 @@ Never `git commit` unless atb explicitly asks.
   `after`/`wants` it — an ordering guarantee, not a timing hope. Any future
   consumer of `self.tailscaleCert` outside nginx needs the same explicit
   dependency, not just "the timer will probably have fired by then".
+- **That ordering dependency then caused a real deadlock**, from the
+  renewal script's own `systemctl reload nginx.service` call at the end:
+  with `nginx.service` ordered `After=tailscale-cert-renew.service`, a
+  fresh boot blocks nginx's start on this service finishing — but this
+  service's own script was blocking on a synchronous reload of nginx,
+  which can't finish starting until this service exits. Circular wait,
+  hung forever (not a crash — `systemctl restart nginx` just never
+  returns). Fix: only reload nginx if it's already active
+  (`systemctl is-active --quiet nginx.service && systemctl reload ...`) —
+  the fresh-boot case doesn't need a reload anyway, since nginx picks up
+  the cert on its own first start right after. Any future service wired
+  into this ordering chain needs the same guard, not an unconditional
+  reload/restart call.
 - **Jellyfin has no TLS option in its NixOS module at all** (`jellyfin.nix`
   is not currently imported, see above) — unlike every other service here,
   there's no `sslCertificate`-style option to set.

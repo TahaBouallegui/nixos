@@ -44,7 +44,17 @@ in
             ${tailscaleHostname}
           chmod 640 ${certDir}/${tailscaleHostname}.key
           chown root:${config.services.nginx.group} ${certDir}/${tailscaleHostname}.key
-          systemctl reload nginx.service || true
+
+          # Only reload if nginx is already up (the periodic daily-renewal
+          # case) -- on a fresh boot/activation, nginx.service is ordered
+          # *after* this service and hasn't started yet, so a blocking
+          # `systemctl reload nginx.service` here would wait forever for a
+          # unit that can't finish starting until this very script returns:
+          # a deadlock. Skipping it in that case is fine -- nginx picks up
+          # the fresh cert on its own first start right after this exits.
+          if systemctl is-active --quiet nginx.service; then
+            systemctl reload nginx.service || true
+          fi
         '';
       };
 
