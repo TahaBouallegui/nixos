@@ -119,7 +119,37 @@ Never `git commit` unless atb explicitly asks.
   (`openFirewall = true`), `3389` xrdp (`remote-desktop.nix`,
   `allowedTCPPorts`), `8096`/`8920` jellyfin + `1900`/`7359` UDP
   (`openFirewall = false` — tailnet-only, relies on `trustedInterfaces`
-  above, not an open port).
+  above, not an open port), `80` grocy (sole/default nginx vhost — see
+  next point), `8099` nextcloud (own dedicated nginx vhost/port, on
+  purpose — see `nextcloud.nix`), `445` samba (bound by `hosts
+  allow`/`hosts deny`, not interface binding — see the wrapper-modules
+  section above for why).
+- **Two nginx vhosts, one port 80.** `grocy.nix` is the only vhost
+  currently bound to port 80, so it's the implicit `default_server` — any
+  request nginx can't match to a vhost by `Host:` header falls through to
+  it. Adding a second plain `services.nginx.virtualHosts."<name>"` on port
+  80 (no explicit `listen`) risks nginx picking a *new* default and
+  silently breaking grocy's existing plain-IP/tailscale-hostname access.
+  `nextcloud.nix` sidesteps this by giving its vhost an explicit
+  `listen = [{ addr = "0.0.0.0"; port = 8099; }]` instead of sharing port
+  80 — do the same for any future nginx-backed service rather than
+  relying on `Host:`-header vhost routing.
+- **A service's own app-level domain allowlist isn't the same as nginx's.**
+  Nextcloud rejects requests whose `Host:` header isn't in
+  `services.nextcloud.settings.trusted_domains`, independently of whatever
+  nginx already let through — accessed by tailscale hostname/IP rather
+  than the vhost's own `hostName`, so both need to be listed there
+  explicitly, same idea as `grocy.tld` needing a vhost `hostName` that
+  doesn't have to be a real domain.
+- **Don't assume a module option defaults to `null` just because leaving
+  it unset "feels like" disabling something.** `services.nextcloud.config.adminuser`
+  defaults to `"root"`, not `null` — omitting it (relying on an assumed
+  default) left `adminpassFile = null` paired with a non-null `adminuser`,
+  which fails a real assertion (`eval` catches it, but only once you
+  actually ask for `system.build.toplevel`, not on a narrower option
+  eval). To actually disable a module's automatic setup path, check what
+  the "off" state really requires — here, setting *both* `adminuser` and
+  `adminpassFile` to `null` explicitly.
 - Default posture for a new self-hosted service: **tailnet-only**
   (`openFirewall = false` or no firewall rule at all, reachable only via
   `trustedInterfaces`) unless atb explicitly says it needs to be reachable

@@ -1,6 +1,6 @@
 # nixos
 
-Mypersonal NixOS configuration — a single flake covering three machines,
+My personal NixOS configuration — a single flake covering three machines,
 built with [flake-parts](https://flake.parts/) and auto-discovery of modules
 instead of hand-maintained import lists.
 
@@ -16,7 +16,8 @@ drop a file in, it's live, nothing to register by hand (via
 
 - **`modules/base/`** — shared plumbing: `base` (shared option surface),
   `pkgs-stable` (pins an `nixpkgs-stable` instance alongside unstable),
-  `secrets` (sops-nix wiring).
+  `secrets` (sops-nix wiring), `nix` (experimental features, GC, unfree —
+  every host wants this, so it's base rather than an opt-in feature).
 - **`modules/features/`** — host-agnostic, drop-in capabilities. Each file
   exports exactly one `flake.nixosModules.<name>`: desktop environment,
   gaming, nvidia, tailscale, searxng, a Minecraft server, a full Neovim
@@ -32,6 +33,10 @@ it in that host's `configuration.nix` — never editing another host's config.
 Cross-cutting state (theme colors, a which-key launcher, wrapped packages)
 flows through `flake.*` outputs (`self.theme`, `self.wrappersModules`,
 `self.mkWhichKeyExe`, `self.packages`) rather than NixOS module-arg plumbing.
+Host-specific values that a shared feature module needs (which machine's
+`nixosConfigurations.<name>.options` to expose to `nixd`, where the flake
+actually lives) are read from per-host env vars (`$NIXD_HOST`, `$NH_FLAKE`)
+rather than hardcoded — keeps the feature modules themselves portable.
 
 ## Hosts
 
@@ -39,20 +44,49 @@ flows through `flake.*` outputs (`self.theme`, `self.wrappersModules`,
 |---|---|---|
 | `amal` | `amal` | ThinkPad T480 laptop — niri/Wayland desktop, hybrid Intel/NVIDIA graphics, gaming, local LLM serving |
 | `myMachine` | `nixos` | Desktop tower — niri/Wayland desktop, NVIDIA |
-| `robotechServer` | `lingangu` | Headless server — Immich, SearXNG, Grocy, remote desktop, Tailscale |
+| `robotechServer` | `lingangu` | Headless server — Immich, Jellyfin, Nextcloud, SearXNG, Grocy, a Samba file share, remote desktop, Tailscale |
+
+## Services (tailnet-only)
+
+Everything below is reachable only from devices on the tailnet — no public
+ports, see [Firewall & tailscale](./AGENTS.md#firewall--tailscale) in
+`AGENTS.md` for how that's enforced. `lingangu.tail5481a4.ts.net` and
+`100.68.187.8` are interchangeable (MagicDNS vs. raw tailscale IP).
+
+| Service | Address |
+|---|---|
+| Immich (photos) | http://lingangu.tail5481a4.ts.net:2283 |
+| Jellyfin (media) | http://lingangu.tail5481a4.ts.net:8096 |
+| Nextcloud (files) | http://lingangu.tail5481a4.ts.net:8099 |
+| SearXNG (search) | http://lingangu.tail5481a4.ts.net:8900 |
+| Grocy (inventory) | http://lingangu.tail5481a4.ts.net (plain port 80) |
+| Samba share | `smb://lingangu.tail5481a4.ts.net/share` — declaratively mounted on `amal` at `/mnt/robotechserver` already; use this address to reach it from anywhere else |
+| Remote desktop | RDP to `lingangu.tail5481a4.ts.net:3389` |
+
+All plain `http://`, not `https://` — none of these have TLS configured
+(see `AGENTS.md` for why Grocy specifically has it disabled on purpose).
 
 ## Notable bits
 
 - **Desktop**: [niri](https://github.com/YaLTeR/niri) (scrolling-tile Wayland
   compositor) + [noctalia-shell](https://github.com/noctalia-dev/noctalia-shell),
-  kitty, a from-scratch Neovim config (own colorscheme, LSP setup, and even a
-  custom tree-sitter grammar under `neovimConfig/vjxl-ts/`).
+  kitty, a from-scratch Neovim config (own colorscheme, `which-key.nvim`,
+  flake-aware `nixd` completion, and even a custom tree-sitter grammar under
+  `neovimConfig/vjxl-ts/`).
 - **Secrets**: [sops-nix](https://github.com/Mic92/sops-nix), age-encrypted,
   keyed off existing SSH host/user keys (`ssh-to-age`) rather than separate
   age keypairs — nothing plaintext ever touches the repo or the Nix store.
-- **Self-hosted services** (`robotechServer`): Immich (photos), SearXNG
-  (meta-search), Grocy (household inventory), plus a Minecraft server managed
-  with `mcman`.
+- **Self-hosted services** (`robotechServer`): Immich (photos), Jellyfin
+  (media), Nextcloud (files), SearXNG (meta-search), Grocy (household
+  inventory), and a Samba share (`/srv/share`) mounted declaratively on
+  `amal` at `/mnt/robotechserver`. All of it is tailnet-only by default —
+  no raw ports opened to the WAN, reachability comes from Tailscale's
+  `trustedInterfaces`, not a firewall allow-list. See
+  [Services](#services-tailnet-only) above for the actual addresses.
+- **Instant shell lookups**: [`nix-index-database`](https://github.com/nix-community/nix-index-database)
+  backs `,`/`comma` (`, cowsay hello` runs anything in nixpkgs ephemerally)
+  and `nix-locate` with a weekly-updated prebuilt index — no local database
+  build required.
 - **Local LLM serving** (`amal`): `llama.cpp` (ik_llama.cpp fork, built with
   all-CPU-variant kernels) wired into a chat UI via
   [dsh](https://github.com/moraxyc/deepseek-harness.nix).
