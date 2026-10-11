@@ -60,38 +60,42 @@
       };
 
       environment.systemPackages = [
-        #(inputs.ik-llama.packages.${pkgs.system}.default.overrideAttrs (old: {
-        #  cmakeFlags = old.cmakeFlags ++ [
-        #    "-DGGML_CPU_ALL_VARIANTS=ON"
-        #    "-DGGML_BACKEND_DL=ON"
-        #  ];
-        #}))
+        pkgs.llama-cpp
         pkgs.mcp-nixos
+        pkgs.chromium
+        pkgs.jq
+        pkgs.poppler-utils
+        pkgs.librsvg
+        pkgs.sqlite
+        pkgs.pkg-config
+        pkgs.gnumake
+        pkgs.parallel
+        pkgs.dnsutils
+        pkgs.pciutils
+        pkgs.lsof
+        pkgs.bat
+        pkgs.nix-tree
+        pkgs.nodejs
+        pkgs.python3
       ];
 
       services.llama-cpp = {
-        package =
-          (inputs.ik-llama.packages.${pkgs.stdenv.hostPlatform.system}.default).overrideAttrs
-            (old: {
-              cmakeFlags = old.cmakeFlags ++ [
-                "-DGGML_CPU_ALL_VARIANTS=ON"
-                "-DGGML_BACKEND_DL=ON"
-              ];
-            });
+        package = pkgs.llama-cpp;
         enable = false;
         settings = {
-          hf-repo = "0xKitkat/Ornith-1.5-35B-A3B-Uncensored-GGUF";
-          hf-file = "Ornith-1.5-35B-Uncensored-Q4_K_M.gguf";
+          hf-repo = "0xKitkat/Ornith-1.5-35B-A3B-Uncensored-GGUF:Q4_K_M";
           jinja = "";
-          threads = 2;
+          threads = 6;
+          threads-batch = 8;
           ctx-size = 131072;
           reasoning-format = "deepseek";
-          port = 8901; # 8900 is searxng's -- was colliding, both are enabled on amal
+          port = 8901;
           temp = 0.6;
           top_p = 0.95;
           top_k = 20;
           batch-size = 4096;
           ubatch-size = 512;
+          flash-attn = "on";
         };
       };
     };

@@ -12,6 +12,7 @@ result-*
 # mcman: Exclude local dotenv files
 **/.env
 
+.claude
 
 
 
