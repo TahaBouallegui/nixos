@@ -1,5 +1,9 @@
 { inputs, self, ... }:
 {
+  # Carried over from the deleted wallpaper module — only sddm consumes them.
+  flake.lockscreen = ./sddm.mp4;
+  flake.headerColor = "#FFFFFF";
+
   flake.nixosModules.sddm = {pkgs, ...}: let
     customized_sddm_astronaut = pkgs.sddm-astronaut.override {
       embeddedTheme = "pixel_sakura"; # The name of the theme you most loved

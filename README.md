@@ -22,7 +22,7 @@ drop a file in, it's live, nothing to register by hand (via
   exports exactly one `flake.nixosModules.<name>`: desktop environment,
   gaming, nvidia, tailscale, searxng, a Minecraft server, a full Neovim
   config, and so on. A feature may carry data files next to its `.nix`
-  (wallpapers, server configs, Lua plugin specs).
+  (login backgrounds, server configs, Lua plugin specs).
 - **`modules/hosts/<Name>/`** — one directory per machine. `default.nix`
   declares the `nixosConfiguration`, `configuration.nix` composes features
   via `imports = [ self.nixosModules.<feature> ... ]`, `hardware.nix` is the
