@@ -16,6 +16,7 @@
         self.nixosModules.flatpak
         self.nixosModules.librewolf
         #self.nixosModules.zen-browser
+        self.nixosModules.noctalia
 
         self.nixosModules.pkgs-stable
       ];
@@ -23,24 +24,17 @@
       programs.niri.enable = true;
       programs.niri.package = selfpkgs.desktop;
 
-      preferences.autostart = [ selfpkgs.noctalia-shell ];
-
+      # noctalia itself arrives via self.nixosModules.noctalia
+      # (programs.noctalia.package) and is started by niri's spawn-at-startup.
       environment.systemPackages = [
         selfpkgs.terminal
-        pkgs.pcmanfm
-        selfpkgs.noctalia-shell
         pkgs.libreoffice
         pkgs.heroic
         pkgs.proton-vpn 
         pkgs.prusa-slicer
         pkgs.orca-slicer
-        pkgs.cutter
-        pkgs.twitch-hls-client
         pkgs.mpv
-        pkgs.qbittorrent
-        pkgs.eden
         pkgs.burpsuite
-        pkgs.remmina
         pkgs.kicad
         pkgs.tutanota-desktop
         pkgs.pdfarranger

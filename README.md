@@ -44,7 +44,7 @@ rather than hardcoded — keeps the feature modules themselves portable.
 |---|---|---|
 | `amal` | `amal` | ThinkPad T480 laptop — niri/Wayland desktop, hybrid Intel/NVIDIA graphics, gaming, local LLM serving |
 | `myMachine` | `nixos` | Desktop tower — niri/Wayland desktop, NVIDIA |
-| `robotechServer` | `lingangu` | Headless server — Immich, Jellyfin, Nextcloud, SearXNG, Grocy, a Samba file share, remote desktop, Tailscale |
+| `robotechServer` | `lingangu` | Headless server — Immich, Jellyfin, SearXNG, a Samba file share, remote desktop, Tailscale |
 
 ## Services (tailnet-only)
 
@@ -57,19 +57,16 @@ ports, see [Firewall & tailscale](./AGENTS.md#firewall--tailscale) in
 |---|---|
 | Immich (photos) | http://lingangu.tail5481a4.ts.net:2283 |
 | Jellyfin (media) | http://lingangu.tail5481a4.ts.net:8096 |
-| Nextcloud (files) | http://lingangu.tail5481a4.ts.net:8099 |
 | SearXNG (search) | http://lingangu.tail5481a4.ts.net:8900 |
-| Grocy (inventory) | http://lingangu.tail5481a4.ts.net (plain port 80) |
 | Samba share | `smb://lingangu.tail5481a4.ts.net/share` — declaratively mounted on `amal` at `/mnt/robotechserver` already; use this address to reach it from anywhere else |
 | Remote desktop | RDP to `lingangu.tail5481a4.ts.net:3389` |
 
-All plain `http://`, not `https://` — none of these have TLS configured
-(see `AGENTS.md` for why Grocy specifically has it disabled on purpose).
+All plain `http://`, not `https://` — none of these have TLS configured.
 
 ## Notable bits
 
 - **Desktop**: [niri](https://github.com/YaLTeR/niri) (scrolling-tile Wayland
-  compositor) + [noctalia-shell](https://github.com/noctalia-dev/noctalia-shell),
+  compositor) + [noctalia](https://github.com/noctalia-dev/noctalia) v5,
   kitty, a from-scratch Neovim config (own colorscheme, `which-key.nvim`,
   flake-aware `nixd` completion, and even a custom tree-sitter grammar under
   `neovimConfig/vjxl-ts/`).
@@ -77,12 +74,11 @@ All plain `http://`, not `https://` — none of these have TLS configured
   keyed off existing SSH host/user keys (`ssh-to-age`) rather than separate
   age keypairs — nothing plaintext ever touches the repo or the Nix store.
 - **Self-hosted services** (`robotechServer`): Immich (photos), Jellyfin
-  (media), Nextcloud (files), SearXNG (meta-search), Grocy (household
-  inventory), and a Samba share (`/srv/share`) mounted declaratively on
-  `amal` at `/mnt/robotechserver`. All of it is tailnet-only by default —
-  no raw ports opened to the WAN, reachability comes from Tailscale's
-  `trustedInterfaces`, not a firewall allow-list. See
-  [Services](#services-tailnet-only) above for the actual addresses.
+  (media), SearXNG (meta-search), and a Samba share (`/srv/share`)
+  mounted declaratively on `amal` at `/mnt/robotechserver`. All of it is
+  tailnet-only by default — no raw ports opened to the WAN, reachability
+  comes from Tailscale's `trustedInterfaces`, not a firewall allow-list.
+  See [Services](#services-tailnet-only) above for the actual addresses.
 - **Instant shell lookups**: [`nix-index-database`](https://github.com/nix-community/nix-index-database)
   backs `,`/`comma` (`, cowsay hello` runs anything in nixpkgs ephemerally)
   and `nix-locate` with a weekly-updated prebuilt index — no local database

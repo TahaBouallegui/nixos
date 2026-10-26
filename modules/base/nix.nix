@@ -13,6 +13,17 @@
         "flakes"
       ];
 
+      # deepseek-harness (dsh) prebuilt binaries. Upstream publishes them to
+      # its own cachix and declares it in that flake's nixConfig -- but nix
+      # ignores an input's nixConfig entirely (only the flake given on the
+      # command line is read, and even that only for trusted users). The
+      # system nix.conf below is the one copy that works for every user and
+      # for nixos-rebuild.
+      nix.settings.extra-substituters = [ "https://deepseek-harness-nix.cachix.org" ];
+      nix.settings.extra-trusted-public-keys = [
+        "deepseek-harness-nix.cachix.org-1:5NrkwLN9veNMhiINtU5ZeV4isXFhFsOwn6Ms7J1M+TA="
+      ];
+
       nix.gc = {
         automatic = true;
         dates = "weekly";

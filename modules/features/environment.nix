@@ -74,7 +74,6 @@
           pkgs.man-pages-posix
           pkgs.wl-clipboard
           pkgs.opencode
-          pkgs.mtkclient
           pkgs.wine
 
           # wrapped

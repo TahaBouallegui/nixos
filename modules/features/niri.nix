@@ -20,7 +20,7 @@
       config = {
         settings =
           let
-            noctaliaExe = lib.getExe self.packages.${config.pkgs.stdenv.hostPlatform.system}.noctalia-shell;
+            noctaliaExe = lib.getExe config.pkgs.noctalia;
           in
           {
             window-rules = [
@@ -44,10 +44,22 @@
               {
                 draw-border-with-background = false;
               }
+              # Noctalia's Settings window looks best floating, per upstream niri docs.
+              {
+                matches = [ { app-id = "dev.noctalia.Noctalia"; } ];
+                open-floating = true;
+                default-column-width = {
+                  fixed = 1080;
+                };
+                default-window-height = {
+                  fixed = 920;
+                };
+              }
             ];
             layer-rules = [
+              # Noctalia v5 wallpaper backdrop (needs [niri/backdrop] enabled in its Settings).
               {
-                matches = [ { namespace = "^noctalia-overview"; } ];
+                matches = [ { namespace = "^noctalia-backdrop"; } ];
                 place-within-backdrop = true;
               }
             ];
@@ -81,6 +93,11 @@
             };
 
             prefer-no-csd = _: { };
+
+            # Needed for Noctalia notification actions / window activation (upstream niri docs).
+            debug = _: {
+              honor-xdg-activation-with-invalid-serial = true;
+            };
 
             input = {
               focus-follows-mouse = _: { };
@@ -150,15 +167,15 @@
               "Mod+Shift+9".move-column-to-workspace = "w8";
               "Mod+Shift+0".move-column-to-workspace = "w9";
 
-              "Mod+S".spawn-sh = "${noctaliaExe} ipc call launcher toggle";
+              "Mod+S".spawn-sh = "${noctaliaExe} msg panel-toggle launcher";
               "XF86AudioMicMute".spawn-sh = "${config.pkgs.alsa-utils}/bin/amixer sset Capture toggle";
-              "XF86AudioMute".spawn-sh = "${noctaliaExe} ipc call volume muteOutput";
-              "XF86AudioRaiseVolume".spawn-sh = "${noctaliaExe} ipc call volume increase";
-              "XF86AudioLowerVolume".spawn-sh = "${noctaliaExe} ipc call volume decrease";
-              "XF86MonBrightnessDown".spawn-sh = "${noctaliaExe} ipc call brightness decrease";
-              "XF86MonBrightnessUp".spawn-sh = "${noctaliaExe} ipc call brightness increase";
+              "XF86AudioMute".spawn-sh = "${noctaliaExe} msg volume-mute";
+              "XF86AudioRaiseVolume".spawn-sh = "${noctaliaExe} msg volume-up";
+              "XF86AudioLowerVolume".spawn-sh = "${noctaliaExe} msg volume-down";
+              "XF86MonBrightnessDown".spawn-sh = "${noctaliaExe} msg brightness-down";
+              "XF86MonBrightnessUp".spawn-sh = "${noctaliaExe} msg brightness-up";
 
-              "Ctrl+Alt+Delete".spawn-sh = "${noctaliaExe} ipc call sessionMenu toggle";
+              "Ctrl+Alt+Delete".spawn-sh = "${noctaliaExe} msg panel-toggle session";
 
               "Mod+Ctrl+H".set-column-width = "-5%";
               "Mod+Ctrl+L".set-column-width = "+5%";
@@ -191,13 +208,13 @@
               "Mod+G".spawn-sh = self.mkWhichKeyExe config.pkgs [
                 {
                   key = "b";
-                  desc = "Bluetooth";
-                  cmd = "${noctaliaExe} ipc call bluetooth togglePanel";
+                  desc = "Bluetooth radio toggle";
+                  cmd = "${noctaliaExe} msg bluetooth-toggle";
                 }
                 {
                   key = "w";
-                  desc = "Wifi";
-                  cmd = "${noctaliaExe} ipc call wifi togglePanel";
+                  desc = "Control center (network tab)";
+                  cmd = "${noctaliaExe} msg panel-toggle control-center network";
                 }
                 {
                   key = "l";

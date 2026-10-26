@@ -24,9 +24,6 @@
       self.nixosModules.searxng
       #self.nixosModules.jellyfin
       self.nixosModules.samba
-      self.nixosModules.nextcloud
-
-      self.nixosModules.grocy
 
       #self.nixosModules.minecraft
 

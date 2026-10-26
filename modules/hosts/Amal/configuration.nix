@@ -17,6 +17,7 @@
 
         self.nixosModules.base
         self.nixosModules.nix
+        self.nixosModules.remote-builds
         self.nixosModules.secrets
         self.nixosModules.nixIndex
         self.nixosModules.kvm-qemu
@@ -25,6 +26,7 @@
         self.nixosModules.tailscale
         self.nixosModules.nvidia
         self.nixosModules.ai
+        self.nixosModules.dsh
 
         self.nixosModules.moonlight
         self.nixosModules.sddm

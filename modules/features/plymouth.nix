@@ -8,9 +8,9 @@
           enable = true;
         };
 
-        # Enable "Silent boot"
+        # Enable "Silent boot" (boot.initrd.verbose dropped: scripted stage 1
+        # was removed in nixpkgs 26.11)
         consoleLogLevel = 3;
-        initrd.verbose = false;
         kernelParams = [
           "quiet"
           "rd.udev.log_level=3"

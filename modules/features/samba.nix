@@ -19,7 +19,7 @@
 
       services.samba = {
         enable = true;
-        # Tailnet-only, same posture as jellyfin/grocy/searxng this session
+        # Tailnet-only, same posture as jellyfin/searxng this session
         # -- but via `hosts allow`/`hosts deny` (below), not interface
         # binding. `bind interfaces only` structurally cannot work with
         # tailscale0: it's a point-to-point tunnel interface with no

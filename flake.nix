@@ -24,11 +24,6 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    zen-browser = {
-      url = "github:youwen5/zen-browser-flake";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
-
     flatpak = {
       url = "github:in-a-dil-emma/declarative-flatpak/latest";
     };
@@ -67,7 +62,6 @@
     };
     deepseek-harness = {
       url = "github:moraxyc/deepseek-harness.nix";
-      inputs.nixpkgs.follows = "nixpkgs-stable";
     };
   };
 
