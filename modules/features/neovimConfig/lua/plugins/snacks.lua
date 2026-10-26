@@ -32,6 +32,7 @@ return {
             statuscolumn = { enabled = false },
             words = { enabled = true },
             image = {},
+            lazygit = { enabled = true },
             quickfile = { enabled = true },
         })
     end,
@@ -42,5 +43,6 @@ return {
         { "<leader>fg", function() Snacks.picker.grep() end,                         desc = "grep" },
         { "gr",         function() Snacks.picker.lsp_references() end,               nowait = true,             desc = "References" },
         { "gd",         function() Snacks.picker.lsp_definitions() end,              desc = "Goto Definition" },
+        { "<leader>gg", function() Snacks.lazygit() end,                             desc = "LazyGit" },
     }
 }
