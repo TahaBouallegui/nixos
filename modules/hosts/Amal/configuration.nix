@@ -34,6 +34,7 @@
         self.nixosModules.gaming
         self.nixosModules.searxng
         self.nixosModules.secretspec
+        self.nixosModules.league
 
         inputs.nixos-hardware.nixosModules.lenovo-thinkpad-t480
       ];

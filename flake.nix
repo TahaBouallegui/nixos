@@ -8,10 +8,6 @@
       inputs.nixpkgs-lib.follows = "nixpkgs";
     };
     import-tree.url = "github:vic/import-tree";
-    home-manager = {
-      url = "github:nix-community/home-manager";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
 
     sops-nix = {
       url = "github:Mic92/sops-nix";
@@ -47,9 +43,8 @@
     # FHS-sandboxed vendored binaries (Xilinx Vivado), which is exactly the
     # kind of thing that's sensitive to glibc/library drift. Pin to whatever
     # nixpkgs upstream actually tested it against.
-    xilinx-nix-utils = {
-      url = "github:DLR-FT/xilinx-nix-utils";
-    };
+    xilinx-nix-utils.url = "github:DLR-FT/xilinx-nix-utils";
+    darling-lol.url = "github:lucannez64/darling-lol";
 
     microvm = {
       url = "github:microvm-nix/microvm.nix";
@@ -59,10 +54,6 @@
     pineconemc = {
       url = "github:ElyPrismLauncher/Launcher";
       inputs.nixpkgs.follows = "nixpkgs";
-    };
-    spicetify-nix.url = "github:Gerg-L/spicetify-nix";
-    deepseek-harness = {
-      url = "github:moraxyc/deepseek-harness.nix";
     };
   };
 

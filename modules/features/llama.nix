@@ -21,6 +21,11 @@
         pkgs.nodejs
         pkgs.python3
         pkgs.deepseek-harness
+        # pkgs.deepseek-harness does not declare a runtime dependency on
+        # bubblewrap, and the Nix build of its sandbox platform package omits
+        # bin/landlock-run, so the harness sandbox would have no usable Linux
+        # runner (SANDBOX_UNAVAILABLE on every confined tool call).
+        pkgs.bubblewrap
       ];
 
       services.llama-cpp = {
