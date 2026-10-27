@@ -60,6 +60,7 @@
       url = "github:ElyPrismLauncher/Launcher";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    spicetify-nix.url = "github:Gerg-L/spicetify-nix";
     deepseek-harness = {
       url = "github:moraxyc/deepseek-harness.nix";
     };
