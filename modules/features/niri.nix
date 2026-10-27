@@ -28,22 +28,6 @@
                 geometry-corner-radius = 8;
                 clip-to-geometry = true;
               }
-              {
-                matches = [ { is-active = false; } ];
-                opacity = 0.98;
-                background-effect = {
-                  blur = true;
-                };
-              }
-              {
-                matches = [ { app-id = "zen"; } ];
-                background-effect = {
-                  blur = true;
-                };
-              }
-              {
-                draw-border-with-background = false;
-              }
               # Noctalia's Settings window looks best floating, per upstream niri docs.
               {
                 matches = [ { app-id = "dev.noctalia.Noctalia"; } ];

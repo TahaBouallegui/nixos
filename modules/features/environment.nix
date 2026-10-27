@@ -19,6 +19,7 @@
         terminal = lib.getExe self'.packages.terminal;
         env = {
           EDITOR = lib.getExe self'.packages.neovim;
+
           NIXPKGS_ALLOW_UNFREE = "1";
         };
       };
@@ -30,6 +31,20 @@
           imports = [ self.wrappersModules.kitty ];
           shell = lib.getExe self'.packages.environment;
         }).wrapper;
+
+      # bat/btop themed from the flake palette (modules/features/theme.nix)
+      # -- wrapper bakes BAT_CONFIG_PATH / --config --themes-dir into the
+      # executables, so the theme can't drift via user config dirs.
+      packages.bat =
+        (inputs.wrappers.wrapperModules.bat.apply {
+          inherit pkgs;
+          imports = [ self.wrappersModules.bat ];
+        }).wrapper;
+
+      packages.btop = inputs.wrapper-modules.wrappers.btop.wrap {
+        inherit pkgs;
+        imports = [ self.wrappersModules.btop ];
+      };
 
       # My primary flake shell with all of it's packages
       packages.environment = inputs.wrappers.lib.wrapPackage {
@@ -66,7 +81,6 @@
           pkgs.yt-dlp
           pkgs.lazygit
           pkgs.man-pages
-          pkgs.btop
           pkgs.tree
           pkgs.tldr
           pkgs.pstree
@@ -81,6 +95,8 @@
           self'.packages.qalc
           self'.packages.git
           self'.packages.yazi
+          self'.packages.bat
+          self'.packages.btop
         ];
       };
     };

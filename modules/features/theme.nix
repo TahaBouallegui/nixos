@@ -1,21 +1,21 @@
 let
   theme = {
-    base00 = "#242424"; # bg
-    base01 = "#3c3836"; # dark
-    base02 = "#504945";
-    base03 = "#665c54";
-    base04 = "#bdae93";
-    base05 = "#d5c4a1";
-    base06 = "#ebdbb2"; # fg
-    base07 = "#fbf1c7"; # light fg
-    base08 = "#fb4934"; # red
-    base09 = "#fe8019"; # orange
-    base0A = "#fabd2f"; # yellow
-    base0B = "#b8bb26"; # green
-    base0C = "#8ec07c"; # cyan
-    base0D = "#7daea3"; # blue
-    base0E = "#e089a1"; # magenta
-    base0F = "#f28534"; # orange
+    base00 = "#1e1e2e"; # bg (mocha base)
+    base01 = "#181825"; # dark (mantle)
+    base02 = "#313244"; # surface0
+    base03 = "#45475a"; # surface1
+    base04 = "#9399b2"; # overlay2
+    base05 = "#bac2de"; # subtext1
+    base06 = "#cdd6f4"; # fg (text)
+    base07 = "#cdd6f4"; # light fg (text)
+    base08 = "#f38ba8"; # red
+    base09 = "#fab387"; # orange (peach)
+    base0A = "#f9e2af"; # yellow
+    base0B = "#a6e3a1"; # green
+    base0C = "#94e2d5"; # cyan (teal)
+    base0D = "#89b4fa"; # blue
+    base0E = "#f5c2e7"; # magenta (pink)
+    base0F = "#f5c2e7"; # pink
   };
 
   stripHash = str:

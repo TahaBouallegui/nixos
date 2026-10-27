@@ -3,17 +3,17 @@ local function config()
     local ls = require("luasnip")
 
     ls.add_snippets("all", {
-        M.s("__colorscheme_red", { M.t("#fb4934"), }),
-        M.s("__colorscheme_green", { M.t("#b8bb26"), }),
-        M.s("__colorscheme_magenta", { M.t("#d3869b"), }),
-        M.s("__colorscheme_blue", { M.t("#7daea3"), }),
-        M.s("__colorscheme_darkblue", { M.t("#47909e"), }),
-        M.s("__colorscheme_cyan", { M.t("#8ec07c"), }),
-        M.s("__colorscheme_yellow", { M.t("#fabd2f"), }),
-        M.s("__colorscheme_orange", { M.t("#f28534"), }),
-        M.s("__colorscheme_fg", { M.t("#fbf1c7"), }),
-        M.s("__colorscheme_fg_dark", { M.t("#ebdbb2"), }),
-        M.s("__colorscheme_bg", { M.t("#282828"), }),
+        M.s("__colorscheme_red", { M.t("#f38ba8"), }),
+        M.s("__colorscheme_green", { M.t("#a6e3a1"), }),
+        M.s("__colorscheme_magenta", { M.t("#f5c2e7"), }),
+        M.s("__colorscheme_blue", { M.t("#89b4fa"), }),
+        M.s("__colorscheme_darkblue", { M.t("#74c7ec"), }),
+        M.s("__colorscheme_cyan", { M.t("#94e2d5"), }),
+        M.s("__colorscheme_yellow", { M.t("#f9e2af"), }),
+        M.s("__colorscheme_orange", { M.t("#fab387"), }),
+        M.s("__colorscheme_fg", { M.t("#cdd6f4"), }),
+        M.s("__colorscheme_fg_dark", { M.t("#bac2de"), }),
+        M.s("__colorscheme_bg", { M.t("#1e1e2e"), }),
     })
 
     local function comment_string(_, _, _)

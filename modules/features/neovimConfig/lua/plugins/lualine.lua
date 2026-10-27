@@ -21,7 +21,7 @@ return {
                         c = { bg = colorscheme.lightgray, fg = colorscheme.fg },
                     },
                     visual = {
-                        a = { bg = colorscheme.yellow, fg = colorscheme.bg, gui = 'bold' },
+                        a = { bg = colorscheme.pink, fg = colorscheme.bg, gui = 'bold' },
                         b = { bg = colorscheme.lightgray, fg = colorscheme.fg },
                         c = { bg = colorscheme.lightgray, fg = colorscheme.fg },
                     },
@@ -31,7 +31,7 @@ return {
                         c = { bg = colorscheme.bg, fg = colorscheme.fg },
                     },
                     command = {
-                        a = { bg = colorscheme.magenta, fg = colorscheme.bg, gui = 'bold' },
+                        a = { bg = colorscheme.mauve, fg = colorscheme.bg, gui = 'bold' },
                         b = { bg = colorscheme.lightgray, fg = colorscheme.fg },
                         c = { bg = colorscheme.lightgray, fg = colorscheme.fg },
                     },

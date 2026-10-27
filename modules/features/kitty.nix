@@ -26,7 +26,7 @@
         shell_integration = "enabled";
 
         cursor_trail = 3;
-        background_opacity = 0.85;
+        background_opacity = 0.8;
 
 
         map = [

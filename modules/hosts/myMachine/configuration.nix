@@ -21,7 +21,6 @@
 
         self.nixosModules.base
         self.nixosModules.nix
-        self.nixosModules.remote-builds
 
         self.nixosModules.moonlight
         self.nixosModules.sddm

@@ -44,4 +44,4 @@ o.winborder = "single"
 
 g.mapleader = " "
 
-vim.cmd.colorscheme("gxvjbox")
+vim.cmd.colorscheme("catppuccin_mocha")
