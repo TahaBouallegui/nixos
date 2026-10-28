@@ -37,6 +37,8 @@
                 toml
                 yaml
                 json
+                c
+                lua
               ]
             ))
 
@@ -49,6 +51,7 @@
             #misc
             snacks-nvim
             oil-nvim
+            indent-blankline-nvim
             lualine-nvim
             luasnip
             telescope-nvim

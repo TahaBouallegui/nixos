@@ -27,8 +27,9 @@ g.clipboard = {
 
 o.encoding = "utf-8"
 o.hidden = true
-o.tabstop = 4
-o.shiftwidth = 4
+o.tabstop = 2
+o.shiftwidth = 2
+o.softtabstop = 2
 o.expandtab = true
 o.updatetime = 300
 o.termguicolors = true
