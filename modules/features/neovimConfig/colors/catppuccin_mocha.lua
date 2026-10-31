@@ -64,6 +64,10 @@ local highlights = {
     WinSeparator = { fg = C.crust },
     lCursor = { fg = C.base, bg = C.rosewater },
 
+    -- snacks.nvim indent guides (its own defaults link these to NonText/Special)
+    SnacksIndent = { fg = C.surface1 },
+    SnacksIndentScope = { fg = C.teal },
+
     -- Diff (backgrounds = official darken(color, ratio, base) precomputed)
     DiffAdd = { bg = "#364143" },
     DiffChange = { bg = "#313953" },

@@ -49,9 +49,12 @@
             blink-cmp
 
             #misc
+            # nvzone/menu's UI library: menu.lua `require`s volt the moment a
+            # menu opens, so it has to sit on the runtimepath already -- it has
+            # no setup() call, so startup cost is one rtp entry.
+            nvzone-volt
             snacks-nvim
             oil-nvim
-            indent-blankline-nvim
             lualine-nvim
             luasnip
             telescope-nvim
@@ -68,6 +71,7 @@
                 mini-files
                 codecompanion-nvim
                 which-key-nvim
+                nvzone-menu
               ])
               ++ (with pkgs; [
                 nixd

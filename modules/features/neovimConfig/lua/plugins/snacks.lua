@@ -5,6 +5,7 @@ return {
     after = function()
         require("snacks").setup({
             input = { enabled = true },
+            indent = { enabled = true },
             picker = {
                 enabled = true,
                 win = {

@@ -3,6 +3,8 @@ local o = vim.opt
 
 o.swapfile = true
 o.dir = '/tmp'
+o.undofile = true
+o.confirm = true
 o.smartcase = true
 o.laststatus = 3
 o.hlsearch = true
@@ -36,6 +38,8 @@ o.termguicolors = true
 o.mouse = "a"
 o.splitbelow = true
 o.splitright = true
+o.splitkeep = "screen"
+o.foldlevelstart = 99
 o.scrolloff = 9
 o.cursorline = true
 o.scroll = 6
