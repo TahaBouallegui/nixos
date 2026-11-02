@@ -40,7 +40,11 @@
     };
 
     xilinx-nix-utils.url = "github:DLR-FT/xilinx-nix-utils";
-    darling-lol.url = "github:lucannez64/darling-lol";
+    # pinned to PR #157 head (fix/riot-client-frameworks): only branch upstream
+    # that fixes the Riot Client typing/click crashes (getrlimit RLIM_INFINITY
+    # SIGILL, %rdx syscall garbage, missing AppKit methods) and reaches verified
+    # gameplay; reverts to main once merged -> switch back to lucannez64/darling-lol.
+    darling-lol.url = "github:oxakromax/darling-lol/dd17cf799d3b36487165ce93c45c536e38cfc610";
 
     microvm = {
       url = "github:microvm-nix/microvm.nix";

@@ -72,6 +72,7 @@
                 codecompanion-nvim
                 which-key-nvim
                 nvzone-menu
+                hardtime-nvim
               ])
               ++ (with pkgs; [
                 nixd

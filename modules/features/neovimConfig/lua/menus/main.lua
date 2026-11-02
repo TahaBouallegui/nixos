@@ -35,4 +35,10 @@ return {
     { name = "separator" },
 
     { name = " LazyGit", cmd = function() require("snacks").lazygit() end,            rtxt = "<leader>gg" },
+
+    {
+        name = " Hardtime",
+        cmd = function() require("hardtime").toggle() end,
+        rtxt = "H",
+    },
 }
