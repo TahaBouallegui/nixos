@@ -1,7 +1,8 @@
 {
-  flake.nixosModules.faker =
-    { pkgs, config, ... }:
-    {
-
-    };
+  flake.nixosModules.faker = {
+    pkgs,
+    config,
+    ...
+  }: {
+  };
 }

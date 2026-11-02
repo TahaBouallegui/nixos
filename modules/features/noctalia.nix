@@ -1,10 +1,5 @@
-{
-  ...
-}:
-{
-  flake.nixosModules.noctalia =
-    { ... }:
-    {
-      programs.noctalia.enable = true;
-    };
+{...}: {
+  flake.nixosModules.noctalia = {...}: {
+    programs.noctalia.enable = true;
+  };
 }

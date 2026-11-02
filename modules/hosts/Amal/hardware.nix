@@ -5,56 +5,51 @@
   self,
   inputs,
   ...
-}:
-{
-  flake.nixosModules.amalHardware =
-    {
-      config,
-      lib,
-      pkgs,
-      modulesPath,
-      ...
-    }:
+}: {
+  flake.nixosModules.amalHardware = {
+    config,
+    lib,
+    pkgs,
+    modulesPath,
+    ...
+  }: {
+    imports = [
+      (modulesPath + "/installer/scan/not-detected.nix")
+    ];
 
-    {
-      imports = [
-        (modulesPath + "/installer/scan/not-detected.nix")
-      ];
+    boot.initrd.availableKernelModules = [
+      "xhci_pci"
+      "nvme"
+      "usb_storage"
+      "sd_mod"
+    ];
+    boot.initrd.kernelModules = [];
+    boot.kernelModules = ["kvm-intel"];
+    boot.extraModulePackages = [];
 
-      boot.initrd.availableKernelModules = [
-        "xhci_pci"
-        "nvme"
-        "usb_storage"
-        "sd_mod"
-      ];
-      boot.initrd.kernelModules = [ ];
-      boot.kernelModules = [ "kvm-intel" ];
-      boot.extraModulePackages = [ ];
-
-      fileSystems."/" = {
-        device = "/dev/disk/by-uuid/abe73804-4266-4ede-adda-2080786101bd";
-        fsType = "ext4";
-      };
-
-      fileSystems."/boot" = {
-        device = "/dev/disk/by-uuid/70B8-5FC5";
-        fsType = "vfat";
-        options = [
-          "fmask=0077"
-          "dmask=0077"
-        ];
-      };
-
-      swapDevices = [
-        {
-          device = "/dev/disk/by-uuid/6763fa95-cca6-4054-93a9-795c4006f625";
-        }
-      ];
-
-      boot.resumeDevice = "/dev/disk/by-uuid/6763fa95-cca6-4054-93a9-795c4006f625";
-
-      nixpkgs.hostPlatform = lib.mkDefault "x86_64-linux";
-      hardware.cpu.intel.updateMicrocode = lib.mkDefault config.hardware.enableRedistributableFirmware;
+    fileSystems."/" = {
+      device = "/dev/disk/by-uuid/abe73804-4266-4ede-adda-2080786101bd";
+      fsType = "ext4";
     };
 
+    fileSystems."/boot" = {
+      device = "/dev/disk/by-uuid/70B8-5FC5";
+      fsType = "vfat";
+      options = [
+        "fmask=0077"
+        "dmask=0077"
+      ];
+    };
+
+    swapDevices = [
+      {
+        device = "/dev/disk/by-uuid/6763fa95-cca6-4054-93a9-795c4006f625";
+      }
+    ];
+
+    boot.resumeDevice = "/dev/disk/by-uuid/6763fa95-cca6-4054-93a9-795c4006f625";
+
+    nixpkgs.hostPlatform = lib.mkDefault "x86_64-linux";
+    hardware.cpu.intel.updateMicrocode = lib.mkDefault config.hardware.enableRedistributableFirmware;
+  };
 }

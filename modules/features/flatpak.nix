@@ -1,5 +1,5 @@
-{ inputs, ... }: {
-  flake.nixosModules.flatpak = { config, ... }: {
+{inputs, ...}: {
+  flake.nixosModules.flatpak = {config, ...}: {
     imports = [
       inputs.flatpak.nixosModules.default
     ];
