@@ -18,7 +18,7 @@
         self.nixosModules.base
         self.nixosModules.nix
         self.nixosModules.secrets
-        self.nixosModules.nixIndex
+        self.nixosModules.nix-index
         self.nixosModules.kvm-qemu
         self.nixosModules.robotechserver-share
 

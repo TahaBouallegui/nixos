@@ -8,14 +8,12 @@
       enable = true;
 
       remotes = {
-        "flathub" =
-          "https://dl.flathub.org/repo/flathub.flatpakrepo";
+        "flathub" = "https://dl.flathub.org/repo/flathub.flatpakrepo";
 
-        "GeForceNOW" =
-          "https://international.download.nvidia.com/GFNLinux/flatpak/geforcenow.flatpakrepo";
+        "GeForceNOW" = "https://international.download.nvidia.com/GFNLinux/flatpak/geforcenow.flatpakrepo";
 
         #"elyprismlauncher-origin" =
-          #"https://elyprismlauncher.github.io/flatpak/elyprismlauncher.flatpakref";
+        #"https://elyprismlauncher.github.io/flatpak/elyprismlauncher.flatpakref";
       };
 
       packages = [

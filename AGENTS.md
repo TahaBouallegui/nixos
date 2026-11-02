@@ -15,21 +15,29 @@ Personal NixOS monorepo (atb). Flake-parts + `vic/import-tree`. Three hosts:
     — the last is nix settings/gc/allowUnfree every host wants; it deliberately
     excludes `max-jobs`/`cores`, which track each machine's real core count).
   - `modules/features/` — host-agnostic, drop-in capabilities (tailscale, nvidia,
-    searxng, ...). A feature may carry data files/dirs next to its `.nix`.
+    searxng, ...). A feature that carries data files/dirs gets a directory named
+    after it — `<name>/<name>.nix` with the data beside it (`librewolf/`,
+    `sddm/`, `minecraft/`, `neovim/`); `.nix`-only features sit flat. Keep the
+    file name equal to the `nixosModules.<name>` it exports.
   - `modules/hosts/<Name>/` — `default.nix` defines `flake.nixosConfigurations.<host>`,
     `configuration.nix` defines the config module and composes features via
     `imports = [ self.nixosModules.<feature> ]`, `hardware.nix` is the nixos-generate-config output.
-- Adding a capability: write `modules/features/<name>.nix`, import it in the
+- Adding a capability: write `modules/features/<name>.nix` (in a `<name>/`
+  directory if it carries data files), import it in the
   host's `configuration.nix`. Never touch another host's config to do it.
 - Cross-module data flows through `flake.*` outputs (`self.theme`,
   `self.wrappersModules`, `self.mkWhichKeyExe`, `self.packages`, ...).
-- Code style: nixfmt (two-space indent, trailing commas, `=` aligned sets).
-  `modules/hosts/robotechServer/configuration.nix` predates this convention and
-  is still in the old compact/no-trailing-comma style — don't let it set the
-  precedent for new files.
+- Code style: **alejandra** — `nix run nixpkgs#alejandra -- <files>`. It
+  keeps compact braces (`{pkgs, ...}: {`), so reaching for nixfmt is a visible
+  fight with the formatter: it rewrites the brace spacing of every argument in
+  every file it touches (hit this — 13 files came out with `{ inputs, ... }`
+  churn). Format the files you touch; don't sweep the rest — the `hardware.nix`
+  files from nixos-generate-config, `flake.nix` and some older features are
+  still unformatted, and formatting those belongs in its own commit, not in a
+  feature one.
 - No AI-slop: no comment noise, no dead code, no unrelated refactors.
 - **Host-specific values don't belong hardcoded in `modules/features/`** — a
-  feature module importable by multiple hosts (e.g. `neovimConfig/neovim.nix`
+  feature module importable by multiple hosts (e.g. `neovim/neovim.nix`
   for `nixd`'s flake-aware option) reads a per-host env var instead
   (`$NIXD_HOST`, `$NH_FLAKE` — set in each host's `environment.sessionVariables`)
   rather than hardcoding a path or hostname that's only true on one machine.
@@ -45,7 +53,7 @@ Personal NixOS monorepo (atb). Flake-parts + `vic/import-tree`. Three hosts:
 Nix (2.34, `git+file://` flake source) **only sees files that are in the git
 index**. This isn't limited to `*.nix` modules — it applies to *any* file
 pulled in through a path literal in a tracked `.nix` file, including whole
-directories copied wholesale (e.g. `neovimConfig/`'s
+directories copied wholesale (e.g. `neovim/`'s
 `settings.config_directory = ./.`). A brand-new untracked file silently isn't
 there: for a `.nix` module the symptom is a misleading `attribute '<module>'
 missing` on `self.nixosModules`; for something like a new
@@ -194,10 +202,12 @@ nix eval --raw '.#nixosConfigurations.amal.config.sops.templates."<name>".conten
 nix run nixpkgs#sops -- --decrypt secrets/secrets.yaml >/dev/null             # sops roundtrip (needs a local identity, see above)
 ```
 
-Only eval the hosts your change actually touches — the host whose config
-you edited, plus every host if you changed `modules/base/`, `flake.nix`,
-flake inputs, or a `modules/features/` module multiple hosts import.
-Don't sweep all three out of habit (swap the host name above as needed).
+Eval **one** host: the one you are actually working on (usually `amal`, the
+machine you're on — swap the name above when it isn't). Do not eval the other
+two "to be safe", even when the edit lands in `modules/base/`, `flake.nix`,
+flake inputs or a shared `modules/features/` module. Accepted tradeoff: a
+shared module you break shows up on that other host's next rebuild instead of
+here.
 Deploy with `sudo nixos-rebuild switch --flake /home/atb/.config/nixos#<host>`.
 
 ## Known pre-existing warts

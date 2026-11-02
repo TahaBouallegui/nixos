@@ -1,0 +1,39 @@
+/* Catppuccin Mocha theme for LibreWolf's built-in PDF.js viewer.
+
+   The viewer document is unobservable, so @-moz-document cannot match it:
+   the matcher that used to reach it (unobservable-document()) is not
+   compiled into Gecko anymore. Every rule below is therefore scoped through
+   :has(.pdfViewer), a class only the viewer document has. */
+
+body:has(.pdfViewer) {
+  color-scheme: dark; /* native widgets in the viewer: zoom select, inputs, scrollbars */
+  --body-bg-color: #181825 !important; /* mantle */
+  --main-color: #cdd6f4 !important; /* text */
+  --toolbar-bg-color: #1e1e2e !important; /* base */
+  --toolbar-border-color: #45475a !important; /* surface1 */
+  --field-bg-color: #313244 !important; /* surface0 */
+  --field-border-color: #45475a !important;
+  --button-hover-color: #45475a !important;
+  --toggled-btn-color: #45475a !important;
+  --dialog-bg-color: #1e1e2e !important;
+  --message-bar-background-color: #313244 !important;
+  --message-bar-text-color: #cdd6f4 !important;
+  --panel-background-color: #1e1e2e !important;
+  --button-background-color: #313244 !important;
+  --button-border-color: #45475a !important;
+  --button-text-color: #cdd6f4 !important;
+  --error-color: #f38ba8 !important; /* red */
+  --progressBar-color: #cba6f7 !important; /* mauve */
+  --page-bg-color: #11111b !important; /* crust: backdrop behind the pages */
+}
+
+/* pdf.js has no page-level dark mode, so the page itself is inverted. */
+.pdfViewer > .page > .canvasWrapper > canvas {
+  filter: invert(1) hue-rotate(180deg) !important;
+  background-color: #11111b !important;
+}
+
+.pdfViewer > .page {
+  background-color: #11111b !important;
+  border-color: #45475a !important;
+}

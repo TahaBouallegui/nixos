@@ -5,7 +5,10 @@
       enable = true;
       redisCreateLocally = true;
       settings = {
-        search.formats = [ "html" "json" ];
+        search.formats = [
+          "html"
+          "json"
+        ];
 
         # With default_lang = "auto" and no Accept-Language header (the DSH
         # web-search client sends none), SearXNG resolves the language to
@@ -22,14 +25,35 @@
         # /search?format=json&engines=<name>; the comment is the measured
         # result count for the same query.
         engines = [
-          { name = "bing"; disabled = false; }           # 10
-          { name = "yandex"; disabled = false; }         # 15
-          { name = "yahoo"; disabled = false; }          # 7
-          { name = "gmx"; disabled = false; }            # 10
-          { name = "yep"; disabled = false; }            # 20
-          { name = "duckduckgo web"; disabled = false; } # 10
+          {
+            name = "bing";
+            disabled = false;
+          } # 10
+          {
+            name = "yandex";
+            disabled = false;
+          } # 15
+          {
+            name = "yahoo";
+            disabled = false;
+          } # 7
+          {
+            name = "gmx";
+            disabled = false;
+          } # 10
+          {
+            name = "yep";
+            disabled = false;
+          } # 20
+          {
+            name = "duckduckgo web";
+            disabled = false;
+          } # 10
           # Shared-key CSE only ever answers "unusual traffic" here.
-          { name = "google cse"; disabled = true; }
+          {
+            name = "google cse";
+            disabled = true;
+          }
         ];
       };
       settings.server = {

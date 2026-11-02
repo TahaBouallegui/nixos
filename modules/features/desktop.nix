@@ -18,7 +18,7 @@
         self.nixosModules.noctalia
         self.nixosModules.pkgs-stable
       ];
-      
+
       programs.niri.enable = true;
       programs.niri.package = selfpkgs.desktop;
 
@@ -28,7 +28,7 @@
         selfpkgs.terminal
         pkgs.libreoffice
         pkgs.heroic
-        pkgs.proton-vpn 
+        pkgs.proton-vpn
         pkgs.prusa-slicer
         pkgs.orca-slicer
         pkgs.mpv
@@ -74,7 +74,6 @@
         audio/x-wav=mpv.desktop
         application/x-bittorrent=org.qbittorrent.qBittorrent.desktop
       '';
-
 
       fonts.packages = with pkgs; [
         nerd-fonts.jetbrains-mono

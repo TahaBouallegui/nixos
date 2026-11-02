@@ -18,11 +18,13 @@ drop a file in, it's live, nothing to register by hand (via
   `pkgs-stable` (pins an `nixpkgs-stable` instance alongside unstable),
   `secrets` (sops-nix wiring), `nix` (experimental features, GC, unfree —
   every host wants this, so it's base rather than an opt-in feature).
-- **`modules/features/`** — host-agnostic, drop-in capabilities. Each file
+- **`modules/features/`** — host-agnostic, drop-in capabilities. Each one
   exports exactly one `flake.nixosModules.<name>`: desktop environment,
   gaming, nvidia, tailscale, searxng, a Minecraft server, a full Neovim
-  config, and so on. A feature may carry data files next to its `.nix`
-  (login backgrounds, server configs, Lua plugin specs).
+  config, and so on. A feature that carries data files (login backgrounds,
+  server configs, Lua plugin specs, a `userContent.css`) lives in its own
+  directory — `<name>/<name>.nix` plus the data beside it; anything that is
+  only a `.nix` sits flat in `modules/features/`.
 - **`modules/hosts/<Name>/`** — one directory per machine. `default.nix`
   declares the `nixosConfiguration`, `configuration.nix` composes features
   via `imports = [ self.nixosModules.<feature> ... ]`, `hardware.nix` is the
@@ -69,7 +71,7 @@ All plain `http://`, not `https://` — none of these have TLS configured.
   compositor) + [noctalia](https://github.com/noctalia-dev/noctalia) v5,
   kitty, a from-scratch Neovim config (own colorscheme, `which-key.nvim`,
   flake-aware `nixd` completion, and even a custom tree-sitter grammar under
-  `neovimConfig/vjxl-ts/`).
+  `neovim/vjxl-ts/`).
 - **Secrets**: [sops-nix](https://github.com/Mic92/sops-nix), age-encrypted,
   keyed off existing SSH host/user keys (`ssh-to-age`) rather than separate
   age keypairs — nothing plaintext ever touches the repo or the Nix store.

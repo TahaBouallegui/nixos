@@ -6,12 +6,11 @@
 
       services.tailscale = {
         enable = true;
-        extraUpFlags = ["--ssh"];
+        extraUpFlags = [ "--ssh" ];
       };
       networking.nftables.enable = true;
       networking.firewall = {
         enable = true;
-
 
         # Always allow traffic from your Tailscale network
         trustedInterfaces = [ "tailscale0" ];

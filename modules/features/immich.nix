@@ -1,6 +1,7 @@
 { self, inputs, ... }:
 {
-    flake.nixosModules.immich = { config, ... }:
+  flake.nixosModules.immich =
+    { config, ... }:
     {
       services.immich = {
         enable = true;

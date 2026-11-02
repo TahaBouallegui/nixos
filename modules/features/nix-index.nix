@@ -1,6 +1,6 @@
 { inputs, ... }:
 {
-  flake.nixosModules.nixIndex =
+  flake.nixosModules.nix-index =
     { ... }:
     {
       imports = [
