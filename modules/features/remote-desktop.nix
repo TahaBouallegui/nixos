@@ -1,7 +1,7 @@
 { self, inputs, ... }:
 {
   flake.nixosModules.remote-desktop =
-    { pkgs, config, ... }:
+    { pkgs, ... }:
     {
 
       services.xrdp.enable = true;
