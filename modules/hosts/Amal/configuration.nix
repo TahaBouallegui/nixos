@@ -7,7 +7,6 @@
   ...
 }: {
   flake.nixosModules.amalConfiguration = {
-    config,
     pkgs,
     ...
   }: {
@@ -25,8 +24,8 @@
       self.nixosModules.tailscale
       self.nixosModules.nvidia
       self.nixosModules.ai
+      self.nixosModules.vivado
 
-      self.nixosModules.moonlight
       self.nixosModules.sddm
       self.nixosModules.plymouth
 
@@ -34,7 +33,6 @@
       self.nixosModules.gaming
       self.nixosModules.searxng
       self.nixosModules.secretspec
-      self.nixosModules.league
 
       inputs.nixos-hardware.nixosModules.lenovo-thinkpad-t480
     ];

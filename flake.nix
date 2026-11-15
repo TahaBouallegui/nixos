@@ -39,7 +39,6 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    xilinx-nix-utils.url = "github:DLR-FT/xilinx-nix-utils";
     # pinned to PR #157 head (fix/riot-client-frameworks): only branch upstream
     # that fixes the Riot Client typing/click crashes (getrlimit RLIM_INFINITY
     # SIGILL, %rdx syscall garbage, missing AppKit methods) and reaches verified
@@ -57,5 +56,5 @@
     };
   };
 
-  outputs = inputs: inputs.flake-parts.lib.mkFlake { inherit inputs; } (inputs.import-tree ./modules);
+  outputs = inputs: inputs.flake-parts.lib.mkFlake {inherit inputs;} (inputs.import-tree ./modules);
 }

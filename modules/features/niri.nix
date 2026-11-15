@@ -71,6 +71,11 @@
             };
 
             cursor = {
+              # Bibata-Modern-Ice comes from pkgs.bibata-cursors (features/desktop.nix).
+              # niri exports XCURSOR_THEME/XCURSOR_SIZE from these, which is what
+              # GTK/Qt/XWayland clients read -- no home-manager needed.
+              xcursor-theme = "Bibata-Modern-Ice";
+              xcursor-size = 24;
               # Auto hide cursor when I don't need it
               hide-after-inactive-ms = 3000;
               hide-when-typing = true;

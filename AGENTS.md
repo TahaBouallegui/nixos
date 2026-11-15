@@ -181,16 +181,21 @@ verify against the real package before writing config:
   matters, firing the event before the plugin registers its callback is a
   no-op.
 
-## Vivado / FPGA tooling (opt-in, not wired into any host)
+## Vivado / FPGA tooling (imperative install, declarative wrapper)
 
-- `modules/features/vivado.nix` (`self.nixosModules.vivado`) is real,
-  working infrastructure via the `xilinx-nix-utils` flake input — but
-  **deliberately not imported anywhere**. The ~100GB installer needs a
-  Xilinx/AMD account to download (can never be hermetic, on any distro) and
-  needs ~100GB free disk (amal had 5GB free when this was written). Full
-  setup/removal tutorial is in comments at the top of the file. Don't import
-  it into a host without checking disk space and confirming atb actually
-  wants the download step done first.
+- `modules/features/vivado/` is imperative-by-design: AMD's **web installer**
+  (account + EULA, can never be hermetic) downloads only the components
+  selected in `install-configs/arty-z7-20.txt` — ≈20GB downloaded, **52GB
+  installed** at `~/Xilinx` on amal, vs the 96.89GB offline SFD the old hermetic
+  `xilinx-nix-utils` approach demanded (that input is now removed from
+  `flake.nix`; old approach lives in git history). Nix provides the FHS wrapper
+  (`packages.<system>.vivado`, resolves the install at runtime), the
+  **`packages.<system>.vivado-installer`** FHS shell AMD's installer has to run
+  inside (no `/bin/bash` on NixOS), and vendored udev rules. `amal` imports it;
+  full setup/removal tutorial is `modules/features/vivado/README.md` — follow it
+  for removal too (it reclaims everything). Don't import `nixosModules.vivado`
+  into a host before the install ran and `udev-rules/*.rules` are vendored —
+  the build fails on purpose until then.
 
 ## Verify like this (no builds needed)
 

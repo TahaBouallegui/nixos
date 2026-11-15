@@ -26,8 +26,36 @@
       pkgs.kicad
       pkgs.tutanota-desktop
       pkgs.pdfarranger
-      pkgs.zathura
+      pkgs.papers # PDF/document viewer (libadwaita); owns application/pdf below
+      pkgs.zathura # kept for keyboard-first skimming, no longer the pdf default
       pkgs.qview
+      # Cursor theme; one output holding all 12 variants, and niri picks
+      # Bibata-Modern-Ice (see features/niri.nix).
+      pkgs.bibata-cursors
+
+      # xdg-open target for folders: the flake's configured yazi wrapper
+      # (selfpkgs.yazi, the same one features/fish.nix binds) inside a kitty
+      # window (selfpkgs.terminal, the configured kitty wrapper). NixOS has no
+      # `xdg.desktopEntries` option -- that is home-manager -- so a
+      # makeDesktopItem in systemPackages is the declarative way to get a
+      # .desktop file xdg-mime can resolve. NoDisplay keeps it out of menus;
+      # the pin below is what makes it the handler.
+      (pkgs.makeDesktopItem {
+        name = "org.atb.yazi";
+        desktopName = "Yazi";
+        genericName = "File Manager";
+        comment = "Open the folder in yazi, inside kitty";
+        exec = "${pkgs.lib.getExe selfpkgs.terminal} --class yazi --title yazi ${pkgs.lib.getExe selfpkgs.yazi} %f";
+        tryExec = pkgs.lib.getExe selfpkgs.terminal;
+        icon = "system-file-manager";
+        categories = [
+          "System"
+          "FileManager"
+        ];
+        mimeTypes = ["inode/directory"];
+        noDisplay = true;
+        startupWMClass = "yazi";
+      })
     ];
 
     # Plasma6 (Okular, Gwenview, Ark, ...) and niri-side apps (pdfarranger,
@@ -51,7 +79,15 @@
       image/x-portable-graymap=com.interversehq.qView.desktop
       image/x-icon=com.interversehq.qView.desktop
       image/x-tga=com.interversehq.qView.desktop
-      application/pdf=org.pwmt.zathura-pdf-mupdf.desktop
+      application/pdf=org.gnome.Papers.desktop
+      # Nothing pins inode/directory, so xdg-mime falls through to
+      # mimeinfo.cache, whose first candidate for it is kitty-open.desktop
+      # (`Exec=kitty +open %U`, NoDisplay=true, MimeType lists inode/directory).
+      # kitty has no directory handler, so "open the containing folder" -- e.g.
+      # dsh's present-card button -- spawns a terminal whose child immediately
+      # fails. Point it at the yazi entry defined above instead (Dolphin stays
+      # installed via plasma6, just not as the handler).
+      inode/directory=org.atb.yazi.desktop
       video/mp4=mpv.desktop
       video/x-matroska=mpv.desktop
       video/webm=mpv.desktop

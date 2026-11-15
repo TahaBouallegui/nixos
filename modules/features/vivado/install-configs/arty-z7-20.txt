@@ -1,0 +1,36 @@
+#### Vivado ML Standard Install Configuration ####
+Edition=Vivado ML Standard
+
+Product=Vivado
+
+# Where the web installer writes the toolchain. The launcher in vivado.nix
+# resolves $VIVADO_INSTALL_DIR, else $HOME/Xilinx, else /opt/Xilinx -- if you
+# change this path, set VIVADO_INSTALL_DIR to match. Never point it inside the
+# extracted installer dir.
+Destination=/home/atb/Xilinx
+
+# THE 20 GB KNOB. The web installer downloads only what this line selects, so
+# this is what stands between ~20 GB and the ~150 GB full-edition default:
+# Vivado ML Standard (the free WebPACK tier) with Zynq-7000 as the only device
+# family -- the Arty Z7-20 is an XC7Z020-1CLG400C. Everything else off.
+# The token vocabulary below is the 2025.2-era Vivado ML Standard set. If
+# xsetup rejects an edition name or token after a toolchain update, regenerate
+# this file with `./xsetup -b ConfigGen` from the extracted installer and
+# re-trim `Modules=` by hand (ConfigGen defaults to the Vitis Unified edition).
+Modules=xcv80:0,Zynq UltraScale+ MPSoCs:0,Kintex UltraScale+ FPGAs:0,Virtex UltraScale+ 58G FPGAs:0,xcve2202:0,Vitis Model Composer(A toolbox for Simulink):0,Artix-7 FPGAs:0,Install devices for Alveo and edge acceleration platforms:0,Vitis Embedded Development:0,xcvm1102:0,Zynq-7000 All Programmable SoC:1,xcve2002:0,Virtex UltraScale+ HBM FPGAs:0,Spartan UltraScale+:0,xcve2302:0,Vitis Networking P4:0,Kintex UltraScale FPGAs:0,Power Design Manager (PDM):0,Virtex UltraScale+ FPGAs:0,Artix UltraScale+ FPGAs:0,Spartan-7 FPGAs:0,DocNav:0,Versal RF Series ES1:0,Install Devices for Kria SOMs and Starter Kits:0,xcve2102:0,Kintex-7 FPGAs:0
+
+# ML Standard / WebPACK covers Zynq-7000: no license file, Vivado's own
+# license manager handles it on first run.
+InstallOptions=Acquire or Manage a License Key:0
+
+## Shortcuts and File associations ##
+# Nothing here is useful for a tiling WM.
+CreateProgramGroupShortcuts=0
+
+ProgramGroupFolder=AMD Adaptive SoC and FPGA Tools
+
+CreateShortcutsForAllUsers=0
+
+CreateDesktopShortcuts=0
+
+CreateFileAssociation=0

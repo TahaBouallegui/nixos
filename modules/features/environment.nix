@@ -87,8 +87,6 @@
           pkgs.man-pages
           pkgs.man-pages-posix
           pkgs.wl-clipboard
-          pkgs.opencode
-          pkgs.wine
 
           # wrapped
           self'.packages.neovim
