@@ -32,7 +32,6 @@
       # Cursor theme; one output holding all 12 variants, and niri picks
       # Bibata-Modern-Ice (see features/niri.nix).
       pkgs.bibata-cursors
-      pkgs.wl-clipboard
 
       # xdg-open target for folders: the flake's configured yazi wrapper
       # (selfpkgs.yazi, the same one features/fish.nix binds) inside a kitty
@@ -58,10 +57,6 @@
         startupWMClass = "yazi";
       })
     ];
-
-    virtualisation.waydroid.enable = true;
-    # Newer kernel versions may need
-    virtualisation.waydroid.package = pkgs.waydroid-nftables;
 
     # Plasma6 (Okular, Gwenview, Ark, ...) and niri-side apps (pdfarranger,
     # zathura, qview, mpv, ...) both register MIME claims with nothing
