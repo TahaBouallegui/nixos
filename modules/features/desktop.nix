@@ -58,6 +58,13 @@
       })
     ];
 
+    virtualisation.waydroid.enable = true;
+    # Newer kernel versions may need
+    virtualisation.waydroid.package = pkgs.waydroid-nftables;
+
+    # Enable clipboard sharing
+    environment.systemPackages = [pkgs.wl-clipboard];
+
     # Plasma6 (Okular, Gwenview, Ark, ...) and niri-side apps (pdfarranger,
     # zathura, qview, mpv, ...) both register MIME claims with nothing
     # picking a winner, so resolution falls to arbitrary tiebreaking -- e.g.
