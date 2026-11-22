@@ -21,6 +21,7 @@
       self.nixosModules.remote-desktop
       #self.nixosModules.immich
       self.nixosModules.searxng
+      self.nixosModules.matrix
       #self.nixosModules.jellyfin
       self.nixosModules.samba
 
@@ -39,6 +40,9 @@
     boot.loader.efi.canTouchEfiVariables = true;
 
     networking.hostName = "lingangu"; # Define your hostname.
+    # Matrix homeserver (modules/features/matrix.nix): this is baked into
+    # every user ID (@user:lingangu) forever -- see that module's option doc.
+    matrix.serverName = "lingangu";
     # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
     # Configure network proxy if necessary
     # networking.proxy.default = "http://user:password@proxy:port/";
