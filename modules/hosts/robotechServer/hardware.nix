@@ -45,9 +45,20 @@
       ];
     };
 
+    # Removable media disk. nofail: its absence must never gate boot
+    # (without it, local-fs.target REQUIRES this mount and the server
+    # drops to emergency mode -- this is the 2026-11-23 disk-pull crash).
+    # automount: it attaches itself at first access after a hotplug, and
+    # boot does not wait on it (device-timeout keeps the miss cheap).
+    # Re-add these options if nixos-generate-config ever rewrites this file.
     fileSystems."/srv/share" = {
       device = "/dev/disk/by-uuid/53bbbff5-31a8-4dd4-9642-b3e27e7c23f9";
       fsType = "ext4";
+      options = [
+        "nofail"
+        "x-systemd.automount"
+        "x-systemd.device-timeout=10s"
+      ];
     };
 
     swapDevices = [
