@@ -32,6 +32,8 @@
                 json
                 c
                 lua
+                markdown
+                markdown_inline
                 vhdl
               ]
           ))
@@ -67,6 +69,7 @@
               which-key-nvim
               nvzone-menu
               hardtime-nvim
+              render-markdown-nvim
             ])
             ++ (with pkgs; [
               nixd

@@ -41,4 +41,9 @@ return {
         cmd = function() require("hardtime").toggle() end,
         rtxt = "H",
     },
+    {
+        name = " Render Markdown",
+        cmd = function() require("render-markdown").toggle() end,
+        rtxt = "R",
+    },
 }
